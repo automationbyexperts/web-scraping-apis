@@ -1,0 +1,11 @@
+{
+    "extraActors": ["kijiji-scraper"],
+    "category": {
+        "cargurus-listings-scraper": "Car & Vehicle Scrapers",
+        "kijiji-scraper": "Car & Vehicle Scrapers"
+    },
+    "title": {
+        "kijiji-scraper": "Kijiji.ca Scraper: Autos, Real Estate & Classifieds"
+    },
+    "exclude": []
+}

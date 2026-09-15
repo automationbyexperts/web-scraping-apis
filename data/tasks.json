@@ -1,0 +1,1924 @@
+{
+  "ai-brand-visibility-tracker": [
+    {
+      "name": "crm-brand-visibility-in-ai-answers",
+      "title": "Check if AI recommends your CRM to small businesses",
+      "description": "Asks ChatGPT, Perplexity and Gemini the questions a small business owner asks when choosing a CRM, and reports whether HubSpot is named, where it ranks, which competitors are recommended instead, and whether hubspot.com is cited as a source. Swap in your own brand and competitors.",
+      "input": {
+        "brand_name": "HubSpot",
+        "queries": [
+          "What is the best CRM for a small business?",
+          "Which CRM should a 20 person sales team use in 2026?",
+          "HubSpot vs Salesforce for a startup"
+        ],
+        "competitors": [
+          "Salesforce",
+          "Pipedrive",
+          "Zoho CRM"
+        ],
+        "brand_domains": [
+          "hubspot.com"
+        ],
+        "platforms": [
+          "chatgpt",
+          "perplexity",
+          "gemini"
+        ],
+        "runs_per_query": 1
+      }
+    },
+    {
+      "name": "ecommerce-platform-ai-share-of-voice",
+      "title": "Measure an ecommerce platform's share of voice in AI search",
+      "description": "Runs each buying intent question twice per platform for a stable score and computes Shopify's share of voice against WooCommerce, BigCommerce and Wix across ChatGPT, Perplexity and Gemini. The answers view keeps the full AI response so you can see the exact wording used.",
+      "input": {
+        "brand_name": "Shopify",
+        "queries": [
+          "What is the best platform to start an online store?",
+          "Shopify or WooCommerce for a small clothing brand?",
+          "Best ecommerce platform for dropshipping in 2026"
+        ],
+        "competitors": [
+          "WooCommerce",
+          "BigCommerce",
+          "Wix"
+        ],
+        "brand_domains": [
+          "shopify.com"
+        ],
+        "platforms": [
+          "chatgpt",
+          "perplexity",
+          "gemini"
+        ],
+        "runs_per_query": 2
+      }
+    }
+  ],
+  "autoscout24": [
+    {
+      "name": "vw-golf-germany-under-15000",
+      "title": "Find used VW Golfs in Germany under 15,000 EUR",
+      "description": "Uses the built in filter form to search autoscout24.de for used Volkswagen Golf listings from 2016 onwards priced under 15,000 EUR, cheapest first, and returns 50 plus fields per car: price, mileage, equipment, dealer contact, GPS location and every photo. No search URL to copy.",
+      "input": {
+        "search_domain": "de",
+        "countries": [
+          "germany"
+        ],
+        "makes": [
+          "Volkswagen"
+        ],
+        "models": [
+          "Golf"
+        ],
+        "conditions": [
+          "used"
+        ],
+        "price_to": 15000,
+        "first_registration_from": 2016,
+        "sort_by": "price",
+        "max_items": 300
+      }
+    },
+    {
+      "name": "electric-cars-netherlands-belgium",
+      "title": "Export used electric cars in the Netherlands and Belgium",
+      "description": "Searches AutoScout24 for used fully electric cars located in the Netherlands and Belgium and exports each listing with price, mileage, battery and range fields, first registration, dealer details and photos. Built for EV dealers and researchers tracking the Benelux used EV market.",
+      "input": {
+        "search_domain": "nl",
+        "countries": [
+          "netherlands",
+          "belgium"
+        ],
+        "fuel_types": [
+          "electric"
+        ],
+        "conditions": [
+          "used"
+        ],
+        "max_items": 500
+      }
+    },
+    {
+      "name": "new-dealer-suv-listings-italy",
+      "title": "Track new dealer SUV listings in Italy each week",
+      "description": "Returns SUV and off road listings posted by dealers on autoscout24.it in the last 7 days, newest first. Schedule it weekly and you have a running feed of fresh dealer stock in Italy, with price, mileage, equipment and the dealer's contact details on every row.",
+      "input": {
+        "search_domain": "it",
+        "countries": [
+          "italy"
+        ],
+        "body_types": [
+          "suv-offroad-pickup"
+        ],
+        "seller_type": [
+          "dealer"
+        ],
+        "listed_within_days": 7,
+        "sort_by": "age",
+        "max_items": 500
+      }
+    }
+  ],
+  "autotrader-au-scraper": [
+    {
+      "name": "used-toyota-hilux-australia",
+      "title": "Export used Toyota HiLux listings across Australia",
+      "description": "Scrapes every Toyota HiLux listed on Autotrader.com.au and returns 30 plus fields per ute: driveaway price, kilometres, VIN, body, engine, dealer name and phone, GPS coordinates and the full photo gallery. Australia's best selling vehicle, in one spreadsheet.",
+      "input": {
+        "start_urls": [
+          {
+            "url": "https://www.autotrader.com.au/for-sale/toyota/hilux/"
+          }
+        ],
+        "max_pages": 5
+      }
+    },
+    {
+      "name": "sydney-used-cars-autotrader-au",
+      "title": "Scrape used car listings in Sydney from Autotrader",
+      "description": "Pulls the current used car listings for Sydney from Autotrader.com.au with price, kilometres, VIN, dealer details and photos on every row. Dealers use it to benchmark stock against the local market; analysts use it on a schedule to build a Sydney price index.",
+      "input": {
+        "start_urls": [
+          {
+            "url": "https://www.autotrader.com.au/for-sale/nsw/sydney/"
+          }
+        ],
+        "max_pages": 5
+      }
+    }
+  ],
+  "autotrader-ca": [
+    {
+      "name": "honda-civic-used-montreal",
+      "title": "Find used Honda Civics for sale around Montreal",
+      "description": "Searches AutoTrader.ca with the built in filters for used Honda Civic from model year 2018 within 100 km of Montreal and returns 127 fields per car: VIN, numeric price, kilometres, trim, transmission, dealer name and phone, and every photo. No search URL to build.",
+      "input": {
+        "conditions": [
+          "used"
+        ],
+        "include_damaged": false,
+        "makes": [
+          "Honda"
+        ],
+        "max_items": 300,
+        "model_year_from": 2018,
+        "models": [
+          "Civic"
+        ],
+        "postal_code": "Montreal, QC",
+        "radius_km": "100",
+        "sort_descending": false,
+        "vehicle_type": "cars"
+      }
+    },
+    {
+      "name": "used-suvs-under-25000-ottawa",
+      "title": "Export used SUVs under 25,000 CAD around Ottawa",
+      "description": "Pulls used SUV listings priced under 25,000 CAD within 100 km of Ottawa from AutoTrader.ca with VIN, price, kilometres, drivetrain, fuel, dealer and photos. Family buyers and small dealers get the whole affordable SUV market in one sheet, sorted however they like.",
+      "input": {
+        "vehicle_type": "cars",
+        "body_types": [
+          "suv"
+        ],
+        "conditions": [
+          "used"
+        ],
+        "price_to": 25000,
+        "postal_code": "Ottawa, ON",
+        "radius_km": "100",
+        "sort_by": "price",
+        "max_items": 300
+      }
+    }
+  ],
+  "autotrader-canada": [
+    {
+      "name": "toyota-rav4-used-toronto",
+      "title": "Find used Toyota RAV4s for sale around Toronto",
+      "description": "Uses the filter form to search AutoTrader.ca for used Toyota RAV4 from model year 2019 within 100 km of Toronto and returns 127 fields per vehicle, including VIN, numeric price, kilometres, trim, dealer name and phone, and every photo. No search URL to build.",
+      "input": {
+        "vehicle_type": "cars",
+        "makes": [
+          "Toyota"
+        ],
+        "models": [
+          "RAV4"
+        ],
+        "conditions": [
+          "used"
+        ],
+        "model_year_from": 2019,
+        "postal_code": "Toronto, ON",
+        "radius_km": "100",
+        "max_items": 300
+      }
+    },
+    {
+      "name": "used-pickup-trucks-alberta-under-40000",
+      "title": "Export used pickup trucks under 40,000 CAD in Alberta",
+      "description": "Searches AutoTrader.ca for used pickup trucks priced under 40,000 CAD within 200 km of Calgary and exports each with VIN, price, kilometres, engine, drivetrain, dealer and photos. Fleet buyers and dealers use it to price the Alberta truck market in minutes.",
+      "input": {
+        "vehicle_type": "cars",
+        "body_types": [
+          "pickup-truck"
+        ],
+        "conditions": [
+          "used"
+        ],
+        "price_to": 40000,
+        "postal_code": "Calgary, AB",
+        "radius_km": "200",
+        "max_items": 300
+      }
+    },
+    {
+      "name": "electric-cars-for-sale-vancouver",
+      "title": "Track electric cars for sale in Vancouver",
+      "description": "Returns new and used fully electric vehicles listed on AutoTrader.ca within 100 km of Vancouver, with price, kilometres, battery details, dealer and photos. Schedule it to follow BC's EV market week by week or run once for a snapshot.",
+      "input": {
+        "vehicle_type": "cars",
+        "fuel_types": [
+          "electric"
+        ],
+        "conditions": [
+          "new",
+          "used"
+        ],
+        "postal_code": "Vancouver, BC",
+        "radius_km": "100",
+        "max_items": 200
+      }
+    }
+  ],
+  "autotrader-co-za-scraper": [
+    {
+      "name": "used-bakkies-with-seller-phone-numbers",
+      "title": "Find used Toyota Hilux bakkies with seller phone numbers",
+      "description": "Scrapes Toyota Hilux listings on AutoTrader South Africa and, on a paid plan, also returns the seller phone number AutoTrader hides behind a captcha, so the row is ready to call. Includes ZAR price, mileage, year, engine, dealer rating, suburb and province.",
+      "input": {
+        "start_urls": [
+          {
+            "url": "https://www.autotrader.co.za/cars-for-sale/toyota/hilux"
+          }
+        ],
+        "scrape_phone_numbers": true,
+        "max_items": 200
+      }
+    },
+    {
+      "name": "nearly-new-automatic-cars-south-africa",
+      "title": "Export nearly new automatic cars for sale in South Africa",
+      "description": "Returns 2023 and newer automatic cars listed on AutoTrader.co.za with price, mileage, engine and power figures, dealer rating, location and gallery images. Useful for dealers sizing the late model market and for buyers comparing across provinces.",
+      "input": {
+        "start_urls": [
+          {
+            "url": "https://www.autotrader.co.za/cars-for-sale?year=more-than-2022&transmission=Automatic"
+          }
+        ],
+        "scrape_phone_numbers": false,
+        "max_items": 300
+      }
+    }
+  ],
+  "bike24-result-scraper": [
+    {
+      "name": "bike24-category-price-and-stock-tracker",
+      "title": "Track Bike24 prices and stock for a product category",
+      "description": "Reads every product in a Bike24 category and returns name, brand, gross and net price, RRP and discount, SKU and GTIN, rating and real time stock per variant. Schedule it daily to see price moves and sell outs across the category before your competitors do.",
+      "input": {
+        "start_urls": [
+          {
+            "url": "https://www.bike24.com/cycling/accessories/bike-bags/handlebar-bags"
+          }
+        ],
+        "max_results": 200,
+        "max_concurrency": 20
+      }
+    }
+  ],
+  "brand-abuse-counterfeit-detector": [
+    {
+      "name": "fake-shops-selling-your-brand",
+      "title": "Find fake webshops selling your brand",
+      "description": "Sweeps search results and marketplaces for storefronts and listings trading on the Ray-Ban name and its best known models, screens each with AI for counterfeit and fake shop signals, and returns only hits at or above a 60 risk score with the evidence saved for a takedown notice.",
+      "input": {
+        "brandName": "Ray-Ban",
+        "officialDomains": [
+          "ray-ban.com"
+        ],
+        "checks": [
+          "fake_shops",
+          "marketplace_listings"
+        ],
+        "productKeywords": [
+          "Wayfarer",
+          "Aviator"
+        ],
+        "minRiskScore": 60,
+        "maxCandidates": 120,
+        "countryCode": "us"
+      }
+    },
+    {
+      "name": "typosquat-domain-sweep",
+      "title": "Sweep for typosquat domains impersonating your brand",
+      "description": "Generates 200 misspellings, character swaps, hyphenations and alternative TLDs of your official domain, checks which ones are registered and live, and has AI judge whether each one impersonates the brand. The output is a ranked list of lookalike domains worth a UDRP or a registrar complaint.",
+      "input": {
+        "brandName": "Lululemon",
+        "officialDomains": [
+          "lululemon.com"
+        ],
+        "checks": [
+          "typosquat_domains"
+        ],
+        "domainVariants": 200,
+        "maxCandidates": 200,
+        "minRiskScore": 60
+      }
+    }
+  ],
+  "bulk-ai-image-generator": [
+    {
+      "name": "product-photos-for-online-store",
+      "title": "Generate product photos for an online store",
+      "description": "Turns a list of product descriptions into clean, ready to publish product images. Write one line per product and get a square studio style shot for each, at the resolution your storefront needs. No image editor, no design brief and no API key: model usage is billed through Apify, so you pay per image you actually get back.",
+      "input": {
+        "prompts": [
+          "Studio product photo of a matte black stainless steel water bottle on a plain white background, soft even lighting, centered, no text",
+          "Studio product photo of a pair of tan leather ankle boots on a plain white background, soft shadow, catalog style",
+          "Studio product photo of a ceramic pour over coffee dripper in cream white on a plain white background, minimal, soft lighting",
+          "Studio product photo of a folded charcoal grey merino wool scarf on a plain white background, catalog style, no props",
+          "Studio product photo of a small brass desk lamp with a linen shade on a plain white background, soft even lighting"
+        ],
+        "model": "google/gemini-2.5-flash-image",
+        "aspectRatio": "1:1",
+        "imageSize": "2K",
+        "imagesPerPrompt": 1,
+        "concurrency": 4
+      }
+    },
+    {
+      "name": "social-media-ad-creatives",
+      "title": "Create social media ad creatives in bulk",
+      "description": "Produces vertical ad creatives sized for Instagram Stories, Reels and TikTok. Each prompt returns three variants, so you get a set to A/B test instead of a single guess. Useful when one campaign needs a dozen visual angles and a designer is not available for every one of them.",
+      "input": {
+        "prompts": [
+          "Vertical lifestyle ad creative for a fitness app: a runner at sunrise on an empty city bridge, warm light, bold empty space at the top for a headline",
+          "Vertical lifestyle ad creative for a meal kit service: overhead shot of fresh ingredients on a wooden board, bright and clean, empty space at the bottom",
+          "Vertical lifestyle ad creative for a travel booking app: a traveller looking out over a coastal town at golden hour, cinematic, space at the top for text",
+          "Vertical lifestyle ad creative for a skincare brand: soft focus close up of a serum bottle on a marble surface with morning light, pastel tones"
+        ],
+        "model": "google/gemini-2.5-flash-image",
+        "aspectRatio": "9:16",
+        "imageSize": "2K",
+        "imagesPerPrompt": 3,
+        "concurrency": 4
+      }
+    },
+    {
+      "name": "blog-header-images-from-titles",
+      "title": "Generate blog header images from article titles",
+      "description": "Give it your article titles and get a matching wide header image for each one, sized for a blog hero slot. Keeps a consistent illustration style across the whole batch, so a backlog of posts stops looking like it was illustrated by five different people.",
+      "input": {
+        "prompts": [
+          "Wide flat vector illustration for a blog header about remote team productivity, muted blue and orange palette, geometric shapes, no text",
+          "Wide flat vector illustration for a blog header about personal finance and saving, muted blue and orange palette, geometric shapes, no text",
+          "Wide flat vector illustration for a blog header about cybersecurity basics, muted blue and orange palette, geometric shapes, no text",
+          "Wide flat vector illustration for a blog header about sustainable packaging, muted blue and orange palette, geometric shapes, no text",
+          "Wide flat vector illustration for a blog header about customer onboarding, muted blue and orange palette, geometric shapes, no text"
+        ],
+        "model": "google/gemini-2.5-flash-image",
+        "aspectRatio": "16:9",
+        "imageSize": "2K",
+        "imagesPerPrompt": 1,
+        "concurrency": 4
+      }
+    }
+  ],
+  "bulk-ai-translator": [
+    {
+      "name": "translate-product-catalog-5-languages",
+      "title": "Translate a product catalog into 5 languages",
+      "description": "Translates a list of product strings into German, French, Spanish, Italian and Dutch in marketing tone, keeping brand names in the glossary untouched and preserving placeholders and HTML. One run, five localised catalogs, billed per string with no DeepL or OpenAI key.",
+      "input": {
+        "mode": "text",
+        "targetLanguages": [
+          "de",
+          "fr",
+          "es",
+          "it",
+          "nl"
+        ],
+        "texts": [
+          "EcoBrew insulated travel mug, 450 ml, keeps drinks hot for 8 hours.",
+          "Leak proof lid with one handed open. Dishwasher safe.",
+          "Free shipping on orders over 50 EUR. 30 day returns."
+        ],
+        "glossary": [
+          "EcoBrew"
+        ],
+        "tone": "marketing",
+        "model": "google/gemini-2.5-flash"
+      }
+    },
+    {
+      "name": "translate-website-into-german",
+      "title": "Translate a whole website into German",
+      "description": "Crawls up to 25 pages of a site, staying on the same domain, and returns the German translation of every text block with its source URL and original text side by side, tags and links intact. The quickest way to get a localisation draft of a marketing site or docs section.",
+      "input": {
+        "mode": "website",
+        "startUrls": [
+          "https://books.toscrape.com"
+        ],
+        "targetLanguages": [
+          "de"
+        ],
+        "maxPages": 25,
+        "followLinks": true,
+        "tone": "neutral",
+        "model": "google/gemini-2.5-flash"
+      }
+    }
+  ],
+  "bulk-llm-runner": [
+    {
+      "name": "seo-product-descriptions-in-bulk",
+      "title": "Write SEO product descriptions in bulk",
+      "description": "Feed it one line per product and get back a structured description for each: a short benefit led paragraph, a set of feature bullets and a meta description. Output arrives as JSON columns you can paste straight into a product feed. Runs on GPT, Claude or Gemini without an OpenAI, Anthropic or Google API key of your own.",
+      "input": {
+        "prompts": [
+          "Product: Patagonia Nano Puff insulated jacket. Write a 60 word benefit led description, 4 feature bullets, and a 155 character meta description.",
+          "Product: Hydro Flask 32oz wide mouth water bottle. Write a 60 word benefit led description, 4 feature bullets, and a 155 character meta description.",
+          "Product: Anker 737 140W USB-C power bank. Write a 60 word benefit led description, 4 feature bullets, and a 155 character meta description.",
+          "Product: Brooks Ghost 16 neutral running shoe. Write a 60 word benefit led description, 4 feature bullets, and a 155 character meta description."
+        ],
+        "system_prompt": "You are a senior ecommerce SEO copywriter. Write in plain, concrete language. Never invent specifications you were not given. Return the keys description, bullets and meta_description.",
+        "model": "anthropic/claude-haiku-4.5",
+        "response_format": "json_object",
+        "enable_web_search": false,
+        "temperature": 60,
+        "concurrency": 4
+      }
+    },
+    {
+      "name": "classify-customer-reviews",
+      "title": "Classify and tag customer reviews at scale",
+      "description": "Runs every review through the same rubric and returns sentiment, a topic tag, an urgency flag and a one line summary as separate columns. Temperature is held low so the labels stay consistent across the batch, which is what makes the output usable in a spreadsheet or a dashboard rather than only readable.",
+      "input": {
+        "prompts": [
+          "Review: 'Arrived two days late and the box was crushed, but the product itself works fine.' Return sentiment (positive, neutral, negative), topic (shipping, quality, price, support, other), urgency (low, medium, high) and a one line summary.",
+          "Review: 'Third time the app has logged me out this week. Support has not replied in 5 days.' Return sentiment (positive, neutral, negative), topic (shipping, quality, price, support, other), urgency (low, medium, high) and a one line summary.",
+          "Review: 'Honestly the best value I have found at this price point. Would buy again.' Return sentiment (positive, neutral, negative), topic (shipping, quality, price, support, other), urgency (low, medium, high) and a one line summary.",
+          "Review: 'Fabric started pilling after two washes. Disappointed for the money.' Return sentiment (positive, neutral, negative), topic (shipping, quality, price, support, other), urgency (low, medium, high) and a one line summary."
+        ],
+        "system_prompt": "You are a precise review classifier. Use only the label values offered. Return the keys sentiment, topic, urgency and summary. Do not add commentary.",
+        "model": "anthropic/claude-haiku-4.5",
+        "response_format": "json_object",
+        "enable_web_search": false,
+        "temperature": 10,
+        "concurrency": 8
+      }
+    },
+    {
+      "name": "compare-gpt-claude-gemini-answers",
+      "title": "Compare GPT, Claude and Gemini side by side",
+      "description": "Sends the same prompts to GPT-5, Claude Sonnet 5, Gemini 3.8 Flash and Perplexity Sonar, then returns one row per model per prompt with the answer, the cost and the token count. Use it to pick a model on evidence from your own prompts instead of a benchmark table, before you commit to one in production.",
+      "input": {
+        "prompts": [
+          "Explain what a vector database is to a non technical product manager, in under 120 words.",
+          "Rewrite this support reply to be warmer without adding promises: 'Your refund was denied because the return window closed.'",
+          "A SaaS company has 4% monthly churn and 8% monthly new customer growth. Explain in plain language whether it is growing, and what breaks first."
+        ],
+        "system_prompt": "You are a helpful, accurate assistant. Answer directly and concisely.",
+        "model": "openai/gpt-5",
+        "compare_models": [
+          "openai/gpt-5",
+          "anthropic/claude-sonnet-5",
+          "google/gemini-3.8-flash",
+          "perplexity/sonar"
+        ],
+        "response_format": "text",
+        "enable_web_search": false,
+        "temperature": 40,
+        "concurrency": 4
+      }
+    }
+  ],
+  "bulk-text-to-speech": [
+    {
+      "name": "tiktok-voiceovers-word-captions",
+      "title": "Generate TikTok voiceovers with word by word captions",
+      "description": "Turns each script into an MP3 voiceover at 25 percent faster pace with a matching SRT where every word is its own cue, the format CapCut and Premiere use for animated captions. Paste 50 scripts and get 50 clips plus 50 subtitle files in one run, no ElevenLabs account needed.",
+      "input": {
+        "texts": [
+          "Three things nobody tells you before you start a side business. Number one: your first customer is probably someone you already know.",
+          "Stop scrolling. This is the only productivity tip that actually worked for me, and it takes ten seconds.",
+          "Here is how I plan my whole week in five minutes every Sunday night."
+        ],
+        "voice": "en-US-AvaMultilingualNeural",
+        "speed": "+25%",
+        "generateSubtitles": true,
+        "subtitleGranularity": "word",
+        "subtitleFormat": "srt"
+      }
+    },
+    {
+      "name": "spanish-voiceovers-for-product-videos",
+      "title": "Create Spanish voiceovers for product videos",
+      "description": "Generates natural Castilian Spanish narration for a batch of product descriptions, one MP3 per text, with sentence level SRT subtitles ready to drop into the video editor. Swap the voice for Mexican Spanish, French, German or any of 322 voices to localise the same scripts.",
+      "input": {
+        "texts": [
+          "Presentamos la nueva botella térmica de acero inoxidable: mantiene el frío durante 24 horas y el calor durante 12.",
+          "Diseñada para el día a día, con tapa antigoteo y un tamaño perfecto para cualquier mochila.",
+          "Disponible en cinco colores. Envío gratuito en pedidos superiores a 50 euros."
+        ],
+        "voice": "es-ES-ElviraNeural",
+        "speed": "+0%",
+        "generateSubtitles": true,
+        "subtitleGranularity": "sentence",
+        "subtitleFormat": "srt"
+      }
+    },
+    {
+      "name": "narrate-long-text-into-one-mp3",
+      "title": "Turn long form text into one narrated MP3",
+      "description": "Narrates each chapter or section as its own clip, then joins them in order into a single combined MP3 with one continuous subtitle file. A slightly slower British voice suits articles, course material and internal training audio; change the voice to match your audience.",
+      "input": {
+        "texts": [
+          "Chapter one. Every good system starts with a constraint. In this chapter we look at why limits make better products.",
+          "Chapter two. The fastest way to learn what customers want is to watch what they do when nobody is guiding them.",
+          "Chapter three. Pricing is a message. What you charge tells people what to expect before they ever use the product."
+        ],
+        "voice": "en-GB-RyanNeural",
+        "speed": "-10%",
+        "generateSubtitles": true,
+        "subtitleGranularity": "sentence",
+        "combineAudio": true
+      }
+    }
+  ],
+  "canada411-ca": [
+    {
+      "name": "find-business-phone-numbers-toronto",
+      "title": "Find business phone numbers in Toronto",
+      "description": "Looks up every plumber listed on Canada411 in Toronto and returns name, phone number and street address for each. Change the business type or the city and the same task becomes a local B2B calling list for any trade in any Canadian city. Output is clean CSV or JSON.",
+      "input": {
+        "what": "plumber",
+        "where": "Toronto, ON",
+        "max_pages": 5
+      }
+    },
+    {
+      "name": "lookup-people-by-name-canada411",
+      "title": "Look up people by name and city on Canada411",
+      "description": "Searches Canada411's residential listings for a surname in a city and returns each match with phone number and address. Skip tracers, genealogists and recruiters use it to find listed contacts without paying per lookup. Only what Canada411 publishes is returned.",
+      "input": {
+        "what": "Tremblay",
+        "where": "Montreal, QC",
+        "max_pages": 3
+      }
+    },
+    {
+      "name": "reverse-address-lookup-canada411",
+      "title": "Reverse address lookup on Canada411",
+      "description": "Leave the name empty and put a full street address in Where to get everyone Canada411 lists at that address, with their phone numbers. Property managers, process servers and door to door teams use it to know who is listed at a building before they visit.",
+      "input": {
+        "what": "",
+        "where": "100 Queen St W, Toronto, ON",
+        "max_pages": 1
+      }
+    }
+  ],
+  "cargurus-listings-scraper": [
+    {
+      "name": "used-car-deals-near-new-york",
+      "title": "Find the best used car deals near New York on CarGurus",
+      "description": "Searches CarGurus US within 50 miles of Manhattan and returns listings ordered by CarGurus deal score, best deals first, with price, mileage, VIN, dealer and photos on every row. No URL to build: pick the country, type a ZIP, and the filter form does the rest.",
+      "input": {
+        "searchCountry": "US",
+        "zip": "10001",
+        "distance": 50,
+        "sortType": "DEAL_SCORE",
+        "sortDirection": "DESC",
+        "maxPages": 5
+      }
+    },
+    {
+      "name": "toronto-used-cars-cargurus-canada",
+      "title": "Export Toronto used car listings from CarGurus Canada",
+      "description": "Pulls used car listings from cargurus.ca within 50 km of downtown Toronto, cheapest first, with CAD price, kilometres, VIN, dealer name and photo URLs. Made for Ontario dealers pricing trade-ins and for anyone building a GTA used car price index.",
+      "input": {
+        "searchCountry": "CA",
+        "zip": "M5V 3L9",
+        "distance": 50,
+        "sortType": "PRICE",
+        "sortDirection": "ASC",
+        "maxPages": 5
+      }
+    },
+    {
+      "name": "london-used-cars-cargurus-uk",
+      "title": "Pull London used car deals from CarGurus UK",
+      "description": "Searches cargurus.co.uk within 30 miles of central London and returns the top deals with GBP price, mileage, registration year, dealer and images. Useful for UK dealers benchmarking stock and for buyers who want the whole market in one sortable sheet.",
+      "input": {
+        "searchCountry": "UK",
+        "zip": "SW1A 1AA",
+        "distance": 30,
+        "sortType": "DEAL_SCORE",
+        "sortDirection": "DESC",
+        "maxPages": 5
+      }
+    }
+  ],
+  "centris-property-scraper": [
+    {
+      "name": "montreal-houses-for-sale-centris",
+      "title": "Export houses and condos for sale on Montreal Island",
+      "description": "Paginates through every Centris.ca for sale result on Montreal Island and opens each property page to capture MLS number, price, full address, rooms, bedrooms, bathrooms, the complete characteristics table and every gallery photo. Built for brokers, appraisers and investors.",
+      "input": {
+        "searchUrl": "https://www.centris.ca/en/properties~for-sale~montreal-island",
+        "maxResults": 300
+      }
+    },
+    {
+      "name": "montreal-rentals-centris",
+      "title": "Scrape apartments for rent on Montreal Island from Centris",
+      "description": "Pulls current Centris.ca rental listings on Montreal Island with monthly rent, address, rooms, features and photos for each unit. Relocation agents and property managers use it to see the whole rental market in one sheet instead of paging the site.",
+      "input": {
+        "searchUrl": "https://www.centris.ca/en/properties~for-rent~montreal-island",
+        "maxResults": 300
+      }
+    }
+  ],
+  "clinical-trials-intelligence": [
+    {
+      "name": "recruiting-breast-cancer-trials-usa",
+      "title": "Find recruiting breast cancer trials in the United States",
+      "description": "Queries the official ClinicalTrials.gov API for Phase 2 and Phase 3 breast cancer studies currently recruiting at US sites, most recently updated first, and returns each trial with sponsor, interventions, eligibility, sites and structured investigator and site contacts. No API key, no proxies.",
+      "input": {
+        "conditions": [
+          "breast cancer"
+        ],
+        "status": [
+          "RECRUITING"
+        ],
+        "phases": [
+          "PHASE2",
+          "PHASE3"
+        ],
+        "location": "United States",
+        "sortBy": "LAST_UPDATE_DESC",
+        "maxItems": 200,
+        "enrichContacts": true
+      }
+    },
+    {
+      "name": "pharma-pipeline-monitor",
+      "title": "Monitor a pharma company's clinical trial pipeline",
+      "description": "Tracks every trial where Pfizer is the sponsor or a collaborator that is recruiting, about to recruit or active, newest updates first. With a named state store, each run flags which trials are new or changed since last time, so a weekly schedule becomes a competitor pipeline alert.",
+      "input": {
+        "sponsor": "Pfizer",
+        "status": [
+          "RECRUITING",
+          "NOT_YET_RECRUITING",
+          "ACTIVE_NOT_RECRUITING"
+        ],
+        "sortBy": "LAST_UPDATE_DESC",
+        "maxItems": 300,
+        "enrichContacts": true,
+        "stateStoreName": "pfizer-pipeline"
+      }
+    }
+  ],
+  "company-domain-to-job-postings": [
+    {
+      "name": "engineering-jobs-at-yc-companies",
+      "title": "Get every engineering job at YC companies",
+      "description": "Adds the curated Y Combinator company list to your own domains, finds each company's Greenhouse, Lever, Ashby, Recruitee, SmartRecruiters or Personio board, verifies it belongs to them, and returns every open role whose title mentions engineer or developer in one unified schema.",
+      "input": {
+        "companies": [
+          "stripe.com",
+          "monzo.com"
+        ],
+        "preset": "yc_companies",
+        "keywords": [
+          "engineer",
+          "developer"
+        ],
+        "includeDescription": true,
+        "descriptionFormat": "markdown",
+        "maxItems": 500
+      }
+    },
+    {
+      "name": "remote-jobs-from-a-prospect-list",
+      "title": "Pull remote jobs from a list of company domains",
+      "description": "Paste domains straight from a CRM export and get back only the remote roles each company has open, with location, salary where published, department and full description. Recruiters and sales teams use it to know who is hiring, and for what, before an outreach sequence starts.",
+      "input": {
+        "companies": [
+          "stripe.com",
+          "monzo.com",
+          "channable.com",
+          "notion.so"
+        ],
+        "remoteOnly": true,
+        "includeDescription": true,
+        "descriptionFormat": "markdown",
+        "maxItems": 500
+      }
+    }
+  ],
+  "competitor-price-tracker-price-comparison-by-product-url": [
+    {
+      "name": "airpods-pro-price-comparison-us",
+      "title": "Compare AirPods Pro prices across every US retailer",
+      "description": "Starts from the Amazon, Walmart and Target product pages, finds every other store selling the same AirPods Pro by matching UPC, EAN and MPN rather than titles, extracts each live price in USD and ranks your reference price against the market. Add a free scrape.do key for protected sites.",
+      "input": {
+        "productUrls": [
+          {
+            "url": "https://www.amazon.com/dp/B09B8V1LZ3"
+          },
+          {
+            "url": "https://www.walmart.com/ip/AirPods-Pro-2nd-generation-with-MagSafe-Case-USB-C/5689919121"
+          },
+          {
+            "url": "https://www.target.com/p/airpods-pro-2nd-generation-with-magsafe-case-usb-c/-/A-85978622"
+          }
+        ],
+        "country": "us",
+        "currency": "USD",
+        "maxCompetitors": 10,
+        "maxPages": 2
+      }
+    },
+    {
+      "name": "uk-product-price-comparison-by-url",
+      "title": "Compare a product's price across UK retailers",
+      "description": "Takes one Amazon UK product page, searches the UK web for the same item, confirms each match by identifier, drops anything not priced in GBP and returns every competitor with its live price. The same task works for any UK product URL, Argos, Currys or an independent Shopify store.",
+      "input": {
+        "productUrls": [
+          {
+            "url": "https://www.amazon.co.uk/dp/B09B8V1LZ3"
+          }
+        ],
+        "country": "gb",
+        "currency": "GBP",
+        "maxCompetitors": 10,
+        "maxPages": 2
+      }
+    }
+  ],
+  "dataset-diff": [
+    {
+      "name": "new-google-maps-places-only",
+      "title": "Get only new places from a Google Maps scraper run",
+      "description": "Chains after the Google Maps Scraper on your account and returns only the places that were not in its previous run, keyed on placeId, instead of the full list every time. The first run records a baseline and reports nothing; from the second run on you get the delta.",
+      "input": {
+        "source": "apify/google-maps-scraper",
+        "emit": [
+          "new"
+        ],
+        "identityFields": [
+          "placeId"
+        ],
+        "firstRunBehaviour": "baselineOnly",
+        "outputMode": "deltaOnly"
+      }
+    },
+    {
+      "name": "price-change-alerts-from-any-dataset",
+      "title": "Get price change alerts from any Actor's dataset",
+      "description": "Compares each run of a source Actor against its previous one and emits only the items whose price field changed, with old and new values, ignoring fields that move on their own like timestamps and rank. Add a Slack, Discord or Telegram webhook and the changes arrive as a message.",
+      "input": {
+        "source": "demo",
+        "emit": [
+          "changed"
+        ],
+        "watchFields": [
+          "price"
+        ],
+        "ignoreFields": [
+          "scrapedAt",
+          "crawledAt",
+          "timestamp",
+          "position",
+          "rank"
+        ],
+        "notifyMaxItems": 20,
+        "outputMode": "deltaOnly"
+      }
+    }
+  ],
+  "dealer-inventory-scraper": [
+    {
+      "name": "dealer-website-used-inventory-export",
+      "title": "Export a dealership's used inventory from its own website",
+      "description": "Paste dealer homepages and the Actor finds their inventory pages by itself, detects the website platform, and returns every used vehicle at VIN level with the dealer's own price, mileage, stock number and photos, opening each vehicle page to fill in engine and transmission. Works on dealer sites it has never seen.",
+      "input": {
+        "dealerUrls": [
+          "https://www.toyotaofdowntownla.com",
+          "https://www.mbofsmithtown.com"
+        ],
+        "condition": "used",
+        "maxVehiclesPerDealer": 300,
+        "fetchDetails": true,
+        "concurrency": 3
+      }
+    },
+    {
+      "name": "dealer-price-drop-tracker",
+      "title": "Track price drops on competing dealer lots",
+      "description": "Reads the full inventory of each dealer site and compares it with the previous run, labelling every vehicle new, price_drop, price_increase, unchanged or removed. Schedule it daily and the changes view is a running log of what your competitors discounted and what they sold.",
+      "input": {
+        "dealerUrls": [
+          "https://www.toyotaofdowntownla.com",
+          "https://www.mbofsmithtown.com"
+        ],
+        "condition": "all",
+        "trackChanges": true,
+        "watchlistName": "dealer-inventory",
+        "maxVehiclesPerDealer": 400,
+        "concurrency": 3
+      }
+    }
+  ],
+  "dealer-reputation-monitor": [
+    {
+      "name": "dealerrater-reviews-export",
+      "title": "Export every DealerRater review for a dealership",
+      "description": "Type a dealership name and get its 200 most recent DealerRater reviews with full text, star rating, date, the department and the name of the employee each customer dealt with, plus one summary row with the store's overall rating, lifetime review count, address and phone.",
+      "input": {
+        "dealers": [
+          "Hendrick Honda"
+        ],
+        "maxReviewsPerDealer": 200,
+        "maxDealersPerSearch": 1,
+        "includeDealerSummary": true
+      }
+    },
+    {
+      "name": "negative-dealer-review-alerts",
+      "title": "Get alerted to new 1 and 2 star dealer reviews",
+      "description": "Keeps only reviews rated 2 stars or lower and, with the new since last run switch on, returns just the ones that appeared since the previous run. Schedule it daily for each store and a general manager hears about a bad review, and the employee named in it, the day it lands.",
+      "input": {
+        "dealers": [
+          "Hendrick Honda",
+          "https://www.dealerrater.com/dealer/Carvana-dealer-reviews-106904/"
+        ],
+        "maxRating": 2,
+        "onlyNewSinceLastRun": true,
+        "watchlistName": "dealer-reviews",
+        "maxReviewsPerDealer": 100,
+        "includeDealerSummary": false
+      }
+    }
+  ],
+  "email-deliverability-auditor": [
+    {
+      "name": "spf-dkim-dmarc-check-for-domains",
+      "title": "Check SPF, DKIM and DMARC for a list of domains",
+      "description": "Reads the public DNS of each domain and reports whether SPF, DKIM and DMARC are present and correctly configured, whether the SPF policy is strict or open, which DKIM selectors exist, plus MX, MTA-STS, BIMI and DNSSEC, and whether the mail server IP sits on a public blacklist.",
+      "input": {
+        "domains": [
+          "apify.com",
+          "google.com",
+          "github.com"
+        ],
+        "checkBlacklists": true,
+        "concurrency": 10
+      }
+    },
+    {
+      "name": "agency-client-email-authentication-audit",
+      "title": "Audit email authentication for all agency clients at once",
+      "description": "Runs the full deliverability audit across a whole client list in parallel, probing the Google and Microsoft 365 DKIM selectors on top of the 30 common ones, and returns one row per domain that says exactly what is missing for Gmail and Yahoo's bulk sender rules. Schedule it monthly.",
+      "input": {
+        "domains": [
+          "apify.com",
+          "github.com",
+          "shopify.com",
+          "hubspot.com",
+          "notion.so",
+          "stripe.com"
+        ],
+        "dkimSelectors": [
+          "google",
+          "selector1",
+          "selector2"
+        ],
+        "checkBlacklists": true,
+        "concurrency": 20
+      }
+    }
+  ],
+  "fnac-data-scraping": [
+    {
+      "name": "fnac-laptop-prices-france",
+      "title": "Scrape Fnac laptop prices, EAN and stock in France",
+      "description": "Exports every laptop in the fnac.com Tous les ordinateurs portables category with current price, crossed-out list price, discount, EAN, SKU, brand, stock status, marketplace sellers, ratings and the full spec table. Ready for price monitoring and EAN matching against Amazon.fr or Cdiscount.",
+      "input": {
+        "start_urls": [
+          {
+            "url": "https://www.fnac.com/Tous-les-ordinateurs-portables/Ordinateurs-portables/nsh154425/w-4"
+          }
+        ],
+        "max_depth": 3
+      }
+    },
+    {
+      "name": "fnac-lenovo-hp-laptops-under-600",
+      "title": "Find Lenovo and HP laptops under 600 EUR sold by Fnac",
+      "description": "Searches fnac.com for laptops, keeps only new Lenovo and HP models under 600 EUR that are sold by Fnac and in stock, cheapest first. Each result has the price, list price, discount, EAN, stock status, rating and full specifications. Change the brands or budget to track any laptop deal.",
+      "input": {
+        "search_terms": [
+          "ordinateur portable"
+        ],
+        "brands": [
+          "Lenovo",
+          "HP"
+        ],
+        "sold_by_fnac": true,
+        "max_price": 600,
+        "sort_by": "price_asc",
+        "condition": "new",
+        "in_stock_only": true,
+        "max_items": 100
+      }
+    },
+    {
+      "name": "fnac-casques-sony-bluetooth-vendus-par-fnac",
+      "title": "Casques Bluetooth Sony vendus par Fnac, les mieux notés",
+      "description": "Recherche les casques et écouteurs Bluetooth Sony sur fnac.com, garde uniquement ceux vendus par Fnac et les classe par note client. Chaque produit comprend le prix, le prix barré, la remise, l'EAN, la disponibilité, la note, les avis et les caractéristiques. Changez la marque ou le mot-clé pour suivre n'importe quel produit audio.",
+      "input": {
+        "search_terms": [
+          "casque bluetooth"
+        ],
+        "brands": [
+          "Sony"
+        ],
+        "sold_by_fnac": true,
+        "sort_by": "rating",
+        "max_items": 100
+      }
+    },
+    {
+      "name": "fnac-romans-policiers-meilleures-ventes",
+      "title": "Meilleures ventes de romans policiers Fnac avec EAN",
+      "description": "Recherche les romans policiers dans la catégorie Livres de fnac.com, classés par meilleures ventes. Chaque livre comprend le prix, l'EAN (ISBN), l'auteur, la disponibilité, la note, les avis et le résumé. Idéal pour les libraires et éditeurs qui suivent les prix et le classement Fnac. Changez le mot-clé pour suivre n'importe quel genre.",
+      "input": {
+        "search_terms": [
+          "roman policier"
+        ],
+        "category": "Livres",
+        "sort_by": "best_sellers",
+        "max_items": 100
+      }
+    }
+  ],
+  "g2g-offer-scraper": [
+    {
+      "name": "wow-classic-gold-prices-g2g",
+      "title": "Track WoW Classic gold prices and sellers on G2G",
+      "description": "Reads every live WoW Classic gold offer on G2G.com and returns price per unit, minimum order, stock, delivery time, seller name, rating and completed orders across 78 fields. Schedule it hourly to build a price index of the market where gaming currency prices are actually set.",
+      "input": {
+        "urls": [
+          "https://www.g2g.com/categories/wow-classic-gold"
+        ],
+        "maxItems": 500
+      }
+    },
+    {
+      "name": "fc-26-coins-price-tracker",
+      "title": "Monitor FC 26 coin prices across G2G sellers",
+      "description": "Collects all FC 26 coin offers on G2G with price, stock, delivery method and seller reputation so traders and sellers can see where the market sits before pricing their own stock. The full view carries every field G2G exposes for each offer.",
+      "input": {
+        "urls": [
+          "https://www.g2g.com/categories/fc-26-coins"
+        ],
+        "maxItems": 500
+      }
+    }
+  ],
+  "geo-grid-local-rank-tracker": [
+    {
+      "name": "dentist-google-maps-ranking-grid",
+      "title": "Track a dentist's Google Maps ranking across a city",
+      "description": "Checks where a dental practice ranks in the Google Maps local pack from 49 points spread across a 7 by 7 grid, 3 miles from centre to edge, for the searches patients actually type. The result is a heat map of visibility by neighbourhood, not a single misleading rank from the office address.",
+      "input": {
+        "businessName": "Aspen Dental",
+        "keywords": [
+          "dentist",
+          "emergency dentist"
+        ],
+        "location": "Phoenix, AZ",
+        "gridSize": 7,
+        "radius": 3,
+        "distanceUnit": "miles"
+      }
+    },
+    {
+      "name": "restaurant-local-pack-visibility",
+      "title": "Measure a restaurant's local pack visibility by neighbourhood",
+      "description": "Runs burger restaurant and burgers near me from 25 points across a 5 by 5 grid around downtown Chicago and records the rank at each one. Restaurants live or die on the 3 pack within walking distance, and this shows exactly which blocks you win and which a competitor owns.",
+      "input": {
+        "businessName": "Shake Shack",
+        "keywords": [
+          "burger restaurant",
+          "burgers near me"
+        ],
+        "location": "Chicago, IL",
+        "gridSize": 5,
+        "radius": 2,
+        "distanceUnit": "miles"
+      }
+    },
+    {
+      "name": "plumber-local-seo-rank-report",
+      "title": "Weekly local SEO rank report for a plumbing company",
+      "description": "A 7 by 7 grid across a 5 mile radius of Denver for plumber and emergency plumber, the two searches that drive service calls. Schedule it weekly and the competitors view tells you who is taking the top spots in each area, which is the report local SEO agencies charge for monthly.",
+      "input": {
+        "businessName": "Roto-Rooter",
+        "keywords": [
+          "plumber",
+          "emergency plumber"
+        ],
+        "location": "Denver, CO",
+        "gridSize": 7,
+        "radius": 5,
+        "distanceUnit": "miles"
+      }
+    }
+  ],
+  "github-developer-leads": [
+    {
+      "name": "react-contributors-outreach-list",
+      "title": "Build an outreach list of React contributors",
+      "description": "Lists the contributors to facebook/react, finds each one's email from public commits, and enriches the profile with inferred tech stack, total stars and hireable flag. DevRel teams and dev tool founders use it to reach the people who actually ship the ecosystem's code.",
+      "input": {
+        "searchType": "contributors",
+        "repositories": [
+          "facebook/react"
+        ],
+        "maxItems": 200,
+        "extractEmails": true,
+        "onlyWithEmail": true,
+        "enrichStats": true
+      }
+    },
+    {
+      "name": "typescript-developers-london-with-emails",
+      "title": "Find TypeScript developers in London with emails",
+      "description": "Searches GitHub for TypeScript developers located in London with more than 100 followers, mines their public commit history for a contactable email, and keeps only profiles where one was found. Each lead carries company, bio, top languages, stars earned and social links.",
+      "input": {
+        "searchType": "users",
+        "searchQuery": "language:TypeScript location:London followers:>100",
+        "maxItems": 200,
+        "extractEmails": true,
+        "onlyWithEmail": true,
+        "enrichStats": true
+      }
+    }
+  ],
+  "journalist-request-finder": [
+    {
+      "name": "journalist-requests-saas-marketing",
+      "title": "Find journalist requests about SaaS and marketing",
+      "description": "Collects live source requests from SourceBottle and Bluesky that mention SaaS, marketing or small business, keeps only those whose deadline has not passed, and ranks them most pitchable first. The free HARO replacement for founders and PR teams chasing backlinks and quotes.",
+      "input": {
+        "keywords": [
+          "SaaS",
+          "marketing",
+          "small business"
+        ],
+        "sources": [
+          "sourcebottle",
+          "bluesky"
+        ],
+        "onlyOpenDeadlines": true,
+        "maxRequests": 200
+      }
+    },
+    {
+      "name": "daily-new-media-request-alerts",
+      "title": "Daily alerts for new media requests in your niche",
+      "description": "Scans all three free sources for requests mentioning cybersecurity, AI or fintech, drops anything off topic, and returns only requests not seen in a previous run. Schedule it every morning and the pitch queue view is your to do list, with deadline and outlet on each row.",
+      "input": {
+        "keywords": [
+          "cybersecurity",
+          "AI",
+          "fintech"
+        ],
+        "keywordsOnly": true,
+        "sources": [
+          "sourcebottle",
+          "bluesky",
+          "mastodon"
+        ],
+        "onlyOpenDeadlines": true,
+        "onlyNewRequests": true,
+        "maxRequests": 200
+      }
+    }
+  ],
+  "kijiji-ca-scraper": [
+    {
+      "name": "toronto-used-cars-kijiji",
+      "title": "Scrape used cars for sale in Toronto on Kijiji",
+      "description": "Reads the Toronto cars and trucks category on Kijiji.ca, 40 listings per page, and returns 35 plus fields per ad: price, year, make, model, kilometres, transmission, VIN where posted, dealer or private, location and photos. Dealers use it to watch the private market for trade in stock.",
+      "input": {
+        "start_urls": [
+          {
+            "url": "https://www.kijiji.ca/b-cars-trucks/city-of-toronto/c174l1700273"
+          }
+        ],
+        "max_pages": 5
+      }
+    },
+    {
+      "name": "toronto-apartments-for-rent-kijiji",
+      "title": "Export apartments for rent in Toronto from Kijiji",
+      "description": "Pulls the newest Toronto apartment and condo rental ads from Kijiji.ca with rent, bedrooms, bathrooms, size, pet and parking flags, address, poster type and photos. Relocation agents and renters get the whole market in a sheet instead of refreshing the app.",
+      "input": {
+        "start_urls": [
+          {
+            "url": "https://www.kijiji.ca/b-apartments-condos/city-of-toronto/c37l1700273"
+          }
+        ],
+        "max_pages": 5
+      }
+    }
+  ],
+  "kijiji-scraper": [
+    {
+      "name": "calgary-used-trucks-kijiji",
+      "title": "Scrape used cars and trucks in Calgary on Kijiji",
+      "description": "Reads the Calgary cars and trucks category on Kijiji.ca and returns each ad with price, year, make, model, kilometres, drivetrain, dealer or private flag, location and photos. Alberta's private truck market, refreshed on whatever schedule you set.",
+      "input": {
+        "start_urls": [
+          {
+            "url": "https://www.kijiji.ca/b-cars-trucks/calgary/c174l1700199"
+          }
+        ],
+        "max_pages": 5
+      }
+    },
+    {
+      "name": "ottawa-apartments-for-rent-kijiji",
+      "title": "Export apartments for rent in Ottawa from Kijiji",
+      "description": "Collects Ottawa apartment and condo rental ads from Kijiji.ca with rent, bedrooms, bathrooms, size, pets, parking, address and photos. Property managers benchmark rents with it; renters use it to see every listing at once.",
+      "input": {
+        "start_urls": [
+          {
+            "url": "https://www.kijiji.ca/b-apartments-condos/ottawa/c37l1700185"
+          }
+        ],
+        "max_pages": 5
+      }
+    }
+  ],
+  "llms-txt-generator": [
+    {
+      "name": "generate-llms-txt-for-any-website",
+      "title": "Generate llms.txt and llms-full.txt for any website",
+      "description": "Paste a homepage and the Actor finds the sitemap, picks the 50 most important pages, and writes a spec compliant llms.txt index plus an llms-full.txt with the complete Markdown content of every page, ready to upload to your site root so ChatGPT, Claude and Perplexity read what you want them to.",
+      "input": {
+        "websiteUrl": "https://books.toscrape.com",
+        "maxPages": 50,
+        "includeFullText": true
+      }
+    },
+    {
+      "name": "llms-full-txt-for-documentation-site",
+      "title": "Build an llms-full.txt for a documentation site",
+      "description": "Crawls up to 200 pages of a docs site, limited to the platform and API sections, and produces a single llms-full.txt with every page as clean Markdown. Point AI coding assistants and support bots at one file instead of hundreds of pages. Schedule weekly so it never goes stale.",
+      "input": {
+        "websiteUrl": "https://docs.apify.com",
+        "maxPages": 200,
+        "includeFullText": true,
+        "includePatterns": [
+          "/platform/",
+          "/api/"
+        ],
+        "concurrency": 10
+      }
+    }
+  ],
+  "luma-events-scraper": [
+    {
+      "name": "ai-events-in-san-francisco",
+      "title": "Find upcoming AI events in San Francisco",
+      "description": "Discovers every AI event listed for San Francisco on Luma and opens each one for the full description, date, venue, ticket types and host profiles with Instagram, LinkedIn and X handles. Sponsors and community managers use it to see the week's AI calendar in one table.",
+      "input": {
+        "cities": [
+          "sf"
+        ],
+        "category": "ai",
+        "fetchEventDetails": true,
+        "maxEvents": 100
+      }
+    },
+    {
+      "name": "london-startup-event-organizer-leads",
+      "title": "Build a lead list of startup event organizers in London",
+      "description": "Pulls London events on Luma that mention startup, then extracts each host and organizer with their social handles into the leads view. A ready made outreach list of the people running the city's founder meetups, demo days and investor events.",
+      "input": {
+        "cities": [
+          "london"
+        ],
+        "keyword": "startup",
+        "fetchEventDetails": true,
+        "maxEvents": 200
+      }
+    }
+  ],
+  "map-violation-monitor": [
+    {
+      "name": "amazon-ebay-map-violation-check",
+      "title": "Check Amazon and eBay for MAP violations",
+      "description": "Takes your products with their minimum advertised price, searches Amazon, eBay, Best Buy and Newegg for every public offer, runs an AI exact match check so a cable or a refurbished unit is never counted, and returns only the offers advertised below MAP with seller, price and link.",
+      "input": {
+        "products": [
+          "B0DGHMNQ5Z, 129.99",
+          "Sony WH-1000XM5, 349.99"
+        ],
+        "marketplaces": [
+          "Amazon",
+          "eBay",
+          "BestBuy",
+          "Newegg"
+        ],
+        "onlyViolations": true,
+        "zipCode": "10001"
+      }
+    },
+    {
+      "name": "unauthorized-seller-detection",
+      "title": "Detect unauthorized sellers of your products",
+      "description": "Lists every seller offering your product on Amazon and eBay and flags any not on your authorized reseller list, with their price relative to MAP. The sellers view groups offers by seller so you can see who is diverting stock and how much of the market they hold.",
+      "input": {
+        "products": [
+          "Sony WH-1000XM5, 349.99"
+        ],
+        "authorizedSellers": [
+          "Amazon.com",
+          "Best Buy"
+        ],
+        "marketplaces": [
+          "Amazon",
+          "eBay"
+        ],
+        "onlyViolations": false,
+        "zipCode": "10001"
+      }
+    }
+  ],
+  "multi-marketplace-price-checker": [
+    {
+      "name": "compare-prices-amazon-ebay-bestbuy-newegg",
+      "title": "Compare a product's price on Amazon, eBay, Best Buy and Newegg",
+      "description": "Give it ASINs, UPCs, model numbers or plain product names and get what each exact product sells for right now on all four marketplaces, priced for a New York ZIP. AI verifies each result is the same product, not a bundle, accessory or different colour, before it is reported.",
+      "input": {
+        "products": [
+          "B0DGHMNQ5Z",
+          "Sony WH-1000XM5"
+        ],
+        "marketplaces": [
+          "Amazon",
+          "eBay",
+          "BestBuy",
+          "Newegg"
+        ],
+        "zipCode": "10001",
+        "concurrency": 5
+      }
+    },
+    {
+      "name": "arbitrage-sourcing-list-price-check",
+      "title": "Price check an arbitrage sourcing list across marketplaces",
+      "description": "Runs a list of ASINs through Amazon and eBay in parallel and returns the current price and availability on each, so a sourcing sheet of hundreds of products shows in one pass where each item resells highest. The identifiers view carries the UPC and model number matched for each row.",
+      "input": {
+        "products": [
+          "B0DGHMNQ5Z",
+          "B09B8V1LZ3",
+          "B0CHWRXH8B"
+        ],
+        "marketplaces": [
+          "Amazon",
+          "eBay"
+        ],
+        "zipCode": "10001",
+        "concurrency": 8
+      }
+    }
+  ],
+  "naukrigulf-scraper": [
+    {
+      "name": "nurse-jobs-gulf-last-7-days",
+      "title": "Find nurse jobs across the Gulf posted this week",
+      "description": "Searches Naukrigulf for nursing roles across the six GCC countries posted in the last 7 days, newest first, and returns each with employer, city, salary band where published, experience asked, nationality and gender restrictions, recruiter contact details and the full description as clean text.",
+      "input": {
+        "searchKeywords": [
+          "nurse"
+        ],
+        "location": "gulf",
+        "gccOnly": true,
+        "datePosted": "7",
+        "sortBy": "date",
+        "outputLanguage": "en",
+        "maxItems": 300,
+        "includeRecruiterContacts": true
+      }
+    },
+    {
+      "name": "dubai-accounting-jobs-with-salary",
+      "title": "Get Dubai accounting jobs that publish a salary",
+      "description": "Keeps only accountant roles in Dubai where the employer states the salary and hires directly rather than through an agency, so every row has a real monthly USD band and a real company behind it. The salary view puts the band next to the title for a quick market read.",
+      "input": {
+        "searchKeywords": [
+          "accountant"
+        ],
+        "location": "dubai",
+        "salaryDisclosedOnly": true,
+        "directEmployersOnly": true,
+        "sortBy": "date",
+        "outputLanguage": "en",
+        "maxItems": 200
+      }
+    }
+  ],
+  "pistonheads": [
+    {
+      "name": "porsche-911-for-sale-uk",
+      "title": "Track Porsche 911s for sale on PistonHeads",
+      "description": "Reads PistonHeads search results for Porsche 911 and returns 30 plus fields per car: GBP price, year, mileage, engine, power, CO2, fuel economy, seller type and phone, and location. Schedule it weekly and you have a price index of the UK's most traded sports car.",
+      "input": {
+        "start_urls": [
+          {
+            "url": "https://www.pistonheads.com/buy/search?make=porsche&model=911"
+          }
+        ],
+        "max_pages": 5
+      }
+    },
+    {
+      "name": "performance-cars-20k-to-40k-uk",
+      "title": "Find performance cars between 20,000 and 40,000 GBP",
+      "description": "Pulls PistonHeads listings priced between 20,000 and 40,000 GBP from 2015 onwards, 16 per page, with full specs, seller contact and location. The sweet spot for enthusiast buyers and specialist dealers sourcing stock, in a spreadsheet instead of 40 browser tabs.",
+      "input": {
+        "start_urls": [
+          {
+            "url": "https://www.pistonheads.com/buy/search?price=20000&price=40000&year=2015&year=2025"
+          }
+        ],
+        "max_pages": 5
+      }
+    }
+  ],
+  "podcast-guest-finder": [
+    {
+      "name": "b2b-saas-podcasts-with-host-emails",
+      "title": "Find B2B SaaS podcasts with host emails",
+      "description": "Searches Apple Podcasts for shows about B2B SaaS and startup founders, keeps only those that published in the last 90 days and expose a host or owner email in their RSS feed, and returns a pitch ready list with show name, episode count, categories and the contact address.",
+      "input": {
+        "keywords": [
+          "B2B SaaS",
+          "startup founders"
+        ],
+        "requireEmail": true,
+        "activeWithinDays": 90,
+        "country": "US",
+        "maxPodcasts": 100
+      }
+    },
+    {
+      "name": "real-estate-investing-podcast-pitch-list",
+      "title": "Build a pitch list of real estate investing podcasts",
+      "description": "Finds real estate investing shows whose description signals an interview format, drops any without a reachable host email or without a recent episode, and returns up to 100 leads. What a podcast booking agency charges monthly for, in one run.",
+      "input": {
+        "keywords": [
+          "real estate investing"
+        ],
+        "guestFriendlyOnly": true,
+        "requireEmail": true,
+        "activeWithinDays": 90,
+        "country": "US",
+        "maxPodcasts": 100
+      }
+    }
+  ],
+  "reddit-lead-finder": [
+    {
+      "name": "reddit-leads-for-email-marketing-tools",
+      "title": "Find Reddit users looking for an email marketing tool",
+      "description": "Scans Reddit posts and comments from the past week for people asking for an email marketing tool or an alternative to Mailchimp or Klaviyo, scores each for buying intent, and returns the ones at 30 or above with the exact quote, subreddit, author and link so you can reply in context.",
+      "input": {
+        "keywords": [
+          "email marketing tool"
+        ],
+        "competitors": [
+          "Mailchimp",
+          "Klaviyo"
+        ],
+        "timeRange": "week",
+        "includeComments": true,
+        "minIntentScore": 30,
+        "maxLeads": 100
+      }
+    },
+    {
+      "name": "competitor-alternative-threads-alert",
+      "title": "Get alerted to 'alternative to' threads about your competitors",
+      "description": "Watches r/smallbusiness, r/Entrepreneur and r/sales for people asking for a CRM or an alternative to HubSpot or Salesforce, keeps only strong buying signals at 50 plus, and returns just the leads not seen in a previous run. Schedule it daily and reply while the thread is still warm.",
+      "input": {
+        "keywords": [
+          "CRM for small business"
+        ],
+        "competitors": [
+          "HubSpot",
+          "Salesforce"
+        ],
+        "subreddits": [
+          "smallbusiness",
+          "Entrepreneur",
+          "sales"
+        ],
+        "timeRange": "week",
+        "minIntentScore": 50,
+        "onlyNewLeads": true,
+        "maxLeads": 100
+      }
+    }
+  ],
+  "rvtrader-scraper": [
+    {
+      "name": "used-class-c-motorhomes-under-80k",
+      "title": "Find used Class C motorhomes under 80,000 dollars",
+      "description": "Searches RVTrader for used Class C motorhomes priced under 80,000 dollars in Texas, Florida and California and returns each with price, year, make, model, mileage, length, slide outs, dealer name and phone, VIN and the complete price history with dates. Nationwide sweeps finish in minutes.",
+      "input": {
+        "rvClasses": [
+          "Class C"
+        ],
+        "condition": "Used",
+        "priceMax": 80000,
+        "states": [
+          "TX",
+          "FL",
+          "CA"
+        ],
+        "maxItems": 500
+      }
+    },
+    {
+      "name": "travel-trailers-price-reduced",
+      "title": "Track price reduced travel trailers on RVTrader",
+      "description": "Returns travel trailers carrying RVTrader's price reduced badge, newest first, with the full reduction history per listing so you can see how far and how fast each one has dropped. Buyers time their offer with it; dealers watch what competitors are discounting.",
+      "input": {
+        "rvClasses": [
+          "Travel Trailer"
+        ],
+        "badges": [
+          "price_reduced"
+        ],
+        "sortBy": "create_date:desc",
+        "maxItems": 500
+      }
+    }
+  ],
+  "seo-geo-aeo-audit": [
+    {
+      "name": "ai-search-readiness-audit",
+      "title": "Audit a website for AI search readiness",
+      "description": "Crawls the homepage and the 25 most important pages, runs 45 plus checks and scores the site 0 to 100 for classic SEO, GEO (visibility in ChatGPT, Perplexity and Gemini answers) and AEO (featured snippets). Returns a prioritised issue list and a self contained HTML report.",
+      "input": {
+        "websiteUrl": "https://books.toscrape.com",
+        "maxPages": 25,
+        "includeHtmlReport": true
+      }
+    },
+    {
+      "name": "quick-5-page-seo-check",
+      "title": "Run a quick 5 page SEO check on a small business site",
+      "description": "A fast first look: the homepage plus the four key pages the Actor discovers on its own, scored for SEO, AI search visibility and answer engine readiness. Fits inside the free plan limit, so it is the right size for a lead magnet or a first call with a client.",
+      "input": {
+        "websiteUrl": "https://books.toscrape.com",
+        "maxPages": 5,
+        "includeHtmlReport": true
+      }
+    },
+    {
+      "name": "full-site-seo-geo-audit-100-pages",
+      "title": "Full 100 page SEO and GEO audit for a content site",
+      "description": "Audits up to 100 pages of a blog, docs or ecommerce site and returns every issue per page, from blocked AI crawlers and JavaScript only content to missing schema, thin titles and slow pages. Use the issues view to hand your developer a to do list sorted by impact.",
+      "input": {
+        "websiteUrl": "https://books.toscrape.com",
+        "maxPages": 100,
+        "includeHtmlReport": true,
+        "maxConcurrency": 10
+      }
+    }
+  ],
+  "skroutz-scraper": [
+    {
+      "name": "iphone-17-pro-prices-all-skroutz-countries",
+      "title": "Compare iPhone 17 Pro prices across all Skroutz countries",
+      "description": "Search Skroutz in Greece, Cyprus, Bulgaria, Romania, Germany and Malta for the iPhone 17 Pro and get every model with its price, currency, rating and delivery in English, plus every shop selling it with price, stock and shipping cost. Built for cross-border price comparison, resellers and deal hunters.",
+      "input": {
+        "search_terms": [
+          "iphone 17 pro"
+        ],
+        "countries": [
+          "gr",
+          "cy",
+          "bg",
+          "ro",
+          "de",
+          "mt"
+        ],
+        "language": "en",
+        "sort_by": "price_asc",
+        "max_items": 200,
+        "include_shop_offers": true
+      }
+    },
+    {
+      "name": "washing-machine-prices-greece-greek",
+      "title": "Τιμές πλυντηρίων ρούχων στο Skroutz με ιστορικό τιμών",
+      "description": "Συγκεντρώστε τα πλυντήρια ρούχων του Skroutz.gr με τιμή, βαθμολογία και παράδοση, μαζί με το ιστορικό χαμηλότερης τιμής κάθε προϊόντος: τη χαμηλότερη τιμή όλων των εποχών και των τελευταίων 30 και 90 ημερών. Ιδανικό για καταστήματα ηλεκτρικών συσκευών και για όσους περιμένουν την καλύτερη τιμή πριν αγοράσουν.",
+      "input": {
+        "start_urls": [
+          {
+            "url": "https://www.skroutz.gr/c/405/plynthria-rouxwn.html"
+          }
+        ],
+        "language": "el",
+        "max_items": 100,
+        "include_price_history": true
+      }
+    }
+  ],
+  "spitogatos-cy-scraper": [
+    {
+      "name": "limassol-apartments-for-rent-under-1500",
+      "title": "Find apartments for rent in Limassol, Cyprus under 1500 EUR",
+      "description": "Collects apartment rentals in Limassol, Cyprus from Spitogatos.com.cy with a monthly rent up to 1500 EUR. Each listing comes with rent, area, rooms, floor, energy class, GPS coordinates, photos, the full description and the agency's phone number. No URL needed: the search runs straight from the location and price filters.",
+      "input": {
+        "start_urls": [],
+        "locations": [
+          "Limassol"
+        ],
+        "language": "en",
+        "listing_type": "rent",
+        "category": "residential",
+        "property_types": "apartment",
+        "price_max": 1500
+      }
+    },
+    {
+      "name": "paphos-homes-for-sale-cyprus",
+      "title": "Export homes for sale in Paphos, Cyprus with agent phones",
+      "description": "Scrapes every home for sale in Paphos listed on Spitogatos.com.cy, page by page: villas, houses and apartments with asking price, price per m2, area, bedrooms, year built, GPS coordinates, photo gallery and a direct phone number for the listing agent or agency.",
+      "input": {
+        "start_urls": [
+          {
+            "url": "https://www.spitogatos.com.cy/en/for-sale/property/paphos"
+          }
+        ],
+        "max_depth": 10
+      }
+    },
+    {
+      "name": "nicosia-homes-for-rent-greek",
+      "title": "Ενοικιάσεις κατοικιών στη Λευκωσία από το Spitogatos Κύπρου",
+      "description": "Συλλέγει από το Spitogatos.com.cy όλες τις αγγελίες κατοικιών προς ενοικίαση στη Λευκωσία, με τα στοιχεία στα ελληνικά: ενοίκιο, τετραγωνικά, δωμάτια, όροφο, ενεργειακή κλάση, συντεταγμένες GPS, φωτογραφίες, περιγραφή και τηλέφωνο του μεσιτικού γραφείου.",
+      "input": {
+        "start_urls": [
+          {
+            "url": "https://www.spitogatos.com.cy/enoikiaseis/katoikies/nicosia"
+          }
+        ],
+        "max_depth": 10
+      }
+    },
+    {
+      "name": "limassol-estate-agents-greek",
+      "title": "Μεσιτικά γραφεία στη Λεμεσό με τηλέφωνα επικοινωνίας",
+      "description": "Εξάγει από το Spitogatos.com.cy όλα τα μεσιτικά γραφεία της Λεμεσού: επωνυμία, τηλέφωνα, υπεύθυνο επικοινωνίας, περιοχή, ιστοσελίδα, πλήθος αγγελιών προς πώληση και ενοικίαση και μέση τιμή πώλησης κατοικιών. Χρήσιμο για λίστες συνεργατών και ανάλυση ανταγωνισμού.",
+      "input": {
+        "start_urls": [
+          {
+            "url": "https://www.spitogatos.com.cy/mesitika/limassol"
+          }
+        ]
+      }
+    }
+  ],
+  "spitogatos-scraper": [
+    {
+      "name": "kolonaki-apartments-for-sale",
+      "title": "Find apartments for sale in Kolonaki, Athens",
+      "description": "Searches Spitogatos.gr for apartments for sale in Kolonaki up to 300,000 EUR and returns 25 plus fields per property: price, price per square metre, floor, year, energy class, GPS coordinates, owner or agent phone number and full resolution photos. No URL to copy, just the place name.",
+      "input": {
+        "locations": [
+          "Kolonaki"
+        ],
+        "listing_type": "sale",
+        "category": "residential",
+        "property_types": "apartment",
+        "price_max": 300000,
+        "max_depth": 10
+      }
+    },
+    {
+      "name": "thessaloniki-apartments-for-rent-under-600",
+      "title": "Find apartments for rent in Thessaloniki under 600 EUR",
+      "description": "Pulls every apartment for rent in Thessaloniki at 600 EUR a month or less from Spitogatos.gr, with floor area, floor, heating, furnished flag, the landlord or agency phone number and the listing's coordinates. Students, relocating workers and agencies get the whole market in one sheet.",
+      "input": {
+        "locations": [
+          "Thessaloniki"
+        ],
+        "listing_type": "rent",
+        "category": "residential",
+        "property_types": "apartment",
+        "price_max": 600,
+        "max_depth": 10
+      }
+    },
+    {
+      "name": "crete-land-plots-for-sale",
+      "title": "Export land plots for sale in Chania, Crete",
+      "description": "Lists plots of land for sale around Chania on Spitogatos.gr with price, area, price per square metre, coordinates and the seller's phone number. Developers and buyers hunting for buildable land in Crete use it to map what is on the market instead of paging through the site.",
+      "input": {
+        "locations": [
+          "Chania"
+        ],
+        "listing_type": "sale",
+        "category": "land",
+        "property_types": "plot",
+        "max_depth": 10
+      }
+    },
+    {
+      "name": "athens-center-apartments-for-rent-greek",
+      "title": "Διαμερίσματα για ενοικίαση στο κέντρο της Αθήνας έως 800€",
+      "description": "Συλλέγει από το Spitogatos.gr αγγελίες διαμερισμάτων προς ενοικίαση στο κέντρο της Αθήνας με ενοίκιο έως 800€ και επιστρέφει πάνω από 25 πεδία ανά ακίνητο: τιμή, τετραγωνικά, όροφο, έτος κατασκευής, ενεργειακή κλάση, συντεταγμένες GPS, τηλέφωνο μεσίτη ή ιδιοκτήτη και φωτογραφίες σε υψηλή ανάλυση.",
+      "input": {
+        "start_urls": [
+          {
+            "url": "https://www.spitogatos.gr/enoikiaseis-diamerismata/athina-kentro/timi_eos-800"
+          }
+        ],
+        "max_depth": 10
+      }
+    },
+    {
+      "name": "thessaloniki-homes-for-sale-greek",
+      "title": "Κατοικίες προς πώληση στη Θεσσαλονίκη από το Spitogatos",
+      "description": "Συλλέγει τις αγγελίες κατοικιών προς πώληση στη Θεσσαλονίκη από το Spitogatos.gr (διαμερίσματα, μονοκατοικίες, μεζονέτες) με τιμή, τετραγωνικά, όροφο, έτος κατασκευής, ενεργειακή κλάση, συντεταγμένες GPS, τηλέφωνο μεσίτη και φωτογραφίες. Ιδανικό για ανάλυση τιμών ακινήτων και εντοπισμό ευκαιριών.",
+      "input": {
+        "start_urls": [
+          {
+            "url": "https://www.spitogatos.gr/pwliseis-katoikies/thessaloniki-kentro"
+          }
+        ],
+        "max_depth": 10
+      }
+    }
+  ],
+  "thebluebook-scraper": [
+    {
+      "name": "plumbing-contractor-leads-with-emails",
+      "title": "Build a list of plumbing contractors with emails",
+      "description": "Scrapes plumbing contractor profiles from thebluebook.com search results, then visits each company's own website to find a contact email, and returns company name, phone, email, address, trade categories, MBE, WBE and DBE certifications and project history. A verified B2B list for suppliers and recruiters.",
+      "input": {
+        "startUrls": [
+          {
+            "url": "https://www.thebluebook.com/search.html?region=2&searchsrc=index&class=3370&searchTerm=Plumbing%20Contractors"
+          }
+        ],
+        "maxItems": 200,
+        "disableEmailScrape": false
+      }
+    },
+    {
+      "name": "electrical-contractor-leads-fast",
+      "title": "Pull electrical contractor profiles without the email step",
+      "description": "Collects electrical contractor profiles from The Blue Book with phone, address, trades, certifications and projects, skipping the visit to each company website so a 500 profile run finishes in a fraction of the time. Turn the email step back on when the list is final.",
+      "input": {
+        "startUrls": [
+          {
+            "url": "https://www.thebluebook.com/search.html?region=2&searchsrc=index&searchTerm=Electrical%20Contractors"
+          }
+        ],
+        "maxItems": 500,
+        "disableEmailScrape": true
+      }
+    }
+  ],
+  "wallapop-scraper": [
+    {
+      "name": "used-cars-spain-under-5000",
+      "title": "Scrape used cars under 5,000 EUR on Wallapop Spain",
+      "description": "Pulls the newest private car listings on Wallapop Spain priced under 5,000 EUR, with price, mileage, year, location and seller details per row. Built for dealers and flippers who want the cheap end of the market in a spreadsheet every morning instead of refreshing the app.",
+      "input": {
+        "start_urls": [
+          {
+            "url": "https://es.wallapop.com/search?category_id=100&max_sale_price=5000&order_by=newest"
+          }
+        ],
+        "max_items": 200,
+        "country": "Spain"
+      }
+    },
+    {
+      "name": "wallapop-italy-used-cars",
+      "title": "Track used car listings on Wallapop Italy",
+      "description": "Exports the latest used car listings from Wallapop Italy into structured rows: price, mileage, year, fuel, location and seller. Set it on a schedule to build a price history of the Italian private market, or run once to size the inventory in a region.",
+      "input": {
+        "start_urls": [
+          {
+            "url": "https://it.wallapop.com/search?category_id=100&order_by=newest"
+          }
+        ],
+        "max_items": 200,
+        "country": "Italy"
+      }
+    },
+    {
+      "name": "iphone-listings-wallapop-spain",
+      "title": "Monitor iPhone listings on Wallapop Spain",
+      "description": "Watches Wallapop Spain for iPhone 15 listings, newest first, and returns price, condition, location and seller for each. Resellers use it to catch underpriced phones the minute they are posted; schedule it hourly and push new rows to Slack or a sheet.",
+      "input": {
+        "start_urls": [
+          {
+            "url": "https://es.wallapop.com/search?keywords=iphone%2015&order_by=newest"
+          }
+        ],
+        "max_items": 100,
+        "country": "Spain"
+      }
+    }
+  ],
+  "website-change-monitor": [
+    {
+      "name": "competitor-pricing-page-monitor",
+      "title": "Monitor a competitor's pricing page for changes",
+      "description": "Saves a baseline of the visible text on a pricing page, then on every run reports exactly what changed, with any change mentioning price, discount or plan flagged as major. Schedule it hourly or daily and add a Slack or Telegram webhook to hear about a price move the same day.",
+      "input": {
+        "urls": [
+          "https://github.com/pricing"
+        ],
+        "watchKeywords": [
+          "price",
+          "discount",
+          "plan",
+          "free"
+        ],
+        "monitorMode": "text",
+        "monitorName": "pricing",
+        "concurrency": 10
+      }
+    },
+    {
+      "name": "terms-of-service-change-alerts",
+      "title": "Get alerts when a terms of service page changes",
+      "description": "Watches legal and policy pages that change silently and returns a line by line diff instead of making you reread the whole page, ignoring the last updated timestamp so only real wording changes count. Legal and compliance teams schedule it weekly across every vendor they depend on.",
+      "input": {
+        "urls": [
+          "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service"
+        ],
+        "monitorMode": "text",
+        "ignorePatterns": [
+          "Last updated.*"
+        ],
+        "monitorName": "legal",
+        "concurrency": 10
+      }
+    }
+  ],
+  "whop-clipping-campaigns-scraper": [
+    {
+      "name": "high-paying-clipping-campaigns",
+      "title": "Find the highest paying clipping campaigns on Whop",
+      "description": "Lists every live Whop Content Rewards campaign paying at least 2 dollars per 1,000 views with more than 1,000 dollars of budget still unspent, sorted by reward. Use it to pick the campaigns where a clip actually gets paid, instead of scrolling a directory that only shows a rotating page of featured ones.",
+      "input": {
+        "sortBy": "reward",
+        "minRewardPerThousand": 2,
+        "minBudgetLeftUsd": 1000,
+        "maxItems": 100
+      }
+    },
+    {
+      "name": "low-competition-tiktok-clipping-campaigns",
+      "title": "Find low competition TikTok clipping campaigns",
+      "description": "Filters Whop Content Rewards down to TikTok campaigns with 50 or fewer creators already submitting and no application step, so you can start clipping today and compete for views against a small pool. Sorted by fewest creators first.",
+      "input": {
+        "includeHistorical": false,
+        "maxCreators": 50,
+        "maxItems": 100,
+        "noApplicationRequired": true,
+        "onlyNewCampaigns": false,
+        "platforms": [
+          "tiktok"
+        ],
+        "sortBy": "creators",
+        "verifiedOnly": false
+      }
+    },
+    {
+      "name": "new-content-rewards-campaigns-alert",
+      "title": "Get alerted when new Whop campaigns launch",
+      "description": "Monitoring mode: each run returns only the campaigns that were not in the previous run, so a daily schedule becomes an alert feed for fresh clipping and UGC campaigns. Pair it with the Apify Slack or email integration to hear about a new campaign before its budget fills up.",
+      "input": {
+        "onlyNewCampaigns": true,
+        "sortBy": "newest",
+        "maxItems": 500
+      }
+    }
+  ],
+  "xe-gr-scraper": [
+    {
+      "name": "athens-apartments-for-rent",
+      "title": "Find apartments for rent in Athens with phone numbers",
+      "description": "Searches XE.gr for one bedroom or larger apartments to rent in Athens up to 900 EUR a month, newest first, and returns each listing with the contact phone number XE.gr hides behind its Show phone button, plus floor area, floor, heating, energy class, description and photos.",
+      "input": {
+        "location": "Athens",
+        "transactionType": "rent",
+        "propertyCategory": "residence",
+        "propertyType": "apartment",
+        "minBedrooms": 1,
+        "maxPrice": 900,
+        "includePhone": true,
+        "includeDetails": true,
+        "sortBy": "publication_date_desc",
+        "maxItems": 200
+      }
+    },
+    {
+      "name": "thessaloniki-homes-for-sale",
+      "title": "Export homes for sale in Thessaloniki",
+      "description": "Pulls residential listings for sale in Thessaloniki between 60 square metres and 250,000 EUR from XE.gr, with price per square metre, construction year, floor, energy class, exact address and the advertiser's details. Made for agents and investors comparing the northern Greek market.",
+      "input": {
+        "location": "Thessaloniki",
+        "transactionType": "buy",
+        "propertyCategory": "residence",
+        "minArea": 60,
+        "maxPrice": 250000,
+        "includeDetails": true,
+        "includePhone": true,
+        "maxItems": 300
+      }
+    },
+    {
+      "name": "athens-riviera-villas-for-sale",
+      "title": "Track villas for sale on the Athens Riviera",
+      "description": "Watches XE.gr for villas listed for sale in Glyfada from 500,000 EUR upwards, in English, with full details and the owner or agency phone number. Schedule it and combine with Dataset Diff to be told the day a new villa appears on the coast south of Athens.",
+      "input": {
+        "location": "Glyfada",
+        "transactionType": "buy",
+        "propertyCategory": "residence",
+        "propertyType": "villa",
+        "minPrice": 500000,
+        "includeDetails": true,
+        "includePhone": true,
+        "language": "en",
+        "maxItems": 100
+      }
+    },
+    {
+      "name": "patras-student-apartments-for-rent-greek",
+      "title": "Φοιτητικά διαμερίσματα για ενοικίαση στην Πάτρα έως 500€",
+      "description": "Συλλέγει από το XE.gr διαμερίσματα προς ενοικίαση στην Πάτρα κατάλληλα για φοιτητές, με ενοίκιο έως 500€ και τις νεότερες αγγελίες πρώτα. Κάθε αγγελία έρχεται με το τηλέφωνο επικοινωνίας που το XE.gr κρύβει πίσω από το κουμπί εμφάνισης τηλεφώνου, τετραγωνικά, όροφο, περιγραφή και φωτογραφίες, όλα στα ελληνικά.",
+      "input": {
+        "location": "Πάτρα",
+        "transactionType": "rent",
+        "propertyCategory": "residence",
+        "propertyType": "apartment",
+        "amenities": [
+          "studentFriendly"
+        ],
+        "maxPrice": 500,
+        "language": "el",
+        "includeDetails": true,
+        "includePhone": true,
+        "sortBy": "publication_date_desc",
+        "maxItems": 200
+      }
+    },
+    {
+      "name": "sithonia-halkidiki-land-for-sale-greek",
+      "title": "Οικόπεδα προς πώληση στη Σιθωνία Χαλκιδικής",
+      "description": "Εξάγει από το XE.gr τα οικόπεδα και αγροτεμάχια προς πώληση στη Σιθωνία Χαλκιδικής, από το φθηνότερο προς το ακριβότερο, με τιμή, εμβαδόν, περιοχή, συντεταγμένες, περιγραφή, τηλέφωνο του αγγελιοδότη και φωτογραφίες, όλα στα ελληνικά. Χρήσιμο για επενδυτές, μεσίτες και όποιον ψάχνει γη για εξοχική κατοικία.",
+      "input": {
+        "location": "Σιθωνία",
+        "transactionType": "buy",
+        "propertyCategory": "land",
+        "language": "el",
+        "includeDetails": true,
+        "includePhone": true,
+        "sortBy": "price_asc",
+        "maxItems": 500
+      }
+    }
+  ]
+}
