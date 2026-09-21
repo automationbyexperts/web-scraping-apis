@@ -14,7 +14,7 @@
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/fnac-data-scraping?fpr=youssef)) |
 | Rating | 5.0 out of 5 (1 reviews) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-09-15 |
+| Catalog updated | 2026-09-21 |
 
 ## What you can do with Fnac.com Scraper: Prices, EAN, Stock, Sellers & Reviews
 
@@ -136,6 +136,6 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 50 actors](../README.md)
+- Full catalog: [all 54 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/fnac-data-scraping](https://automationbyexperts.com/apify/fnac-data-scraping?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/fnac-data-scraping.md](https://automationbyexperts.com/apify/fnac-data-scraping.md)

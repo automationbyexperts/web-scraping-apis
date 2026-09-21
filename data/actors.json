@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-15",
+  "updated": "2026-09-21",
   "source": "https://github.com/automationbyexperts/web-scraping-apis",
   "author": {
     "name": "Youssef Farhan",
@@ -52,15 +52,15 @@
   "actors": [
     {
       "slug": "bulk-ai-image-generator",
-      "title": "Bulk AI Image Generator (NO API KEY)",
-      "description": "Generate hundreds of AI images in one run from a list of prompts using top OpenRouter models (Gemini, GPT Image, Seedream, Flux...).",
+      "title": "Bulk AI Image Generator: Nano Banana, GPT Image | No API Key",
+      "description": "Generate hundreds of AI images from a list of prompts or an Excel/CSV file with Nano Banana Pro, Nano Banana 2 and GPT Image. Any aspect ratio up to 4K, up to 10 variations per prompt, and your spreadsheet back with an image link on every row. No API key needed.",
       "category": "Bulk AI Tools",
       "categorySlug": "ai-bulk-tools",
       "apifyUrl": "https://apify.com/fayoussef/bulk-ai-image-generator?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/bulk-ai-image-generator",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/bulk-ai-image-generator.md",
-      "users": 398,
-      "users30Days": 38,
+      "users": 415,
+      "users30Days": 49,
       "rating": 5,
       "reviews": 1,
       "pricingModel": "PAY_PER_EVENT",
@@ -125,16 +125,16 @@
     },
     {
       "slug": "bulk-llm-runner",
-      "title": "Bulk LLM Runner GPT, Claude, Perplexity, Kimi (No API Key)",
-      "description": "Run hundreds of prompts in parallel across GPT, Claude, Gemini and Perplexity Sonar - plus 400+ other LLMs - without API key. Built-in web search, PDF reading, vision, JSON output and side-by-side model comparison.",
+      "title": "Run ChatGPT, Claude, Gemini & DeepSeek in Bulk (No API Key)",
+      "description": "Run hundreds of prompts in parallel across GPT, Claude, Gemini, Perplexity, DeepSeek, Qwen, Kimi and 350+ models, with web search, JSON columns and side-by-side model comparison. Optional: upload an Excel, CSV or Google Sheet to run AI on every row. No API key needed.",
       "category": "Bulk AI Tools",
       "categorySlug": "ai-bulk-tools",
       "apifyUrl": "https://apify.com/fayoussef/bulk-llm-runner?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/bulk-llm-runner",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/bulk-llm-runner.md",
-      "users": 367,
-      "users30Days": 51,
-      "rating": 4.999999999999999,
+      "users": 382,
+      "users30Days": 55,
+      "rating": 5,
       "reviews": 2,
       "pricingModel": "PAY_PER_EVENT",
       "useCases": [
@@ -211,8 +211,8 @@
       "apifyUrl": "https://apify.com/fayoussef/autotrader-canada?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/autotrader-canada",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/autotrader-canada.md",
-      "users": 296,
-      "users30Days": 21,
+      "users": 301,
+      "users30Days": 18,
       "rating": 5,
       "reviews": 3,
       "pricingModel": "PAY_PER_EVENT",
@@ -285,8 +285,8 @@
       "apifyUrl": "https://apify.com/fayoussef/spitogatos-scraper?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/spitogatos-scraper",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/spitogatos-scraper.md",
-      "users": 296,
-      "users30Days": 32,
+      "users": 299,
+      "users30Days": 29,
       "rating": 5,
       "reviews": 5,
       "pricingModel": "PAY_PER_EVENT",
@@ -372,8 +372,8 @@
       "apifyUrl": "https://apify.com/fayoussef/canada411-ca?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/canada411-ca",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/canada411-ca.md",
-      "users": 170,
-      "users30Days": 58,
+      "users": 174,
+      "users30Days": 9,
       "rating": 5,
       "reviews": 1,
       "pricingModel": "PAY_PER_EVENT",
@@ -419,8 +419,8 @@
       "apifyUrl": "https://apify.com/fayoussef/wallapop-scraper?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/wallapop-scraper",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/wallapop-scraper.md",
-      "users": 130,
-      "users30Days": 28,
+      "users": 140,
+      "users30Days": 33,
       "rating": 5,
       "reviews": 2,
       "pricingModel": "PAY_PER_EVENT",
@@ -478,8 +478,8 @@
       "apifyUrl": "https://apify.com/fayoussef/autoscout24?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/autoscout24",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/autoscout24.md",
-      "users": 68,
-      "users30Days": 17,
+      "users": 70,
+      "users30Days": 16,
       "rating": 5,
       "reviews": 1,
       "pricingModel": "PAY_PER_EVENT",
@@ -559,7 +559,7 @@
       "websiteUrl": "https://automationbyexperts.com/apify/fnac-data-scraping",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/fnac-data-scraping.md",
       "users": 67,
-      "users30Days": 2,
+      "users30Days": 3,
       "rating": 5,
       "reviews": 1,
       "pricingModel": "PAY_PER_EVENT",
@@ -638,7 +638,7 @@
       "websiteUrl": "https://automationbyexperts.com/apify/autotrader-ca",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/autotrader-ca.md",
       "users": 65,
-      "users30Days": 3,
+      "users30Days": 2,
       "rating": 5,
       "reviews": 2,
       "pricingModel": "PAY_PER_EVENT",
@@ -696,9 +696,9 @@
       "apifyUrl": "https://apify.com/fayoussef/kijiji-scraper?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/kijiji-scraper",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/kijiji-scraper.md",
-      "users": 61,
-      "users30Days": 2,
-      "rating": null,
+      "users": 63,
+      "users30Days": 3,
+      "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
       "useCases": [
@@ -739,8 +739,8 @@
       "apifyUrl": "https://apify.com/fayoussef/whop-clipping-campaigns-scraper?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/whop-clipping-campaigns-scraper",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/whop-clipping-campaigns-scraper.md",
-      "users": 55,
-      "users30Days": 21,
+      "users": 59,
+      "users30Days": 20,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
@@ -794,8 +794,8 @@
       "apifyUrl": "https://apify.com/fayoussef/cargurus-listings-scraper?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/cargurus-listings-scraper",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/cargurus-listings-scraper.md",
-      "users": 42,
-      "users30Days": 18,
+      "users": 47,
+      "users30Days": 17,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
@@ -850,8 +850,8 @@
       "apifyUrl": "https://apify.com/fayoussef/seo-geo-aeo-audit?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/seo-geo-aeo-audit",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/seo-geo-aeo-audit.md",
-      "users": 42,
-      "users30Days": 10,
+      "users": 45,
+      "users30Days": 8,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
@@ -885,6 +885,107 @@
             "maxPages": 100,
             "includeHtmlReport": true,
             "maxConcurrency": 10
+          }
+        }
+      ]
+    },
+    {
+      "slug": "journalist-request-finder",
+      "title": "Journalist Request Finder: HARO Alternative for Digital PR",
+      "description": "Find live journalist source requests in one feed, pulled from SourceBottle call-outs and #journorequest posts on Bluesky and Mastodon. Filter by your topics, sort by deadline, and schedule daily runs that return only new requests. No HARO account, no Qwoted login, no API keys.",
+      "category": "Lead Generation Actors",
+      "categorySlug": "lead-generation",
+      "apifyUrl": "https://apify.com/fayoussef/journalist-request-finder?fpr=youssef",
+      "websiteUrl": "https://automationbyexperts.com/apify/journalist-request-finder",
+      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/journalist-request-finder.md",
+      "users": 35,
+      "users30Days": 32,
+      "rating": 0,
+      "reviews": 0,
+      "pricingModel": "PAY_PER_EVENT",
+      "useCases": [
+        {
+          "title": "Find journalist requests about SaaS and marketing",
+          "description": "Collects live source requests from SourceBottle and Bluesky that mention SaaS, marketing or small business, keeps only those whose deadline has not passed, and ranks them most pitchable first. The free HARO replacement for founders and PR teams chasing backlinks and quotes.",
+          "url": "https://apify.com/fayoussef/journalist-request-finder/examples/journalist-requests-saas-marketing?fpr=youssef",
+          "input": {
+            "keywords": [
+              "SaaS",
+              "marketing",
+              "small business"
+            ],
+            "sources": [
+              "sourcebottle",
+              "bluesky"
+            ],
+            "onlyOpenDeadlines": true,
+            "maxRequests": 200
+          }
+        },
+        {
+          "title": "Daily alerts for new media requests in your niche",
+          "description": "Scans all three free sources for requests mentioning cybersecurity, AI or fintech, drops anything off topic, and returns only requests not seen in a previous run. Schedule it every morning and the pitch queue view is your to do list, with deadline and outlet on each row.",
+          "url": "https://apify.com/fayoussef/journalist-request-finder/examples/daily-new-media-request-alerts?fpr=youssef",
+          "input": {
+            "keywords": [
+              "cybersecurity",
+              "AI",
+              "fintech"
+            ],
+            "keywordsOnly": true,
+            "sources": [
+              "sourcebottle",
+              "bluesky",
+              "mastodon"
+            ],
+            "onlyOpenDeadlines": true,
+            "onlyNewRequests": true,
+            "maxRequests": 200
+          }
+        }
+      ]
+    },
+    {
+      "slug": "thebluebook-scraper",
+      "title": "thebluebook.com Scraper",
+      "description": "Scrape verified contractor and subcontractor profiles from thebluebook.com - the largest US construction directory - into clean JSON, CSV or Excel. Get company names, phones, emails, addresses, trade categories, certifications (MBE/WBE/DBE), project history and key contacts.",
+      "category": "Lead Generation Actors",
+      "categorySlug": "lead-generation",
+      "apifyUrl": "https://apify.com/fayoussef/thebluebook-scraper?fpr=youssef",
+      "websiteUrl": "https://automationbyexperts.com/apify/thebluebook-scraper",
+      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/thebluebook-scraper.md",
+      "users": 35,
+      "users30Days": 7,
+      "rating": 0,
+      "reviews": 0,
+      "pricingModel": "PAY_PER_EVENT",
+      "useCases": [
+        {
+          "title": "Build a list of plumbing contractors with emails",
+          "description": "Scrapes plumbing contractor profiles from thebluebook.com search results, then visits each company's own website to find a contact email, and returns company name, phone, email, address, trade categories, MBE, WBE and DBE certifications and project history. A verified B2B list for suppliers and recruiters.",
+          "url": "https://apify.com/fayoussef/thebluebook-scraper/examples/plumbing-contractor-leads-with-emails?fpr=youssef",
+          "input": {
+            "startUrls": [
+              {
+                "url": "https://www.thebluebook.com/search.html?region=2&searchsrc=index&class=3370&searchTerm=Plumbing%20Contractors"
+              }
+            ],
+            "maxItems": 200,
+            "disableEmailScrape": false
+          }
+        },
+        {
+          "title": "Pull electrical contractor profiles without the email step",
+          "description": "Collects electrical contractor profiles from The Blue Book with phone, address, trades, certifications and projects, skipping the visit to each company website so a 500 profile run finishes in a fraction of the time. Turn the email step back on when the list is final.",
+          "url": "https://apify.com/fayoussef/thebluebook-scraper/examples/electrical-contractor-leads-fast?fpr=youssef",
+          "input": {
+            "startUrls": [
+              {
+                "url": "https://www.thebluebook.com/search.html?region=2&searchsrc=index&searchTerm=Electrical%20Contractors"
+              }
+            ],
+            "maxItems": 500,
+            "disableEmailScrape": true
           }
         }
       ]
@@ -935,61 +1036,16 @@
       ]
     },
     {
-      "slug": "thebluebook-scraper",
-      "title": "thebluebook.com Scraper",
-      "description": "Scrape verified contractor and subcontractor profiles from thebluebook.com - the largest US construction directory - into clean JSON, CSV or Excel. Get company names, phones, emails, addresses, trade categories, certifications (MBE/WBE/DBE), project history and key contacts.",
-      "category": "Lead Generation Actors",
-      "categorySlug": "lead-generation",
-      "apifyUrl": "https://apify.com/fayoussef/thebluebook-scraper?fpr=youssef",
-      "websiteUrl": "https://automationbyexperts.com/apify/thebluebook-scraper",
-      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/thebluebook-scraper.md",
-      "users": 34,
-      "users30Days": 7,
-      "rating": 0,
-      "reviews": 0,
-      "pricingModel": "PAY_PER_EVENT",
-      "useCases": [
-        {
-          "title": "Build a list of plumbing contractors with emails",
-          "description": "Scrapes plumbing contractor profiles from thebluebook.com search results, then visits each company's own website to find a contact email, and returns company name, phone, email, address, trade categories, MBE, WBE and DBE certifications and project history. A verified B2B list for suppliers and recruiters.",
-          "url": "https://apify.com/fayoussef/thebluebook-scraper/examples/plumbing-contractor-leads-with-emails?fpr=youssef",
-          "input": {
-            "startUrls": [
-              {
-                "url": "https://www.thebluebook.com/search.html?region=2&searchsrc=index&class=3370&searchTerm=Plumbing%20Contractors"
-              }
-            ],
-            "maxItems": 200,
-            "disableEmailScrape": false
-          }
-        },
-        {
-          "title": "Pull electrical contractor profiles without the email step",
-          "description": "Collects electrical contractor profiles from The Blue Book with phone, address, trades, certifications and projects, skipping the visit to each company website so a 500 profile run finishes in a fraction of the time. Turn the email step back on when the list is final.",
-          "url": "https://apify.com/fayoussef/thebluebook-scraper/examples/electrical-contractor-leads-fast?fpr=youssef",
-          "input": {
-            "startUrls": [
-              {
-                "url": "https://www.thebluebook.com/search.html?region=2&searchsrc=index&searchTerm=Electrical%20Contractors"
-              }
-            ],
-            "maxItems": 500,
-            "disableEmailScrape": true
-          }
-        }
-      ]
-    },
-    {
       "slug": "bulk-text-to-speech",
-      "title": "Bulk Text to Speech MP3 + SRT Subtitles (No API Key)",
-      "description": "Convert text to natural AI speech in bulk. 322 neural voices, 75+ languages, no API key. Every text becomes an MP3 voiceover plus perfectly timed SRT/VTT subtitles ideal for TikTok & YouTube faceless videos, e-learning and podcasts.",
+      "title": "Bulk Text to Speech: MP3 + SRT Subtitles | No API Key",
+      "description": "Convert texts or an Excel/CSV file into MP3 voiceovers with perfectly timed SRT/VTT subtitles. 322 neural voices in 75 languages, word-by-word TikTok captions, personalized messages from spreadsheet rows, and one merged file option. No API key needed.",
       "category": "Bulk AI Tools",
       "categorySlug": "ai-bulk-tools",
       "apifyUrl": "https://apify.com/fayoussef/bulk-text-to-speech?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/bulk-text-to-speech",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/bulk-text-to-speech.md",
-      "users": 27,
-      "users30Days": 8,
+      "users": 29,
+      "users30Days": 10,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
@@ -1099,7 +1155,7 @@
       "apifyUrl": "https://apify.com/fayoussef/g2g-offer-scraper?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/g2g-offer-scraper",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/g2g-offer-scraper.md",
-      "users": 19,
+      "users": 20,
       "users30Days": 1,
       "rating": 0,
       "reviews": 0,
@@ -1349,57 +1405,44 @@
       ]
     },
     {
-      "slug": "journalist-request-finder",
-      "title": "Journalist Request Finder: HARO Alternative for Digital PR",
-      "description": "Find live journalist source requests in one feed, pulled from SourceBottle call-outs and #journorequest posts on Bluesky and Mastodon. Filter by your topics, sort by deadline, and schedule daily runs that return only new requests. No HARO account, no Qwoted login, no API keys.",
+      "slug": "luma-events-scraper",
+      "title": "Luma Events Scraper (lu.ma): Events, Hosts & Social Handles",
+      "description": "Scrape events from Luma (lu.ma / luma.com) by city, category, calendar or event URL. Get dates, venues with GPS, ticket prices, guest counts and full descriptions, plus organizer profiles with Instagram, LinkedIn, TikTok, X and YouTube handles. No account, cookies or browser needed.",
       "category": "Lead Generation Actors",
       "categorySlug": "lead-generation",
-      "apifyUrl": "https://apify.com/fayoussef/journalist-request-finder?fpr=youssef",
-      "websiteUrl": "https://automationbyexperts.com/apify/journalist-request-finder",
-      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/journalist-request-finder.md",
+      "apifyUrl": "https://apify.com/fayoussef/luma-events-scraper?fpr=youssef",
+      "websiteUrl": "https://automationbyexperts.com/apify/luma-events-scraper",
+      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/luma-events-scraper.md",
       "users": 6,
-      "users30Days": 4,
+      "users30Days": 0,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
       "useCases": [
         {
-          "title": "Find journalist requests about SaaS and marketing",
-          "description": "Collects live source requests from SourceBottle and Bluesky that mention SaaS, marketing or small business, keeps only those whose deadline has not passed, and ranks them most pitchable first. The free HARO replacement for founders and PR teams chasing backlinks and quotes.",
-          "url": "https://apify.com/fayoussef/journalist-request-finder/examples/journalist-requests-saas-marketing?fpr=youssef",
+          "title": "Find upcoming AI events in San Francisco",
+          "description": "Discovers every AI event listed for San Francisco on Luma and opens each one for the full description, date, venue, ticket types and host profiles with Instagram, LinkedIn and X handles. Sponsors and community managers use it to see the week's AI calendar in one table.",
+          "url": "https://apify.com/fayoussef/luma-events-scraper/examples/ai-events-in-san-francisco?fpr=youssef",
           "input": {
-            "keywords": [
-              "SaaS",
-              "marketing",
-              "small business"
+            "cities": [
+              "sf"
             ],
-            "sources": [
-              "sourcebottle",
-              "bluesky"
-            ],
-            "onlyOpenDeadlines": true,
-            "maxRequests": 200
+            "category": "ai",
+            "fetchEventDetails": true,
+            "maxEvents": 100
           }
         },
         {
-          "title": "Daily alerts for new media requests in your niche",
-          "description": "Scans all three free sources for requests mentioning cybersecurity, AI or fintech, drops anything off topic, and returns only requests not seen in a previous run. Schedule it every morning and the pitch queue view is your to do list, with deadline and outlet on each row.",
-          "url": "https://apify.com/fayoussef/journalist-request-finder/examples/daily-new-media-request-alerts?fpr=youssef",
+          "title": "Build a lead list of startup event organizers in London",
+          "description": "Pulls London events on Luma that mention startup, then extracts each host and organizer with their social handles into the leads view. A ready made outreach list of the people running the city's founder meetups, demo days and investor events.",
+          "url": "https://apify.com/fayoussef/luma-events-scraper/examples/london-startup-event-organizer-leads?fpr=youssef",
           "input": {
-            "keywords": [
-              "cybersecurity",
-              "AI",
-              "fintech"
+            "cities": [
+              "london"
             ],
-            "keywordsOnly": true,
-            "sources": [
-              "sourcebottle",
-              "bluesky",
-              "mastodon"
-            ],
-            "onlyOpenDeadlines": true,
-            "onlyNewRequests": true,
-            "maxRequests": 200
+            "keyword": "startup",
+            "fetchEventDetails": true,
+            "maxEvents": 200
           }
         }
       ]
@@ -1460,6 +1503,54 @@
       ]
     },
     {
+      "slug": "dealer-inventory-scraper",
+      "title": "Car Dealer Website Inventory Scraper: VIN, Price & Stock",
+      "description": "Scrape live vehicle inventory from any car dealership's own website, not a marketplace. Paste a dealer homepage and get every car at VIN level with price, mileage and trim. Auto-detects DealerOn, Dealer.com, Dealer Inspire and more. Tracks price drops and sold units.",
+      "category": "Car & Vehicle Scrapers",
+      "categorySlug": "vehicle-scrapers",
+      "apifyUrl": "https://apify.com/fayoussef/dealer-inventory-scraper?fpr=youssef",
+      "websiteUrl": "https://automationbyexperts.com/apify/dealer-inventory-scraper",
+      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/dealer-inventory-scraper.md",
+      "users": 5,
+      "users30Days": 1,
+      "rating": 0,
+      "reviews": 0,
+      "pricingModel": "PAY_PER_EVENT",
+      "useCases": [
+        {
+          "title": "Export a dealership's used inventory from its own website",
+          "description": "Paste dealer homepages and the Actor finds their inventory pages by itself, detects the website platform, and returns every used vehicle at VIN level with the dealer's own price, mileage, stock number and photos, opening each vehicle page to fill in engine and transmission. Works on dealer sites it has never seen.",
+          "url": "https://apify.com/fayoussef/dealer-inventory-scraper/examples/dealer-website-used-inventory-export?fpr=youssef",
+          "input": {
+            "dealerUrls": [
+              "https://www.toyotaofdowntownla.com",
+              "https://www.mbofsmithtown.com"
+            ],
+            "condition": "used",
+            "maxVehiclesPerDealer": 300,
+            "fetchDetails": true,
+            "concurrency": 3
+          }
+        },
+        {
+          "title": "Track price drops on competing dealer lots",
+          "description": "Reads the full inventory of each dealer site and compares it with the previous run, labelling every vehicle new, price_drop, price_increase, unchanged or removed. Schedule it daily and the changes view is a running log of what your competitors discounted and what they sold.",
+          "url": "https://apify.com/fayoussef/dealer-inventory-scraper/examples/dealer-price-drop-tracker?fpr=youssef",
+          "input": {
+            "dealerUrls": [
+              "https://www.toyotaofdowntownla.com",
+              "https://www.mbofsmithtown.com"
+            ],
+            "condition": "all",
+            "trackChanges": true,
+            "watchlistName": "dealer-inventory",
+            "maxVehiclesPerDealer": 400,
+            "concurrency": 3
+          }
+        }
+      ]
+    },
+    {
       "slug": "kijiji-ca-scraper",
       "title": "Kijiji Auto & Classifieds Scraper Actor",
       "description": "Kijiji.ca listings scraper. Extracts detailed data including phone number, price, location, specs, and images from search results (with pagination) or direct ad URLs. Ideal for market research and data collection.",
@@ -1469,7 +1560,7 @@
       "websiteUrl": "https://automationbyexperts.com/apify/kijiji-ca-scraper",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/kijiji-ca-scraper.md",
       "users": 5,
-      "users30Days": 2,
+      "users30Days": 1,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
@@ -1498,49 +1589,6 @@
               }
             ],
             "max_pages": 5
-          }
-        }
-      ]
-    },
-    {
-      "slug": "luma-events-scraper",
-      "title": "Luma Events Scraper (lu.ma): Events, Hosts & Social Handles",
-      "description": "Scrape events from Luma (lu.ma / luma.com) by city, category, calendar or event URL. Get dates, venues with GPS, ticket prices, guest counts and full descriptions, plus organizer profiles with Instagram, LinkedIn, TikTok, X and YouTube handles. No account, cookies or browser needed.",
-      "category": "Lead Generation Actors",
-      "categorySlug": "lead-generation",
-      "apifyUrl": "https://apify.com/fayoussef/luma-events-scraper?fpr=youssef",
-      "websiteUrl": "https://automationbyexperts.com/apify/luma-events-scraper",
-      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/luma-events-scraper.md",
-      "users": 5,
-      "users30Days": 3,
-      "rating": 0,
-      "reviews": 0,
-      "pricingModel": "PAY_PER_EVENT",
-      "useCases": [
-        {
-          "title": "Find upcoming AI events in San Francisco",
-          "description": "Discovers every AI event listed for San Francisco on Luma and opens each one for the full description, date, venue, ticket types and host profiles with Instagram, LinkedIn and X handles. Sponsors and community managers use it to see the week's AI calendar in one table.",
-          "url": "https://apify.com/fayoussef/luma-events-scraper/examples/ai-events-in-san-francisco?fpr=youssef",
-          "input": {
-            "cities": [
-              "sf"
-            ],
-            "category": "ai",
-            "fetchEventDetails": true,
-            "maxEvents": 100
-          }
-        },
-        {
-          "title": "Build a lead list of startup event organizers in London",
-          "description": "Pulls London events on Luma that mention startup, then extracts each host and organizer with their social handles into the leads view. A ready made outreach list of the people running the city's founder meetups, demo days and investor events.",
-          "url": "https://apify.com/fayoussef/luma-events-scraper/examples/london-startup-event-organizer-leads?fpr=youssef",
-          "input": {
-            "cities": [
-              "london"
-            ],
-            "keyword": "startup",
-            "fetchEventDetails": true,
-            "maxEvents": 200
           }
         }
       ]
@@ -1655,7 +1703,7 @@
       "websiteUrl": "https://automationbyexperts.com/apify/ai-brand-visibility-tracker",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/ai-brand-visibility-tracker.md",
       "users": 4,
-      "users30Days": 3,
+      "users30Days": 2,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
@@ -1770,14 +1818,14 @@
       ]
     },
     {
-      "slug": "dealer-inventory-scraper",
-      "title": "Car Dealer Website Inventory Scraper: VIN, Price & Stock",
-      "description": "Scrape live vehicle inventory from any car dealership's own website, not a marketplace. Paste a dealer homepage and get every car at VIN level with price, mileage and trim. Auto-detects DealerOn, Dealer.com, Dealer Inspire and more. Tracks price drops and sold units.",
-      "category": "Car & Vehicle Scrapers",
-      "categorySlug": "vehicle-scrapers",
-      "apifyUrl": "https://apify.com/fayoussef/dealer-inventory-scraper?fpr=youssef",
-      "websiteUrl": "https://automationbyexperts.com/apify/dealer-inventory-scraper",
-      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/dealer-inventory-scraper.md",
+      "slug": "llms-txt-generator",
+      "title": "llms.txt Generator: llms-full.txt for Any Website (AI SEO)",
+      "description": "Generate a spec-compliant llms.txt and llms-full.txt for any website in one run. Crawls your sitemap or internal links, extracts every page's title, meta description and full Markdown content, and outputs two ready-to-upload files for ChatGPT, Claude, Perplexity and Gemini.",
+      "category": "SEO & AI Visibility",
+      "categorySlug": "seo-ai-visibility",
+      "apifyUrl": "https://apify.com/fayoussef/llms-txt-generator?fpr=youssef",
+      "websiteUrl": "https://automationbyexperts.com/apify/llms-txt-generator",
+      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/llms-txt-generator.md",
       "users": 3,
       "users30Days": 1,
       "rating": 0,
@@ -1785,34 +1833,28 @@
       "pricingModel": "PAY_PER_EVENT",
       "useCases": [
         {
-          "title": "Export a dealership's used inventory from its own website",
-          "description": "Paste dealer homepages and the Actor finds their inventory pages by itself, detects the website platform, and returns every used vehicle at VIN level with the dealer's own price, mileage, stock number and photos, opening each vehicle page to fill in engine and transmission. Works on dealer sites it has never seen.",
-          "url": "https://apify.com/fayoussef/dealer-inventory-scraper/examples/dealer-website-used-inventory-export?fpr=youssef",
+          "title": "Generate llms.txt and llms-full.txt for any website",
+          "description": "Paste a homepage and the Actor finds the sitemap, picks the 50 most important pages, and writes a spec compliant llms.txt index plus an llms-full.txt with the complete Markdown content of every page, ready to upload to your site root so ChatGPT, Claude and Perplexity read what you want them to.",
+          "url": "https://apify.com/fayoussef/llms-txt-generator/examples/generate-llms-txt-for-any-website?fpr=youssef",
           "input": {
-            "dealerUrls": [
-              "https://www.toyotaofdowntownla.com",
-              "https://www.mbofsmithtown.com"
-            ],
-            "condition": "used",
-            "maxVehiclesPerDealer": 300,
-            "fetchDetails": true,
-            "concurrency": 3
+            "websiteUrl": "https://books.toscrape.com",
+            "maxPages": 50,
+            "includeFullText": true
           }
         },
         {
-          "title": "Track price drops on competing dealer lots",
-          "description": "Reads the full inventory of each dealer site and compares it with the previous run, labelling every vehicle new, price_drop, price_increase, unchanged or removed. Schedule it daily and the changes view is a running log of what your competitors discounted and what they sold.",
-          "url": "https://apify.com/fayoussef/dealer-inventory-scraper/examples/dealer-price-drop-tracker?fpr=youssef",
+          "title": "Build an llms-full.txt for a documentation site",
+          "description": "Crawls up to 200 pages of a docs site, limited to the platform and API sections, and produces a single llms-full.txt with every page as clean Markdown. Point AI coding assistants and support bots at one file instead of hundreds of pages. Schedule weekly so it never goes stale.",
+          "url": "https://apify.com/fayoussef/llms-txt-generator/examples/llms-full-txt-for-documentation-site?fpr=youssef",
           "input": {
-            "dealerUrls": [
-              "https://www.toyotaofdowntownla.com",
-              "https://www.mbofsmithtown.com"
+            "websiteUrl": "https://docs.apify.com",
+            "maxPages": 200,
+            "includeFullText": true,
+            "includePatterns": [
+              "/platform/",
+              "/api/"
             ],
-            "condition": "all",
-            "trackChanges": true,
-            "watchlistName": "dealer-inventory",
-            "maxVehiclesPerDealer": 400,
-            "concurrency": 3
+            "concurrency": 10
           }
         }
       ]
@@ -1965,6 +2007,22 @@
       ]
     },
     {
+      "slug": "ai-account-watch",
+      "title": "AI Account Watch: Custom Sales Trigger Alerts",
+      "description": "Watch a list of companies and get alerted when one does what you describe in plain English: raises funding, hires a CMO, opens a location, gets sued. AI reads fresh Google News and alerts only on real, new events, to email, Slack or webhook.",
+      "category": "Lead Generation Actors",
+      "categorySlug": "lead-generation",
+      "apifyUrl": "https://apify.com/fayoussef/ai-account-watch?fpr=youssef",
+      "websiteUrl": "https://automationbyexperts.com/apify/ai-account-watch",
+      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/ai-account-watch.md",
+      "users": 2,
+      "users30Days": 1,
+      "rating": 0,
+      "reviews": 0,
+      "pricingModel": "PAY_PER_EVENT",
+      "useCases": []
+    },
+    {
       "slug": "brand-abuse-counterfeit-detector",
       "title": "Brand Protection: Fake Shop, Counterfeit & Typosquat Finder",
       "description": "Find fake webshops, counterfeit marketplace listings, typosquatted domains and impersonation profiles abusing your brand. AI classifies every hit, scores the risk, saves a dated page snapshot as takedown evidence, and tells you which report to file. No API key needed.",
@@ -2022,8 +2080,8 @@
     },
     {
       "slug": "bulk-ai-translator",
-      "title": "Bulk AI Translator: Website, Files & Datasets (No API Key)",
-      "description": "Translate product catalogs, websites, datasets, CSV/XLSX/JSON files and SRT/VTT subtitles into 40+ languages. AI translation with brand-term locking and HTML/placeholder safety. No API key, and repeat runs only pay for what changed.",
+      "title": "Translate Excel, CSV & Websites in Bulk with AI | No API Key",
+      "description": "Translate Excel, CSV and Google Sheets files, whole websites, PDFs and SRT/VTT subtitles into 42 languages in one run, and get the same file back translated. Brand terms, HTML and {{variables}} stay intact, and repeat runs only pay for what changed. No API key needed.",
       "category": "Bulk AI Tools",
       "categorySlug": "ai-bulk-tools",
       "apifyUrl": "https://apify.com/fayoussef/bulk-ai-translator?fpr=youssef",
@@ -2079,6 +2137,22 @@
           }
         }
       ]
+    },
+    {
+      "slug": "business-license-feed",
+      "title": "New Business License Feed: Fresh Openings by City",
+      "description": "Every business, food, liquor and trade license newly issued in Chicago, Los Angeles, New York, Seattle and New Orleans, filtered to the trades you sell to, with only what you have not already seen. Official city open data, no key needed.",
+      "category": "Developer Tools & APIs",
+      "categorySlug": "developer-tools",
+      "apifyUrl": "https://apify.com/fayoussef/business-license-feed?fpr=youssef",
+      "websiteUrl": "https://automationbyexperts.com/apify/business-license-feed",
+      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/business-license-feed.md",
+      "users": 2,
+      "users30Days": 1,
+      "rating": 0,
+      "reviews": 0,
+      "pricingModel": "PAY_PER_EVENT",
+      "useCases": []
     },
     {
       "slug": "clinical-trials-intelligence",
@@ -2291,6 +2365,22 @@
       ]
     },
     {
+      "slug": "eu-vat-compliance-monitor",
+      "title": "EU VAT Number Validation: Bulk VIES Check & Supplier Monitor",
+      "description": "Validate a whole supplier or customer list against VIES, get the consultation number that proves you checked, and be told the moment a VAT number goes invalid or its registered name changes. Knows the difference between an invalid number and a member state that is simply down.",
+      "category": "Developer Tools & APIs",
+      "categorySlug": "developer-tools",
+      "apifyUrl": "https://apify.com/fayoussef/eu-vat-compliance-monitor?fpr=youssef",
+      "websiteUrl": "https://automationbyexperts.com/apify/eu-vat-compliance-monitor",
+      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/eu-vat-compliance-monitor.md",
+      "users": 2,
+      "users30Days": 1,
+      "rating": 0,
+      "reviews": 0,
+      "pricingModel": "PAY_PER_EVENT",
+      "useCases": []
+    },
+    {
       "slug": "fnacpro-scraper",
       "title": "FnacPro Scraper: Product, Price, EAN & Spec Extractor",
       "description": "Scrape fnacpro.com product data at scale: price, EAN, reference, brand, availability, condition, full specifications, ratings, images and video, from any product or listing URL. Fast and concurrent, with one clean record per product for catalog building, price monitoring and B2B reselling.",
@@ -2299,6 +2389,22 @@
       "apifyUrl": "https://apify.com/fayoussef/fnacpro-scraper?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/fnacpro-scraper",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/fnacpro-scraper.md",
+      "users": 2,
+      "users30Days": 1,
+      "rating": 0,
+      "reviews": 0,
+      "pricingModel": "PAY_PER_EVENT",
+      "useCases": []
+    },
+    {
+      "slug": "license-roster-monitor",
+      "title": "License Verification & Expiry Monitor: Bulk US License Lookup",
+      "description": "Re-verify a whole roster of contractors, nurses, agents or providers against official state registries, then get only what changed: expired, suspended, revoked, lapsed bond, about to renew. Official open data, no API key, no portal scraping.",
+      "category": "Developer Tools & APIs",
+      "categorySlug": "developer-tools",
+      "apifyUrl": "https://apify.com/fayoussef/license-roster-monitor?fpr=youssef",
+      "websiteUrl": "https://automationbyexperts.com/apify/license-roster-monitor",
+      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/license-roster-monitor.md",
       "users": 2,
       "users30Days": 1,
       "rating": 0,
@@ -2388,7 +2494,7 @@
       "websiteUrl": "https://automationbyexperts.com/apify/skroutz-scraper",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/skroutz-scraper.md",
       "users": 2,
-      "users30Days": 1,
+      "users30Days": 0,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
@@ -2433,77 +2539,6 @@
       ]
     },
     {
-      "slug": "spitogatos-cy-scraper",
-      "title": "Spitogatos Cyprus Scraper: Property Listings & Agent Phones",
-      "description": "Scrape property listings and estate agents from Spitogatos.com.cy in English or Greek. Paste any search, listing or agent URL, or search by town, price and property type, and get price, area, rooms, GPS, photos and the agency phone across Limassol, Nicosia, Larnaca, Paphos and Famagusta.",
-      "category": "Real Estate Scrapers",
-      "categorySlug": "real-estate-scrapers",
-      "apifyUrl": "https://apify.com/fayoussef/spitogatos-cy-scraper?fpr=youssef",
-      "websiteUrl": "https://automationbyexperts.com/apify/spitogatos-cy-scraper",
-      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/spitogatos-cy-scraper.md",
-      "users": 2,
-      "users30Days": 1,
-      "rating": 0,
-      "reviews": 0,
-      "pricingModel": "PAY_PER_EVENT",
-      "useCases": [
-        {
-          "title": "Find apartments for rent in Limassol, Cyprus under 1500 EUR",
-          "description": "Collects apartment rentals in Limassol, Cyprus from Spitogatos.com.cy with a monthly rent up to 1500 EUR. Each listing comes with rent, area, rooms, floor, energy class, GPS coordinates, photos, the full description and the agency's phone number. No URL needed: the search runs straight from the location and price filters.",
-          "url": "https://apify.com/fayoussef/spitogatos-cy-scraper/examples/limassol-apartments-for-rent-under-1500?fpr=youssef",
-          "input": {
-            "start_urls": [],
-            "locations": [
-              "Limassol"
-            ],
-            "language": "en",
-            "listing_type": "rent",
-            "category": "residential",
-            "property_types": "apartment",
-            "price_max": 1500
-          }
-        },
-        {
-          "title": "Export homes for sale in Paphos, Cyprus with agent phones",
-          "description": "Scrapes every home for sale in Paphos listed on Spitogatos.com.cy, page by page: villas, houses and apartments with asking price, price per m2, area, bedrooms, year built, GPS coordinates, photo gallery and a direct phone number for the listing agent or agency.",
-          "url": "https://apify.com/fayoussef/spitogatos-cy-scraper/examples/paphos-homes-for-sale-cyprus?fpr=youssef",
-          "input": {
-            "start_urls": [
-              {
-                "url": "https://www.spitogatos.com.cy/en/for-sale/property/paphos"
-              }
-            ],
-            "max_depth": 10
-          }
-        },
-        {
-          "title": "Ενοικιάσεις κατοικιών στη Λευκωσία από το Spitogatos Κύπρου",
-          "description": "Συλλέγει από το Spitogatos.com.cy όλες τις αγγελίες κατοικιών προς ενοικίαση στη Λευκωσία, με τα στοιχεία στα ελληνικά: ενοίκιο, τετραγωνικά, δωμάτια, όροφο, ενεργειακή κλάση, συντεταγμένες GPS, φωτογραφίες, περιγραφή και τηλέφωνο του μεσιτικού γραφείου.",
-          "url": "https://apify.com/fayoussef/spitogatos-cy-scraper/examples/nicosia-homes-for-rent-greek?fpr=youssef",
-          "input": {
-            "start_urls": [
-              {
-                "url": "https://www.spitogatos.com.cy/enoikiaseis/katoikies/nicosia"
-              }
-            ],
-            "max_depth": 10
-          }
-        },
-        {
-          "title": "Μεσιτικά γραφεία στη Λεμεσό με τηλέφωνα επικοινωνίας",
-          "description": "Εξάγει από το Spitogatos.com.cy όλα τα μεσιτικά γραφεία της Λεμεσού: επωνυμία, τηλέφωνα, υπεύθυνο επικοινωνίας, περιοχή, ιστοσελίδα, πλήθος αγγελιών προς πώληση και ενοικίαση και μέση τιμή πώλησης κατοικιών. Χρήσιμο για λίστες συνεργατών και ανάλυση ανταγωνισμού.",
-          "url": "https://apify.com/fayoussef/spitogatos-cy-scraper/examples/limassol-estate-agents-greek?fpr=youssef",
-          "input": {
-            "start_urls": [
-              {
-                "url": "https://www.spitogatos.com.cy/mesitika/limassol"
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
       "slug": "cheap-amazon-scraper",
       "title": "Cheap Amazon Scraper: Extract Products, Offers, Prices",
       "description": "Fast, reliable Amazon scraper. Extract product details, search results, seller offers and raw HTML from 21 marketplaces with geo-targeting and ZIP-level pricing.",
@@ -2518,48 +2553,6 @@
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
       "useCases": []
-    },
-    {
-      "slug": "llms-txt-generator",
-      "title": "llms.txt Generator: llms-full.txt for Any Website (AI SEO)",
-      "description": "Generate a spec-compliant llms.txt and llms-full.txt for any website in one run. Crawls your sitemap or internal links, extracts every page's title, meta description and full Markdown content, and outputs two ready-to-upload files for ChatGPT, Claude, Perplexity and Gemini.",
-      "category": "SEO & AI Visibility",
-      "categorySlug": "seo-ai-visibility",
-      "apifyUrl": "https://apify.com/fayoussef/llms-txt-generator?fpr=youssef",
-      "websiteUrl": "https://automationbyexperts.com/apify/llms-txt-generator",
-      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/llms-txt-generator.md",
-      "users": 1,
-      "users30Days": 1,
-      "rating": 0,
-      "reviews": 0,
-      "pricingModel": "PAY_PER_EVENT",
-      "useCases": [
-        {
-          "title": "Generate llms.txt and llms-full.txt for any website",
-          "description": "Paste a homepage and the Actor finds the sitemap, picks the 50 most important pages, and writes a spec compliant llms.txt index plus an llms-full.txt with the complete Markdown content of every page, ready to upload to your site root so ChatGPT, Claude and Perplexity read what you want them to.",
-          "url": "https://apify.com/fayoussef/llms-txt-generator/examples/generate-llms-txt-for-any-website?fpr=youssef",
-          "input": {
-            "websiteUrl": "https://books.toscrape.com",
-            "maxPages": 50,
-            "includeFullText": true
-          }
-        },
-        {
-          "title": "Build an llms-full.txt for a documentation site",
-          "description": "Crawls up to 200 pages of a docs site, limited to the platform and API sections, and produces a single llms-full.txt with every page as clean Markdown. Point AI coding assistants and support bots at one file instead of hundreds of pages. Schedule weekly so it never goes stale.",
-          "url": "https://apify.com/fayoussef/llms-txt-generator/examples/llms-full-txt-for-documentation-site?fpr=youssef",
-          "input": {
-            "websiteUrl": "https://docs.apify.com",
-            "maxPages": 200,
-            "includeFullText": true,
-            "includePatterns": [
-              "/platform/",
-              "/api/"
-            ],
-            "concurrency": 10
-          }
-        }
-      ]
     },
     {
       "slug": "multi-marketplace-price-checker",
@@ -2669,6 +2662,77 @@
             "minIntentScore": 50,
             "onlyNewLeads": true,
             "maxLeads": 100
+          }
+        }
+      ]
+    },
+    {
+      "slug": "spitogatos-cy-scraper",
+      "title": "Spitogatos Cyprus Scraper: Property Listings & Agent Phones",
+      "description": "Scrape property listings and estate agents from Spitogatos.com.cy in English or Greek. Paste any search, listing or agent URL, or search by town, price and property type, and get price, area, rooms, GPS, photos and the agency phone across Limassol, Nicosia, Larnaca, Paphos and Famagusta.",
+      "category": "Real Estate Scrapers",
+      "categorySlug": "real-estate-scrapers",
+      "apifyUrl": "https://apify.com/fayoussef/spitogatos-cy-scraper?fpr=youssef",
+      "websiteUrl": "https://automationbyexperts.com/apify/spitogatos-cy-scraper",
+      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/spitogatos-cy-scraper.md",
+      "users": 1,
+      "users30Days": 1,
+      "rating": 0,
+      "reviews": 0,
+      "pricingModel": "PAY_PER_EVENT",
+      "useCases": [
+        {
+          "title": "Find apartments for rent in Limassol, Cyprus under 1500 EUR",
+          "description": "Collects apartment rentals in Limassol, Cyprus from Spitogatos.com.cy with a monthly rent up to 1500 EUR. Each listing comes with rent, area, rooms, floor, energy class, GPS coordinates, photos, the full description and the agency's phone number. No URL needed: the search runs straight from the location and price filters.",
+          "url": "https://apify.com/fayoussef/spitogatos-cy-scraper/examples/limassol-apartments-for-rent-under-1500?fpr=youssef",
+          "input": {
+            "start_urls": [],
+            "locations": [
+              "Limassol"
+            ],
+            "language": "en",
+            "listing_type": "rent",
+            "category": "residential",
+            "property_types": "apartment",
+            "price_max": 1500
+          }
+        },
+        {
+          "title": "Export homes for sale in Paphos, Cyprus with agent phones",
+          "description": "Scrapes every home for sale in Paphos listed on Spitogatos.com.cy, page by page: villas, houses and apartments with asking price, price per m2, area, bedrooms, year built, GPS coordinates, photo gallery and a direct phone number for the listing agent or agency.",
+          "url": "https://apify.com/fayoussef/spitogatos-cy-scraper/examples/paphos-homes-for-sale-cyprus?fpr=youssef",
+          "input": {
+            "start_urls": [
+              {
+                "url": "https://www.spitogatos.com.cy/en/for-sale/property/paphos"
+              }
+            ],
+            "max_depth": 10
+          }
+        },
+        {
+          "title": "Ενοικιάσεις κατοικιών στη Λευκωσία από το Spitogatos Κύπρου",
+          "description": "Συλλέγει από το Spitogatos.com.cy όλες τις αγγελίες κατοικιών προς ενοικίαση στη Λευκωσία, με τα στοιχεία στα ελληνικά: ενοίκιο, τετραγωνικά, δωμάτια, όροφο, ενεργειακή κλάση, συντεταγμένες GPS, φωτογραφίες, περιγραφή και τηλέφωνο του μεσιτικού γραφείου.",
+          "url": "https://apify.com/fayoussef/spitogatos-cy-scraper/examples/nicosia-homes-for-rent-greek?fpr=youssef",
+          "input": {
+            "start_urls": [
+              {
+                "url": "https://www.spitogatos.com.cy/enoikiaseis/katoikies/nicosia"
+              }
+            ],
+            "max_depth": 10
+          }
+        },
+        {
+          "title": "Μεσιτικά γραφεία στη Λεμεσό με τηλέφωνα επικοινωνίας",
+          "description": "Εξάγει από το Spitogatos.com.cy όλα τα μεσιτικά γραφεία της Λεμεσού: επωνυμία, τηλέφωνα, υπεύθυνο επικοινωνίας, περιοχή, ιστοσελίδα, πλήθος αγγελιών προς πώληση και ενοικίαση και μέση τιμή πώλησης κατοικιών. Χρήσιμο για λίστες συνεργατών και ανάλυση ανταγωνισμού.",
+          "url": "https://apify.com/fayoussef/spitogatos-cy-scraper/examples/limassol-estate-agents-greek?fpr=youssef",
+          "input": {
+            "start_urls": [
+              {
+                "url": "https://www.spitogatos.com.cy/mesitika/limassol"
+              }
+            ]
           }
         }
       ]

@@ -13,7 +13,7 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/multi-marketplace-price-checker?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-09-15 |
+| Catalog updated | 2026-09-21 |
 
 ## What you can do with Amazon, eBay, Best Buy & Newegg Price Checker by ASIN or UPC
 
@@ -144,6 +144,6 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 50 actors](../README.md)
+- Full catalog: [all 54 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/multi-marketplace-price-checker](https://automationbyexperts.com/apify/multi-marketplace-price-checker?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/multi-marketplace-price-checker.md](https://automationbyexperts.com/apify/multi-marketplace-price-checker.md)

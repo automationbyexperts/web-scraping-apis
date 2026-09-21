@@ -1,6 +1,6 @@
-# Bulk AI Image Generator (NO API KEY)
+# Bulk AI Image Generator: Nano Banana, GPT Image | No API Key
 
-**Bulk AI Image Generator (NO API KEY)** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Generate hundreds of AI images in one run from a list of prompts using top OpenRouter models (Gemini, GPT Image, Seedream, Flux...).
+**Bulk AI Image Generator: Nano Banana, GPT Image | No API Key** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Generate hundreds of AI images from a list of prompts or an Excel/CSV file with Nano Banana Pro, Nano Banana 2 and GPT Image. Any aspect ratio up to 4K, up to 10 variations per prompt, and your spreadsheet back with an image link on every row. No API key needed.
 
 [Run it on Apify](https://apify.com/fayoussef/bulk-ai-image-generator?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/bulk-ai-image-generator?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All Bulk AI Tools](../categories/ai-bulk-tools.md)
 
@@ -14,15 +14,15 @@
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/bulk-ai-image-generator?fpr=youssef)) |
 | Rating | 5.0 out of 5 (1 reviews) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-09-15 |
+| Catalog updated | 2026-09-21 |
 
-## What you can do with Bulk AI Image Generator (NO API KEY)
+## What you can do with Bulk AI Image Generator: Nano Banana, GPT Image | No API Key
 
 - **[Generate product photos for an online store](https://apify.com/fayoussef/bulk-ai-image-generator/examples/product-photos-for-online-store?fpr=youssef)**: Turns a list of product descriptions into clean, ready to publish product images. Write one line per product and get a square studio style shot for each, at the resolution your storefront needs. No image editor, no...
 - **[Create social media ad creatives in bulk](https://apify.com/fayoussef/bulk-ai-image-generator/examples/social-media-ad-creatives?fpr=youssef)**: Produces vertical ad creatives sized for Instagram Stories, Reels and TikTok. Each prompt returns three variants, so you get a set to A/B test instead of a single guess. Useful when one campaign needs a dozen visual...
 - **[Generate blog header images from article titles](https://apify.com/fayoussef/bulk-ai-image-generator/examples/blog-header-images-from-titles?fpr=youssef)**: Give it your article titles and get a matching wide header image for each one, sized for a blog hero slot. Keeps a consistent illustration style across the whole batch, so a backlog of posts stops looking like it was...
 
-## How to use Bulk AI Image Generator (NO API KEY)
+## How to use Bulk AI Image Generator: Nano Banana, GPT Image | No API Key
 
 ### No code
 
@@ -129,7 +129,7 @@ Your Apify API token is under **Settings > API & Integrations** in the [Apify Co
 
 ## FAQ
 
-### Is Bulk AI Image Generator (NO API KEY) free to try?
+### Is Bulk AI Image Generator: Nano Banana, GPT Image | No API Key free to try?
 
 Yes. You can start it with a free Apify account. Free runs have usage limits, and larger jobs need an [Apify plan](https://apify.com/pricing?fpr=youssef). The current rate is shown on the [Store page](https://apify.com/fayoussef/bulk-ai-image-generator?fpr=youssef).
 
@@ -151,12 +151,12 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## Related Bulk AI Tools
 
-- [Bulk LLM Runner GPT, Claude, Perplexity, Kimi (No API Key)](bulk-llm-runner.md): Run hundreds of prompts in parallel across GPT, Claude, Gemini and Perplexity Sonar - plus 400+ other LLMs - without API key. Built-in web...
-- [Bulk Text to Speech MP3 + SRT Subtitles (No API Key)](bulk-text-to-speech.md): Convert text to natural AI speech in bulk. 322 neural voices, 75+ languages, no API key. Every text becomes an MP3 voiceover plus perfectly...
-- [Bulk AI Translator: Website, Files & Datasets (No API Key)](bulk-ai-translator.md): Translate product catalogs, websites, datasets, CSV/XLSX/JSON files and SRT/VTT subtitles into 40+ languages. AI translation with...
+- [Run ChatGPT, Claude, Gemini & DeepSeek in Bulk (No API Key)](bulk-llm-runner.md): Run hundreds of prompts in parallel across GPT, Claude, Gemini, Perplexity, DeepSeek, Qwen, Kimi and 350+ models, with web search, JSON...
+- [Bulk Text to Speech: MP3 + SRT Subtitles | No API Key](bulk-text-to-speech.md): Convert texts or an Excel/CSV file into MP3 voiceovers with perfectly timed SRT/VTT subtitles. 322 neural voices in 75 languages...
+- [Translate Excel, CSV & Websites in Bulk with AI | No API Key](bulk-ai-translator.md): Translate Excel, CSV and Google Sheets files, whole websites, PDFs and SRT/VTT subtitles into 42 languages in one run, and get the same...
 
 ## More
 
-- Full catalog: [all 50 actors](../README.md)
+- Full catalog: [all 54 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/bulk-ai-image-generator](https://automationbyexperts.com/apify/bulk-ai-image-generator?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/bulk-ai-image-generator.md](https://automationbyexperts.com/apify/bulk-ai-image-generator.md)

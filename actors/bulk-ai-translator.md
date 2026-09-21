@@ -1,6 +1,6 @@
-# Bulk AI Translator: Website, Files & Datasets (No API Key)
+# Translate Excel, CSV & Websites in Bulk with AI | No API Key
 
-**Bulk AI Translator: Website, Files & Datasets (No API Key)** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Translate product catalogs, websites, datasets, CSV/XLSX/JSON files and SRT/VTT subtitles into 40+ languages. AI translation with brand-term locking and HTML/placeholder safety. No API key, and repeat runs only pay for what changed.
+**Translate Excel, CSV & Websites in Bulk with AI | No API Key** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Translate Excel, CSV and Google Sheets files, whole websites, PDFs and SRT/VTT subtitles into 42 languages in one run, and get the same file back translated. Brand terms, HTML and {{variables}} stay intact, and repeat runs only pay for what changed. No API key needed.
 
 [Run it on Apify](https://apify.com/fayoussef/bulk-ai-translator?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/bulk-ai-translator?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All Bulk AI Tools](../categories/ai-bulk-tools.md)
 
@@ -13,14 +13,14 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/bulk-ai-translator?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-09-15 |
+| Catalog updated | 2026-09-21 |
 
-## What you can do with Bulk AI Translator: Website, Files & Datasets (No API Key)
+## What you can do with Translate Excel, CSV & Websites in Bulk with AI | No API Key
 
 - **[Translate a product catalog into 5 languages](https://apify.com/fayoussef/bulk-ai-translator/examples/translate-product-catalog-5-languages?fpr=youssef)**: Translates a list of product strings into German, French, Spanish, Italian and Dutch in marketing tone, keeping brand names in the glossary untouched and preserving placeholders and HTML. One run, five localised...
 - **[Translate a whole website into German](https://apify.com/fayoussef/bulk-ai-translator/examples/translate-website-into-german?fpr=youssef)**: Crawls up to 25 pages of a site, staying on the same domain, and returns the German translation of every text block with its source URL and original text side by side, tags and links intact. The quickest way to get a...
 
-## How to use Bulk AI Translator: Website, Files & Datasets (No API Key)
+## How to use Translate Excel, CSV & Websites in Bulk with AI | No API Key
 
 ### No code
 
@@ -132,7 +132,7 @@ Your Apify API token is under **Settings > API & Integrations** in the [Apify Co
 
 ## FAQ
 
-### Is Bulk AI Translator: Website, Files & Datasets (No API Key) free to try?
+### Is Translate Excel, CSV & Websites in Bulk with AI | No API Key free to try?
 
 Yes. You can start it with a free Apify account. Free runs have usage limits, and larger jobs need an [Apify plan](https://apify.com/pricing?fpr=youssef). The current rate is shown on the [Store page](https://apify.com/fayoussef/bulk-ai-translator?fpr=youssef).
 
@@ -154,12 +154,12 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## Related Bulk AI Tools
 
-- [Bulk AI Image Generator (NO API KEY)](bulk-ai-image-generator.md): Generate hundreds of AI images in one run from a list of prompts using top OpenRouter models (Gemini, GPT Image, Seedream, Flux...).
-- [Bulk LLM Runner GPT, Claude, Perplexity, Kimi (No API Key)](bulk-llm-runner.md): Run hundreds of prompts in parallel across GPT, Claude, Gemini and Perplexity Sonar - plus 400+ other LLMs - without API key. Built-in web...
-- [Bulk Text to Speech MP3 + SRT Subtitles (No API Key)](bulk-text-to-speech.md): Convert text to natural AI speech in bulk. 322 neural voices, 75+ languages, no API key. Every text becomes an MP3 voiceover plus perfectly...
+- [Bulk AI Image Generator: Nano Banana, GPT Image | No API Key](bulk-ai-image-generator.md): Generate hundreds of AI images from a list of prompts or an Excel/CSV file with Nano Banana Pro, Nano Banana 2 and GPT Image. Any aspect...
+- [Run ChatGPT, Claude, Gemini & DeepSeek in Bulk (No API Key)](bulk-llm-runner.md): Run hundreds of prompts in parallel across GPT, Claude, Gemini, Perplexity, DeepSeek, Qwen, Kimi and 350+ models, with web search, JSON...
+- [Bulk Text to Speech: MP3 + SRT Subtitles | No API Key](bulk-text-to-speech.md): Convert texts or an Excel/CSV file into MP3 voiceovers with perfectly timed SRT/VTT subtitles. 322 neural voices in 75 languages...
 
 ## More
 
-- Full catalog: [all 50 actors](../README.md)
+- Full catalog: [all 54 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/bulk-ai-translator](https://automationbyexperts.com/apify/bulk-ai-translator?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/bulk-ai-translator.md](https://automationbyexperts.com/apify/bulk-ai-translator.md)

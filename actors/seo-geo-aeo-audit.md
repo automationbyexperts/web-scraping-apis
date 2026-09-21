@@ -13,7 +13,7 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/seo-geo-aeo-audit?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-09-15 |
+| Catalog updated | 2026-09-21 |
 
 ## What you can do with SEO, GEO & AEO Audit: AI Search Readiness Checker
 
@@ -120,11 +120,11 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 - [Google Maps Geo-Grid Local Rank Tracker](geo-grid-local-rank-tracker.md): Track where a business ranks in the Google Maps local pack across a grid of points around it. Per-point rank, average rank, coverage, Share...
 - [AI Brand Visibility Tracker (ChatGPT, Perplexity & Gemini)](ai-brand-visibility-tracker.md): Is AI recommending you or your competitors? Track brand mentions, ranking position, sentiment, share of voice and cited sources in ChatGPT...
-- [SPF, DKIM & DMARC Checker: Email Deliverability Auditor](email-deliverability-auditor.md): Audit any domain's email deliverability in seconds. Checks SPF, DKIM (around 30 selectors), DMARC, MX, MTA-STS, BIMI and DNSSEC, tests your...
 - [llms.txt Generator: llms-full.txt for Any Website (AI SEO)](llms-txt-generator.md): Generate a spec-compliant llms.txt and llms-full.txt for any website in one run. Crawls your sitemap or internal links, extracts every...
+- [SPF, DKIM & DMARC Checker: Email Deliverability Auditor](email-deliverability-auditor.md): Audit any domain's email deliverability in seconds. Checks SPF, DKIM (around 30 selectors), DMARC, MX, MTA-STS, BIMI and DNSSEC, tests your...
 
 ## More
 
-- Full catalog: [all 50 actors](../README.md)
+- Full catalog: [all 54 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/seo-geo-aeo-audit](https://automationbyexperts.com/apify/seo-geo-aeo-audit?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/seo-geo-aeo-audit.md](https://automationbyexperts.com/apify/seo-geo-aeo-audit.md)

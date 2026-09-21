@@ -2,7 +2,7 @@
 
 7 ready-to-run e-commerce & marketplace scrapers on Apify, built and maintained by Youssef Farhan. Product data, prices, EAN/SKU, stock and seller info from major marketplaces. Each one runs in the cloud with no code and exports to JSON, CSV or Excel.
 
-Updated 2026-09-15.
+Updated 2026-09-21.
 
 | Actor | What it does | Example use cases | Guide |
 |---|---|---|---|

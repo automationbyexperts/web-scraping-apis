@@ -1,8 +1,8 @@
-# Podcast Guesting Lead Finder: Find Shows & Host Emails
+# AI Account Watch: Custom Sales Trigger Alerts
 
-**Podcast Guesting Lead Finder: Find Shows & Host Emails** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Find active, on-topic podcasts that book guests, with the host's contact email, ready for outreach. Search any niche on Apple's podcast index, filter to shows with a public email, and let scheduled runs surface only NEW shows. No login, no API keys.
+**AI Account Watch: Custom Sales Trigger Alerts** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Watch a list of companies and get alerted when one does what you describe in plain English: raises funding, hires a CMO, opens a location, gets sued. AI reads fresh Google News and alerts only on real, new events, to email, Slack or webhook.
 
-[Run it on Apify](https://apify.com/fayoussef/podcast-guest-finder?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/podcast-guest-finder?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All Lead Generation Actors](../categories/lead-generation.md)
+[Run it on Apify](https://apify.com/fayoussef/ai-account-watch?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/ai-account-watch?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All Lead Generation Actors](../categories/lead-generation.md)
 
 ## Key facts
 
@@ -11,16 +11,11 @@
 | Category | [Lead Generation Actors](../categories/lead-generation.md) |
 | Runs on | Apify cloud, nothing to install and no server to manage |
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
-| Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/podcast-guest-finder?fpr=youssef)) |
+| Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/ai-account-watch?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
 | Catalog updated | 2026-09-21 |
 
-## What you can do with Podcast Guesting Lead Finder: Find Shows & Host Emails
-
-- **[Find B2B SaaS podcasts with host emails](https://apify.com/fayoussef/podcast-guest-finder/examples/b2b-saas-podcasts-with-host-emails?fpr=youssef)**: Searches Apple Podcasts for shows about B2B SaaS and startup founders, keeps only those that published in the last 90 days and expose a host or owner email in their RSS feed, and returns a pitch ready list with show...
-- **[Build a pitch list of real estate investing podcasts](https://apify.com/fayoussef/podcast-guest-finder/examples/real-estate-investing-podcast-pitch-list?fpr=youssef)**: Finds real estate investing shows whose description signals an interview format, drops any without a reachable host email or without a recent episode, and returns up to 100 leads. What a podcast booking agency charges...
-
-## How to use Podcast Guesting Lead Finder: Find Shows & Host Emails
+## How to use AI Account Watch: Custom Sales Trigger Alerts
 
 ### No code
 
@@ -30,17 +25,10 @@
 
 ### Example input
 
+Open the input form on the Store page to see every field. An empty input runs the defaults.
+
 ```json
-{
-  "keywords": [
-    "B2B SaaS",
-    "startup founders"
-  ],
-  "requireEmail": true,
-  "activeWithinDays": 90,
-  "country": "US",
-  "maxPodcasts": 100
-}
+{}
 ```
 
 ### Python
@@ -53,12 +41,8 @@ pip install apify-client
 from apify_client import ApifyClient
 
 client = ApifyClient("<YOUR_APIFY_TOKEN>")
-run_input = {'keywords': ['B2B SaaS', 'startup founders'],
- 'requireEmail': True,
- 'activeWithinDays': 90,
- 'country': 'US',
- 'maxPodcasts': 100}
-run = client.actor("fayoussef/podcast-guest-finder").call(run_input=run_input)
+run_input = {}
+run = client.actor("fayoussef/ai-account-watch").call(run_input=run_input)
 
 for item in client.dataset(run["defaultDatasetId"]).iterate_items():
     print(item)
@@ -74,17 +58,8 @@ npm install apify-client
 import { ApifyClient } from 'apify-client';
 
 const client = new ApifyClient({ token: '<YOUR_APIFY_TOKEN>' });
-const input = {
-  "keywords": [
-    "B2B SaaS",
-    "startup founders"
-  ],
-  "requireEmail": true,
-  "activeWithinDays": 90,
-  "country": "US",
-  "maxPodcasts": 100
-};
-const run = await client.actor('fayoussef/podcast-guest-finder').call(input);
+const input = {};
+const run = await client.actor('fayoussef/ai-account-watch').call(input);
 const { items } = await client.dataset(run.defaultDatasetId).listItems();
 console.log(items);
 ```
@@ -92,9 +67,9 @@ console.log(items);
 ### cURL (run and get the results in one call)
 
 ```bash
-curl -X POST "https://api.apify.com/v2/acts/fayoussef~podcast-guest-finder/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>" \
+curl -X POST "https://api.apify.com/v2/acts/fayoussef~ai-account-watch/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>" \
   -H "Content-Type: application/json" \
-  -d '{"keywords": ["B2B SaaS", "startup founders"], "requireEmail": true, "activeWithinDays": 90, "country": "US", "maxPodcasts": 100}'
+  -d '{}'
 ```
 
 ### From AI agents (MCP)
@@ -102,16 +77,16 @@ curl -X POST "https://api.apify.com/v2/acts/fayoussef~podcast-guest-finder/run-s
 Add the Apify MCP server to Claude, ChatGPT, Cursor or any MCP client with this URL, and the agent can run the actor for you:
 
 ```text
-https://mcp.apify.com?tools=fayoussef/podcast-guest-finder
+https://mcp.apify.com?tools=fayoussef/ai-account-watch
 ```
 
 Your Apify API token is under **Settings > API & Integrations** in the [Apify Console](https://console.apify.com/settings/integrations?fpr=youssef).
 
 ## FAQ
 
-### Is Podcast Guesting Lead Finder: Find Shows & Host Emails free to try?
+### Is AI Account Watch: Custom Sales Trigger Alerts free to try?
 
-Yes. You can start it with a free Apify account. Free runs have usage limits, and larger jobs need an [Apify plan](https://apify.com/pricing?fpr=youssef). The current rate is shown on the [Store page](https://apify.com/fayoussef/podcast-guest-finder?fpr=youssef).
+Yes. You can start it with a free Apify account. Free runs have usage limits, and larger jobs need an [Apify plan](https://apify.com/pricing?fpr=youssef). The current rate is shown on the [Store page](https://apify.com/fayoussef/ai-account-watch?fpr=youssef).
 
 ### Do I need to know how to code?
 
@@ -123,7 +98,7 @@ JSON, CSV, Excel, XML and HTML from the Console, or directly through the Apify A
 
 ### Can AI agents use it?
 
-Yes. Connect the Apify MCP server with `https://mcp.apify.com?tools=fayoussef/podcast-guest-finder` and Claude, ChatGPT, Cursor or any MCP client can run it and read the results.
+Yes. Connect the Apify MCP server with `https://mcp.apify.com?tools=fayoussef/ai-account-watch` and Claude, ChatGPT, Cursor or any MCP client can run it and read the results.
 
 ### Can I get a custom version?
 
@@ -141,5 +116,5 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 ## More
 
 - Full catalog: [all 54 actors](../README.md)
-- Website page: [https://automationbyexperts.com/apify/podcast-guest-finder](https://automationbyexperts.com/apify/podcast-guest-finder?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
-- Markdown version for AI tools: [https://automationbyexperts.com/apify/podcast-guest-finder.md](https://automationbyexperts.com/apify/podcast-guest-finder.md)
+- Website page: [https://automationbyexperts.com/apify/ai-account-watch](https://automationbyexperts.com/apify/ai-account-watch?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
+- Markdown version for AI tools: [https://automationbyexperts.com/apify/ai-account-watch.md](https://automationbyexperts.com/apify/ai-account-watch.md)

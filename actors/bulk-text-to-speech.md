@@ -1,6 +1,6 @@
-# Bulk Text to Speech MP3 + SRT Subtitles (No API Key)
+# Bulk Text to Speech: MP3 + SRT Subtitles | No API Key
 
-**Bulk Text to Speech MP3 + SRT Subtitles (No API Key)** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Convert text to natural AI speech in bulk. 322 neural voices, 75+ languages, no API key. Every text becomes an MP3 voiceover plus perfectly timed SRT/VTT subtitles ideal for TikTok & YouTube faceless videos, e-learning and podcasts.
+**Bulk Text to Speech: MP3 + SRT Subtitles | No API Key** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Convert texts or an Excel/CSV file into MP3 voiceovers with perfectly timed SRT/VTT subtitles. 322 neural voices in 75 languages, word-by-word TikTok captions, personalized messages from spreadsheet rows, and one merged file option. No API key needed.
 
 [Run it on Apify](https://apify.com/fayoussef/bulk-text-to-speech?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/bulk-text-to-speech?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All Bulk AI Tools](../categories/ai-bulk-tools.md)
 
@@ -13,15 +13,15 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/bulk-text-to-speech?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-09-15 |
+| Catalog updated | 2026-09-21 |
 
-## What you can do with Bulk Text to Speech MP3 + SRT Subtitles (No API Key)
+## What you can do with Bulk Text to Speech: MP3 + SRT Subtitles | No API Key
 
 - **[Generate TikTok voiceovers with word by word captions](https://apify.com/fayoussef/bulk-text-to-speech/examples/tiktok-voiceovers-word-captions?fpr=youssef)**: Turns each script into an MP3 voiceover at 25 percent faster pace with a matching SRT where every word is its own cue, the format CapCut and Premiere use for animated captions. Paste 50 scripts and get 50 clips plus 50...
 - **[Create Spanish voiceovers for product videos](https://apify.com/fayoussef/bulk-text-to-speech/examples/spanish-voiceovers-for-product-videos?fpr=youssef)**: Generates natural Castilian Spanish narration for a batch of product descriptions, one MP3 per text, with sentence level SRT subtitles ready to drop into the video editor. Swap the voice for Mexican Spanish, French...
 - **[Turn long form text into one narrated MP3](https://apify.com/fayoussef/bulk-text-to-speech/examples/narrate-long-text-into-one-mp3?fpr=youssef)**: Narrates each chapter or section as its own clip, then joins them in order into a single combined MP3 with one continuous subtitle file. A slightly slower British voice suits articles, course material and internal...
 
-## How to use Bulk Text to Speech MP3 + SRT Subtitles (No API Key)
+## How to use Bulk Text to Speech: MP3 + SRT Subtitles | No API Key
 
 ### No code
 
@@ -119,7 +119,7 @@ Your Apify API token is under **Settings > API & Integrations** in the [Apify Co
 
 ## FAQ
 
-### Is Bulk Text to Speech MP3 + SRT Subtitles (No API Key) free to try?
+### Is Bulk Text to Speech: MP3 + SRT Subtitles | No API Key free to try?
 
 Yes. You can start it with a free Apify account. Free runs have usage limits, and larger jobs need an [Apify plan](https://apify.com/pricing?fpr=youssef). The current rate is shown on the [Store page](https://apify.com/fayoussef/bulk-text-to-speech?fpr=youssef).
 
@@ -141,12 +141,12 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## Related Bulk AI Tools
 
-- [Bulk AI Image Generator (NO API KEY)](bulk-ai-image-generator.md): Generate hundreds of AI images in one run from a list of prompts using top OpenRouter models (Gemini, GPT Image, Seedream, Flux...).
-- [Bulk LLM Runner GPT, Claude, Perplexity, Kimi (No API Key)](bulk-llm-runner.md): Run hundreds of prompts in parallel across GPT, Claude, Gemini and Perplexity Sonar - plus 400+ other LLMs - without API key. Built-in web...
-- [Bulk AI Translator: Website, Files & Datasets (No API Key)](bulk-ai-translator.md): Translate product catalogs, websites, datasets, CSV/XLSX/JSON files and SRT/VTT subtitles into 40+ languages. AI translation with...
+- [Bulk AI Image Generator: Nano Banana, GPT Image | No API Key](bulk-ai-image-generator.md): Generate hundreds of AI images from a list of prompts or an Excel/CSV file with Nano Banana Pro, Nano Banana 2 and GPT Image. Any aspect...
+- [Run ChatGPT, Claude, Gemini & DeepSeek in Bulk (No API Key)](bulk-llm-runner.md): Run hundreds of prompts in parallel across GPT, Claude, Gemini, Perplexity, DeepSeek, Qwen, Kimi and 350+ models, with web search, JSON...
+- [Translate Excel, CSV & Websites in Bulk with AI | No API Key](bulk-ai-translator.md): Translate Excel, CSV and Google Sheets files, whole websites, PDFs and SRT/VTT subtitles into 42 languages in one run, and get the same...
 
 ## More
 
-- Full catalog: [all 50 actors](../README.md)
+- Full catalog: [all 54 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/bulk-text-to-speech](https://automationbyexperts.com/apify/bulk-text-to-speech?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/bulk-text-to-speech.md](https://automationbyexperts.com/apify/bulk-text-to-speech.md)

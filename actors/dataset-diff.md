@@ -13,7 +13,7 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/dataset-diff?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-09-15 |
+| Catalog updated | 2026-09-21 |
 
 ## What you can do with Dataset Diff: Only New & Changed Items From Any Actor
 
@@ -133,11 +133,14 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## Related Developer Tools & APIs
 
+- [New Business License Feed: Fresh Openings by City](business-license-feed.md): Every business, food, liquor and trade license newly issued in Chicago, Los Angeles, New York, Seattle and New Orleans, filtered to the...
+- [EU VAT Number Validation: Bulk VIES Check & Supplier Monitor](eu-vat-compliance-monitor.md): Validate a whole supplier or customer list against VIES, get the consultation number that proves you checked, and be told the moment a VAT...
+- [License Verification & Expiry Monitor: Bulk US License Lookup](license-roster-monitor.md): Re-verify a whole roster of contractors, nurses, agents or providers against official state registries, then get only what changed...
 - [Scrape any site, Anti-Bot Proxy, JS Render & AI](scrape-any-site-anti-bot-proxy-js-render-ai.md): Free web scraper API for any website. Rotating anti-bot proxies, JS rendering, screenshots, CSS + AI extraction. Clean HTML, Markdown and...
 - [Website Change Detector: Page Diff, Price & Content Alerts](website-change-monitor.md): Monitor any web page for changes and get a line-by-line diff of what was added and removed. Track competitor pricing, product listings...
 
 ## More
 
-- Full catalog: [all 50 actors](../README.md)
+- Full catalog: [all 54 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/dataset-diff](https://automationbyexperts.com/apify/dataset-diff?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/dataset-diff.md](https://automationbyexperts.com/apify/dataset-diff.md)
