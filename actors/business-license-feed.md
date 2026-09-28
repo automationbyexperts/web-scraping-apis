@@ -2,18 +2,18 @@
 
 **New Business License Feed: Fresh Openings by City** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Every business, food, liquor and trade license newly issued in Chicago, Los Angeles, New York, Seattle and New Orleans, filtered to the trades you sell to, with only what you have not already seen. Official city open data, no key needed.
 
-[Run it on Apify](https://apify.com/fayoussef/business-license-feed?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/business-license-feed?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All Developer Tools & APIs](../categories/developer-tools.md)
+[Run it on Apify](https://apify.com/fayoussef/business-license-feed?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/business-license-feed?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All Lead Generation Actors](../categories/lead-generation.md)
 
 ## Key facts
 
 | | |
 |---|---|
-| Category | [Developer Tools & APIs](../categories/developer-tools.md) |
+| Category | [Lead Generation Actors](../categories/lead-generation.md) |
 | Runs on | Apify cloud, nothing to install and no server to manage |
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/business-license-feed?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-09-21 |
+| Catalog updated | 2026-09-28 |
 
 ## How to use New Business License Feed: Fresh Openings by City
 
@@ -104,13 +104,14 @@ Yes. Connect the Apify MCP server with `https://mcp.apify.com?tools=fayoussef/bu
 
 Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24@gmail.com or visit [AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis).
 
-## Related Developer Tools & APIs
+## Related Lead Generation Actors
 
-- [Dataset Diff: Only New & Changed Items From Any Actor](dataset-diff.md): Point it at any Apify Actor, Task or dataset and get only what changed since its last run: new rows, edited rows, rows that disappeared...
-- [EU VAT Number Validation: Bulk VIES Check & Supplier Monitor](eu-vat-compliance-monitor.md): Validate a whole supplier or customer list against VIES, get the consultation number that proves you checked, and be told the moment a VAT...
-- [License Verification & Expiry Monitor: Bulk US License Lookup](license-roster-monitor.md): Re-verify a whole roster of contractors, nurses, agents or providers against official state registries, then get only what changed...
-- [Scrape any site, Anti-Bot Proxy, JS Render & AI](scrape-any-site-anti-bot-proxy-js-render-ai.md): Free web scraper API for any website. Rotating anti-bot proxies, JS rendering, screenshots, CSS + AI extraction. Clean HTML, Markdown and...
-- [Website Change Detector: Page Diff, Price & Content Alerts](website-change-monitor.md): Monitor any web page for changes and get a line-by-line diff of what was added and removed. Track competitor pricing, product listings...
+- [Canada411 Scraper: Business Phones, Addresses](canada411-ca.md): Our canada411.ca scraper effortlessly gathers URLs from all pages and extracts contact information from each listing.
+- [Journalist Request Finder: HARO Alternative for Digital PR](journalist-request-finder.md): Find live journalist source requests in one feed, pulled from SourceBottle call-outs and #journorequest posts on Bluesky and Mastodon...
+- [Whop Content Rewards Scraper: Clipping & UGC Campaigns](whop-clipping-campaigns-scraper.md): Scrape the Whop Content Rewards directory: reward per 1K views, budget left, burn rate, platforms, payout type and campaign URLs. Builds a...
+- [GitHub Developer Lead Finder & Email Enricher](github-developer-leads.md): Find developers on GitHub and enrich each one with verified email, company, location, skills, and social links for recruiting and B2B...
+- [Luma Events Scraper (lu.ma): Events, Hosts & Social Handles](luma-events-scraper.md): Scrape events from Luma (lu.ma / luma.com) by city, category, calendar or event URL. Get dates, venues with GPS, ticket prices, guest...
+- [11888.gr Scraper: Greek Business Phones, Emails & Websites](11888-gr-scraper.md): Scrape Greek businesses from the 11888.gr Yellow Pages by category and place: name, phones, mobile, email, website, address, GPS and...
 
 ## More
 

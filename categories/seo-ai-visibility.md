@@ -1,8 +1,8 @@
 # SEO & AI Visibility: Apify Actors by AutomationByExperts
 
-5 ready-to-run seo & ai visibility on Apify, built and maintained by Youssef Farhan. Measure how you rank in Google - and whether ChatGPT recommends you at all. Each one runs in the cloud with no code and exports to JSON, CSV or Excel.
+4 ready-to-run seo & ai visibility on Apify, built and maintained by Youssef Farhan. Measure how you rank in Google - and whether ChatGPT recommends you at all. Each one runs in the cloud with no code and exports to JSON, CSV or Excel.
 
-Updated 2026-09-21.
+Updated 2026-09-28.
 
 | Actor | What it does | Example use cases | Guide |
 |---|---|---|---|
@@ -10,7 +10,6 @@ Updated 2026-09-21.
 | [Google Maps Geo-Grid Local Rank Tracker](https://apify.com/fayoussef/geo-grid-local-rank-tracker?fpr=youssef) | Track where a business ranks in the Google Maps local pack across a grid of points around it. Per-point rank, average rank, coverage, Share of Local Voice, top... | [Track a dentist's Google Maps ranking across a city](https://apify.com/fayoussef/geo-grid-local-rank-tracker/examples/dentist-google-maps-ranking-grid?fpr=youssef)<br>[Measure a restaurant's local pack visibility by neighbourhood](https://apify.com/fayoussef/geo-grid-local-rank-tracker/examples/restaurant-local-pack-visibility?fpr=youssef) | [Guide](../actors/geo-grid-local-rank-tracker.md) |
 | [AI Brand Visibility Tracker (ChatGPT, Perplexity & Gemini)](https://apify.com/fayoussef/ai-brand-visibility-tracker?fpr=youssef) | Is AI recommending you or your competitors? Track brand mentions, ranking position, sentiment, share of voice and cited sources in ChatGPT, Perplexity, Gemini, Claude &... | [Check if AI recommends your CRM to small businesses](https://apify.com/fayoussef/ai-brand-visibility-tracker/examples/crm-brand-visibility-in-ai-answers?fpr=youssef)<br>[Measure an ecommerce platform's share of voice in AI search](https://apify.com/fayoussef/ai-brand-visibility-tracker/examples/ecommerce-platform-ai-share-of-voice?fpr=youssef) | [Guide](../actors/ai-brand-visibility-tracker.md) |
 | [llms.txt Generator: llms-full.txt for Any Website (AI SEO)](https://apify.com/fayoussef/llms-txt-generator?fpr=youssef) | Generate a spec-compliant llms.txt and llms-full.txt for any website in one run. Crawls your sitemap or internal links, extracts every page's title, meta description and... | [Generate llms.txt and llms-full.txt for any website](https://apify.com/fayoussef/llms-txt-generator/examples/generate-llms-txt-for-any-website?fpr=youssef)<br>[Build an llms-full.txt for a documentation site](https://apify.com/fayoussef/llms-txt-generator/examples/llms-full-txt-for-documentation-site?fpr=youssef) | [Guide](../actors/llms-txt-generator.md) |
-| [SPF, DKIM & DMARC Checker: Email Deliverability Auditor](https://apify.com/fayoussef/email-deliverability-auditor?fpr=youssef) | Audit any domain's email deliverability in seconds. Checks SPF, DKIM (around 30 selectors), DMARC, MX, MTA-STS, BIMI and DNSSEC, tests your mail servers against DNS... | [Check SPF, DKIM and DMARC for a list of domains](https://apify.com/fayoussef/email-deliverability-auditor/examples/spf-dkim-dmarc-check-for-domains?fpr=youssef)<br>[Audit email authentication for all agency clients at once](https://apify.com/fayoussef/email-deliverability-auditor/examples/agency-client-email-authentication-audit?fpr=youssef) | [Guide](../actors/email-deliverability-auditor.md) |
 
 ## Other categories
 

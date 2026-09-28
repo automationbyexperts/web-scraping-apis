@@ -14,7 +14,7 @@
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/wallapop-scraper?fpr=youssef)) |
 | Rating | 5.0 out of 5 (2 reviews) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-09-21 |
+| Catalog updated | 2026-09-28 |
 
 ## What you can do with wallapop Scraper (Spain,Italy,Portugal)
 
@@ -129,10 +129,9 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## Related E-commerce & Marketplace Scrapers
 
-- [Fnac.com Scraper: Prices, EAN, Stock, Sellers & Reviews](fnac-data-scraping.md): Scrape fnac.com products from any search, category or product URL, or by keyword with brand, category, price, seller and stock filters. Get...
+- [Fnac.com Scraper: Products, Prices, EAN, Stock & Reviews](fnac-data-scraping.md): Scrape fnac.com products from any search, category or product URL, or by keyword with brand, category, price, seller and stock filters. Get...
 - [G2G Scraper: Extract G2G.com Prices, Sellers & Stock](g2g-offer-scraper.md): Scrape live G2G.com prices, sellers, stock and delivery times from any category or Trending URL. Export JSON, CSV or Excel. No G2G login or...
 - [Bike24 Scraper: Cycling Product Prices, Stock & Specs](bike24-result-scraper.md): Our bike24.com scraper effortlessly gathers URLs from all pages and extracts detailed information from each product page
-- [FnacPro Scraper: Product, Price, EAN & Spec Extractor](fnacpro-scraper.md): Scrape fnacpro.com product data at scale: price, EAN, reference, brand, availability, condition, full specifications, ratings, images and...
 - [Skroutz Scraper: Prices, Shop Offers & Price History](skroutz-scraper.md): Scrape Skroutz products from Greece, Cyprus, Bulgaria, Romania, Germany and Malta in English, Greek, Bulgarian, Romanian or German. Paste...
 - [Cheap Amazon Scraper: Extract Products, Offers, Prices](cheap-amazon-scraper.md): Fast, reliable Amazon scraper. Extract product details, search results, seller offers and raw HTML from 21 marketplaces with geo-targeting...
 

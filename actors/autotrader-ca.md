@@ -1,6 +1,6 @@
-# AutoTrader Canada Car Scraper
+# AutoTrader.ca Price Drop Monitor & Car Scraper
 
-**AutoTrader Canada Car Scraper** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Our autotrader.ca scraper effortlessly gathers URLs from all pages and extracts detailed information from each listing cars.
+**AutoTrader.ca Price Drop Monitor & Car Scraper** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Monitor AutoTrader Canada searches and get only new listings, price drops and sold cars since the last run, with previous price and price history. Schedule it daily. Or scrape every listing: price, VIN, mileage, specs, dealer phone and photos.
 
 [Run it on Apify](https://apify.com/fayoussef/autotrader-ca?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/autotrader-ca?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All Car & Vehicle Scrapers](../categories/vehicle-scrapers.md)
 
@@ -14,14 +14,14 @@
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/autotrader-ca?fpr=youssef)) |
 | Rating | 5.0 out of 5 (2 reviews) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-09-21 |
+| Catalog updated | 2026-09-28 |
 
-## What you can do with AutoTrader Canada Car Scraper
+## What you can do with AutoTrader.ca Price Drop Monitor & Car Scraper
 
 - **[Find used Honda Civics for sale around Montreal](https://apify.com/fayoussef/autotrader-ca/examples/honda-civic-used-montreal?fpr=youssef)**: Searches AutoTrader.ca with the built in filters for used Honda Civic from model year 2018 within 100 km of Montreal and returns 127 fields per car: VIN, numeric price, kilometres, trim, transmission, dealer name and...
 - **[Export used SUVs under 25,000 CAD around Ottawa](https://apify.com/fayoussef/autotrader-ca/examples/used-suvs-under-25000-ottawa?fpr=youssef)**: Pulls used SUV listings priced under 25,000 CAD within 100 km of Ottawa from AutoTrader.ca with VIN, price, kilometres, drivetrain, fuel, dealer and photos. Family buyers and small dealers get the whole affordable SUV...
 
-## How to use AutoTrader Canada Car Scraper
+## How to use AutoTrader.ca Price Drop Monitor & Car Scraper
 
 ### No code
 
@@ -131,7 +131,7 @@ Your Apify API token is under **Settings > API & Integrations** in the [Apify Co
 
 ## FAQ
 
-### Is AutoTrader Canada Car Scraper free to try?
+### Is AutoTrader.ca Price Drop Monitor & Car Scraper free to try?
 
 Yes. You can start it with a free Apify account. Free runs have usage limits, and larger jobs need an [Apify plan](https://apify.com/pricing?fpr=youssef). The current rate is shown on the [Store page](https://apify.com/fayoussef/autotrader-ca?fpr=youssef).
 
@@ -154,7 +154,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 ## Related Car & Vehicle Scrapers
 
 - [AutoTrader Canada Car Scraper: Prices, VIN, Mileage & Dealers](autotrader-canada.md): Our autotrader.ca scraper makes it simple to collect car listings at scale. It automatically gathers URLs from all available pages and...
-- [AutoScout24 All-Country Scraper](autoscout24.md): Our autoscout24 scraper makes it simple to collect listings at scale and in all countries. Works on autoscout24.de, .at, .fr, .it, .es...
+- [AutoScout24 Scraper: Car Listings, Prices & Dealer Contacts](autoscout24.md): AutoScout24 car listings from autoscout24.de, .at, .fr, .it, .es, .nl, .be, .lu and .com: price, make, model, mileage, first registration...
 - [Kijiji.ca Scraper: Autos, Real Estate & Classifieds](kijiji-scraper.md): Efficiently scrapes Kijiji.ca listings: vehicles, real estate, and more. Extracts detailed data including phone number, price, location...
 - [CarGurus Scraper (US, Canada & UK Car Listings)](cargurus-listings-scraper.md): Scrape CarGurus vehicle listings from .com, .ca and .co.uk. Returns price, mileage, VIN, specs, dealer info and all images per listing.
 - [autotrader.co.za Car Scraper with Seller Phone Numbers](autotrader-co-za-scraper.md): Scrape autotrader.co.za car listings across every page: price, mileage, specs, dealer and location, plus the seller's phone number.

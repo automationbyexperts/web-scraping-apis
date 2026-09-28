@@ -1,12 +1,12 @@
 # Developer Tools & APIs: Apify Actors by AutomationByExperts
 
-6 ready-to-run developer tools & apis on Apify, built and maintained by Youssef Farhan. A universal scraping API plus change monitoring for pages and datasets. Each one runs in the cloud with no code and exports to JSON, CSV or Excel.
+6 ready-to-run developer tools & apis on Apify, built and maintained by Youssef Farhan. A universal scraping API, change monitoring, and VAT and license compliance monitors. Each one runs in the cloud with no code and exports to JSON, CSV or Excel.
 
-Updated 2026-09-21.
+Updated 2026-09-28.
 
 | Actor | What it does | Example use cases | Guide |
 |---|---|---|---|
-| [New Business License Feed: Fresh Openings by City](https://apify.com/fayoussef/business-license-feed?fpr=youssef) | Every business, food, liquor and trade license newly issued in Chicago, Los Angeles, New York, Seattle and New Orleans, filtered to the trades you sell to, with only... | - | [Guide](../actors/business-license-feed.md) |
+| [RentFaster Scraper: Canada Rentals, Rents & Landlord Phones](https://apify.com/fayoussef/rentfaster-scraper?fpr=youssef) | Scrape Canadian rental listings from RentFaster.ca in 105 cities (Calgary, Edmonton, Toronto, Montreal...). Filter by type, bedrooms, rent, pets and utilities. Export... | - | [Guide](../actors/rentfaster-scraper.md) |
 | [Dataset Diff: Only New & Changed Items From Any Actor](https://apify.com/fayoussef/dataset-diff?fpr=youssef) | Point it at any Apify Actor, Task or dataset and get only what changed since its last run: new rows, edited rows, rows that disappeared. Push the delta to Slack... | [Get only new places from a Google Maps scraper run](https://apify.com/fayoussef/dataset-diff/examples/new-google-maps-places-only?fpr=youssef)<br>[Get price change alerts from any Actor's dataset](https://apify.com/fayoussef/dataset-diff/examples/price-change-alerts-from-any-dataset?fpr=youssef) | [Guide](../actors/dataset-diff.md) |
 | [EU VAT Number Validation: Bulk VIES Check & Supplier Monitor](https://apify.com/fayoussef/eu-vat-compliance-monitor?fpr=youssef) | Validate a whole supplier or customer list against VIES, get the consultation number that proves you checked, and be told the moment a VAT number goes invalid or its... | - | [Guide](../actors/eu-vat-compliance-monitor.md) |
 | [License Verification & Expiry Monitor: Bulk US License Lookup](https://apify.com/fayoussef/license-roster-monitor?fpr=youssef) | Re-verify a whole roster of contractors, nurses, agents or providers against official state registries, then get only what changed: expired, suspended, revoked, lapsed... | - | [Guide](../actors/license-roster-monitor.md) |

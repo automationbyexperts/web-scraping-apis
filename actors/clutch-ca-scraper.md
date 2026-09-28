@@ -1,8 +1,8 @@
-# AutoTrader Australia Car Scraper: Prices, VIN & Dealers
+# Clutch.ca Car Scraper: Used Car Prices, VIN & Carfax
 
-**AutoTrader Australia Car Scraper: Prices, VIN & Dealers** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Scrape Autotrader Australia. Paste any autotrader.com.au search URL to export every vehicle: price, make, model, variant, year, odometer, transmission, fuel type, engine, ANCAP rating, dealer name/phone, GPS coordinates and photos. Pagination and AU proxies handled. Export to JSON, CSV or Excel.
+**Clutch.ca Car Scraper: Used Car Prices, VIN & Carfax** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Scrape used cars from Clutch.ca, Canada's online car retailer. Filter by make, model, price, biweekly or monthly payment, year, mileage, body, fuel, features, colour and seats. Export price, discount, VIN, specs, Carfax link, accident history and photos.
 
-[Run it on Apify](https://apify.com/fayoussef/autotrader-au-scraper?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/autotrader-au-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All Car & Vehicle Scrapers](../categories/vehicle-scrapers.md)
+[Run it on Apify](https://apify.com/fayoussef/clutch-ca-scraper?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/clutch-ca-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All Car & Vehicle Scrapers](../categories/vehicle-scrapers.md)
 
 ## Key facts
 
@@ -11,16 +11,11 @@
 | Category | [Car & Vehicle Scrapers](../categories/vehicle-scrapers.md) |
 | Runs on | Apify cloud, nothing to install and no server to manage |
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
-| Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/autotrader-au-scraper?fpr=youssef)) |
+| Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/clutch-ca-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
 | Catalog updated | 2026-09-28 |
 
-## What you can do with AutoTrader Australia Car Scraper: Prices, VIN & Dealers
-
-- **[Export used Toyota HiLux listings across Australia](https://apify.com/fayoussef/autotrader-au-scraper/examples/used-toyota-hilux-australia?fpr=youssef)**: Scrapes every Toyota HiLux listed on Autotrader.com.au and returns 30 plus fields per ute: driveaway price, kilometres, VIN, body, engine, dealer name and phone, GPS coordinates and the full photo gallery. Australia's...
-- **[Scrape used car listings in Sydney from Autotrader](https://apify.com/fayoussef/autotrader-au-scraper/examples/sydney-used-cars-autotrader-au?fpr=youssef)**: Pulls the current used car listings for Sydney from Autotrader.com.au with price, kilometres, VIN, dealer details and photos on every row. Dealers use it to benchmark stock against the local market; analysts use it on a...
-
-## How to use AutoTrader Australia Car Scraper: Prices, VIN & Dealers
+## How to use Clutch.ca Car Scraper: Used Car Prices, VIN & Carfax
 
 ### No code
 
@@ -30,15 +25,10 @@
 
 ### Example input
 
+Open the input form on the Store page to see every field. An empty input runs the defaults.
+
 ```json
-{
-  "start_urls": [
-    {
-      "url": "https://www.autotrader.com.au/for-sale/toyota/hilux/"
-    }
-  ],
-  "max_pages": 5
-}
+{}
 ```
 
 ### Python
@@ -51,9 +41,8 @@ pip install apify-client
 from apify_client import ApifyClient
 
 client = ApifyClient("<YOUR_APIFY_TOKEN>")
-run_input = {'start_urls': [{'url': 'https://www.autotrader.com.au/for-sale/toyota/hilux/'}],
- 'max_pages': 5}
-run = client.actor("fayoussef/autotrader-au-scraper").call(run_input=run_input)
+run_input = {}
+run = client.actor("fayoussef/clutch-ca-scraper").call(run_input=run_input)
 
 for item in client.dataset(run["defaultDatasetId"]).iterate_items():
     print(item)
@@ -69,15 +58,8 @@ npm install apify-client
 import { ApifyClient } from 'apify-client';
 
 const client = new ApifyClient({ token: '<YOUR_APIFY_TOKEN>' });
-const input = {
-  "start_urls": [
-    {
-      "url": "https://www.autotrader.com.au/for-sale/toyota/hilux/"
-    }
-  ],
-  "max_pages": 5
-};
-const run = await client.actor('fayoussef/autotrader-au-scraper').call(input);
+const input = {};
+const run = await client.actor('fayoussef/clutch-ca-scraper').call(input);
 const { items } = await client.dataset(run.defaultDatasetId).listItems();
 console.log(items);
 ```
@@ -85,9 +67,9 @@ console.log(items);
 ### cURL (run and get the results in one call)
 
 ```bash
-curl -X POST "https://api.apify.com/v2/acts/fayoussef~autotrader-au-scraper/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>" \
+curl -X POST "https://api.apify.com/v2/acts/fayoussef~clutch-ca-scraper/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>" \
   -H "Content-Type: application/json" \
-  -d '{"start_urls": [{"url": "https://www.autotrader.com.au/for-sale/toyota/hilux/"}], "max_pages": 5}'
+  -d '{}'
 ```
 
 ### From AI agents (MCP)
@@ -95,16 +77,16 @@ curl -X POST "https://api.apify.com/v2/acts/fayoussef~autotrader-au-scraper/run-
 Add the Apify MCP server to Claude, ChatGPT, Cursor or any MCP client with this URL, and the agent can run the actor for you:
 
 ```text
-https://mcp.apify.com?tools=fayoussef/autotrader-au-scraper
+https://mcp.apify.com?tools=fayoussef/clutch-ca-scraper
 ```
 
 Your Apify API token is under **Settings > API & Integrations** in the [Apify Console](https://console.apify.com/settings/integrations?fpr=youssef).
 
 ## FAQ
 
-### Is AutoTrader Australia Car Scraper: Prices, VIN & Dealers free to try?
+### Is Clutch.ca Car Scraper: Used Car Prices, VIN & Carfax free to try?
 
-Yes. You can start it with a free Apify account. Free runs have usage limits, and larger jobs need an [Apify plan](https://apify.com/pricing?fpr=youssef). The current rate is shown on the [Store page](https://apify.com/fayoussef/autotrader-au-scraper?fpr=youssef).
+Yes. You can start it with a free Apify account. Free runs have usage limits, and larger jobs need an [Apify plan](https://apify.com/pricing?fpr=youssef). The current rate is shown on the [Store page](https://apify.com/fayoussef/clutch-ca-scraper?fpr=youssef).
 
 ### Do I need to know how to code?
 
@@ -116,7 +98,7 @@ JSON, CSV, Excel, XML and HTML from the Console, or directly through the Apify A
 
 ### Can AI agents use it?
 
-Yes. Connect the Apify MCP server with `https://mcp.apify.com?tools=fayoussef/autotrader-au-scraper` and Claude, ChatGPT, Cursor or any MCP client can run it and read the results.
+Yes. Connect the Apify MCP server with `https://mcp.apify.com?tools=fayoussef/clutch-ca-scraper` and Claude, ChatGPT, Cursor or any MCP client can run it and read the results.
 
 ### Can I get a custom version?
 
@@ -134,5 +116,5 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 ## More
 
 - Full catalog: [all 54 actors](../README.md)
-- Website page: [https://automationbyexperts.com/apify/autotrader-au-scraper](https://automationbyexperts.com/apify/autotrader-au-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
-- Markdown version for AI tools: [https://automationbyexperts.com/apify/autotrader-au-scraper.md](https://automationbyexperts.com/apify/autotrader-au-scraper.md)
+- Website page: [https://automationbyexperts.com/apify/clutch-ca-scraper](https://automationbyexperts.com/apify/clutch-ca-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
+- Markdown version for AI tools: [https://automationbyexperts.com/apify/clutch-ca-scraper.md](https://automationbyexperts.com/apify/clutch-ca-scraper.md)
