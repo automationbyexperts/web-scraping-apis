@@ -1,6 +1,6 @@
-# Spitogatos Cyprus Scraper: Property Listings & Agent Phones
+# Cyprus Property Scraper: Spitogatos.com.cy Listings & Agents
 
-**Spitogatos Cyprus Scraper: Property Listings & Agent Phones** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Scrape property listings and estate agents from Spitogatos.com.cy in English or Greek. Paste any search, listing or agent URL, or search by town, price and property type, and get price, area, rooms, GPS, photos and the agency phone across Limassol, Nicosia, Larnaca, Paphos and Famagusta.
+**Cyprus Property Scraper: Spitogatos.com.cy Listings & Agents** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Scrape Cyprus real estate listings and estate agents from Spitogatos.com.cy, in English or Greek. Search by town, price and property type, or paste any URL, and get price, area, rooms, GPS, photos and the agent's phone across Limassol, Nicosia, Larnaca, Paphos and Famagusta.
 
 [Run it on Apify](https://apify.com/fayoussef/spitogatos-cy-scraper?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/spitogatos-cy-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All Real Estate Scrapers](../categories/real-estate-scrapers.md)
 
@@ -13,16 +13,16 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/spitogatos-cy-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-09-28 |
+| Catalog updated | 2026-10-05 |
 
-## What you can do with Spitogatos Cyprus Scraper: Property Listings & Agent Phones
+## What you can do with Cyprus Property Scraper: Spitogatos.com.cy Listings & Agents
 
 - **[Find apartments for rent in Limassol, Cyprus under 1500 EUR](https://apify.com/fayoussef/spitogatos-cy-scraper/examples/limassol-apartments-for-rent-under-1500?fpr=youssef)**: Collects apartment rentals in Limassol, Cyprus from Spitogatos.com.cy with a monthly rent up to 1500 EUR. Each listing comes with rent, area, rooms, floor, energy class, GPS coordinates, photos, the full description and...
 - **[Export homes for sale in Paphos, Cyprus with agent phones](https://apify.com/fayoussef/spitogatos-cy-scraper/examples/paphos-homes-for-sale-cyprus?fpr=youssef)**: Scrapes every home for sale in Paphos listed on Spitogatos.com.cy, page by page: villas, houses and apartments with asking price, price per m2, area, bedrooms, year built, GPS coordinates, photo gallery and a direct...
 - **[Ενοικιάσεις κατοικιών στη Λευκωσία από το Spitogatos Κύπρου](https://apify.com/fayoussef/spitogatos-cy-scraper/examples/nicosia-homes-for-rent-greek?fpr=youssef)**: Συλλέγει από το Spitogatos.com.cy όλες τις αγγελίες κατοικιών προς ενοικίαση στη Λευκωσία, με τα στοιχεία στα ελληνικά: ενοίκιο, τετραγωνικά, δωμάτια, όροφο, ενεργειακή κλάση, συντεταγμένες GPS, φωτογραφίες, περιγραφή...
 - **[Μεσιτικά γραφεία στη Λεμεσό με τηλέφωνα επικοινωνίας](https://apify.com/fayoussef/spitogatos-cy-scraper/examples/limassol-estate-agents-greek?fpr=youssef)**: Εξάγει από το Spitogatos.com.cy όλα τα μεσιτικά γραφεία της Λεμεσού: επωνυμία, τηλέφωνα, υπεύθυνο επικοινωνίας, περιοχή, ιστοσελίδα, πλήθος αγγελιών προς πώληση και ενοικίαση και μέση τιμή πώλησης κατοικιών. Χρήσιμο για...
 
-## How to use Spitogatos Cyprus Scraper: Property Listings & Agent Phones
+## How to use Cyprus Property Scraper: Spitogatos.com.cy Listings & Agents
 
 ### No code
 
@@ -115,7 +115,7 @@ Your Apify API token is under **Settings > API & Integrations** in the [Apify Co
 
 ## FAQ
 
-### Is Spitogatos Cyprus Scraper: Property Listings & Agent Phones free to try?
+### Is Cyprus Property Scraper: Spitogatos.com.cy Listings & Agents free to try?
 
 Yes. You can start it with a free Apify account. Free runs have usage limits, and larger jobs need an [Apify plan](https://apify.com/pricing?fpr=youssef). The current rate is shown on the [Store page](https://apify.com/fayoussef/spitogatos-cy-scraper?fpr=youssef).
 
@@ -140,9 +140,10 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 - [Spitogatos.gr Scraper: Greek Property Listings & Agent Phones](spitogatos-scraper.md): Scrape real estate listings and Agents from Spitogatos.gr in both English and Greek. Collect prices, photos, location, and more. Easy...
 - [Centris.ca Scraper: Quebec Real Estate Listings & Photos](centris-property-scraper.md): Scrape Centris.ca real estate listings into clean structured data: MLS number, price, full address, rooms, bedrooms, bathrooms, the full...
 - [XE.gr Greek Property Scraper](xe-gr-scraper.md): Scrape Greek real estate listings from XE.gr: prices, size, rooms, GPS coordinates, amenities, photos and advertiser phone numbers. Works...
+- [RentFaster Scraper: Canada Rentals, Rents & Landlord Phones](rentfaster-scraper.md): Scrape Canadian rental listings from RentFaster.ca in 105 cities (Calgary, Edmonton, Toronto, Montreal...). Filter by type, bedrooms, rent...
 
 ## More
 
-- Full catalog: [all 54 actors](../README.md)
+- Full catalog: [all 56 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/spitogatos-cy-scraper](https://automationbyexperts.com/apify/spitogatos-cy-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/spitogatos-cy-scraper.md](https://automationbyexperts.com/apify/spitogatos-cy-scraper.md)

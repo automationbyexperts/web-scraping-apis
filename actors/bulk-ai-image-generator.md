@@ -14,7 +14,7 @@
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/bulk-ai-image-generator?fpr=youssef)) |
 | Rating | 5.0 out of 5 (1 reviews) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-09-28 |
+| Catalog updated | 2026-10-05 |
 
 ## What you can do with Bulk AI Image Generator: Nano Banana, GPT Image | No API Key
 
@@ -157,6 +157,6 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 54 actors](../README.md)
+- Full catalog: [all 56 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/bulk-ai-image-generator](https://automationbyexperts.com/apify/bulk-ai-image-generator?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/bulk-ai-image-generator.md](https://automationbyexperts.com/apify/bulk-ai-image-generator.md)

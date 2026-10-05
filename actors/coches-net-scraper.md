@@ -1,8 +1,8 @@
-# Car Dealer Reviews & Reputation Monitor (DealerRater)
+# coches.net Scraper: Spain Used Car Prices, Deals & Dealers
 
-**Car Dealer Reviews & Reputation Monitor (DealerRater)** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Pull every DealerRater review for any car dealership by name or URL. Get the star rating broken down by price transparency, trade-in, finance and service time, plus the salesperson each review names. Monitor mode returns only reviews new since the last run, so a schedule becomes an alert feed.
+**coches.net Scraper: Spain Used Car Prices, Deals & Dealers** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Scrape used cars from coches.net, Spain's largest car marketplace. Filter by make, model, price, year, km, province or radius, fuel, DGT label and price rating. Export price, market price, specs, equipment, dealer contact and photos.
 
-[Run it on Apify](https://apify.com/fayoussef/dealer-reputation-monitor?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/dealer-reputation-monitor?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All Car & Vehicle Scrapers](../categories/vehicle-scrapers.md)
+[Run it on Apify](https://apify.com/fayoussef/coches-net-scraper?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/coches-net-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All Car & Vehicle Scrapers](../categories/vehicle-scrapers.md)
 
 ## Key facts
 
@@ -11,16 +11,11 @@
 | Category | [Car & Vehicle Scrapers](../categories/vehicle-scrapers.md) |
 | Runs on | Apify cloud, nothing to install and no server to manage |
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
-| Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/dealer-reputation-monitor?fpr=youssef)) |
+| Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/coches-net-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
 | Catalog updated | 2026-10-05 |
 
-## What you can do with Car Dealer Reviews & Reputation Monitor (DealerRater)
-
-- **[Export every DealerRater review for a dealership](https://apify.com/fayoussef/dealer-reputation-monitor/examples/dealerrater-reviews-export?fpr=youssef)**: Type a dealership name and get its 200 most recent DealerRater reviews with full text, star rating, date, the department and the name of the employee each customer dealt with, plus one summary row with the store's...
-- **[Get alerted to new 1 and 2 star dealer reviews](https://apify.com/fayoussef/dealer-reputation-monitor/examples/negative-dealer-review-alerts?fpr=youssef)**: Keeps only reviews rated 2 stars or lower and, with the new since last run switch on, returns just the ones that appeared since the previous run. Schedule it daily for each store and a general manager hears about a bad...
-
-## How to use Car Dealer Reviews & Reputation Monitor (DealerRater)
+## How to use coches.net Scraper: Spain Used Car Prices, Deals & Dealers
 
 ### No code
 
@@ -30,15 +25,10 @@
 
 ### Example input
 
+Open the input form on the Store page to see every field. An empty input runs the defaults.
+
 ```json
-{
-  "dealers": [
-    "Hendrick Honda"
-  ],
-  "maxReviewsPerDealer": 200,
-  "maxDealersPerSearch": 1,
-  "includeDealerSummary": true
-}
+{}
 ```
 
 ### Python
@@ -51,11 +41,8 @@ pip install apify-client
 from apify_client import ApifyClient
 
 client = ApifyClient("<YOUR_APIFY_TOKEN>")
-run_input = {'dealers': ['Hendrick Honda'],
- 'maxReviewsPerDealer': 200,
- 'maxDealersPerSearch': 1,
- 'includeDealerSummary': True}
-run = client.actor("fayoussef/dealer-reputation-monitor").call(run_input=run_input)
+run_input = {}
+run = client.actor("fayoussef/coches-net-scraper").call(run_input=run_input)
 
 for item in client.dataset(run["defaultDatasetId"]).iterate_items():
     print(item)
@@ -71,15 +58,8 @@ npm install apify-client
 import { ApifyClient } from 'apify-client';
 
 const client = new ApifyClient({ token: '<YOUR_APIFY_TOKEN>' });
-const input = {
-  "dealers": [
-    "Hendrick Honda"
-  ],
-  "maxReviewsPerDealer": 200,
-  "maxDealersPerSearch": 1,
-  "includeDealerSummary": true
-};
-const run = await client.actor('fayoussef/dealer-reputation-monitor').call(input);
+const input = {};
+const run = await client.actor('fayoussef/coches-net-scraper').call(input);
 const { items } = await client.dataset(run.defaultDatasetId).listItems();
 console.log(items);
 ```
@@ -87,9 +67,9 @@ console.log(items);
 ### cURL (run and get the results in one call)
 
 ```bash
-curl -X POST "https://api.apify.com/v2/acts/fayoussef~dealer-reputation-monitor/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>" \
+curl -X POST "https://api.apify.com/v2/acts/fayoussef~coches-net-scraper/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>" \
   -H "Content-Type: application/json" \
-  -d '{"dealers": ["Hendrick Honda"], "maxReviewsPerDealer": 200, "maxDealersPerSearch": 1, "includeDealerSummary": true}'
+  -d '{}'
 ```
 
 ### From AI agents (MCP)
@@ -97,16 +77,16 @@ curl -X POST "https://api.apify.com/v2/acts/fayoussef~dealer-reputation-monitor/
 Add the Apify MCP server to Claude, ChatGPT, Cursor or any MCP client with this URL, and the agent can run the actor for you:
 
 ```text
-https://mcp.apify.com?tools=fayoussef/dealer-reputation-monitor
+https://mcp.apify.com?tools=fayoussef/coches-net-scraper
 ```
 
 Your Apify API token is under **Settings > API & Integrations** in the [Apify Console](https://console.apify.com/settings/integrations?fpr=youssef).
 
 ## FAQ
 
-### Is Car Dealer Reviews & Reputation Monitor (DealerRater) free to try?
+### Is coches.net Scraper: Spain Used Car Prices, Deals & Dealers free to try?
 
-Yes. You can start it with a free Apify account. Free runs have usage limits, and larger jobs need an [Apify plan](https://apify.com/pricing?fpr=youssef). The current rate is shown on the [Store page](https://apify.com/fayoussef/dealer-reputation-monitor?fpr=youssef).
+Yes. You can start it with a free Apify account. Free runs have usage limits, and larger jobs need an [Apify plan](https://apify.com/pricing?fpr=youssef). The current rate is shown on the [Store page](https://apify.com/fayoussef/coches-net-scraper?fpr=youssef).
 
 ### Do I need to know how to code?
 
@@ -118,7 +98,7 @@ JSON, CSV, Excel, XML and HTML from the Console, or directly through the Apify A
 
 ### Can AI agents use it?
 
-Yes. Connect the Apify MCP server with `https://mcp.apify.com?tools=fayoussef/dealer-reputation-monitor` and Claude, ChatGPT, Cursor or any MCP client can run it and read the results.
+Yes. Connect the Apify MCP server with `https://mcp.apify.com?tools=fayoussef/coches-net-scraper` and Claude, ChatGPT, Cursor or any MCP client can run it and read the results.
 
 ### Can I get a custom version?
 
@@ -136,5 +116,5 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 ## More
 
 - Full catalog: [all 56 actors](../README.md)
-- Website page: [https://automationbyexperts.com/apify/dealer-reputation-monitor](https://automationbyexperts.com/apify/dealer-reputation-monitor?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
-- Markdown version for AI tools: [https://automationbyexperts.com/apify/dealer-reputation-monitor.md](https://automationbyexperts.com/apify/dealer-reputation-monitor.md)
+- Website page: [https://automationbyexperts.com/apify/coches-net-scraper](https://automationbyexperts.com/apify/coches-net-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
+- Markdown version for AI tools: [https://automationbyexperts.com/apify/coches-net-scraper.md](https://automationbyexperts.com/apify/coches-net-scraper.md)

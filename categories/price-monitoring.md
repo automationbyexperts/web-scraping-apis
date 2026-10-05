@@ -2,7 +2,7 @@
 
 4 ready-to-run price & brand monitoring on Apify, built and maintained by Youssef Farhan. Know every retailer selling your product, at what price, and who is breaking MAP. Each one runs in the cloud with no code and exports to JSON, CSV or Excel.
 
-Updated 2026-09-28.
+Updated 2026-10-05.
 
 | Actor | What it does | Example use cases | Guide |
 |---|---|---|---|

@@ -13,7 +13,7 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/xe-gr-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-09-28 |
+| Catalog updated | 2026-10-05 |
 
 ## What you can do with XE.gr Greek Property Scraper
 
@@ -145,10 +145,11 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 - [Spitogatos.gr Scraper: Greek Property Listings & Agent Phones](spitogatos-scraper.md): Scrape real estate listings and Agents from Spitogatos.gr in both English and Greek. Collect prices, photos, location, and more. Easy...
 - [Centris.ca Scraper: Quebec Real Estate Listings & Photos](centris-property-scraper.md): Scrape Centris.ca real estate listings into clean structured data: MLS number, price, full address, rooms, bedrooms, bathrooms, the full...
-- [Spitogatos Cyprus Scraper: Property Listings & Agent Phones](spitogatos-cy-scraper.md): Scrape property listings and estate agents from Spitogatos.com.cy in English or Greek. Paste any search, listing or agent URL, or search by...
+- [RentFaster Scraper: Canada Rentals, Rents & Landlord Phones](rentfaster-scraper.md): Scrape Canadian rental listings from RentFaster.ca in 105 cities (Calgary, Edmonton, Toronto, Montreal...). Filter by type, bedrooms, rent...
+- [Cyprus Property Scraper: Spitogatos.com.cy Listings & Agents](spitogatos-cy-scraper.md): Scrape Cyprus real estate listings and estate agents from Spitogatos.com.cy, in English or Greek. Search by town, price and property type...
 
 ## More
 
-- Full catalog: [all 54 actors](../README.md)
+- Full catalog: [all 56 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/xe-gr-scraper](https://automationbyexperts.com/apify/xe-gr-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/xe-gr-scraper.md](https://automationbyexperts.com/apify/xe-gr-scraper.md)

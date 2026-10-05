@@ -1,6 +1,6 @@
-# Podcast Guesting Lead Finder: Find Shows & Host Emails
+# Podcast Scraper for Guest Booking: Shows & Host Emails
 
-**Podcast Guesting Lead Finder: Find Shows & Host Emails** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Find active, on-topic podcasts that book guests, with the host's contact email, ready for outreach. Search any niche on Apple's podcast index, filter to shows with a public email, and let scheduled runs surface only NEW shows. No login, no API keys.
+**Podcast Scraper for Guest Booking: Shows & Host Emails** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Find podcasts that book guests, with the host's contact email. Search any niche across Apple Podcasts, keep active, guest-friendly shows with a public email, and let scheduled runs return only NEW shows. A podcast guest booking and PR outreach list builder. No login, no API keys.
 
 [Run it on Apify](https://apify.com/fayoussef/podcast-guest-finder?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/podcast-guest-finder?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All Lead Generation Actors](../categories/lead-generation.md)
 
@@ -13,14 +13,14 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/podcast-guest-finder?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-09-28 |
+| Catalog updated | 2026-10-05 |
 
-## What you can do with Podcast Guesting Lead Finder: Find Shows & Host Emails
+## What you can do with Podcast Scraper for Guest Booking: Shows & Host Emails
 
 - **[Find B2B SaaS podcasts with host emails](https://apify.com/fayoussef/podcast-guest-finder/examples/b2b-saas-podcasts-with-host-emails?fpr=youssef)**: Searches Apple Podcasts for shows about B2B SaaS and startup founders, keeps only those that published in the last 90 days and expose a host or owner email in their RSS feed, and returns a pitch ready list with show...
 - **[Build a pitch list of real estate investing podcasts](https://apify.com/fayoussef/podcast-guest-finder/examples/real-estate-investing-podcast-pitch-list?fpr=youssef)**: Finds real estate investing shows whose description signals an interview format, drops any without a reachable host email or without a recent episode, and returns up to 100 leads. What a podcast booking agency charges...
 
-## How to use Podcast Guesting Lead Finder: Find Shows & Host Emails
+## How to use Podcast Scraper for Guest Booking: Shows & Host Emails
 
 ### No code
 
@@ -109,7 +109,7 @@ Your Apify API token is under **Settings > API & Integrations** in the [Apify Co
 
 ## FAQ
 
-### Is Podcast Guesting Lead Finder: Find Shows & Host Emails free to try?
+### Is Podcast Scraper for Guest Booking: Shows & Host Emails free to try?
 
 Yes. You can start it with a free Apify account. Free runs have usage limits, and larger jobs need an [Apify plan](https://apify.com/pricing?fpr=youssef). The current rate is shown on the [Store page](https://apify.com/fayoussef/podcast-guest-finder?fpr=youssef).
 
@@ -140,6 +140,6 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 54 actors](../README.md)
+- Full catalog: [all 56 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/podcast-guest-finder](https://automationbyexperts.com/apify/podcast-guest-finder?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/podcast-guest-finder.md](https://automationbyexperts.com/apify/podcast-guest-finder.md)

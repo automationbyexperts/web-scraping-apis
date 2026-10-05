@@ -13,7 +13,7 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/business-license-feed?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-09-28 |
+| Catalog updated | 2026-10-05 |
 
 ## How to use New Business License Feed: Fresh Openings by City
 
@@ -115,6 +115,6 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 54 actors](../README.md)
+- Full catalog: [all 56 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/business-license-feed](https://automationbyexperts.com/apify/business-license-feed?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/business-license-feed.md](https://automationbyexperts.com/apify/business-license-feed.md)

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28",
+  "updated": "2026-10-05",
   "source": "https://github.com/automationbyexperts/web-scraping-apis",
   "author": {
     "name": "Youssef Farhan",
@@ -59,8 +59,8 @@
       "apifyUrl": "https://apify.com/fayoussef/bulk-ai-image-generator?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/bulk-ai-image-generator",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/bulk-ai-image-generator.md",
-      "users": 443,
-      "users30Days": 51,
+      "users": 464,
+      "users30Days": 52,
       "rating": 5,
       "reviews": 1,
       "pricingModel": "PAY_PER_EVENT",
@@ -132,8 +132,8 @@
       "apifyUrl": "https://apify.com/fayoussef/bulk-llm-runner?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/bulk-llm-runner",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/bulk-llm-runner.md",
-      "users": 400,
-      "users30Days": 65,
+      "users": 421,
+      "users30Days": 78,
       "rating": 5,
       "reviews": 2,
       "pricingModel": "PAY_PER_EVENT",
@@ -211,7 +211,7 @@
       "apifyUrl": "https://apify.com/fayoussef/autotrader-canada?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/autotrader-canada",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/autotrader-canada.md",
-      "users": 307,
+      "users": 312,
       "users30Days": 16,
       "rating": 5,
       "reviews": 3,
@@ -285,8 +285,8 @@
       "apifyUrl": "https://apify.com/fayoussef/spitogatos-scraper?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/spitogatos-scraper",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/spitogatos-scraper.md",
-      "users": 304,
-      "users30Days": 29,
+      "users": 310,
+      "users30Days": 33,
       "rating": 5,
       "reviews": 5,
       "pricingModel": "PAY_PER_EVENT",
@@ -372,8 +372,8 @@
       "apifyUrl": "https://apify.com/fayoussef/canada411-ca?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/canada411-ca",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/canada411-ca.md",
-      "users": 177,
-      "users30Days": 9,
+      "users": 179,
+      "users30Days": 8,
       "rating": 5,
       "reviews": 1,
       "pricingModel": "PAY_PER_EVENT",
@@ -419,9 +419,9 @@
       "apifyUrl": "https://apify.com/fayoussef/wallapop-scraper?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/wallapop-scraper",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/wallapop-scraper.md",
-      "users": 144,
+      "users": 157,
       "users30Days": 30,
-      "rating": 4.999999999999999,
+      "rating": 5,
       "reviews": 2,
       "pricingModel": "PAY_PER_EVENT",
       "useCases": [
@@ -478,8 +478,8 @@
       "apifyUrl": "https://apify.com/fayoussef/journalist-request-finder?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/journalist-request-finder",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/journalist-request-finder.md",
-      "users": 102,
-      "users30Days": 96,
+      "users": 144,
+      "users30Days": 138,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
@@ -526,6 +526,61 @@
       ]
     },
     {
+      "slug": "whop-clipping-campaigns-scraper",
+      "title": "Whop Content Rewards Scraper: Clipping & UGC Campaigns",
+      "description": "Scrape the Whop Content Rewards directory: reward per 1K views, budget left, burn rate, platforms, payout type and campaign URLs. Builds a private archive of campaigns that have rotated off the public page, so you can benchmark CPM rates, track budget burn and catch new clipping campaigns.",
+      "category": "Lead Generation Actors",
+      "categorySlug": "lead-generation",
+      "apifyUrl": "https://apify.com/fayoussef/whop-clipping-campaigns-scraper?fpr=youssef",
+      "websiteUrl": "https://automationbyexperts.com/apify/whop-clipping-campaigns-scraper",
+      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/whop-clipping-campaigns-scraper.md",
+      "users": 79,
+      "users30Days": 21,
+      "rating": 0,
+      "reviews": 0,
+      "pricingModel": "PAY_PER_EVENT",
+      "useCases": [
+        {
+          "title": "Find the highest paying clipping campaigns on Whop",
+          "description": "Lists every live Whop Content Rewards campaign paying at least 2 dollars per 1,000 views with more than 1,000 dollars of budget still unspent, sorted by reward. Use it to pick the campaigns where a clip actually gets paid, instead of scrolling a directory that only shows a rotating page of featured ones.",
+          "url": "https://apify.com/fayoussef/whop-clipping-campaigns-scraper/examples/high-paying-clipping-campaigns?fpr=youssef",
+          "input": {
+            "sortBy": "reward",
+            "minRewardPerThousand": 2,
+            "minBudgetLeftUsd": 1000,
+            "maxItems": 100
+          }
+        },
+        {
+          "title": "Find low competition TikTok clipping campaigns",
+          "description": "Filters Whop Content Rewards down to TikTok campaigns with 50 or fewer creators already submitting and no application step, so you can start clipping today and compete for views against a small pool. Sorted by fewest creators first.",
+          "url": "https://apify.com/fayoussef/whop-clipping-campaigns-scraper/examples/low-competition-tiktok-clipping-campaigns?fpr=youssef",
+          "input": {
+            "includeHistorical": false,
+            "maxCreators": 50,
+            "maxItems": 100,
+            "noApplicationRequired": true,
+            "onlyNewCampaigns": false,
+            "platforms": [
+              "tiktok"
+            ],
+            "sortBy": "creators",
+            "verifiedOnly": false
+          }
+        },
+        {
+          "title": "Get alerted when new Whop campaigns launch",
+          "description": "Monitoring mode: each run returns only the campaigns that were not in the previous run, so a daily schedule becomes an alert feed for fresh clipping and UGC campaigns. Pair it with the Apify Slack or email integration to hear about a new campaign before its budget fills up.",
+          "url": "https://apify.com/fayoussef/whop-clipping-campaigns-scraper/examples/new-content-rewards-campaigns-alert?fpr=youssef",
+          "input": {
+            "onlyNewCampaigns": true,
+            "sortBy": "newest",
+            "maxItems": 500
+          }
+        }
+      ]
+    },
+    {
       "slug": "autoscout24",
       "title": "AutoScout24 Scraper: Car Listings, Prices & Dealer Contacts",
       "description": "AutoScout24 car listings from autoscout24.de, .at, .fr, .it, .es, .nl, .be, .lu and .com: price, make, model, mileage, first registration, fuel, power, equipment, photos, GPS location and dealer phone. Search by URL or filters.",
@@ -534,8 +589,8 @@
       "apifyUrl": "https://apify.com/fayoussef/autoscout24?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/autoscout24",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/autoscout24.md",
-      "users": 74,
-      "users30Days": 17,
+      "users": 76,
+      "users30Days": 16,
       "rating": 5,
       "reviews": 1,
       "pricingModel": "PAY_PER_EVENT",
@@ -614,8 +669,8 @@
       "apifyUrl": "https://apify.com/fayoussef/fnac-data-scraping?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/fnac-data-scraping",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/fnac-data-scraping.md",
-      "users": 70,
-      "users30Days": 6,
+      "users": 74,
+      "users30Days": 8,
       "rating": 5,
       "reviews": 1,
       "pricingModel": "PAY_PER_EVENT",
@@ -685,61 +740,6 @@
       ]
     },
     {
-      "slug": "whop-clipping-campaigns-scraper",
-      "title": "Whop Content Rewards Scraper: Clipping & UGC Campaigns",
-      "description": "Scrape the Whop Content Rewards directory: reward per 1K views, budget left, burn rate, platforms, payout type and campaign URLs. Builds a private archive of campaigns that have rotated off the public page, so you can benchmark CPM rates, track budget burn and catch new clipping campaigns.",
-      "category": "Lead Generation Actors",
-      "categorySlug": "lead-generation",
-      "apifyUrl": "https://apify.com/fayoussef/whop-clipping-campaigns-scraper?fpr=youssef",
-      "websiteUrl": "https://automationbyexperts.com/apify/whop-clipping-campaigns-scraper",
-      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/whop-clipping-campaigns-scraper.md",
-      "users": 68,
-      "users30Days": 23,
-      "rating": 0,
-      "reviews": 0,
-      "pricingModel": "PAY_PER_EVENT",
-      "useCases": [
-        {
-          "title": "Find the highest paying clipping campaigns on Whop",
-          "description": "Lists every live Whop Content Rewards campaign paying at least 2 dollars per 1,000 views with more than 1,000 dollars of budget still unspent, sorted by reward. Use it to pick the campaigns where a clip actually gets paid, instead of scrolling a directory that only shows a rotating page of featured ones.",
-          "url": "https://apify.com/fayoussef/whop-clipping-campaigns-scraper/examples/high-paying-clipping-campaigns?fpr=youssef",
-          "input": {
-            "sortBy": "reward",
-            "minRewardPerThousand": 2,
-            "minBudgetLeftUsd": 1000,
-            "maxItems": 100
-          }
-        },
-        {
-          "title": "Find low competition TikTok clipping campaigns",
-          "description": "Filters Whop Content Rewards down to TikTok campaigns with 50 or fewer creators already submitting and no application step, so you can start clipping today and compete for views against a small pool. Sorted by fewest creators first.",
-          "url": "https://apify.com/fayoussef/whop-clipping-campaigns-scraper/examples/low-competition-tiktok-clipping-campaigns?fpr=youssef",
-          "input": {
-            "includeHistorical": false,
-            "maxCreators": 50,
-            "maxItems": 100,
-            "noApplicationRequired": true,
-            "onlyNewCampaigns": false,
-            "platforms": [
-              "tiktok"
-            ],
-            "sortBy": "creators",
-            "verifiedOnly": false
-          }
-        },
-        {
-          "title": "Get alerted when new Whop campaigns launch",
-          "description": "Monitoring mode: each run returns only the campaigns that were not in the previous run, so a daily schedule becomes an alert feed for fresh clipping and UGC campaigns. Pair it with the Apify Slack or email integration to hear about a new campaign before its budget fills up.",
-          "url": "https://apify.com/fayoussef/whop-clipping-campaigns-scraper/examples/new-content-rewards-campaigns-alert?fpr=youssef",
-          "input": {
-            "onlyNewCampaigns": true,
-            "sortBy": "newest",
-            "maxItems": 500
-          }
-        }
-      ]
-    },
-    {
       "slug": "autotrader-ca",
       "title": "AutoTrader.ca Price Drop Monitor & Car Scraper",
       "description": "Monitor AutoTrader Canada searches and get only new listings, price drops and sold cars since the last run, with previous price and price history. Schedule it daily. Or scrape every listing: price, VIN, mileage, specs, dealer phone and photos.",
@@ -748,9 +748,9 @@
       "apifyUrl": "https://apify.com/fayoussef/autotrader-ca?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/autotrader-ca",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/autotrader-ca.md",
-      "users": 66,
+      "users": 68,
       "users30Days": 2,
-      "rating": 5,
+      "rating": 5.000000000000001,
       "reviews": 2,
       "pricingModel": "PAY_PER_EVENT",
       "useCases": [
@@ -807,8 +807,8 @@
       "apifyUrl": "https://apify.com/fayoussef/kijiji-scraper?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/kijiji-scraper",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/kijiji-scraper.md",
-      "users": 66,
-      "users30Days": 6,
+      "users": 67,
+      "users30Days": 5,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
@@ -850,8 +850,8 @@
       "apifyUrl": "https://apify.com/fayoussef/cargurus-listings-scraper?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/cargurus-listings-scraper",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/cargurus-listings-scraper.md",
-      "users": 57,
-      "users30Days": 21,
+      "users": 62,
+      "users30Days": 24,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
@@ -906,8 +906,8 @@
       "apifyUrl": "https://apify.com/fayoussef/seo-geo-aeo-audit?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/seo-geo-aeo-audit",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/seo-geo-aeo-audit.md",
-      "users": 45,
-      "users30Days": 7,
+      "users": 53,
+      "users30Days": 10,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
@@ -954,7 +954,7 @@
       "apifyUrl": "https://apify.com/fayoussef/autotrader-co-za-scraper?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/autotrader-co-za-scraper",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/autotrader-co-za-scraper.md",
-      "users": 34,
+      "users": 36,
       "users30Days": 3,
       "rating": 0,
       "reviews": 0,
@@ -999,7 +999,7 @@
       "apifyUrl": "https://apify.com/fayoussef/bulk-text-to-speech?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/bulk-text-to-speech",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/bulk-text-to-speech.md",
-      "users": 31,
+      "users": 33,
       "users30Days": 9,
       "rating": 0,
       "reviews": 0,
@@ -1068,7 +1068,7 @@
       "websiteUrl": "https://automationbyexperts.com/apify/autotrader-au-scraper",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/autotrader-au-scraper.md",
       "users": 24,
-      "users30Days": 1,
+      "users30Days": 0,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
@@ -1110,8 +1110,8 @@
       "apifyUrl": "https://apify.com/fayoussef/g2g-offer-scraper?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/g2g-offer-scraper",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/g2g-offer-scraper.md",
-      "users": 20,
-      "users30Days": 1,
+      "users": 24,
+      "users30Days": 2,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
@@ -1149,8 +1149,8 @@
       "apifyUrl": "https://apify.com/fayoussef/geo-grid-local-rank-tracker?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/geo-grid-local-rank-tracker",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/geo-grid-local-rank-tracker.md",
-      "users": 15,
-      "users30Days": 7,
+      "users": 18,
+      "users30Days": 10,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
@@ -1201,6 +1201,54 @@
             "gridSize": 7,
             "radius": 5,
             "distanceUnit": "miles"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "dealer-inventory-scraper",
+      "title": "Car Dealer Website Inventory Scraper: VIN, Price & Stock",
+      "description": "Scrape live vehicle inventory from any car dealership's own website, not a marketplace. Paste a dealer homepage and get every car at VIN level with price, mileage and trim. Auto-detects DealerOn, Dealer.com, Dealer Inspire and more. Tracks price drops and sold units.",
+      "category": "Car & Vehicle Scrapers",
+      "categorySlug": "vehicle-scrapers",
+      "apifyUrl": "https://apify.com/fayoussef/dealer-inventory-scraper?fpr=youssef",
+      "websiteUrl": "https://automationbyexperts.com/apify/dealer-inventory-scraper",
+      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/dealer-inventory-scraper.md",
+      "users": 12,
+      "users30Days": 1,
+      "rating": 0,
+      "reviews": 0,
+      "pricingModel": "PAY_PER_EVENT",
+      "useCases": [
+        {
+          "title": "Export a dealership's used inventory from its own website",
+          "description": "Paste dealer homepages and the Actor finds their inventory pages by itself, detects the website platform, and returns every used vehicle at VIN level with the dealer's own price, mileage, stock number and photos, opening each vehicle page to fill in engine and transmission. Works on dealer sites it has never seen.",
+          "url": "https://apify.com/fayoussef/dealer-inventory-scraper/examples/dealer-website-used-inventory-export?fpr=youssef",
+          "input": {
+            "dealerUrls": [
+              "https://www.toyotaofdowntownla.com",
+              "https://www.mbofsmithtown.com"
+            ],
+            "condition": "used",
+            "maxVehiclesPerDealer": 300,
+            "fetchDetails": true,
+            "concurrency": 3
+          }
+        },
+        {
+          "title": "Track price drops on competing dealer lots",
+          "description": "Reads the full inventory of each dealer site and compares it with the previous run, labelling every vehicle new, price_drop, price_increase, unchanged or removed. Schedule it daily and the changes view is a running log of what your competitors discounted and what they sold.",
+          "url": "https://apify.com/fayoussef/dealer-inventory-scraper/examples/dealer-price-drop-tracker?fpr=youssef",
+          "input": {
+            "dealerUrls": [
+              "https://www.toyotaofdowntownla.com",
+              "https://www.mbofsmithtown.com"
+            ],
+            "condition": "all",
+            "trackChanges": true,
+            "watchlistName": "dealer-inventory",
+            "maxVehiclesPerDealer": 400,
+            "concurrency": 3
           }
         }
       ]
@@ -1284,49 +1332,72 @@
       ]
     },
     {
-      "slug": "dealer-inventory-scraper",
-      "title": "Car Dealer Website Inventory Scraper: VIN, Price & Stock",
-      "description": "Scrape live vehicle inventory from any car dealership's own website, not a marketplace. Paste a dealer homepage and get every car at VIN level with price, mileage and trim. Auto-detects DealerOn, Dealer.com, Dealer Inspire and more. Tracks price drops and sold units.",
-      "category": "Car & Vehicle Scrapers",
-      "categorySlug": "vehicle-scrapers",
-      "apifyUrl": "https://apify.com/fayoussef/dealer-inventory-scraper?fpr=youssef",
-      "websiteUrl": "https://automationbyexperts.com/apify/dealer-inventory-scraper",
-      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/dealer-inventory-scraper.md",
-      "users": 9,
-      "users30Days": 1,
+      "slug": "ai-brand-visibility-tracker",
+      "title": "AI Brand Visibility Tracker (ChatGPT, Perplexity & Gemini)",
+      "description": "Is AI recommending you or your competitors? Track brand mentions, ranking position, sentiment, share of voice and cited sources in ChatGPT, Perplexity, Gemini, Claude & Grok answers for the questions your buyers ask. GEO / AEO / LLM SEO monitoring .no OpenAI or Anthropic API key needed.",
+      "category": "SEO & AI Visibility",
+      "categorySlug": "seo-ai-visibility",
+      "apifyUrl": "https://apify.com/fayoussef/ai-brand-visibility-tracker?fpr=youssef",
+      "websiteUrl": "https://automationbyexperts.com/apify/ai-brand-visibility-tracker",
+      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/ai-brand-visibility-tracker.md",
+      "users": 7,
+      "users30Days": 5,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
       "useCases": [
         {
-          "title": "Export a dealership's used inventory from its own website",
-          "description": "Paste dealer homepages and the Actor finds their inventory pages by itself, detects the website platform, and returns every used vehicle at VIN level with the dealer's own price, mileage, stock number and photos, opening each vehicle page to fill in engine and transmission. Works on dealer sites it has never seen.",
-          "url": "https://apify.com/fayoussef/dealer-inventory-scraper/examples/dealer-website-used-inventory-export?fpr=youssef",
+          "title": "Check if AI recommends your CRM to small businesses",
+          "description": "Asks ChatGPT, Perplexity and Gemini the questions a small business owner asks when choosing a CRM, and reports whether HubSpot is named, where it ranks, which competitors are recommended instead, and whether hubspot.com is cited as a source. Swap in your own brand and competitors.",
+          "url": "https://apify.com/fayoussef/ai-brand-visibility-tracker/examples/crm-brand-visibility-in-ai-answers?fpr=youssef",
           "input": {
-            "dealerUrls": [
-              "https://www.toyotaofdowntownla.com",
-              "https://www.mbofsmithtown.com"
+            "brand_name": "HubSpot",
+            "queries": [
+              "What is the best CRM for a small business?",
+              "Which CRM should a 20 person sales team use in 2026?",
+              "HubSpot vs Salesforce for a startup"
             ],
-            "condition": "used",
-            "maxVehiclesPerDealer": 300,
-            "fetchDetails": true,
-            "concurrency": 3
+            "competitors": [
+              "Salesforce",
+              "Pipedrive",
+              "Zoho CRM"
+            ],
+            "brand_domains": [
+              "hubspot.com"
+            ],
+            "platforms": [
+              "chatgpt",
+              "perplexity",
+              "gemini"
+            ],
+            "runs_per_query": 1
           }
         },
         {
-          "title": "Track price drops on competing dealer lots",
-          "description": "Reads the full inventory of each dealer site and compares it with the previous run, labelling every vehicle new, price_drop, price_increase, unchanged or removed. Schedule it daily and the changes view is a running log of what your competitors discounted and what they sold.",
-          "url": "https://apify.com/fayoussef/dealer-inventory-scraper/examples/dealer-price-drop-tracker?fpr=youssef",
+          "title": "Measure an ecommerce platform's share of voice in AI search",
+          "description": "Runs each buying intent question twice per platform for a stable score and computes Shopify's share of voice against WooCommerce, BigCommerce and Wix across ChatGPT, Perplexity and Gemini. The answers view keeps the full AI response so you can see the exact wording used.",
+          "url": "https://apify.com/fayoussef/ai-brand-visibility-tracker/examples/ecommerce-platform-ai-share-of-voice?fpr=youssef",
           "input": {
-            "dealerUrls": [
-              "https://www.toyotaofdowntownla.com",
-              "https://www.mbofsmithtown.com"
+            "brand_name": "Shopify",
+            "queries": [
+              "What is the best platform to start an online store?",
+              "Shopify or WooCommerce for a small clothing brand?",
+              "Best ecommerce platform for dropshipping in 2026"
             ],
-            "condition": "all",
-            "trackChanges": true,
-            "watchlistName": "dealer-inventory",
-            "maxVehiclesPerDealer": 400,
-            "concurrency": 3
+            "competitors": [
+              "WooCommerce",
+              "BigCommerce",
+              "Wix"
+            ],
+            "brand_domains": [
+              "shopify.com"
+            ],
+            "platforms": [
+              "chatgpt",
+              "perplexity",
+              "gemini"
+            ],
+            "runs_per_query": 2
           }
         }
       ]
@@ -1341,7 +1412,7 @@
       "websiteUrl": "https://automationbyexperts.com/apify/bike24-result-scraper",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/bike24-result-scraper.md",
       "users": 7,
-      "users30Days": 1,
+      "users30Days": 0,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
@@ -1506,6 +1577,60 @@
       ]
     },
     {
+      "slug": "skroutz-scraper",
+      "title": "Skroutz Scraper: Greek Price Comparison, Offers & History",
+      "description": "Scrape Skroutz, Greece's largest price comparison site, plus Skroutz Cyprus, Bulgaria, Romania, Germany and Malta. Paste any category, brand, shop or search URL, or search by keyword, and get prices, ratings, specs, every shop's offer and daily price history.",
+      "category": "E-commerce & Marketplace Scrapers",
+      "categorySlug": "ecommerce-scrapers",
+      "apifyUrl": "https://apify.com/fayoussef/skroutz-scraper?fpr=youssef",
+      "websiteUrl": "https://automationbyexperts.com/apify/skroutz-scraper",
+      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/skroutz-scraper.md",
+      "users": 6,
+      "users30Days": 3,
+      "rating": 0,
+      "reviews": 0,
+      "pricingModel": "PAY_PER_EVENT",
+      "useCases": [
+        {
+          "title": "Compare iPhone 17 Pro prices across all Skroutz countries",
+          "description": "Search Skroutz in Greece, Cyprus, Bulgaria, Romania, Germany and Malta for the iPhone 17 Pro and get every model with its price, currency, rating and delivery in English, plus every shop selling it with price, stock and shipping cost. Built for cross-border price comparison, resellers and deal hunters.",
+          "url": "https://apify.com/fayoussef/skroutz-scraper/examples/iphone-17-pro-prices-all-skroutz-countries?fpr=youssef",
+          "input": {
+            "search_terms": [
+              "iphone 17 pro"
+            ],
+            "countries": [
+              "gr",
+              "cy",
+              "bg",
+              "ro",
+              "de",
+              "mt"
+            ],
+            "language": "en",
+            "sort_by": "price_asc",
+            "max_items": 200,
+            "include_shop_offers": true
+          }
+        },
+        {
+          "title": "Τιμές πλυντηρίων ρούχων στο Skroutz με ιστορικό τιμών",
+          "description": "Συγκεντρώστε τα πλυντήρια ρούχων του Skroutz.gr με τιμή, βαθμολογία και παράδοση, μαζί με το ιστορικό χαμηλότερης τιμής κάθε προϊόντος: τη χαμηλότερη τιμή όλων των εποχών και των τελευταίων 30 και 90 ημερών. Ιδανικό για καταστήματα ηλεκτρικών συσκευών και για όσους περιμένουν την καλύτερη τιμή πριν αγοράσουν.",
+          "url": "https://apify.com/fayoussef/skroutz-scraper/examples/washing-machine-prices-greece-greek?fpr=youssef",
+          "input": {
+            "start_urls": [
+              {
+                "url": "https://www.skroutz.gr/c/405/plynthria-rouxwn.html"
+              }
+            ],
+            "language": "el",
+            "max_items": 100,
+            "include_price_history": true
+          }
+        }
+      ]
+    },
+    {
       "slug": "xe-gr-scraper",
       "title": "XE.gr Greek Property Scraper",
       "description": "Scrape Greek real estate listings from XE.gr: prices, size, rooms, GPS coordinates, amenities, photos and advertiser phone numbers. Works in every language XE.gr publishes: Greek, English, German, French and Spanish, both for the URLs you paste in and for the data you get back.",
@@ -1515,7 +1640,7 @@
       "websiteUrl": "https://automationbyexperts.com/apify/xe-gr-scraper",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/xe-gr-scraper.md",
       "users": 6,
-      "users30Days": 2,
+      "users30Days": 3,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
@@ -1649,77 +1774,6 @@
       ]
     },
     {
-      "slug": "ai-brand-visibility-tracker",
-      "title": "AI Brand Visibility Tracker (ChatGPT, Perplexity & Gemini)",
-      "description": "Is AI recommending you or your competitors? Track brand mentions, ranking position, sentiment, share of voice and cited sources in ChatGPT, Perplexity, Gemini, Claude & Grok answers for the questions your buyers ask. GEO / AEO / LLM SEO monitoring .no OpenAI or Anthropic API key needed.",
-      "category": "SEO & AI Visibility",
-      "categorySlug": "seo-ai-visibility",
-      "apifyUrl": "https://apify.com/fayoussef/ai-brand-visibility-tracker?fpr=youssef",
-      "websiteUrl": "https://automationbyexperts.com/apify/ai-brand-visibility-tracker",
-      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/ai-brand-visibility-tracker.md",
-      "users": 4,
-      "users30Days": 2,
-      "rating": 0,
-      "reviews": 0,
-      "pricingModel": "PAY_PER_EVENT",
-      "useCases": [
-        {
-          "title": "Check if AI recommends your CRM to small businesses",
-          "description": "Asks ChatGPT, Perplexity and Gemini the questions a small business owner asks when choosing a CRM, and reports whether HubSpot is named, where it ranks, which competitors are recommended instead, and whether hubspot.com is cited as a source. Swap in your own brand and competitors.",
-          "url": "https://apify.com/fayoussef/ai-brand-visibility-tracker/examples/crm-brand-visibility-in-ai-answers?fpr=youssef",
-          "input": {
-            "brand_name": "HubSpot",
-            "queries": [
-              "What is the best CRM for a small business?",
-              "Which CRM should a 20 person sales team use in 2026?",
-              "HubSpot vs Salesforce for a startup"
-            ],
-            "competitors": [
-              "Salesforce",
-              "Pipedrive",
-              "Zoho CRM"
-            ],
-            "brand_domains": [
-              "hubspot.com"
-            ],
-            "platforms": [
-              "chatgpt",
-              "perplexity",
-              "gemini"
-            ],
-            "runs_per_query": 1
-          }
-        },
-        {
-          "title": "Measure an ecommerce platform's share of voice in AI search",
-          "description": "Runs each buying intent question twice per platform for a stable score and computes Shopify's share of voice against WooCommerce, BigCommerce and Wix across ChatGPT, Perplexity and Gemini. The answers view keeps the full AI response so you can see the exact wording used.",
-          "url": "https://apify.com/fayoussef/ai-brand-visibility-tracker/examples/ecommerce-platform-ai-share-of-voice?fpr=youssef",
-          "input": {
-            "brand_name": "Shopify",
-            "queries": [
-              "What is the best platform to start an online store?",
-              "Shopify or WooCommerce for a small clothing brand?",
-              "Best ecommerce platform for dropshipping in 2026"
-            ],
-            "competitors": [
-              "WooCommerce",
-              "BigCommerce",
-              "Wix"
-            ],
-            "brand_domains": [
-              "shopify.com"
-            ],
-            "platforms": [
-              "chatgpt",
-              "perplexity",
-              "gemini"
-            ],
-            "runs_per_query": 2
-          }
-        }
-      ]
-    },
-    {
       "slug": "11888-gr-scraper",
       "title": "11888.gr Scraper: Greek Business Phones, Emails & Websites",
       "description": "Scrape Greek businesses from the 11888.gr Yellow Pages by category and place: name, phones, mobile, email, website, address, GPS and WhatsApp/Viber. Search in English or Greek, or paste 11888.gr URLs. Export to JSON, CSV or Excel for B2B leads.",
@@ -1796,14 +1850,14 @@
       ]
     },
     {
-      "slug": "company-domain-to-job-postings",
-      "title": "ATS Job Scraper: Greenhouse, Lever & Ashby by Company Domain",
-      "description": "Paste company domains, get their live job postings. Finds each company's ATS board across Greenhouse, Lever, Ashby, Recruitee, SmartRecruiters and Personio, verifies it really belongs to them, and returns every open role with salary, seniority, location and remote type. No slug hunting.",
-      "category": "Lead Generation Actors",
-      "categorySlug": "lead-generation",
-      "apifyUrl": "https://apify.com/fayoussef/company-domain-to-job-postings?fpr=youssef",
-      "websiteUrl": "https://automationbyexperts.com/apify/company-domain-to-job-postings",
-      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/company-domain-to-job-postings.md",
+      "slug": "dealer-reputation-monitor",
+      "title": "Car Dealer Reviews & Reputation Monitor (DealerRater)",
+      "description": "Pull every DealerRater review for any car dealership by name or URL. Get the star rating broken down by price transparency, trade-in, finance and service time, plus the salesperson each review names. Monitor mode returns only reviews new since the last run, so a schedule becomes an alert feed.",
+      "category": "Car & Vehicle Scrapers",
+      "categorySlug": "vehicle-scrapers",
+      "apifyUrl": "https://apify.com/fayoussef/dealer-reputation-monitor?fpr=youssef",
+      "websiteUrl": "https://automationbyexperts.com/apify/dealer-reputation-monitor",
+      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/dealer-reputation-monitor.md",
       "users": 3,
       "users30Days": 2,
       "rating": 0,
@@ -1811,39 +1865,32 @@
       "pricingModel": "PAY_PER_EVENT",
       "useCases": [
         {
-          "title": "Get every engineering job at YC companies",
-          "description": "Adds the curated Y Combinator company list to your own domains, finds each company's Greenhouse, Lever, Ashby, Recruitee, SmartRecruiters or Personio board, verifies it belongs to them, and returns every open role whose title mentions engineer or developer in one unified schema.",
-          "url": "https://apify.com/fayoussef/company-domain-to-job-postings/examples/engineering-jobs-at-yc-companies?fpr=youssef",
+          "title": "Export every DealerRater review for a dealership",
+          "description": "Type a dealership name and get its 200 most recent DealerRater reviews with full text, star rating, date, the department and the name of the employee each customer dealt with, plus one summary row with the store's overall rating, lifetime review count, address and phone.",
+          "url": "https://apify.com/fayoussef/dealer-reputation-monitor/examples/dealerrater-reviews-export?fpr=youssef",
           "input": {
-            "companies": [
-              "stripe.com",
-              "monzo.com"
+            "dealers": [
+              "Hendrick Honda"
             ],
-            "preset": "yc_companies",
-            "keywords": [
-              "engineer",
-              "developer"
-            ],
-            "includeDescription": true,
-            "descriptionFormat": "markdown",
-            "maxItems": 500
+            "maxReviewsPerDealer": 200,
+            "maxDealersPerSearch": 1,
+            "includeDealerSummary": true
           }
         },
         {
-          "title": "Pull remote jobs from a list of company domains",
-          "description": "Paste domains straight from a CRM export and get back only the remote roles each company has open, with location, salary where published, department and full description. Recruiters and sales teams use it to know who is hiring, and for what, before an outreach sequence starts.",
-          "url": "https://apify.com/fayoussef/company-domain-to-job-postings/examples/remote-jobs-from-a-prospect-list?fpr=youssef",
+          "title": "Get alerted to new 1 and 2 star dealer reviews",
+          "description": "Keeps only reviews rated 2 stars or lower and, with the new since last run switch on, returns just the ones that appeared since the previous run. Schedule it daily for each store and a general manager hears about a bad review, and the employee named in it, the day it lands.",
+          "url": "https://apify.com/fayoussef/dealer-reputation-monitor/examples/negative-dealer-review-alerts?fpr=youssef",
           "input": {
-            "companies": [
-              "stripe.com",
-              "monzo.com",
-              "channable.com",
-              "notion.so"
+            "dealers": [
+              "Hendrick Honda",
+              "https://www.dealerrater.com/dealer/Carvana-dealer-reviews-106904/"
             ],
-            "remoteOnly": true,
-            "includeDescription": true,
-            "descriptionFormat": "markdown",
-            "maxItems": 500
+            "maxRating": 2,
+            "onlyNewSinceLastRun": true,
+            "watchlistName": "dealer-reviews",
+            "maxReviewsPerDealer": 100,
+            "includeDealerSummary": false
           }
         }
       ]
@@ -1889,69 +1936,6 @@
           }
         }
       ]
-    },
-    {
-      "slug": "podcast-guest-finder",
-      "title": "Podcast Guesting Lead Finder: Find Shows & Host Emails",
-      "description": "Find active, on-topic podcasts that book guests, with the host's contact email, ready for outreach. Search any niche on Apple's podcast index, filter to shows with a public email, and let scheduled runs surface only NEW shows. No login, no API keys.",
-      "category": "Lead Generation Actors",
-      "categorySlug": "lead-generation",
-      "apifyUrl": "https://apify.com/fayoussef/podcast-guest-finder?fpr=youssef",
-      "websiteUrl": "https://automationbyexperts.com/apify/podcast-guest-finder",
-      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/podcast-guest-finder.md",
-      "users": 3,
-      "users30Days": 2,
-      "rating": 0,
-      "reviews": 0,
-      "pricingModel": "PAY_PER_EVENT",
-      "useCases": [
-        {
-          "title": "Find B2B SaaS podcasts with host emails",
-          "description": "Searches Apple Podcasts for shows about B2B SaaS and startup founders, keeps only those that published in the last 90 days and expose a host or owner email in their RSS feed, and returns a pitch ready list with show name, episode count, categories and the contact address.",
-          "url": "https://apify.com/fayoussef/podcast-guest-finder/examples/b2b-saas-podcasts-with-host-emails?fpr=youssef",
-          "input": {
-            "keywords": [
-              "B2B SaaS",
-              "startup founders"
-            ],
-            "requireEmail": true,
-            "activeWithinDays": 90,
-            "country": "US",
-            "maxPodcasts": 100
-          }
-        },
-        {
-          "title": "Build a pitch list of real estate investing podcasts",
-          "description": "Finds real estate investing shows whose description signals an interview format, drops any without a reachable host email or without a recent episode, and returns up to 100 leads. What a podcast booking agency charges monthly for, in one run.",
-          "url": "https://apify.com/fayoussef/podcast-guest-finder/examples/real-estate-investing-podcast-pitch-list?fpr=youssef",
-          "input": {
-            "keywords": [
-              "real estate investing"
-            ],
-            "guestFriendlyOnly": true,
-            "requireEmail": true,
-            "activeWithinDays": 90,
-            "country": "US",
-            "maxPodcasts": 100
-          }
-        }
-      ]
-    },
-    {
-      "slug": "rentfaster-scraper",
-      "title": "RentFaster Scraper: Canada Rentals, Rents & Landlord Phones",
-      "description": "Scrape Canadian rental listings from RentFaster.ca in 105 cities (Calgary, Edmonton, Toronto, Montreal...). Filter by type, bedrooms, rent, pets and utilities. Export rent, beds, baths, sq ft, address, GPS, landlord phone and website to JSON, CSV or Excel.",
-      "category": "Developer Tools & APIs",
-      "categorySlug": "developer-tools",
-      "apifyUrl": "https://apify.com/fayoussef/rentfaster-scraper?fpr=youssef",
-      "websiteUrl": "https://automationbyexperts.com/apify/rentfaster-scraper",
-      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/rentfaster-scraper.md",
-      "users": 3,
-      "users30Days": 2,
-      "rating": 0,
-      "reviews": 0,
-      "pricingModel": "PAY_PER_EVENT",
-      "useCases": []
     },
     {
       "slug": "ai-account-watch",
@@ -2043,8 +2027,8 @@
     },
     {
       "slug": "clinical-trials-intelligence",
-      "title": "ClinicalTrials.gov Scraper: Trials, Sponsors & Investigators",
-      "description": "Scrape ClinicalTrials.gov through the official v2 API. Search 500,000+ studies by condition, sponsor, drug, phase, status and location, get 40+ clean fields per trial, monitor competitor pipelines for new trials and status changes, and extract investigator contacts. No API key, no login.",
+      "title": "Clinical Trials Scraper: ClinicalTrials.gov Data & Monitor",
+      "description": "Scrape clinical trials from ClinicalTrials.gov via the official v2 API. Search 500,000+ studies by condition, sponsor, drug, phase, status and location, get 40+ fields per trial, monitor competitor pipelines for new trials and status changes, and extract investigator contacts. No API key.",
       "category": "Lead Generation Actors",
       "categorySlug": "lead-generation",
       "apifyUrl": "https://apify.com/fayoussef/clinical-trials-intelligence?fpr=youssef",
@@ -2113,9 +2097,25 @@
       "useCases": []
     },
     {
+      "slug": "coches-net-scraper",
+      "title": "coches.net Scraper: Spain Used Car Prices, Deals & Dealers",
+      "description": "Scrape used cars from coches.net, Spain's largest car marketplace. Filter by make, model, price, year, km, province or radius, fuel, DGT label and price rating. Export price, market price, specs, equipment, dealer contact and photos.",
+      "category": "Car & Vehicle Scrapers",
+      "categorySlug": "vehicle-scrapers",
+      "apifyUrl": "https://apify.com/fayoussef/coches-net-scraper?fpr=youssef",
+      "websiteUrl": "https://automationbyexperts.com/apify/coches-net-scraper",
+      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/coches-net-scraper.md",
+      "users": 2,
+      "users30Days": 1,
+      "rating": 0,
+      "reviews": 0,
+      "pricingModel": "PAY_PER_EVENT",
+      "useCases": []
+    },
+    {
       "slug": "dataset-diff",
-      "title": "Dataset Diff: Only New & Changed Items From Any Actor",
-      "description": "Point it at any Apify Actor, Task or dataset and get only what changed since its last run: new rows, edited rows, rows that disappeared. Push the delta to Slack, Discord, Telegram or a webhook. No target website, so nothing breaks.",
+      "title": "Dataset Diff & Change Monitor: Only New Items From Any Actor",
+      "description": "Turn any Apify Actor, Task or dataset into a change monitor: get only the new, changed and removed items since the last run, deduplicated across runs. Push the delta to Slack, Discord, Telegram, email or a webhook. No target website, so nothing breaks.",
       "category": "Developer Tools & APIs",
       "categorySlug": "developer-tools",
       "apifyUrl": "https://apify.com/fayoussef/dataset-diff?fpr=youssef",
@@ -2169,55 +2169,9 @@
       ]
     },
     {
-      "slug": "dealer-reputation-monitor",
-      "title": "Car Dealer Reviews & Reputation Monitor (DealerRater)",
-      "description": "Pull every DealerRater review for any car dealership by name or URL. Get the star rating broken down by price transparency, trade-in, finance and service time, plus the salesperson each review names. Monitor mode returns only reviews new since the last run, so a schedule becomes an alert feed.",
-      "category": "Car & Vehicle Scrapers",
-      "categorySlug": "vehicle-scrapers",
-      "apifyUrl": "https://apify.com/fayoussef/dealer-reputation-monitor?fpr=youssef",
-      "websiteUrl": "https://automationbyexperts.com/apify/dealer-reputation-monitor",
-      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/dealer-reputation-monitor.md",
-      "users": 2,
-      "users30Days": 1,
-      "rating": 0,
-      "reviews": 0,
-      "pricingModel": "PAY_PER_EVENT",
-      "useCases": [
-        {
-          "title": "Export every DealerRater review for a dealership",
-          "description": "Type a dealership name and get its 200 most recent DealerRater reviews with full text, star rating, date, the department and the name of the employee each customer dealt with, plus one summary row with the store's overall rating, lifetime review count, address and phone.",
-          "url": "https://apify.com/fayoussef/dealer-reputation-monitor/examples/dealerrater-reviews-export?fpr=youssef",
-          "input": {
-            "dealers": [
-              "Hendrick Honda"
-            ],
-            "maxReviewsPerDealer": 200,
-            "maxDealersPerSearch": 1,
-            "includeDealerSummary": true
-          }
-        },
-        {
-          "title": "Get alerted to new 1 and 2 star dealer reviews",
-          "description": "Keeps only reviews rated 2 stars or lower and, with the new since last run switch on, returns just the ones that appeared since the previous run. Schedule it daily for each store and a general manager hears about a bad review, and the employee named in it, the day it lands.",
-          "url": "https://apify.com/fayoussef/dealer-reputation-monitor/examples/negative-dealer-review-alerts?fpr=youssef",
-          "input": {
-            "dealers": [
-              "Hendrick Honda",
-              "https://www.dealerrater.com/dealer/Carvana-dealer-reviews-106904/"
-            ],
-            "maxRating": 2,
-            "onlyNewSinceLastRun": true,
-            "watchlistName": "dealer-reviews",
-            "maxReviewsPerDealer": 100,
-            "includeDealerSummary": false
-          }
-        }
-      ]
-    },
-    {
       "slug": "eu-vat-compliance-monitor",
-      "title": "EU VAT Number Validation: Bulk VIES Check & Supplier Monitor",
-      "description": "Validate a whole supplier or customer list against VIES, get the consultation number that proves you checked, and be told the moment a VAT number goes invalid or its registered name changes. Knows the difference between an invalid number and a member state that is simply down.",
+      "title": "VIES VAT Number Validator: Bulk EU VAT Check & Monitor",
+      "description": "Bulk EU VAT number validation against VIES. Check a whole supplier or customer list, get the consultation number that proves you checked, and get alerted when a VAT number turns invalid or its registered name changes. Tells an invalid number apart from a member state that is down.",
       "category": "Developer Tools & APIs",
       "categorySlug": "developer-tools",
       "apifyUrl": "https://apify.com/fayoussef/eu-vat-compliance-monitor?fpr=youssef",
@@ -2232,8 +2186,8 @@
     },
     {
       "slug": "license-roster-monitor",
-      "title": "License Verification & Expiry Monitor: Bulk US License Lookup",
-      "description": "Re-verify a whole roster of contractors, nurses, agents or providers against official state registries, then get only what changed: expired, suspended, revoked, lapsed bond, about to renew. Official open data, no API key, no portal scraping.",
+      "title": "License Lookup & Verification: Bulk Contractor, Nurse, NPI",
+      "description": "Bulk professional license lookup and verification for contractors, nurses, electricians, real estate agents and healthcare providers (NPI). Checks a whole roster against official state registries and reports expired, suspended, revoked or lapsing licenses. Schedule it to get only changes.",
       "category": "Developer Tools & APIs",
       "categorySlug": "developer-tools",
       "apifyUrl": "https://apify.com/fayoussef/license-roster-monitor?fpr=youssef",
@@ -2303,6 +2257,38 @@
       ]
     },
     {
+      "slug": "rentfaster-scraper",
+      "title": "RentFaster Scraper: Canada Rentals, Rents & Landlord Phones",
+      "description": "Scrape Canadian rental listings from RentFaster.ca in 105 cities (Calgary, Edmonton, Toronto, Montreal...). Filter by type, bedrooms, rent, pets and utilities. Export rent, beds, baths, sq ft, address, GPS, landlord phone and website to JSON, CSV or Excel.",
+      "category": "Real Estate Scrapers",
+      "categorySlug": "real-estate-scrapers",
+      "apifyUrl": "https://apify.com/fayoussef/rentfaster-scraper?fpr=youssef",
+      "websiteUrl": "https://automationbyexperts.com/apify/rentfaster-scraper",
+      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/rentfaster-scraper.md",
+      "users": 2,
+      "users30Days": 2,
+      "rating": 0,
+      "reviews": 0,
+      "pricingModel": "PAY_PER_EVENT",
+      "useCases": []
+    },
+    {
+      "slug": "rona-scraper",
+      "title": "RONA Scraper: Canada Home Improvement Prices, Stock & Specs",
+      "description": "Scrape RONA.ca products in English and French from any category, search or product URL. Export price, sale price, regular price, stock by store, UPC, model, brand, rating, specs and images to JSON, CSV or Excel. Fast, reliable and maintained.",
+      "category": "E-commerce & Marketplace Scrapers",
+      "categorySlug": "ecommerce-scrapers",
+      "apifyUrl": "https://apify.com/fayoussef/rona-scraper?fpr=youssef",
+      "websiteUrl": "https://automationbyexperts.com/apify/rona-scraper",
+      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/rona-scraper.md",
+      "users": 2,
+      "users30Days": 1,
+      "rating": 0,
+      "reviews": 0,
+      "pricingModel": "PAY_PER_EVENT",
+      "useCases": []
+    },
+    {
       "slug": "scrape-any-site-anti-bot-proxy-js-render-ai",
       "title": "Scrape any site, Anti-Bot Proxy, JS Render & AI",
       "description": "Free web scraper API for any website. Rotating anti-bot proxies, JS rendering, screenshots, CSS + AI extraction. Clean HTML, Markdown and JSON.",
@@ -2319,63 +2305,9 @@
       "useCases": []
     },
     {
-      "slug": "skroutz-scraper",
-      "title": "Skroutz Scraper: Prices, Shop Offers & Price History",
-      "description": "Scrape Skroutz products from Greece, Cyprus, Bulgaria, Romania, Germany and Malta in English, Greek, Bulgarian, Romanian or German. Paste any category, brand, shop or search URL, or search by keyword, and get prices, ratings and specs, plus every shop's offer and price history.",
-      "category": "E-commerce & Marketplace Scrapers",
-      "categorySlug": "ecommerce-scrapers",
-      "apifyUrl": "https://apify.com/fayoussef/skroutz-scraper?fpr=youssef",
-      "websiteUrl": "https://automationbyexperts.com/apify/skroutz-scraper",
-      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/skroutz-scraper.md",
-      "users": 2,
-      "users30Days": 1,
-      "rating": 0,
-      "reviews": 0,
-      "pricingModel": "PAY_PER_EVENT",
-      "useCases": [
-        {
-          "title": "Compare iPhone 17 Pro prices across all Skroutz countries",
-          "description": "Search Skroutz in Greece, Cyprus, Bulgaria, Romania, Germany and Malta for the iPhone 17 Pro and get every model with its price, currency, rating and delivery in English, plus every shop selling it with price, stock and shipping cost. Built for cross-border price comparison, resellers and deal hunters.",
-          "url": "https://apify.com/fayoussef/skroutz-scraper/examples/iphone-17-pro-prices-all-skroutz-countries?fpr=youssef",
-          "input": {
-            "search_terms": [
-              "iphone 17 pro"
-            ],
-            "countries": [
-              "gr",
-              "cy",
-              "bg",
-              "ro",
-              "de",
-              "mt"
-            ],
-            "language": "en",
-            "sort_by": "price_asc",
-            "max_items": 200,
-            "include_shop_offers": true
-          }
-        },
-        {
-          "title": "Τιμές πλυντηρίων ρούχων στο Skroutz με ιστορικό τιμών",
-          "description": "Συγκεντρώστε τα πλυντήρια ρούχων του Skroutz.gr με τιμή, βαθμολογία και παράδοση, μαζί με το ιστορικό χαμηλότερης τιμής κάθε προϊόντος: τη χαμηλότερη τιμή όλων των εποχών και των τελευταίων 30 και 90 ημερών. Ιδανικό για καταστήματα ηλεκτρικών συσκευών και για όσους περιμένουν την καλύτερη τιμή πριν αγοράσουν.",
-          "url": "https://apify.com/fayoussef/skroutz-scraper/examples/washing-machine-prices-greece-greek?fpr=youssef",
-          "input": {
-            "start_urls": [
-              {
-                "url": "https://www.skroutz.gr/c/405/plynthria-rouxwn.html"
-              }
-            ],
-            "language": "el",
-            "max_items": 100,
-            "include_price_history": true
-          }
-        }
-      ]
-    },
-    {
       "slug": "xo-gr-scraper",
-      "title": "XO.gr Scraper: Greek Business Phones, Emails & Websites",
-      "description": "Scrape Greek businesses from xo.gr (Χρυσός Οδηγός) by category and place: name, phones, mobile, email, website, address, GPS and sponsored flag, plus fax, contact person, hours and rating. Search in English or Greek, or paste xo.gr URLs.",
+      "title": "XO.gr Scraper: Greek Business Directory, Phones & Emails",
+      "description": "Scrape Greek business leads from xo.gr (Χρυσός Οδηγός, the Greek Yellow Pages) by category and place: name, phones, mobile, email, website, address, GPS and sponsored flag, plus fax, contact person, hours and rating. Search in English or Greek, or paste xo.gr URLs.",
       "category": "Lead Generation Actors",
       "categorySlug": "lead-generation",
       "apifyUrl": "https://apify.com/fayoussef/xo-gr-scraper?fpr=youssef",
@@ -2390,8 +2322,8 @@
     },
     {
       "slug": "cheap-amazon-scraper",
-      "title": "Cheap Amazon Scraper: Extract Products, Offers, Prices",
-      "description": "Fast, reliable Amazon scraper. Extract product details, search results, seller offers and raw HTML from 21 marketplaces with geo-targeting and ZIP-level pricing.",
+      "title": "Amazon Scraper: Products, Search Results, Offers & Buy Box",
+      "description": "Scrape Amazon product details, search results, seller offers and Buy Box data from 21 marketplaces, with ZIP-level pricing and geo-targeting. Look up by keyword, ASIN or URL and export clean rows. Requires your own free scrape.do API key.",
       "category": "E-commerce & Marketplace Scrapers",
       "categorySlug": "ecommerce-scrapers",
       "apifyUrl": "https://apify.com/fayoussef/cheap-amazon-scraper?fpr=youssef",
@@ -2403,6 +2335,59 @@
       "reviews": 0,
       "pricingModel": "FREE",
       "useCases": []
+    },
+    {
+      "slug": "company-domain-to-job-postings",
+      "title": "Greenhouse & Lever Jobs Scraper: ATS Job Postings by Domain",
+      "description": "Scrape Greenhouse, Lever, Ashby, Recruitee, SmartRecruiters and Personio jobs from just a company domain. Finds each company's ATS job board, verifies it belongs to them, and returns every open role with salary, seniority, location and remote type. No board slugs needed.",
+      "category": "Lead Generation Actors",
+      "categorySlug": "lead-generation",
+      "apifyUrl": "https://apify.com/fayoussef/company-domain-to-job-postings?fpr=youssef",
+      "websiteUrl": "https://automationbyexperts.com/apify/company-domain-to-job-postings",
+      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/company-domain-to-job-postings.md",
+      "users": 1,
+      "users30Days": 0,
+      "rating": 0,
+      "reviews": 0,
+      "pricingModel": "PAY_PER_EVENT",
+      "useCases": [
+        {
+          "title": "Get every engineering job at YC companies",
+          "description": "Adds the curated Y Combinator company list to your own domains, finds each company's Greenhouse, Lever, Ashby, Recruitee, SmartRecruiters or Personio board, verifies it belongs to them, and returns every open role whose title mentions engineer or developer in one unified schema.",
+          "url": "https://apify.com/fayoussef/company-domain-to-job-postings/examples/engineering-jobs-at-yc-companies?fpr=youssef",
+          "input": {
+            "companies": [
+              "stripe.com",
+              "monzo.com"
+            ],
+            "preset": "yc_companies",
+            "keywords": [
+              "engineer",
+              "developer"
+            ],
+            "includeDescription": true,
+            "descriptionFormat": "markdown",
+            "maxItems": 500
+          }
+        },
+        {
+          "title": "Pull remote jobs from a list of company domains",
+          "description": "Paste domains straight from a CRM export and get back only the remote roles each company has open, with location, salary where published, department and full description. Recruiters and sales teams use it to know who is hiring, and for what, before an outreach sequence starts.",
+          "url": "https://apify.com/fayoussef/company-domain-to-job-postings/examples/remote-jobs-from-a-prospect-list?fpr=youssef",
+          "input": {
+            "companies": [
+              "stripe.com",
+              "monzo.com",
+              "channable.com",
+              "notion.so"
+            ],
+            "remoteOnly": true,
+            "includeDescription": true,
+            "descriptionFormat": "markdown",
+            "maxItems": 500
+          }
+        }
+      ]
     },
     {
       "slug": "multi-marketplace-price-checker",
@@ -2460,8 +2445,8 @@
     },
     {
       "slug": "naukrigulf-scraper",
-      "title": "Naukrigulf Scraper: Gulf Jobs in 12 Languages",
-      "description": "Scrape Naukrigulf.com jobs across the UAE, Saudi Arabia, Qatar, Kuwait, Bahrain and Oman. Search in Arabic, Hindi, Malayalam, Tagalog and 8 more, and read every result back in your language. Filters on what the site hides: salary, nationality and gender requirements, agency vs direct employer.",
+      "title": "Naukrigulf Jobs Scraper: UAE, Saudi & Gulf Jobs, 12 Languages",
+      "description": "Scrape Naukrigulf jobs in Dubai, the UAE, Saudi Arabia, Qatar, Kuwait, Bahrain and Oman. Search in Arabic, Hindi, Malayalam, Tagalog and 8 more languages. 40+ fields per job, with filters the site hides: salary, nationality and gender requirements, agency vs direct employer.",
       "category": "Lead Generation Actors",
       "categorySlug": "lead-generation",
       "apifyUrl": "https://apify.com/fayoussef/naukrigulf-scraper?fpr=youssef",
@@ -2504,6 +2489,53 @@
             "sortBy": "date",
             "outputLanguage": "en",
             "maxItems": 200
+          }
+        }
+      ]
+    },
+    {
+      "slug": "podcast-guest-finder",
+      "title": "Podcast Scraper for Guest Booking: Shows & Host Emails",
+      "description": "Find podcasts that book guests, with the host's contact email. Search any niche across Apple Podcasts, keep active, guest-friendly shows with a public email, and let scheduled runs return only NEW shows. A podcast guest booking and PR outreach list builder. No login, no API keys.",
+      "category": "Lead Generation Actors",
+      "categorySlug": "lead-generation",
+      "apifyUrl": "https://apify.com/fayoussef/podcast-guest-finder?fpr=youssef",
+      "websiteUrl": "https://automationbyexperts.com/apify/podcast-guest-finder",
+      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/podcast-guest-finder.md",
+      "users": 1,
+      "users30Days": 0,
+      "rating": 0,
+      "reviews": 0,
+      "pricingModel": "PAY_PER_EVENT",
+      "useCases": [
+        {
+          "title": "Find B2B SaaS podcasts with host emails",
+          "description": "Searches Apple Podcasts for shows about B2B SaaS and startup founders, keeps only those that published in the last 90 days and expose a host or owner email in their RSS feed, and returns a pitch ready list with show name, episode count, categories and the contact address.",
+          "url": "https://apify.com/fayoussef/podcast-guest-finder/examples/b2b-saas-podcasts-with-host-emails?fpr=youssef",
+          "input": {
+            "keywords": [
+              "B2B SaaS",
+              "startup founders"
+            ],
+            "requireEmail": true,
+            "activeWithinDays": 90,
+            "country": "US",
+            "maxPodcasts": 100
+          }
+        },
+        {
+          "title": "Build a pitch list of real estate investing podcasts",
+          "description": "Finds real estate investing shows whose description signals an interview format, drops any without a reachable host email or without a recent episode, and returns up to 100 leads. What a podcast booking agency charges monthly for, in one run.",
+          "url": "https://apify.com/fayoussef/podcast-guest-finder/examples/real-estate-investing-podcast-pitch-list?fpr=youssef",
+          "input": {
+            "keywords": [
+              "real estate investing"
+            ],
+            "guestFriendlyOnly": true,
+            "requireEmail": true,
+            "activeWithinDays": 90,
+            "country": "US",
+            "maxPodcasts": 100
           }
         }
       ]
@@ -2568,8 +2600,8 @@
     },
     {
       "slug": "spitogatos-cy-scraper",
-      "title": "Spitogatos Cyprus Scraper: Property Listings & Agent Phones",
-      "description": "Scrape property listings and estate agents from Spitogatos.com.cy in English or Greek. Paste any search, listing or agent URL, or search by town, price and property type, and get price, area, rooms, GPS, photos and the agency phone across Limassol, Nicosia, Larnaca, Paphos and Famagusta.",
+      "title": "Cyprus Property Scraper: Spitogatos.com.cy Listings & Agents",
+      "description": "Scrape Cyprus real estate listings and estate agents from Spitogatos.com.cy, in English or Greek. Search by town, price and property type, or paste any URL, and get price, area, rooms, GPS, photos and the agent's phone across Limassol, Nicosia, Larnaca, Paphos and Famagusta.",
       "category": "Real Estate Scrapers",
       "categorySlug": "real-estate-scrapers",
       "apifyUrl": "https://apify.com/fayoussef/spitogatos-cy-scraper?fpr=youssef",
@@ -2639,8 +2671,8 @@
     },
     {
       "slug": "website-change-monitor",
-      "title": "Website Change Detector: Page Diff, Price & Content Alerts",
-      "description": "Monitor any web page for changes and get a line-by-line diff of what was added and removed. Track competitor pricing, product listings, terms of service and job boards, with severity scoring, keyword watching and instant alerts to Slack, Discord, Telegram or any webhook.",
+      "title": "Website Change Monitor: Page Diff & Change Detection Alerts",
+      "description": "Monitor any web page for changes and get a line-by-line diff of what was added and removed. Website change detection for competitor pricing, product pages, terms of service and job boards, with keyword watching, severity scoring and alerts to Slack, Discord, Telegram or a webhook.",
       "category": "Developer Tools & APIs",
       "categorySlug": "developer-tools",
       "apifyUrl": "https://apify.com/fayoussef/website-change-monitor?fpr=youssef",

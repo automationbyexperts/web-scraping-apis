@@ -1,6 +1,6 @@
-# License Verification & Expiry Monitor: Bulk US License Lookup
+# License Lookup & Verification: Bulk Contractor, Nurse, NPI
 
-**License Verification & Expiry Monitor: Bulk US License Lookup** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Re-verify a whole roster of contractors, nurses, agents or providers against official state registries, then get only what changed: expired, suspended, revoked, lapsed bond, about to renew. Official open data, no API key, no portal scraping.
+**License Lookup & Verification: Bulk Contractor, Nurse, NPI** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Bulk professional license lookup and verification for contractors, nurses, electricians, real estate agents and healthcare providers (NPI). Checks a whole roster against official state registries and reports expired, suspended, revoked or lapsing licenses. Schedule it to get only changes.
 
 [Run it on Apify](https://apify.com/fayoussef/license-roster-monitor?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/license-roster-monitor?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All Developer Tools & APIs](../categories/developer-tools.md)
 
@@ -13,9 +13,9 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/license-roster-monitor?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-09-28 |
+| Catalog updated | 2026-10-05 |
 
-## How to use License Verification & Expiry Monitor: Bulk US License Lookup
+## How to use License Lookup & Verification: Bulk Contractor, Nurse, NPI
 
 ### No code
 
@@ -84,7 +84,7 @@ Your Apify API token is under **Settings > API & Integrations** in the [Apify Co
 
 ## FAQ
 
-### Is License Verification & Expiry Monitor: Bulk US License Lookup free to try?
+### Is License Lookup & Verification: Bulk Contractor, Nurse, NPI free to try?
 
 Yes. You can start it with a free Apify account. Free runs have usage limits, and larger jobs need an [Apify plan](https://apify.com/pricing?fpr=youssef). The current rate is shown on the [Store page](https://apify.com/fayoussef/license-roster-monitor?fpr=youssef).
 
@@ -106,14 +106,13 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## Related Developer Tools & APIs
 
-- [RentFaster Scraper: Canada Rentals, Rents & Landlord Phones](rentfaster-scraper.md): Scrape Canadian rental listings from RentFaster.ca in 105 cities (Calgary, Edmonton, Toronto, Montreal...). Filter by type, bedrooms, rent...
-- [Dataset Diff: Only New & Changed Items From Any Actor](dataset-diff.md): Point it at any Apify Actor, Task or dataset and get only what changed since its last run: new rows, edited rows, rows that disappeared...
-- [EU VAT Number Validation: Bulk VIES Check & Supplier Monitor](eu-vat-compliance-monitor.md): Validate a whole supplier or customer list against VIES, get the consultation number that proves you checked, and be told the moment a VAT...
+- [Dataset Diff & Change Monitor: Only New Items From Any Actor](dataset-diff.md): Turn any Apify Actor, Task or dataset into a change monitor: get only the new, changed and removed items since the last run, deduplicated...
+- [VIES VAT Number Validator: Bulk EU VAT Check & Monitor](eu-vat-compliance-monitor.md): Bulk EU VAT number validation against VIES. Check a whole supplier or customer list, get the consultation number that proves you checked...
 - [Scrape any site, Anti-Bot Proxy, JS Render & AI](scrape-any-site-anti-bot-proxy-js-render-ai.md): Free web scraper API for any website. Rotating anti-bot proxies, JS rendering, screenshots, CSS + AI extraction. Clean HTML, Markdown and...
-- [Website Change Detector: Page Diff, Price & Content Alerts](website-change-monitor.md): Monitor any web page for changes and get a line-by-line diff of what was added and removed. Track competitor pricing, product listings...
+- [Website Change Monitor: Page Diff & Change Detection Alerts](website-change-monitor.md): Monitor any web page for changes and get a line-by-line diff of what was added and removed. Website change detection for competitor...
 
 ## More
 
-- Full catalog: [all 54 actors](../README.md)
+- Full catalog: [all 56 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/license-roster-monitor](https://automationbyexperts.com/apify/license-roster-monitor?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/license-roster-monitor.md](https://automationbyexperts.com/apify/license-roster-monitor.md)

@@ -1,6 +1,6 @@
-# Website Change Detector: Page Diff, Price & Content Alerts
+# Website Change Monitor: Page Diff & Change Detection Alerts
 
-**Website Change Detector: Page Diff, Price & Content Alerts** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Monitor any web page for changes and get a line-by-line diff of what was added and removed. Track competitor pricing, product listings, terms of service and job boards, with severity scoring, keyword watching and instant alerts to Slack, Discord, Telegram or any webhook.
+**Website Change Monitor: Page Diff & Change Detection Alerts** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Monitor any web page for changes and get a line-by-line diff of what was added and removed. Website change detection for competitor pricing, product pages, terms of service and job boards, with keyword watching, severity scoring and alerts to Slack, Discord, Telegram or a webhook.
 
 [Run it on Apify](https://apify.com/fayoussef/website-change-monitor?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/website-change-monitor?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All Developer Tools & APIs](../categories/developer-tools.md)
 
@@ -13,14 +13,14 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/website-change-monitor?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-09-28 |
+| Catalog updated | 2026-10-05 |
 
-## What you can do with Website Change Detector: Page Diff, Price & Content Alerts
+## What you can do with Website Change Monitor: Page Diff & Change Detection Alerts
 
 - **[Monitor a competitor's pricing page for changes](https://apify.com/fayoussef/website-change-monitor/examples/competitor-pricing-page-monitor?fpr=youssef)**: Saves a baseline of the visible text on a pricing page, then on every run reports exactly what changed, with any change mentioning price, discount or plan flagged as major. Schedule it hourly or daily and add a Slack or...
 - **[Get alerts when a terms of service page changes](https://apify.com/fayoussef/website-change-monitor/examples/terms-of-service-change-alerts?fpr=youssef)**: Watches legal and policy pages that change silently and returns a line by line diff instead of making you reread the whole page, ignoring the last updated timestamp so only real wording changes count. Legal and...
 
-## How to use Website Change Detector: Page Diff, Price & Content Alerts
+## How to use Website Change Monitor: Page Diff & Change Detection Alerts
 
 ### No code
 
@@ -117,7 +117,7 @@ Your Apify API token is under **Settings > API & Integrations** in the [Apify Co
 
 ## FAQ
 
-### Is Website Change Detector: Page Diff, Price & Content Alerts free to try?
+### Is Website Change Monitor: Page Diff & Change Detection Alerts free to try?
 
 Yes. You can start it with a free Apify account. Free runs have usage limits, and larger jobs need an [Apify plan](https://apify.com/pricing?fpr=youssef). The current rate is shown on the [Store page](https://apify.com/fayoussef/website-change-monitor?fpr=youssef).
 
@@ -139,14 +139,13 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## Related Developer Tools & APIs
 
-- [RentFaster Scraper: Canada Rentals, Rents & Landlord Phones](rentfaster-scraper.md): Scrape Canadian rental listings from RentFaster.ca in 105 cities (Calgary, Edmonton, Toronto, Montreal...). Filter by type, bedrooms, rent...
-- [Dataset Diff: Only New & Changed Items From Any Actor](dataset-diff.md): Point it at any Apify Actor, Task or dataset and get only what changed since its last run: new rows, edited rows, rows that disappeared...
-- [EU VAT Number Validation: Bulk VIES Check & Supplier Monitor](eu-vat-compliance-monitor.md): Validate a whole supplier or customer list against VIES, get the consultation number that proves you checked, and be told the moment a VAT...
-- [License Verification & Expiry Monitor: Bulk US License Lookup](license-roster-monitor.md): Re-verify a whole roster of contractors, nurses, agents or providers against official state registries, then get only what changed...
+- [Dataset Diff & Change Monitor: Only New Items From Any Actor](dataset-diff.md): Turn any Apify Actor, Task or dataset into a change monitor: get only the new, changed and removed items since the last run, deduplicated...
+- [VIES VAT Number Validator: Bulk EU VAT Check & Monitor](eu-vat-compliance-monitor.md): Bulk EU VAT number validation against VIES. Check a whole supplier or customer list, get the consultation number that proves you checked...
+- [License Lookup & Verification: Bulk Contractor, Nurse, NPI](license-roster-monitor.md): Bulk professional license lookup and verification for contractors, nurses, electricians, real estate agents and healthcare providers (NPI)...
 - [Scrape any site, Anti-Bot Proxy, JS Render & AI](scrape-any-site-anti-bot-proxy-js-render-ai.md): Free web scraper API for any website. Rotating anti-bot proxies, JS rendering, screenshots, CSS + AI extraction. Clean HTML, Markdown and...
 
 ## More
 
-- Full catalog: [all 54 actors](../README.md)
+- Full catalog: [all 56 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/website-change-monitor](https://automationbyexperts.com/apify/website-change-monitor?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/website-change-monitor.md](https://automationbyexperts.com/apify/website-change-monitor.md)

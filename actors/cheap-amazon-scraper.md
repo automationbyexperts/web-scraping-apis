@@ -1,6 +1,6 @@
-# Cheap Amazon Scraper: Extract Products, Offers, Prices
+# Amazon Scraper: Products, Search Results, Offers & Buy Box
 
-**Cheap Amazon Scraper: Extract Products, Offers, Prices** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Fast, reliable Amazon scraper. Extract product details, search results, seller offers and raw HTML from 21 marketplaces with geo-targeting and ZIP-level pricing.
+**Amazon Scraper: Products, Search Results, Offers & Buy Box** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Scrape Amazon product details, search results, seller offers and Buy Box data from 21 marketplaces, with ZIP-level pricing and geo-targeting. Look up by keyword, ASIN or URL and export clean rows. Requires your own free scrape.do API key.
 
 [Run it on Apify](https://apify.com/fayoussef/cheap-amazon-scraper?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/cheap-amazon-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All E-commerce & Marketplace Scrapers](../categories/ecommerce-scrapers.md)
 
@@ -13,9 +13,9 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Free (the current rate is shown on the [Store page](https://apify.com/fayoussef/cheap-amazon-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-09-28 |
+| Catalog updated | 2026-10-05 |
 
-## How to use Cheap Amazon Scraper: Extract Products, Offers, Prices
+## How to use Amazon Scraper: Products, Search Results, Offers & Buy Box
 
 ### No code
 
@@ -84,7 +84,7 @@ Your Apify API token is under **Settings > API & Integrations** in the [Apify Co
 
 ## FAQ
 
-### Is Cheap Amazon Scraper: Extract Products, Offers, Prices free to try?
+### Is Amazon Scraper: Products, Search Results, Offers & Buy Box free to try?
 
 Yes. You can start it with a free Apify account. Free runs have usage limits, and larger jobs need an [Apify plan](https://apify.com/pricing?fpr=youssef). The current rate is shown on the [Store page](https://apify.com/fayoussef/cheap-amazon-scraper?fpr=youssef).
 
@@ -110,10 +110,11 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 - [Fnac.com Scraper: Products, Prices, EAN, Stock & Reviews](fnac-data-scraping.md): Scrape fnac.com products from any search, category or product URL, or by keyword with brand, category, price, seller and stock filters. Get...
 - [G2G Scraper: Extract G2G.com Prices, Sellers & Stock](g2g-offer-scraper.md): Scrape live G2G.com prices, sellers, stock and delivery times from any category or Trending URL. Export JSON, CSV or Excel. No G2G login or...
 - [Bike24 Scraper: Cycling Product Prices, Stock & Specs](bike24-result-scraper.md): Our bike24.com scraper effortlessly gathers URLs from all pages and extracts detailed information from each product page
-- [Skroutz Scraper: Prices, Shop Offers & Price History](skroutz-scraper.md): Scrape Skroutz products from Greece, Cyprus, Bulgaria, Romania, Germany and Malta in English, Greek, Bulgarian, Romanian or German. Paste...
+- [Skroutz Scraper: Greek Price Comparison, Offers & History](skroutz-scraper.md): Scrape Skroutz, Greece's largest price comparison site, plus Skroutz Cyprus, Bulgaria, Romania, Germany and Malta. Paste any category...
+- [RONA Scraper: Canada Home Improvement Prices, Stock & Specs](rona-scraper.md): Scrape RONA.ca products in English and French from any category, search or product URL. Export price, sale price, regular price, stock by...
 
 ## More
 
-- Full catalog: [all 54 actors](../README.md)
+- Full catalog: [all 56 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/cheap-amazon-scraper](https://automationbyexperts.com/apify/cheap-amazon-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/cheap-amazon-scraper.md](https://automationbyexperts.com/apify/cheap-amazon-scraper.md)

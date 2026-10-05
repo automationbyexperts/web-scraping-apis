@@ -1,6 +1,6 @@
-# ClinicalTrials.gov Scraper: Trials, Sponsors & Investigators
+# Clinical Trials Scraper: ClinicalTrials.gov Data & Monitor
 
-**ClinicalTrials.gov Scraper: Trials, Sponsors & Investigators** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Scrape ClinicalTrials.gov through the official v2 API. Search 500,000+ studies by condition, sponsor, drug, phase, status and location, get 40+ clean fields per trial, monitor competitor pipelines for new trials and status changes, and extract investigator contacts. No API key, no login.
+**Clinical Trials Scraper: ClinicalTrials.gov Data & Monitor** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Scrape clinical trials from ClinicalTrials.gov via the official v2 API. Search 500,000+ studies by condition, sponsor, drug, phase, status and location, get 40+ fields per trial, monitor competitor pipelines for new trials and status changes, and extract investigator contacts. No API key.
 
 [Run it on Apify](https://apify.com/fayoussef/clinical-trials-intelligence?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/clinical-trials-intelligence?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All Lead Generation Actors](../categories/lead-generation.md)
 
@@ -13,14 +13,14 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/clinical-trials-intelligence?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-09-28 |
+| Catalog updated | 2026-10-05 |
 
-## What you can do with ClinicalTrials.gov Scraper: Trials, Sponsors & Investigators
+## What you can do with Clinical Trials Scraper: ClinicalTrials.gov Data & Monitor
 
 - **[Find recruiting breast cancer trials in the United States](https://apify.com/fayoussef/clinical-trials-intelligence/examples/recruiting-breast-cancer-trials-usa?fpr=youssef)**: Queries the official ClinicalTrials.gov API for Phase 2 and Phase 3 breast cancer studies currently recruiting at US sites, most recently updated first, and returns each trial with sponsor, interventions, eligibility...
 - **[Monitor a pharma company's clinical trial pipeline](https://apify.com/fayoussef/clinical-trials-intelligence/examples/pharma-pipeline-monitor?fpr=youssef)**: Tracks every trial where Pfizer is the sponsor or a collaborator that is recruiting, about to recruit or active, newest updates first. With a named state store, each run flags which trials are new or changed since last...
 
-## How to use ClinicalTrials.gov Scraper: Trials, Sponsors & Investigators
+## How to use Clinical Trials Scraper: ClinicalTrials.gov Data & Monitor
 
 ### No code
 
@@ -123,7 +123,7 @@ Your Apify API token is under **Settings > API & Integrations** in the [Apify Co
 
 ## FAQ
 
-### Is ClinicalTrials.gov Scraper: Trials, Sponsors & Investigators free to try?
+### Is Clinical Trials Scraper: ClinicalTrials.gov Data & Monitor free to try?
 
 Yes. You can start it with a free Apify account. Free runs have usage limits, and larger jobs need an [Apify plan](https://apify.com/pricing?fpr=youssef). The current rate is shown on the [Store page](https://apify.com/fayoussef/clinical-trials-intelligence?fpr=youssef).
 
@@ -154,6 +154,6 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 54 actors](../README.md)
+- Full catalog: [all 56 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/clinical-trials-intelligence](https://automationbyexperts.com/apify/clinical-trials-intelligence?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/clinical-trials-intelligence.md](https://automationbyexperts.com/apify/clinical-trials-intelligence.md)

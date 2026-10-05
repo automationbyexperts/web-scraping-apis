@@ -1,6 +1,6 @@
-# XO.gr Scraper: Greek Business Phones, Emails & Websites
+# XO.gr Scraper: Greek Business Directory, Phones & Emails
 
-**XO.gr Scraper: Greek Business Phones, Emails & Websites** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Scrape Greek businesses from xo.gr (Χρυσός Οδηγός) by category and place: name, phones, mobile, email, website, address, GPS and sponsored flag, plus fax, contact person, hours and rating. Search in English or Greek, or paste xo.gr URLs.
+**XO.gr Scraper: Greek Business Directory, Phones & Emails** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Scrape Greek business leads from xo.gr (Χρυσός Οδηγός, the Greek Yellow Pages) by category and place: name, phones, mobile, email, website, address, GPS and sponsored flag, plus fax, contact person, hours and rating. Search in English or Greek, or paste xo.gr URLs.
 
 [Run it on Apify](https://apify.com/fayoussef/xo-gr-scraper?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/xo-gr-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All Lead Generation Actors](../categories/lead-generation.md)
 
@@ -13,9 +13,9 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/xo-gr-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-09-28 |
+| Catalog updated | 2026-10-05 |
 
-## How to use XO.gr Scraper: Greek Business Phones, Emails & Websites
+## How to use XO.gr Scraper: Greek Business Directory, Phones & Emails
 
 ### No code
 
@@ -84,7 +84,7 @@ Your Apify API token is under **Settings > API & Integrations** in the [Apify Co
 
 ## FAQ
 
-### Is XO.gr Scraper: Greek Business Phones, Emails & Websites free to try?
+### Is XO.gr Scraper: Greek Business Directory, Phones & Emails free to try?
 
 Yes. You can start it with a free Apify account. Free runs have usage limits, and larger jobs need an [Apify plan](https://apify.com/pricing?fpr=youssef). The current rate is shown on the [Store page](https://apify.com/fayoussef/xo-gr-scraper?fpr=youssef).
 
@@ -115,6 +115,6 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 54 actors](../README.md)
+- Full catalog: [all 56 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/xo-gr-scraper](https://automationbyexperts.com/apify/xo-gr-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/xo-gr-scraper.md](https://automationbyexperts.com/apify/xo-gr-scraper.md)

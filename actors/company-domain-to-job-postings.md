@@ -1,6 +1,6 @@
-# ATS Job Scraper: Greenhouse, Lever & Ashby by Company Domain
+# Greenhouse & Lever Jobs Scraper: ATS Job Postings by Domain
 
-**ATS Job Scraper: Greenhouse, Lever & Ashby by Company Domain** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Paste company domains, get their live job postings. Finds each company's ATS board across Greenhouse, Lever, Ashby, Recruitee, SmartRecruiters and Personio, verifies it really belongs to them, and returns every open role with salary, seniority, location and remote type. No slug hunting.
+**Greenhouse & Lever Jobs Scraper: ATS Job Postings by Domain** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Scrape Greenhouse, Lever, Ashby, Recruitee, SmartRecruiters and Personio jobs from just a company domain. Finds each company's ATS job board, verifies it belongs to them, and returns every open role with salary, seniority, location and remote type. No board slugs needed.
 
 [Run it on Apify](https://apify.com/fayoussef/company-domain-to-job-postings?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/company-domain-to-job-postings?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All Lead Generation Actors](../categories/lead-generation.md)
 
@@ -13,14 +13,14 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/company-domain-to-job-postings?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-09-28 |
+| Catalog updated | 2026-10-05 |
 
-## What you can do with ATS Job Scraper: Greenhouse, Lever & Ashby by Company Domain
+## What you can do with Greenhouse & Lever Jobs Scraper: ATS Job Postings by Domain
 
 - **[Get every engineering job at YC companies](https://apify.com/fayoussef/company-domain-to-job-postings/examples/engineering-jobs-at-yc-companies?fpr=youssef)**: Adds the curated Y Combinator company list to your own domains, finds each company's Greenhouse, Lever, Ashby, Recruitee, SmartRecruiters or Personio board, verifies it belongs to them, and returns every open role whose...
 - **[Pull remote jobs from a list of company domains](https://apify.com/fayoussef/company-domain-to-job-postings/examples/remote-jobs-from-a-prospect-list?fpr=youssef)**: Paste domains straight from a CRM export and get back only the remote roles each company has open, with location, salary where published, department and full description. Recruiters and sales teams use it to know who is...
 
-## How to use ATS Job Scraper: Greenhouse, Lever & Ashby by Company Domain
+## How to use Greenhouse & Lever Jobs Scraper: ATS Job Postings by Domain
 
 ### No code
 
@@ -118,7 +118,7 @@ Your Apify API token is under **Settings > API & Integrations** in the [Apify Co
 
 ## FAQ
 
-### Is ATS Job Scraper: Greenhouse, Lever & Ashby by Company Domain free to try?
+### Is Greenhouse & Lever Jobs Scraper: ATS Job Postings by Domain free to try?
 
 Yes. You can start it with a free Apify account. Free runs have usage limits, and larger jobs need an [Apify plan](https://apify.com/pricing?fpr=youssef). The current rate is shown on the [Store page](https://apify.com/fayoussef/company-domain-to-job-postings?fpr=youssef).
 
@@ -149,6 +149,6 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 54 actors](../README.md)
+- Full catalog: [all 56 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/company-domain-to-job-postings](https://automationbyexperts.com/apify/company-domain-to-job-postings?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/company-domain-to-job-postings.md](https://automationbyexperts.com/apify/company-domain-to-job-postings.md)
