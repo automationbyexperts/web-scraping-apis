@@ -1,8 +1,8 @@
-# Amazon Scraper: Products, Search Results, Offers & Buy Box
+# Smyths Toys Scraper: Prices, EAN Codes, Stock & Product Data
 
-**Amazon Scraper: Products, Search Results, Offers & Buy Box** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Scrape Amazon product details, search results, seller offers and Buy Box data from 21 marketplaces, with ZIP-level pricing and geo-targeting. Look up by keyword, ASIN or URL and export clean rows. Requires your own free scrape.do API key.
+**Smyths Toys Scraper: Prices, EAN Codes, Stock & Product Data** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Scrape Smyths Toys UK and Ireland by category, search or product URL. Get prices, was prices, discounts, EAN barcodes, brand, ratings, reviews, images and descriptions, plus delivery and click & collect stock. Track LEGO and toy prices. Proxies included on paid plans.
 
-[Run it on Apify](https://apify.com/fayoussef/cheap-amazon-scraper?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/cheap-amazon-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All E-commerce & Marketplace Scrapers](../categories/ecommerce-scrapers.md)
+[Run it on Apify](https://apify.com/fayoussef/smythstoys-scraper?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/smythstoys-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All E-commerce & Marketplace Scrapers](../categories/ecommerce-scrapers.md)
 
 ## Key facts
 
@@ -11,11 +11,11 @@
 | Category | [E-commerce & Marketplace Scrapers](../categories/ecommerce-scrapers.md) |
 | Runs on | Apify cloud, nothing to install and no server to manage |
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
-| Pricing model | Free (the current rate is shown on the [Store page](https://apify.com/fayoussef/cheap-amazon-scraper?fpr=youssef)) |
+| Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/smythstoys-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-10-05 |
+| Catalog updated | 2026-10-08 |
 
-## How to use Amazon Scraper: Products, Search Results, Offers & Buy Box
+## How to use Smyths Toys Scraper: Prices, EAN Codes, Stock & Product Data
 
 ### No code
 
@@ -42,7 +42,7 @@ from apify_client import ApifyClient
 
 client = ApifyClient("<YOUR_APIFY_TOKEN>")
 run_input = {}
-run = client.actor("fayoussef/cheap-amazon-scraper").call(run_input=run_input)
+run = client.actor("fayoussef/smythstoys-scraper").call(run_input=run_input)
 
 for item in client.dataset(run["defaultDatasetId"]).iterate_items():
     print(item)
@@ -59,7 +59,7 @@ import { ApifyClient } from 'apify-client';
 
 const client = new ApifyClient({ token: '<YOUR_APIFY_TOKEN>' });
 const input = {};
-const run = await client.actor('fayoussef/cheap-amazon-scraper').call(input);
+const run = await client.actor('fayoussef/smythstoys-scraper').call(input);
 const { items } = await client.dataset(run.defaultDatasetId).listItems();
 console.log(items);
 ```
@@ -67,7 +67,7 @@ console.log(items);
 ### cURL (run and get the results in one call)
 
 ```bash
-curl -X POST "https://api.apify.com/v2/acts/fayoussef~cheap-amazon-scraper/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>" \
+curl -X POST "https://api.apify.com/v2/acts/fayoussef~smythstoys-scraper/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>" \
   -H "Content-Type: application/json" \
   -d '{}'
 ```
@@ -77,16 +77,32 @@ curl -X POST "https://api.apify.com/v2/acts/fayoussef~cheap-amazon-scraper/run-s
 Add the Apify MCP server to Claude, ChatGPT, Cursor or any MCP client with this URL, and the agent can run the actor for you:
 
 ```text
-https://mcp.apify.com?tools=fayoussef/cheap-amazon-scraper
+https://mcp.apify.com?tools=fayoussef/smythstoys-scraper
 ```
 
 Your Apify API token is under **Settings > API & Integrations** in the [Apify Console](https://console.apify.com/settings/integrations?fpr=youssef).
 
+### From AI agents with no Apify account (x402 or Skyfire)
+
+This actor accepts [agentic payments](../agentic-payments.md): an AI agent can run it and pay per run with USDC (x402) or a Skyfire token, with no Apify account.
+
+```bash
+# x402: TOKEN is the prepaid token bought from Apify AGI with USDC on Base
+curl -X POST "https://api.apify.com/v2/acts/fayoussef~smythstoys-scraper/run-sync-get-dataset-items" \
+  -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" -d '{}'
+
+# Skyfire: send the PAY token instead
+curl -X POST "https://api.apify.com/v2/acts/fayoussef~smythstoys-scraper/run-sync-get-dataset-items" \
+  -H "skyfire-pay-id: $SKYFIRE_PAY_TOKEN" -H "Content-Type: application/json" -d '{}'
+```
+
+With MCP and Skyfire: `https://mcp.apify.com?payment=skyfire&tools=fayoussef/smythstoys-scraper`
+
 ## FAQ
 
-### Is Amazon Scraper: Products, Search Results, Offers & Buy Box free to try?
+### Is Smyths Toys Scraper: Prices, EAN Codes, Stock & Product Data free to try?
 
-Yes. You can start it with a free Apify account. Free runs have usage limits, and larger jobs need an [Apify plan](https://apify.com/pricing?fpr=youssef). The current rate is shown on the [Store page](https://apify.com/fayoussef/cheap-amazon-scraper?fpr=youssef).
+Yes. You can start it with a free Apify account. Free runs have usage limits, and larger jobs need an [Apify plan](https://apify.com/pricing?fpr=youssef). The current rate is shown on the [Store page](https://apify.com/fayoussef/smythstoys-scraper?fpr=youssef).
 
 ### Do I need to know how to code?
 
@@ -98,7 +114,11 @@ JSON, CSV, Excel, XML and HTML from the Console, or directly through the Apify A
 
 ### Can AI agents use it?
 
-Yes. Connect the Apify MCP server with `https://mcp.apify.com?tools=fayoussef/cheap-amazon-scraper` and Claude, ChatGPT, Cursor or any MCP client can run it and read the results.
+Yes. Connect the Apify MCP server with `https://mcp.apify.com?tools=fayoussef/smythstoys-scraper` and Claude, ChatGPT, Cursor or any MCP client can run it and read the results.
+
+### Can an AI agent run it without an Apify account?
+
+Yes. This actor accepts agentic payments: an agent can pay per run with USDC through the x402 protocol, or with a Skyfire PAY token, and no Apify account is needed. See [AI agents and x402 payments](../agentic-payments.md).
 
 ### Can I get a custom version?
 
@@ -116,5 +136,5 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 ## More
 
 - Full catalog: [all 56 actors](../README.md)
-- Website page: [https://automationbyexperts.com/apify/cheap-amazon-scraper](https://automationbyexperts.com/apify/cheap-amazon-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
-- Markdown version for AI tools: [https://automationbyexperts.com/apify/cheap-amazon-scraper.md](https://automationbyexperts.com/apify/cheap-amazon-scraper.md)
+- Website page: [https://automationbyexperts.com/apify/smythstoys-scraper](https://automationbyexperts.com/apify/smythstoys-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
+- Markdown version for AI tools: [https://automationbyexperts.com/apify/smythstoys-scraper.md](https://automationbyexperts.com/apify/smythstoys-scraper.md)

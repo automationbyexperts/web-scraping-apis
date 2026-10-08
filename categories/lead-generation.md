@@ -2,7 +2,7 @@
 
 14 ready-to-run lead generation actors on Apify, built and maintained by Youssef Farhan. Verified business contacts, newly licensed businesses, buying-intent posts and PR leads. Each one runs in the cloud with no code and exports to JSON, CSV or Excel.
 
-Updated 2026-10-05.
+Updated 2026-10-08.
 
 | Actor | What it does | Example use cases | Guide |
 |---|---|---|---|

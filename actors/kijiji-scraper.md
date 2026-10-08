@@ -13,7 +13,7 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/kijiji-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-10-05 |
+| Catalog updated | 2026-10-08 |
 
 ## What you can do with Kijiji.ca Scraper: Autos, Real Estate & Classifieds
 
@@ -100,6 +100,22 @@ https://mcp.apify.com?tools=fayoussef/kijiji-scraper
 
 Your Apify API token is under **Settings > API & Integrations** in the [Apify Console](https://console.apify.com/settings/integrations?fpr=youssef).
 
+### From AI agents with no Apify account (x402 or Skyfire)
+
+This actor accepts [agentic payments](../agentic-payments.md): an AI agent can run it and pay per run with USDC (x402) or a Skyfire token, with no Apify account.
+
+```bash
+# x402: TOKEN is the prepaid token bought from Apify AGI with USDC on Base
+curl -X POST "https://api.apify.com/v2/acts/fayoussef~kijiji-scraper/run-sync-get-dataset-items" \
+  -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" -d '{}'
+
+# Skyfire: send the PAY token instead
+curl -X POST "https://api.apify.com/v2/acts/fayoussef~kijiji-scraper/run-sync-get-dataset-items" \
+  -H "skyfire-pay-id: $SKYFIRE_PAY_TOKEN" -H "Content-Type: application/json" -d '{}'
+```
+
+With MCP and Skyfire: `https://mcp.apify.com?payment=skyfire&tools=fayoussef/kijiji-scraper`
+
 ## FAQ
 
 ### Is Kijiji.ca Scraper: Autos, Real Estate & Classifieds free to try?
@@ -118,15 +134,19 @@ JSON, CSV, Excel, XML and HTML from the Console, or directly through the Apify A
 
 Yes. Connect the Apify MCP server with `https://mcp.apify.com?tools=fayoussef/kijiji-scraper` and Claude, ChatGPT, Cursor or any MCP client can run it and read the results.
 
+### Can an AI agent run it without an Apify account?
+
+Yes. This actor accepts agentic payments: an agent can pay per run with USDC through the x402 protocol, or with a Skyfire PAY token, and no Apify account is needed. See [AI agents and x402 payments](../agentic-payments.md).
+
 ### Can I get a custom version?
 
 Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24@gmail.com or visit [AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis).
 
 ## Related Car & Vehicle Scrapers
 
-- [AutoTrader Canada Car Scraper: Prices, VIN, Mileage & Dealers](autotrader-canada.md): Our autotrader.ca scraper makes it simple to collect car listings at scale. It automatically gathers URLs from all available pages and...
+- [AutoTrader Canada Car Scraper: Prices, VIN, Mileage & Dealers](autotrader-canada.md): Scrape AutoTrader.ca car listings: price, mileage, VIN, specs, dealer phone and photos from any search or the filter form. Optional Find...
 - [AutoScout24 Scraper: Car Listings, Prices & Dealer Contacts](autoscout24.md): AutoScout24 car listings from autoscout24.de, .at, .fr, .it, .es, .nl, .be, .lu and .com: price, make, model, mileage, first registration...
-- [AutoTrader.ca Price Drop Monitor & Car Scraper](autotrader-ca.md): Monitor AutoTrader Canada searches and get only new listings, price drops and sold cars since the last run, with previous price and price...
+- [AutoTrader.ca Price Drop Monitor & Car Scraper](autotrader-ca.md): Monitor AutoTrader Canada searches and get only new listings, price drops and sold cars since the last run, with price history. Schedule it...
 - [CarGurus Scraper (US, Canada & UK Car Listings)](cargurus-listings-scraper.md): Scrape CarGurus vehicle listings from .com, .ca and .co.uk. Returns price, mileage, VIN, specs, dealer info and all images per listing.
 - [autotrader.co.za Car Scraper with Seller Phone Numbers](autotrader-co-za-scraper.md): Scrape autotrader.co.za car listings across every page: price, mileage, specs, dealer and location, plus the seller's phone number.
 - [AutoTrader Australia Car Scraper: Prices, VIN & Dealers](autotrader-au-scraper.md): Scrape Autotrader Australia. Paste any autotrader.com.au search URL to export every vehicle: price, make, model, variant, year, odometer...

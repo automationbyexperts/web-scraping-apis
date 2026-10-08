@@ -27,6 +27,7 @@ Do not hand-edit `README.md`, `actors/`, `categories/`, `llms.txt`, `llms-full.t
 | Actors the Store search omits (rentals) | `data/overrides.json` `extraActors` |
 | Categories | website `https://automationbyexperts.com/llms.txt`, `### Category` sections |
 | Use cases, example inputs | `data/tasks.json`, snapshot of the published task landing pages |
+| Agent-payable flag (`agenticPayments`) | Store API `store?username=fayoussef&allowsAgenticUsers=true`; drives `agentic-payments.md`, the x402/Skyfire block in each eligible guide and the `[agent-payable]` tag in `llms.txt` |
 
 ## Commands
 

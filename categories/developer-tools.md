@@ -2,7 +2,7 @@
 
 5 ready-to-run developer tools & apis on Apify, built and maintained by Youssef Farhan. A universal scraping API, change monitoring, and VAT and license compliance monitors. Each one runs in the cloud with no code and exports to JSON, CSV or Excel.
 
-Updated 2026-10-05.
+Updated 2026-10-08.
 
 | Actor | What it does | Example use cases | Guide |
 |---|---|---|---|

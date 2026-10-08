@@ -2,7 +2,7 @@
 
 4 ready-to-run bulk ai tools on Apify, built and maintained by Youssef Farhan. Run hundreds of prompts, images, voiceovers or translations in a single run. Each one runs in the cloud with no code and exports to JSON, CSV or Excel.
 
-Updated 2026-10-05.
+Updated 2026-10-08.
 
 | Actor | What it does | Example use cases | Guide |
 |---|---|---|---|

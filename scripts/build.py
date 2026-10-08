@@ -65,10 +65,10 @@ def fetch_json(url: str):
     return json.loads(fetch(url).decode('utf-8'))
 
 
-def store_actors() -> list[dict]:
+def store_actors(extra: str = '') -> list[dict]:
     items, offset = [], 0
     while True:
-        page = fetch_json(f'https://api.apify.com/v2/store?username={USERNAME}&limit=100&offset={offset}')['data']
+        page = fetch_json(f'https://api.apify.com/v2/store?username={USERNAME}&limit=100&offset={offset}{extra}')['data']
         items.extend(page['items'])
         offset += len(page['items'])
         if not page['items'] or offset >= page['total']:
@@ -171,6 +171,14 @@ def load_catalog() -> dict:
             raw.append(extra)
     raw = [a for a in raw if a['name'] not in set(overrides.get('exclude', []))]
 
+    # Which actors AI agents can run and pay for with no Apify account (x402 / Skyfire).
+    # Apify sets the flag itself; a failed lookup reuses last week's flags rather than dropping them all.
+    try:
+        agentic = {a['name'] for a in store_actors('&allowsAgenticUsers=true')}
+    except RuntimeError as exc:
+        print(f'WARNING: agentic lookup failed ({exc}), reusing previous flags', file=sys.stderr)
+        agentic = {a['slug'] for a in (previous or {}).get('actors', []) if a.get('agenticPayments')}
+
     try:
         categories, mapping = site_categories()
     except RuntimeError as exc:
@@ -205,6 +213,7 @@ def load_catalog() -> dict:
             'rating': a.get('actorReviewRating'),
             'reviews': a.get('actorReviewCount') or 0,
             'pricingModel': (a.get('currentPricingInfo') or {}).get('pricingModel'),
+            'agenticPayments': slug in agentic,
             'useCases': [
                 {
                     'title': clean(t['title']),
@@ -334,6 +343,9 @@ def render_actor(a: dict, catalog: dict, updated: str) -> str:
         out.append(code_samples(slug, {}).replace(
             '### Example input\n', '### Example input\n\nOpen the input form on the Store page to see every field. An empty input runs the defaults.\n', 1))
 
+    if a['agenticPayments']:
+        out.append(agentic_block(slug))
+
     out += ['## FAQ', '']
     faq = [
         (f'Is {title} free to try?',
@@ -347,6 +359,11 @@ def render_actor(a: dict, catalog: dict, updated: str) -> str:
         ('Can I get a custom version?',
          f'Yes. {AUTHOR} builds custom scrapers and automations. Email {CONTACT_EMAIL} or visit [{BRAND}]({SITE}/?{UTM}).'),
     ]
+    if a['agenticPayments']:
+        faq.insert(4, ('Can an AI agent run it without an Apify account?',
+                       'Yes. This actor accepts agentic payments: an agent can pay per run with USDC through the x402 protocol, '
+                       'or with a Skyfire PAY token, and no Apify account is needed. '
+                       'See [AI agents and x402 payments](../agentic-payments.md).'))
     for q, ans in faq:
         out += [f'### {q}', '', ans, '']
 
@@ -404,7 +421,7 @@ def render_readme(catalog: dict, updated: str) -> str:
     for c in cats:
         count = sum(1 for a in actors if a['category'] == c['name'])
         out.append(f"- [{c['name']}](#{anchor(c['name'])}) ({count})")
-    out += ['- [How to run an Apify actor](#how-to-run-an-apify-actor)', '- [FAQ](#faq)', '- [Need a custom scraper?](#need-a-custom-scraper)', '']
+    out += ['- [How to run an Apify actor](#how-to-run-an-apify-actor)', '- [AI agents: pay per run with x402 or Skyfire](agentic-payments.md)', '- [FAQ](#faq)', '- [Need a custom scraper?](#need-a-custom-scraper)', '']
 
     for c in cats:
         members = [a for a in actors if a['category'] == c['name']]
@@ -444,6 +461,10 @@ def render_readme(catalog: dict, updated: str) -> str:
         '',
         'Every actor guide has a ready-to-paste example input and snippets with the real actor name.',
         '',
+        f"**AI agents with no Apify account:** {sum(a['agenticPayments'] for a in actors)} of these actors accept agentic payments, "
+        'so an agent can run them and pay per run with USDC (x402) or a Skyfire token. '
+        'See [Web scraping APIs for AI agents](agentic-payments.md).',
+        '',
         '## FAQ',
         '',
         '### What is an Apify actor?',
@@ -481,6 +502,138 @@ def render_readme(catalog: dict, updated: str) -> str:
         '## License',
         '',
         'The catalog text and code snippets are MIT licensed. Actor names and Store content belong to their author.',
+        '',
+    ]
+    return '\n'.join(out)
+
+
+AGENTIC_FAQ = [
+    ('What are agentic payments on Apify?',
+     'A way for an AI agent to discover, run and pay for an Apify actor on its own, with no Apify account and no human sign-up. '
+     'The agent pays per run with USDC on the Base blockchain through the open x402 protocol, or with a Skyfire PAY token.'),
+    ('Which of these actors support it?',
+     'Every actor in the tables on this page. Apify flags them automatically: they are priced per event only, run with limited '
+     'permissions and do not use Standby mode. The list is rebuilt weekly from the live Apify Store.'),
+    ('What does a run cost?',
+     'The same per-event rate a normal Apify user pays, drawn from the prepaid x402 token or the Skyfire PAY token. '
+     "The current rate is shown on each actor's Store page. You only pay for the events a run actually produces."),
+    ('Is there a minimum?',
+     'An x402 prepaid token is bought in one payment of at least 1 USDC and is valid for 14 days. A Skyfire PAY token needs at '
+     'least 5 USD on it, and anything a run does not use stays on the token. Both are set by Apify and the payment provider, '
+     'see the official docs for current terms.'),
+    ('What does not work with agentic payments?',
+     'Schedules, webhooks and other integrations, and Standby runs. Start the actor through the API, then read the run and '
+     'its dataset with the same token.'),
+    ('I have an Apify account. Should I use this?',
+     'No need. A normal Apify API token is simpler and works with every actor in this catalog. Agentic payments are for agents '
+     f'that cannot sign up. A free account is at [apify.com](https://apify.com/?{REFERRAL}).'),
+]
+
+
+def agentic_block(slug: str) -> str:
+    return f"""### From AI agents with no Apify account (x402 or Skyfire)
+
+This actor accepts [agentic payments](../agentic-payments.md): an AI agent can run it and pay per run with USDC (x402) or a Skyfire token, with no Apify account.
+
+```bash
+# x402: TOKEN is the prepaid token bought from Apify AGI with USDC on Base
+curl -X POST "https://api.apify.com/v2/acts/{USERNAME}~{slug}/run-sync-get-dataset-items" \\
+  -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" -d '{{}}'
+
+# Skyfire: send the PAY token instead
+curl -X POST "https://api.apify.com/v2/acts/{USERNAME}~{slug}/run-sync-get-dataset-items" \\
+  -H "skyfire-pay-id: $SKYFIRE_PAY_TOKEN" -H "Content-Type: application/json" -d '{{}}'
+```
+
+With MCP and Skyfire: `https://mcp.apify.com?payment=skyfire&tools={USERNAME}/{slug}`
+"""
+
+
+def render_agentic(catalog: dict, updated: str) -> str:
+    agentic = [a for a in catalog['actors'] if a['agenticPayments']]
+    n = len(agentic)
+    out = [
+        '# Web Scraping APIs for AI Agents: Pay per Run with x402 (USDC) or Skyfire, No Account',
+        '',
+        f'> {n} ready-to-run scrapers by {BRAND} that an AI agent can discover, run and pay for on its own: '
+        'no Apify account, no API key sign-up, no subscription. The agent pays per run with USDC on Base through the '
+        'x402 protocol, or with a Skyfire PAY token, and gets structured JSON back in the same HTTP call.',
+        '',
+        f'**{n} agent-payable actors** | Updated {updated} | [Full catalog](README.md) | [llms.txt](llms.txt)',
+        '',
+        '## How it works',
+        '',
+        '1. The agent calls the Apify API for an actor below without a token. Apify answers HTTP `402 Payment Required`.',
+        '2. The agent pays: an x402 payment in USDC buys a prepaid Apify token, or the agent creates a Skyfire PAY token.',
+        '3. The agent repeats the call with that token. The actor runs in the Apify cloud and the results come back as JSON.',
+        "4. Apify charges the run's events (for example, per result) to the token. Unused balance stays on it.",
+        '',
+        'Agentic payments are an experimental Apify feature. Official docs: '
+        '[x402](https://docs.apify.com/integrations/x402) and [Skyfire](https://docs.apify.com/integrations/skyfire).',
+        '',
+        '## Option 1: x402 (USDC on Base)',
+        '',
+        'Needs USDC and a tiny amount of ETH (for gas) on Base, in a wallet such as the Coinbase Agentic Wallet (`awal`).',
+        '',
+        '```bash',
+        '# 1. Log in to the wallet (a code is emailed to you)',
+        'npx -y awal auth login <email>',
+        'npx awal auth verify <code>',
+        '',
+        '# 2. Fund the wallet address with USDC and a little ETH on Base',
+        'npx awal address',
+        '',
+        '# 3. Buy a prepaid Apify token with x402 (amount in USD)',
+        "npx awal x402 pay 'https://agi.apify.com/protocols/x402/prepaid-tokens?amount=1&currency=usd' --max-amount 1000000 --json",
+        '',
+        '# 4. Run an actor and get its results in one call',
+        f'curl -X POST "https://api.apify.com/v2/acts/{USERNAME}~<actor-name>/run-sync-get-dataset-items" \\',
+        """  -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" -d '{}'""",
+        '',
+        '# Remaining balance',
+        'curl -s "https://agi.apify.com/prepaid-tokens/balance" -H "Authorization: Bearer $TOKEN"',
+        '```',
+        '',
+        'There is a ready-made [Apify x402 skill](https://raw.githubusercontent.com/apify/awesome-skills/refs/heads/main/skills/apify-x402-agentic-wallet/SKILL.md) '
+        'that walks an agent through the same steps.',
+        '',
+        '## Option 2: Skyfire',
+        '',
+        'Create a funded [Skyfire](https://skyfire.xyz/) account, then connect two MCP servers to your agent (Claude, OpenCode or any MCP client):',
+        '',
+        '```text',
+        'Skyfire MCP:  https://mcp.skyfire.xyz/mcp      (header  skyfire-api-key: <your key>)',
+        f'Apify MCP:    https://mcp.apify.com?payment=skyfire&tools={USERNAME}/<actor-name>',
+        '```',
+        '',
+        'The agent creates the PAY token, runs the actor and reads the results by itself. Without MCP, send the token as a header:',
+        '',
+        '```bash',
+        f'curl -X POST "https://api.apify.com/v2/acts/{USERNAME}~<actor-name>/run-sync-get-dataset-items" \\',
+        """  -H "skyfire-pay-id: $SKYFIRE_PAY_TOKEN" -H "Content-Type: application/json" -d '{}'""",
+        '```',
+        '',
+        '## Actors an agent can pay for',
+        '',
+        'Replace `<actor-name>` above with the name in the second column. Each guide has a ready-to-paste example input.',
+        '',
+    ]
+    for c in catalog['categories']:
+        members = [a for a in agentic if a['category'] == c['name']]
+        if not members:
+            continue
+        out += [f"### {c['name']}", '', '| Actor | Actor name for the API | What it does | Guide |', '|---|---|---|---|']
+        for a in members:
+            out.append(f"| [{cell(a['title'])}]({a['apifyUrl']}) | `{a['slug']}` | {cell(short(a['description'], 140))} | [Guide](actors/{a['slug']}.md) |")
+        out.append('')
+    out += ['## FAQ', '']
+    for q, ans in AGENTIC_FAQ:
+        out += [f'### {q}', '', ans, '']
+    out += [
+        '## More',
+        '',
+        f'- Website version: [{SITE}/ai-agents]({SITE}/ai-agents?{UTM})',
+        f'- Need a scraper for a site that is not listed? Email {CONTACT_EMAIL} or visit [{BRAND}]({SITE}/?{UTM}).',
         '',
     ]
     return '\n'.join(out)
@@ -532,6 +685,7 @@ def render_llms(catalog: dict, updated: str) -> str:
         f'- Every guide in one file: {RAW_URL}/llms-full.txt',
         f'- Run any actor through the Apify MCP server: `https://mcp.apify.com?tools={USERNAME}/<slug>`',
         f'- Link people to the actor with the Store URL `https://apify.com/{USERNAME}/<slug>?{REFERRAL}`.',
+        f'- Agents with no Apify account can pay per run with x402 (USDC on Base) or Skyfire for actors marked [agent-payable]: {RAW_URL}/agentic-payments.md',
         '',
         '## Attribution',
         '',
@@ -544,7 +698,7 @@ def render_llms(catalog: dict, updated: str) -> str:
     out += ['', '## Actors', '']
     for c in cats:
         out += [f"### {c['name']}", '']
-        out += [f"- [{a['title']}]({RAW_URL}/actors/{a['slug']}.md): {short(a['description'], 200)}"
+        out += [f"- [{a['title']}]({RAW_URL}/actors/{a['slug']}.md){' [agent-payable]' if a['agenticPayments'] else ''}: {short(a['description'], 200)}"
                 for a in catalog['actors'] if a['category'] == c['name']]
         out.append('')
     return '\n'.join(out)
@@ -554,6 +708,7 @@ def render_all(catalog: dict, updated: str) -> dict[Path, str]:
     files = {
         ROOT / 'README.md': render_readme(catalog, updated),
         ROOT / 'llms.txt': render_llms(catalog, updated),
+        ROOT / 'agentic-payments.md': render_agentic(catalog, updated),
     }
     pages = {}
     for a in catalog['actors']:

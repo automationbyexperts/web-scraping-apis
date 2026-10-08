@@ -13,7 +13,7 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/skroutz-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-10-05 |
+| Catalog updated | 2026-10-08 |
 
 ## What you can do with Skroutz Scraper: Greek Price Comparison, Offers & History
 
@@ -122,6 +122,22 @@ https://mcp.apify.com?tools=fayoussef/skroutz-scraper
 
 Your Apify API token is under **Settings > API & Integrations** in the [Apify Console](https://console.apify.com/settings/integrations?fpr=youssef).
 
+### From AI agents with no Apify account (x402 or Skyfire)
+
+This actor accepts [agentic payments](../agentic-payments.md): an AI agent can run it and pay per run with USDC (x402) or a Skyfire token, with no Apify account.
+
+```bash
+# x402: TOKEN is the prepaid token bought from Apify AGI with USDC on Base
+curl -X POST "https://api.apify.com/v2/acts/fayoussef~skroutz-scraper/run-sync-get-dataset-items" \
+  -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" -d '{}'
+
+# Skyfire: send the PAY token instead
+curl -X POST "https://api.apify.com/v2/acts/fayoussef~skroutz-scraper/run-sync-get-dataset-items" \
+  -H "skyfire-pay-id: $SKYFIRE_PAY_TOKEN" -H "Content-Type: application/json" -d '{}'
+```
+
+With MCP and Skyfire: `https://mcp.apify.com?payment=skyfire&tools=fayoussef/skroutz-scraper`
+
 ## FAQ
 
 ### Is Skroutz Scraper: Greek Price Comparison, Offers & History free to try?
@@ -140,6 +156,10 @@ JSON, CSV, Excel, XML and HTML from the Console, or directly through the Apify A
 
 Yes. Connect the Apify MCP server with `https://mcp.apify.com?tools=fayoussef/skroutz-scraper` and Claude, ChatGPT, Cursor or any MCP client can run it and read the results.
 
+### Can an AI agent run it without an Apify account?
+
+Yes. This actor accepts agentic payments: an agent can pay per run with USDC through the x402 protocol, or with a Skyfire PAY token, and no Apify account is needed. See [AI agents and x402 payments](../agentic-payments.md).
+
 ### Can I get a custom version?
 
 Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24@gmail.com or visit [AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis).
@@ -151,7 +171,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 - [G2G Scraper: Extract G2G.com Prices, Sellers & Stock](g2g-offer-scraper.md): Scrape live G2G.com prices, sellers, stock and delivery times from any category or Trending URL. Export JSON, CSV or Excel. No G2G login or...
 - [Bike24 Scraper: Cycling Product Prices, Stock & Specs](bike24-result-scraper.md): Our bike24.com scraper effortlessly gathers URLs from all pages and extracts detailed information from each product page
 - [RONA Scraper: Canada Home Improvement Prices, Stock & Specs](rona-scraper.md): Scrape RONA.ca products in English and French from any category, search or product URL. Export price, sale price, regular price, stock by...
-- [Amazon Scraper: Products, Search Results, Offers & Buy Box](cheap-amazon-scraper.md): Scrape Amazon product details, search results, seller offers and Buy Box data from 21 marketplaces, with ZIP-level pricing and...
+- [Smyths Toys Scraper: Prices, EAN Codes, Stock & Product Data](smythstoys-scraper.md): Scrape Smyths Toys UK and Ireland by category, search or product URL. Get prices, was prices, discounts, EAN barcodes, brand, ratings...
 
 ## More
 

@@ -13,7 +13,7 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/rentfaster-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-10-05 |
+| Catalog updated | 2026-10-08 |
 
 ## How to use RentFaster Scraper: Canada Rentals, Rents & Landlord Phones
 
@@ -82,6 +82,22 @@ https://mcp.apify.com?tools=fayoussef/rentfaster-scraper
 
 Your Apify API token is under **Settings > API & Integrations** in the [Apify Console](https://console.apify.com/settings/integrations?fpr=youssef).
 
+### From AI agents with no Apify account (x402 or Skyfire)
+
+This actor accepts [agentic payments](../agentic-payments.md): an AI agent can run it and pay per run with USDC (x402) or a Skyfire token, with no Apify account.
+
+```bash
+# x402: TOKEN is the prepaid token bought from Apify AGI with USDC on Base
+curl -X POST "https://api.apify.com/v2/acts/fayoussef~rentfaster-scraper/run-sync-get-dataset-items" \
+  -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" -d '{}'
+
+# Skyfire: send the PAY token instead
+curl -X POST "https://api.apify.com/v2/acts/fayoussef~rentfaster-scraper/run-sync-get-dataset-items" \
+  -H "skyfire-pay-id: $SKYFIRE_PAY_TOKEN" -H "Content-Type: application/json" -d '{}'
+```
+
+With MCP and Skyfire: `https://mcp.apify.com?payment=skyfire&tools=fayoussef/rentfaster-scraper`
+
 ## FAQ
 
 ### Is RentFaster Scraper: Canada Rentals, Rents & Landlord Phones free to try?
@@ -100,15 +116,19 @@ JSON, CSV, Excel, XML and HTML from the Console, or directly through the Apify A
 
 Yes. Connect the Apify MCP server with `https://mcp.apify.com?tools=fayoussef/rentfaster-scraper` and Claude, ChatGPT, Cursor or any MCP client can run it and read the results.
 
+### Can an AI agent run it without an Apify account?
+
+Yes. This actor accepts agentic payments: an agent can pay per run with USDC through the x402 protocol, or with a Skyfire PAY token, and no Apify account is needed. See [AI agents and x402 payments](../agentic-payments.md).
+
 ### Can I get a custom version?
 
 Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24@gmail.com or visit [AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis).
 
 ## Related Real Estate Scrapers
 
-- [Spitogatos.gr Scraper: Greek Property Listings & Agent Phones](spitogatos-scraper.md): Scrape real estate listings and Agents from Spitogatos.gr in both English and Greek. Collect prices, photos, location, and more. Easy...
-- [Centris.ca Scraper: Quebec Real Estate Listings & Photos](centris-property-scraper.md): Scrape Centris.ca real estate listings into clean structured data: MLS number, price, full address, rooms, bedrooms, bathrooms, the full...
+- [Spitogatos Real Estate Scraper: Greece Listings & Agent Phones](spitogatos-scraper.md): Scrape Greece real estate listings from Spitogatos.gr, the country's largest property portal. Homes, land and commercial property for sale...
 - [XE.gr Greek Property Scraper](xe-gr-scraper.md): Scrape Greek real estate listings from XE.gr: prices, size, rooms, GPS coordinates, amenities, photos and advertiser phone numbers. Works...
+- [Centris.ca Scraper: Quebec Real Estate Listings & Photos](centris-property-scraper.md): Scrape Centris.ca real estate listings into clean structured data: MLS number, price, full address, rooms, bedrooms, bathrooms, the full...
 - [Cyprus Property Scraper: Spitogatos.com.cy Listings & Agents](spitogatos-cy-scraper.md): Scrape Cyprus real estate listings and estate agents from Spitogatos.com.cy, in English or Greek. Search by town, price and property type...
 
 ## More
