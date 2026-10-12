@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08",
+  "updated": "2026-10-12",
   "source": "https://github.com/automationbyexperts/web-scraping-apis",
   "author": {
     "name": "Youssef Farhan",
@@ -59,8 +59,8 @@
       "apifyUrl": "https://apify.com/fayoussef/bulk-ai-image-generator?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/bulk-ai-image-generator",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/bulk-ai-image-generator.md",
-      "users": 478,
-      "users30Days": 57,
+      "users": 497,
+      "users30Days": 56,
       "rating": 5,
       "reviews": 1,
       "pricingModel": "PAY_PER_EVENT",
@@ -133,9 +133,9 @@
       "apifyUrl": "https://apify.com/fayoussef/bulk-llm-runner?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/bulk-llm-runner",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/bulk-llm-runner.md",
-      "users": 435,
+      "users": 439,
       "users30Days": 76,
-      "rating": 4.999999999999999,
+      "rating": 5,
       "reviews": 2,
       "pricingModel": "PAY_PER_EVENT",
       "agenticPayments": false,
@@ -213,7 +213,7 @@
       "apifyUrl": "https://apify.com/fayoussef/autotrader-canada?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/autotrader-canada",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/autotrader-canada.md",
-      "users": 315,
+      "users": 318,
       "users30Days": 20,
       "rating": 5,
       "reviews": 3,
@@ -288,8 +288,8 @@
       "apifyUrl": "https://apify.com/fayoussef/spitogatos-scraper?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/spitogatos-scraper",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/spitogatos-scraper.md",
-      "users": 315,
-      "users30Days": 33,
+      "users": 316,
+      "users30Days": 31,
       "rating": 5,
       "reviews": 5,
       "pricingModel": "PAY_PER_EVENT",
@@ -376,8 +376,8 @@
       "apifyUrl": "https://apify.com/fayoussef/canada411-ca?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/canada411-ca",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/canada411-ca.md",
-      "users": 179,
-      "users30Days": 8,
+      "users": 180,
+      "users30Days": 9,
       "rating": 5,
       "reviews": 1,
       "pricingModel": "PAY_PER_EVENT",
@@ -424,8 +424,8 @@
       "apifyUrl": "https://apify.com/fayoussef/wallapop-scraper?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/wallapop-scraper",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/wallapop-scraper.md",
-      "users": 162,
-      "users30Days": 33,
+      "users": 170,
+      "users30Days": 34,
       "rating": 5,
       "reviews": 2,
       "pricingModel": "PAY_PER_EVENT",
@@ -484,8 +484,8 @@
       "apifyUrl": "https://apify.com/fayoussef/journalist-request-finder?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/journalist-request-finder",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/journalist-request-finder.md",
-      "users": 153,
-      "users30Days": 147,
+      "users": 167,
+      "users30Days": 160,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
@@ -541,8 +541,8 @@
       "apifyUrl": "https://apify.com/fayoussef/whop-clipping-campaigns-scraper?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/whop-clipping-campaigns-scraper",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/whop-clipping-campaigns-scraper.md",
-      "users": 81,
-      "users30Days": 20,
+      "users": 88,
+      "users30Days": 21,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
@@ -597,7 +597,7 @@
       "apifyUrl": "https://apify.com/fayoussef/autoscout24?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/autoscout24",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/autoscout24.md",
-      "users": 79,
+      "users": 83,
       "users30Days": 19,
       "rating": 5,
       "reviews": 1,
@@ -678,8 +678,8 @@
       "apifyUrl": "https://apify.com/fayoussef/fnac-data-scraping?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/fnac-data-scraping",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/fnac-data-scraping.md",
-      "users": 75,
-      "users30Days": 8,
+      "users": 77,
+      "users30Days": 7,
       "rating": 5,
       "reviews": 1,
       "pricingModel": "PAY_PER_EVENT",
@@ -750,6 +750,63 @@
       ]
     },
     {
+      "slug": "cargurus-listings-scraper",
+      "title": "CarGurus Scraper (US, Canada & UK Car Listings)",
+      "description": "Scrape CarGurus vehicle listings from .com, .ca and .co.uk. Returns price, mileage, VIN, specs, dealer info and all images per listing.",
+      "category": "Car & Vehicle Scrapers",
+      "categorySlug": "vehicle-scrapers",
+      "apifyUrl": "https://apify.com/fayoussef/cargurus-listings-scraper?fpr=youssef",
+      "websiteUrl": "https://automationbyexperts.com/apify/cargurus-listings-scraper",
+      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/cargurus-listings-scraper.md",
+      "users": 74,
+      "users30Days": 31,
+      "rating": 5,
+      "reviews": 1,
+      "pricingModel": "PAY_PER_EVENT",
+      "agenticPayments": true,
+      "useCases": [
+        {
+          "title": "Find the best used car deals near New York on CarGurus",
+          "description": "Searches CarGurus US within 50 miles of Manhattan and returns listings ordered by CarGurus deal score, best deals first, with price, mileage, VIN, dealer and photos on every row. No URL to build: pick the country, type a ZIP, and the filter form does the rest.",
+          "url": "https://apify.com/fayoussef/cargurus-listings-scraper/examples/used-car-deals-near-new-york?fpr=youssef",
+          "input": {
+            "searchCountry": "US",
+            "zip": "10001",
+            "distance": 50,
+            "sortType": "DEAL_SCORE",
+            "sortDirection": "DESC",
+            "maxPages": 5
+          }
+        },
+        {
+          "title": "Export Toronto used car listings from CarGurus Canada",
+          "description": "Pulls used car listings from cargurus.ca within 50 km of downtown Toronto, cheapest first, with CAD price, kilometres, VIN, dealer name and photo URLs. Made for Ontario dealers pricing trade-ins and for anyone building a GTA used car price index.",
+          "url": "https://apify.com/fayoussef/cargurus-listings-scraper/examples/toronto-used-cars-cargurus-canada?fpr=youssef",
+          "input": {
+            "searchCountry": "CA",
+            "zip": "M5V 3L9",
+            "distance": 50,
+            "sortType": "PRICE",
+            "sortDirection": "ASC",
+            "maxPages": 5
+          }
+        },
+        {
+          "title": "Pull London used car deals from CarGurus UK",
+          "description": "Searches cargurus.co.uk within 30 miles of central London and returns the top deals with GBP price, mileage, registration year, dealer and images. Useful for UK dealers benchmarking stock and for buyers who want the whole market in one sortable sheet.",
+          "url": "https://apify.com/fayoussef/cargurus-listings-scraper/examples/london-used-cars-cargurus-uk?fpr=youssef",
+          "input": {
+            "searchCountry": "UK",
+            "zip": "SW1A 1AA",
+            "distance": 30,
+            "sortType": "DEAL_SCORE",
+            "sortDirection": "DESC",
+            "maxPages": 5
+          }
+        }
+      ]
+    },
+    {
       "slug": "autotrader-ca",
       "title": "AutoTrader.ca Price Drop Monitor & Car Scraper",
       "description": "Monitor AutoTrader Canada searches and get only new listings, price drops and sold cars since the last run, with price history. Schedule it daily. Or scrape every listing: price, VIN, mileage, specs and photos, plus an option to recover the VIN AutoTrader hides via Kijiji and CarGurus.",
@@ -758,9 +815,9 @@
       "apifyUrl": "https://apify.com/fayoussef/autotrader-ca?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/autotrader-ca",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/autotrader-ca.md",
-      "users": 71,
-      "users30Days": 4,
-      "rating": 4.999999999999999,
+      "users": 72,
+      "users30Days": 6,
+      "rating": 5,
       "reviews": 2,
       "pricingModel": "PAY_PER_EVENT",
       "agenticPayments": true,
@@ -810,63 +867,6 @@
       ]
     },
     {
-      "slug": "cargurus-listings-scraper",
-      "title": "CarGurus Scraper (US, Canada & UK Car Listings)",
-      "description": "Scrape CarGurus vehicle listings from .com, .ca and .co.uk. Returns price, mileage, VIN, specs, dealer info and all images per listing.",
-      "category": "Car & Vehicle Scrapers",
-      "categorySlug": "vehicle-scrapers",
-      "apifyUrl": "https://apify.com/fayoussef/cargurus-listings-scraper?fpr=youssef",
-      "websiteUrl": "https://automationbyexperts.com/apify/cargurus-listings-scraper",
-      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/cargurus-listings-scraper.md",
-      "users": 69,
-      "users30Days": 28,
-      "rating": 5,
-      "reviews": 1,
-      "pricingModel": "PAY_PER_EVENT",
-      "agenticPayments": true,
-      "useCases": [
-        {
-          "title": "Find the best used car deals near New York on CarGurus",
-          "description": "Searches CarGurus US within 50 miles of Manhattan and returns listings ordered by CarGurus deal score, best deals first, with price, mileage, VIN, dealer and photos on every row. No URL to build: pick the country, type a ZIP, and the filter form does the rest.",
-          "url": "https://apify.com/fayoussef/cargurus-listings-scraper/examples/used-car-deals-near-new-york?fpr=youssef",
-          "input": {
-            "searchCountry": "US",
-            "zip": "10001",
-            "distance": 50,
-            "sortType": "DEAL_SCORE",
-            "sortDirection": "DESC",
-            "maxPages": 5
-          }
-        },
-        {
-          "title": "Export Toronto used car listings from CarGurus Canada",
-          "description": "Pulls used car listings from cargurus.ca within 50 km of downtown Toronto, cheapest first, with CAD price, kilometres, VIN, dealer name and photo URLs. Made for Ontario dealers pricing trade-ins and for anyone building a GTA used car price index.",
-          "url": "https://apify.com/fayoussef/cargurus-listings-scraper/examples/toronto-used-cars-cargurus-canada?fpr=youssef",
-          "input": {
-            "searchCountry": "CA",
-            "zip": "M5V 3L9",
-            "distance": 50,
-            "sortType": "PRICE",
-            "sortDirection": "ASC",
-            "maxPages": 5
-          }
-        },
-        {
-          "title": "Pull London used car deals from CarGurus UK",
-          "description": "Searches cargurus.co.uk within 30 miles of central London and returns the top deals with GBP price, mileage, registration year, dealer and images. Useful for UK dealers benchmarking stock and for buyers who want the whole market in one sortable sheet.",
-          "url": "https://apify.com/fayoussef/cargurus-listings-scraper/examples/london-used-cars-cargurus-uk?fpr=youssef",
-          "input": {
-            "searchCountry": "UK",
-            "zip": "SW1A 1AA",
-            "distance": 30,
-            "sortType": "DEAL_SCORE",
-            "sortDirection": "DESC",
-            "maxPages": 5
-          }
-        }
-      ]
-    },
-    {
       "slug": "kijiji-scraper",
       "title": "Kijiji.ca Scraper: Autos, Real Estate & Classifieds",
       "description": "Efficiently scrapes Kijiji.ca listings: vehicles, real estate, and more. Extracts detailed data including phone number, price, location, specs, and images from search results (with pagination) or direct ad URLs. Ideal for market research and data collection.",
@@ -875,8 +875,8 @@
       "apifyUrl": "https://apify.com/fayoussef/kijiji-scraper?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/kijiji-scraper",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/kijiji-scraper.md",
-      "users": 67,
-      "users30Days": 5,
+      "users": 68,
+      "users30Days": 6,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
@@ -919,12 +919,12 @@
       "apifyUrl": "https://apify.com/fayoussef/seo-geo-aeo-audit?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/seo-geo-aeo-audit",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/seo-geo-aeo-audit.md",
-      "users": 56,
-      "users30Days": 7,
+      "users": 60,
+      "users30Days": 9,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
-      "agenticPayments": false,
+      "agenticPayments": true,
       "useCases": [
         {
           "title": "Audit a website for AI search readiness",
@@ -969,7 +969,7 @@
       "websiteUrl": "https://automationbyexperts.com/apify/autotrader-co-za-scraper",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/autotrader-co-za-scraper.md",
       "users": 38,
-      "users30Days": 5,
+      "users30Days": 4,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
@@ -1014,12 +1014,12 @@
       "apifyUrl": "https://apify.com/fayoussef/bulk-text-to-speech?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/bulk-text-to-speech",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/bulk-text-to-speech.md",
-      "users": 35,
-      "users30Days": 7,
+      "users": 38,
+      "users30Days": 9,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
-      "agenticPayments": false,
+      "agenticPayments": true,
       "useCases": [
         {
           "title": "Generate TikTok voiceovers with word by word captions",
@@ -1083,8 +1083,8 @@
       "apifyUrl": "https://apify.com/fayoussef/g2g-offer-scraper?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/g2g-offer-scraper",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/g2g-offer-scraper.md",
-      "users": 26,
-      "users30Days": 2,
+      "users": 27,
+      "users30Days": 3,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
@@ -1167,8 +1167,8 @@
       "apifyUrl": "https://apify.com/fayoussef/geo-grid-local-rank-tracker?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/geo-grid-local-rank-tracker",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/geo-grid-local-rank-tracker.md",
-      "users": 20,
-      "users30Days": 13,
+      "users": 22,
+      "users30Days": 12,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
@@ -1233,8 +1233,8 @@
       "apifyUrl": "https://apify.com/fayoussef/dealer-inventory-scraper?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/dealer-inventory-scraper",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/dealer-inventory-scraper.md",
-      "users": 14,
-      "users30Days": 3,
+      "users": 16,
+      "users30Days": 4,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
@@ -1313,6 +1313,78 @@
               }
             ],
             "max_pages": 5
+          }
+        }
+      ]
+    },
+    {
+      "slug": "ai-brand-visibility-tracker",
+      "title": "AI Brand Visibility Tracker (ChatGPT, Perplexity & Gemini)",
+      "description": "Is AI recommending you or your competitors? Track brand mentions, ranking position, sentiment, share of voice and cited sources in ChatGPT, Perplexity, Gemini, Claude & Grok answers for the questions your buyers ask. GEO / AEO / LLM SEO monitoring .no OpenAI or Anthropic API key needed.",
+      "category": "SEO & AI Visibility",
+      "categorySlug": "seo-ai-visibility",
+      "apifyUrl": "https://apify.com/fayoussef/ai-brand-visibility-tracker?fpr=youssef",
+      "websiteUrl": "https://automationbyexperts.com/apify/ai-brand-visibility-tracker",
+      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/ai-brand-visibility-tracker.md",
+      "users": 10,
+      "users30Days": 7,
+      "rating": 0,
+      "reviews": 0,
+      "pricingModel": "PAY_PER_EVENT",
+      "agenticPayments": true,
+      "useCases": [
+        {
+          "title": "Check if AI recommends your CRM to small businesses",
+          "description": "Asks ChatGPT, Perplexity and Gemini the questions a small business owner asks when choosing a CRM, and reports whether HubSpot is named, where it ranks, which competitors are recommended instead, and whether hubspot.com is cited as a source. Swap in your own brand and competitors.",
+          "url": "https://apify.com/fayoussef/ai-brand-visibility-tracker/examples/crm-brand-visibility-in-ai-answers?fpr=youssef",
+          "input": {
+            "brand_name": "HubSpot",
+            "queries": [
+              "What is the best CRM for a small business?",
+              "Which CRM should a 20 person sales team use in 2026?",
+              "HubSpot vs Salesforce for a startup"
+            ],
+            "competitors": [
+              "Salesforce",
+              "Pipedrive",
+              "Zoho CRM"
+            ],
+            "brand_domains": [
+              "hubspot.com"
+            ],
+            "platforms": [
+              "chatgpt",
+              "perplexity",
+              "gemini"
+            ],
+            "runs_per_query": 1
+          }
+        },
+        {
+          "title": "Measure an ecommerce platform's share of voice in AI search",
+          "description": "Runs each buying intent question twice per platform for a stable score and computes Shopify's share of voice against WooCommerce, BigCommerce and Wix across ChatGPT, Perplexity and Gemini. The answers view keeps the full AI response so you can see the exact wording used.",
+          "url": "https://apify.com/fayoussef/ai-brand-visibility-tracker/examples/ecommerce-platform-ai-share-of-voice?fpr=youssef",
+          "input": {
+            "brand_name": "Shopify",
+            "queries": [
+              "What is the best platform to start an online store?",
+              "Shopify or WooCommerce for a small clothing brand?",
+              "Best ecommerce platform for dropshipping in 2026"
+            ],
+            "competitors": [
+              "WooCommerce",
+              "BigCommerce",
+              "Wix"
+            ],
+            "brand_domains": [
+              "shopify.com"
+            ],
+            "platforms": [
+              "chatgpt",
+              "perplexity",
+              "gemini"
+            ],
+            "runs_per_query": 2
           }
         }
       ]
@@ -1487,78 +1559,6 @@
       ]
     },
     {
-      "slug": "ai-brand-visibility-tracker",
-      "title": "AI Brand Visibility Tracker (ChatGPT, Perplexity & Gemini)",
-      "description": "Is AI recommending you or your competitors? Track brand mentions, ranking position, sentiment, share of voice and cited sources in ChatGPT, Perplexity, Gemini, Claude & Grok answers for the questions your buyers ask. GEO / AEO / LLM SEO monitoring .no OpenAI or Anthropic API key needed.",
-      "category": "SEO & AI Visibility",
-      "categorySlug": "seo-ai-visibility",
-      "apifyUrl": "https://apify.com/fayoussef/ai-brand-visibility-tracker?fpr=youssef",
-      "websiteUrl": "https://automationbyexperts.com/apify/ai-brand-visibility-tracker",
-      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/ai-brand-visibility-tracker.md",
-      "users": 7,
-      "users30Days": 5,
-      "rating": 0,
-      "reviews": 0,
-      "pricingModel": "PAY_PER_EVENT",
-      "agenticPayments": false,
-      "useCases": [
-        {
-          "title": "Check if AI recommends your CRM to small businesses",
-          "description": "Asks ChatGPT, Perplexity and Gemini the questions a small business owner asks when choosing a CRM, and reports whether HubSpot is named, where it ranks, which competitors are recommended instead, and whether hubspot.com is cited as a source. Swap in your own brand and competitors.",
-          "url": "https://apify.com/fayoussef/ai-brand-visibility-tracker/examples/crm-brand-visibility-in-ai-answers?fpr=youssef",
-          "input": {
-            "brand_name": "HubSpot",
-            "queries": [
-              "What is the best CRM for a small business?",
-              "Which CRM should a 20 person sales team use in 2026?",
-              "HubSpot vs Salesforce for a startup"
-            ],
-            "competitors": [
-              "Salesforce",
-              "Pipedrive",
-              "Zoho CRM"
-            ],
-            "brand_domains": [
-              "hubspot.com"
-            ],
-            "platforms": [
-              "chatgpt",
-              "perplexity",
-              "gemini"
-            ],
-            "runs_per_query": 1
-          }
-        },
-        {
-          "title": "Measure an ecommerce platform's share of voice in AI search",
-          "description": "Runs each buying intent question twice per platform for a stable score and computes Shopify's share of voice against WooCommerce, BigCommerce and Wix across ChatGPT, Perplexity and Gemini. The answers view keeps the full AI response so you can see the exact wording used.",
-          "url": "https://apify.com/fayoussef/ai-brand-visibility-tracker/examples/ecommerce-platform-ai-share-of-voice?fpr=youssef",
-          "input": {
-            "brand_name": "Shopify",
-            "queries": [
-              "What is the best platform to start an online store?",
-              "Shopify or WooCommerce for a small clothing brand?",
-              "Best ecommerce platform for dropshipping in 2026"
-            ],
-            "competitors": [
-              "WooCommerce",
-              "BigCommerce",
-              "Wix"
-            ],
-            "brand_domains": [
-              "shopify.com"
-            ],
-            "platforms": [
-              "chatgpt",
-              "perplexity",
-              "gemini"
-            ],
-            "runs_per_query": 2
-          }
-        }
-      ]
-    },
-    {
       "slug": "competitor-price-tracker-price-comparison-by-product-url",
       "title": "Competitor Price Tracker & Price Comparison by Product URL",
       "description": "Paste any product URL to get every retailer selling the same item, live prices, your market rank, and a suggested pricing action. Matches are strictly verified by UPC, EAN, GTIN, and MPN, with no fuzzy titles or foreign currency guesses. Works on Amazon, Walmart, Target, Best Buy, eBay, and Shopify.",
@@ -1572,7 +1572,7 @@
       "rating": 5,
       "reviews": 1,
       "pricingModel": "PAY_PER_EVENT",
-      "agenticPayments": false,
+      "agenticPayments": true,
       "useCases": [
         {
           "title": "Compare AirPods Pro prices across every US retailer",
@@ -1718,7 +1718,7 @@
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
-      "agenticPayments": false,
+      "agenticPayments": true,
       "useCases": [
         {
           "title": "Scrape used cars for sale in Toronto on Kijiji",
@@ -1758,7 +1758,7 @@
       "websiteUrl": "https://automationbyexperts.com/apify/skroutz-scraper",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/skroutz-scraper.md",
       "users": 6,
-      "users30Days": 3,
+      "users30Days": 4,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
@@ -1799,6 +1799,67 @@
             "language": "el",
             "max_items": 100,
             "include_price_history": true
+          }
+        }
+      ]
+    },
+    {
+      "slug": "bulk-ai-translator",
+      "title": "Translate Excel, CSV & Websites in Bulk with AI | No API Key",
+      "description": "Translate Excel, CSV and Google Sheets files, whole websites, PDFs and SRT/VTT subtitles into 42 languages in one run, and get the same file back translated. Brand terms, HTML and {{variables}} stay intact, and repeat runs only pay for what changed. No API key needed.",
+      "category": "Bulk AI Tools",
+      "categorySlug": "ai-bulk-tools",
+      "apifyUrl": "https://apify.com/fayoussef/bulk-ai-translator?fpr=youssef",
+      "websiteUrl": "https://automationbyexperts.com/apify/bulk-ai-translator",
+      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/bulk-ai-translator.md",
+      "users": 4,
+      "users30Days": 0,
+      "rating": 0,
+      "reviews": 0,
+      "pricingModel": "PAY_PER_EVENT",
+      "agenticPayments": true,
+      "useCases": [
+        {
+          "title": "Translate a product catalog into 5 languages",
+          "description": "Translates a list of product strings into German, French, Spanish, Italian and Dutch in marketing tone, keeping brand names in the glossary untouched and preserving placeholders and HTML. One run, five localised catalogs, billed per string with no DeepL or OpenAI key.",
+          "url": "https://apify.com/fayoussef/bulk-ai-translator/examples/translate-product-catalog-5-languages?fpr=youssef",
+          "input": {
+            "mode": "text",
+            "targetLanguages": [
+              "de",
+              "fr",
+              "es",
+              "it",
+              "nl"
+            ],
+            "texts": [
+              "EcoBrew insulated travel mug, 450 ml, keeps drinks hot for 8 hours.",
+              "Leak proof lid with one handed open. Dishwasher safe.",
+              "Free shipping on orders over 50 EUR. 30 day returns."
+            ],
+            "glossary": [
+              "EcoBrew"
+            ],
+            "tone": "marketing",
+            "model": "google/gemini-2.5-flash"
+          }
+        },
+        {
+          "title": "Translate a whole website into German",
+          "description": "Crawls up to 25 pages of a site, staying on the same domain, and returns the German translation of every text block with its source URL and original text side by side, tags and links intact. The quickest way to get a localisation draft of a marketing site or docs section.",
+          "url": "https://apify.com/fayoussef/bulk-ai-translator/examples/translate-website-into-german?fpr=youssef",
+          "input": {
+            "mode": "website",
+            "startUrls": [
+              "https://books.toscrape.com"
+            ],
+            "targetLanguages": [
+              "de"
+            ],
+            "maxPages": 25,
+            "followLinks": true,
+            "tone": "neutral",
+            "model": "google/gemini-2.5-flash"
           }
         }
       ]
@@ -1847,6 +1908,57 @@
       ]
     },
     {
+      "slug": "naukrigulf-scraper",
+      "title": "Naukrigulf Jobs Scraper: UAE, Saudi & Gulf Jobs, 12 Languages",
+      "description": "Scrape Naukrigulf jobs in Dubai, the UAE, Saudi Arabia, Qatar, Kuwait, Bahrain and Oman. Search in Arabic, Hindi, Malayalam, Tagalog and 8 more languages. 40+ fields per job, with filters the site hides: salary, nationality and gender requirements, agency vs direct employer.",
+      "category": "Lead Generation Actors",
+      "categorySlug": "lead-generation",
+      "apifyUrl": "https://apify.com/fayoussef/naukrigulf-scraper?fpr=youssef",
+      "websiteUrl": "https://automationbyexperts.com/apify/naukrigulf-scraper",
+      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/naukrigulf-scraper.md",
+      "users": 4,
+      "users30Days": 3,
+      "rating": 0,
+      "reviews": 0,
+      "pricingModel": "PAY_PER_EVENT",
+      "agenticPayments": true,
+      "useCases": [
+        {
+          "title": "Find nurse jobs across the Gulf posted this week",
+          "description": "Searches Naukrigulf for nursing roles across the six GCC countries posted in the last 7 days, newest first, and returns each with employer, city, salary band where published, experience asked, nationality and gender restrictions, recruiter contact details and the full description as clean text.",
+          "url": "https://apify.com/fayoussef/naukrigulf-scraper/examples/nurse-jobs-gulf-last-7-days?fpr=youssef",
+          "input": {
+            "searchKeywords": [
+              "nurse"
+            ],
+            "location": "gulf",
+            "gccOnly": true,
+            "datePosted": "7",
+            "sortBy": "date",
+            "outputLanguage": "en",
+            "maxItems": 300,
+            "includeRecruiterContacts": true
+          }
+        },
+        {
+          "title": "Get Dubai accounting jobs that publish a salary",
+          "description": "Keeps only accountant roles in Dubai where the employer states the salary and hires directly rather than through an agency, so every row has a real monthly USD band and a real company behind it. The salary view puts the band next to the title for a quick market read.",
+          "url": "https://apify.com/fayoussef/naukrigulf-scraper/examples/dubai-accounting-jobs-with-salary?fpr=youssef",
+          "input": {
+            "searchKeywords": [
+              "accountant"
+            ],
+            "location": "dubai",
+            "salaryDisclosedOnly": true,
+            "directEmployersOnly": true,
+            "sortBy": "date",
+            "outputLanguage": "en",
+            "maxItems": 200
+          }
+        }
+      ]
+    },
+    {
       "slug": "11888-gr-scraper",
       "title": "11888.gr Scraper: Greek Business Phones, Emails & Websites",
       "description": "Scrape Greek businesses from the 11888.gr Yellow Pages by category and place: name, phones, mobile, email, website, address, GPS and WhatsApp/Viber. Search in English or Greek, or paste 11888.gr URLs. Export to JSON, CSV or Excel for B2B leads.",
@@ -1864,65 +1976,68 @@
       "useCases": []
     },
     {
-      "slug": "bulk-ai-translator",
-      "title": "Translate Excel, CSV & Websites in Bulk with AI | No API Key",
-      "description": "Translate Excel, CSV and Google Sheets files, whole websites, PDFs and SRT/VTT subtitles into 42 languages in one run, and get the same file back translated. Brand terms, HTML and {{variables}} stay intact, and repeat runs only pay for what changed. No API key needed.",
-      "category": "Bulk AI Tools",
-      "categorySlug": "ai-bulk-tools",
-      "apifyUrl": "https://apify.com/fayoussef/bulk-ai-translator?fpr=youssef",
-      "websiteUrl": "https://automationbyexperts.com/apify/bulk-ai-translator",
-      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/bulk-ai-translator.md",
+      "slug": "dealer-reputation-monitor",
+      "title": "Car Dealer Reviews & Reputation Monitor (DealerRater)",
+      "description": "Pull every DealerRater review for any car dealership by name or URL. Get the star rating broken down by price transparency, trade-in, finance and service time, plus the salesperson each review names. Monitor mode returns only reviews new since the last run, so a schedule becomes an alert feed.",
+      "category": "Car & Vehicle Scrapers",
+      "categorySlug": "vehicle-scrapers",
+      "apifyUrl": "https://apify.com/fayoussef/dealer-reputation-monitor?fpr=youssef",
+      "websiteUrl": "https://automationbyexperts.com/apify/dealer-reputation-monitor",
+      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/dealer-reputation-monitor.md",
       "users": 3,
-      "users30Days": 0,
+      "users30Days": 3,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
-      "agenticPayments": false,
+      "agenticPayments": true,
       "useCases": [
         {
-          "title": "Translate a product catalog into 5 languages",
-          "description": "Translates a list of product strings into German, French, Spanish, Italian and Dutch in marketing tone, keeping brand names in the glossary untouched and preserving placeholders and HTML. One run, five localised catalogs, billed per string with no DeepL or OpenAI key.",
-          "url": "https://apify.com/fayoussef/bulk-ai-translator/examples/translate-product-catalog-5-languages?fpr=youssef",
+          "title": "Export every DealerRater review for a dealership",
+          "description": "Type a dealership name and get its 200 most recent DealerRater reviews with full text, star rating, date, the department and the name of the employee each customer dealt with, plus one summary row with the store's overall rating, lifetime review count, address and phone.",
+          "url": "https://apify.com/fayoussef/dealer-reputation-monitor/examples/dealerrater-reviews-export?fpr=youssef",
           "input": {
-            "mode": "text",
-            "targetLanguages": [
-              "de",
-              "fr",
-              "es",
-              "it",
-              "nl"
+            "dealers": [
+              "Hendrick Honda"
             ],
-            "texts": [
-              "EcoBrew insulated travel mug, 450 ml, keeps drinks hot for 8 hours.",
-              "Leak proof lid with one handed open. Dishwasher safe.",
-              "Free shipping on orders over 50 EUR. 30 day returns."
-            ],
-            "glossary": [
-              "EcoBrew"
-            ],
-            "tone": "marketing",
-            "model": "google/gemini-2.5-flash"
+            "maxReviewsPerDealer": 200,
+            "maxDealersPerSearch": 1,
+            "includeDealerSummary": true
           }
         },
         {
-          "title": "Translate a whole website into German",
-          "description": "Crawls up to 25 pages of a site, staying on the same domain, and returns the German translation of every text block with its source URL and original text side by side, tags and links intact. The quickest way to get a localisation draft of a marketing site or docs section.",
-          "url": "https://apify.com/fayoussef/bulk-ai-translator/examples/translate-website-into-german?fpr=youssef",
+          "title": "Get alerted to new 1 and 2 star dealer reviews",
+          "description": "Keeps only reviews rated 2 stars or lower and, with the new since last run switch on, returns just the ones that appeared since the previous run. Schedule it daily for each store and a general manager hears about a bad review, and the employee named in it, the day it lands.",
+          "url": "https://apify.com/fayoussef/dealer-reputation-monitor/examples/negative-dealer-review-alerts?fpr=youssef",
           "input": {
-            "mode": "website",
-            "startUrls": [
-              "https://books.toscrape.com"
+            "dealers": [
+              "Hendrick Honda",
+              "https://www.dealerrater.com/dealer/Carvana-dealer-reviews-106904/"
             ],
-            "targetLanguages": [
-              "de"
-            ],
-            "maxPages": 25,
-            "followLinks": true,
-            "tone": "neutral",
-            "model": "google/gemini-2.5-flash"
+            "maxRating": 2,
+            "onlyNewSinceLastRun": true,
+            "watchlistName": "dealer-reviews",
+            "maxReviewsPerDealer": 100,
+            "includeDealerSummary": false
           }
         }
       ]
+    },
+    {
+      "slug": "xo-gr-scraper",
+      "title": "XO.gr Scraper: Greek Business Directory, Phones & Emails",
+      "description": "Scrape Greek business leads from xo.gr (Χρυσός Οδηγός, the Greek Yellow Pages) by category and place: name, phones, mobile, email, website, address, GPS and sponsored flag, plus fax, contact person, hours and rating. Search in English or Greek, or paste xo.gr URLs.",
+      "category": "Lead Generation Actors",
+      "categorySlug": "lead-generation",
+      "apifyUrl": "https://apify.com/fayoussef/xo-gr-scraper?fpr=youssef",
+      "websiteUrl": "https://automationbyexperts.com/apify/xo-gr-scraper",
+      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/xo-gr-scraper.md",
+      "users": 3,
+      "users30Days": 2,
+      "rating": 0,
+      "reviews": 0,
+      "pricingModel": "PAY_PER_EVENT",
+      "agenticPayments": true,
+      "useCases": []
     },
     {
       "slug": "ai-account-watch",
@@ -1938,7 +2053,7 @@
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
-      "agenticPayments": false,
+      "agenticPayments": true,
       "useCases": []
     },
     {
@@ -2007,6 +2122,23 @@
       "apifyUrl": "https://apify.com/fayoussef/business-license-feed?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/business-license-feed",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/business-license-feed.md",
+      "users": 2,
+      "users30Days": 1,
+      "rating": 0,
+      "reviews": 0,
+      "pricingModel": "PAY_PER_EVENT",
+      "agenticPayments": true,
+      "useCases": []
+    },
+    {
+      "slug": "canada-car-scraper",
+      "title": "Canada Car Scraper: AutoTrader.ca, Kijiji & CarGurus in One",
+      "description": "Search AutoTrader.ca, Kijiji and CarGurus.ca at once with one filter form. Duplicates are merged into one row per car, with VIN, each site's price and link, the price gap, CarGurus deal rating and market value, dealer phone and private sellers.",
+      "category": "Car & Vehicle Scrapers",
+      "categorySlug": "vehicle-scrapers",
+      "apifyUrl": "https://apify.com/fayoussef/canada-car-scraper?fpr=youssef",
+      "websiteUrl": "https://automationbyexperts.com/apify/canada-car-scraper",
+      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/canada-car-scraper.md",
       "users": 2,
       "users30Days": 1,
       "rating": 0,
@@ -2210,7 +2342,7 @@
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
-      "agenticPayments": false,
+      "agenticPayments": true,
       "useCases": [
         {
           "title": "Check Amazon and eBay for MAP violations",
@@ -2267,7 +2399,7 @@
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
-      "agenticPayments": false,
+      "agenticPayments": true,
       "useCases": [
         {
           "title": "Compare a product's price on Amazon, eBay, Best Buy and Newegg",
@@ -2377,21 +2509,57 @@
       "useCases": []
     },
     {
-      "slug": "xo-gr-scraper",
-      "title": "XO.gr Scraper: Greek Business Directory, Phones & Emails",
-      "description": "Scrape Greek business leads from xo.gr (Χρυσός Οδηγός, the Greek Yellow Pages) by category and place: name, phones, mobile, email, website, address, GPS and sponsored flag, plus fax, contact person, hours and rating. Search in English or Greek, or paste xo.gr URLs.",
-      "category": "Lead Generation Actors",
-      "categorySlug": "lead-generation",
-      "apifyUrl": "https://apify.com/fayoussef/xo-gr-scraper?fpr=youssef",
-      "websiteUrl": "https://automationbyexperts.com/apify/xo-gr-scraper",
-      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/xo-gr-scraper.md",
+      "slug": "website-change-monitor",
+      "title": "Website Change Monitor: Page Diff & Change Detection Alerts",
+      "description": "Monitor any web page for changes and get a line-by-line diff of what was added and removed. Website change detection for competitor pricing, product pages, terms of service and job boards, with keyword watching, severity scoring and alerts to Slack, Discord, Telegram or a webhook.",
+      "category": "Developer Tools & APIs",
+      "categorySlug": "developer-tools",
+      "apifyUrl": "https://apify.com/fayoussef/website-change-monitor?fpr=youssef",
+      "websiteUrl": "https://automationbyexperts.com/apify/website-change-monitor",
+      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/website-change-monitor.md",
       "users": 2,
-      "users30Days": 1,
+      "users30Days": 2,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
       "agenticPayments": true,
-      "useCases": []
+      "useCases": [
+        {
+          "title": "Monitor a competitor's pricing page for changes",
+          "description": "Saves a baseline of the visible text on a pricing page, then on every run reports exactly what changed, with any change mentioning price, discount or plan flagged as major. Schedule it hourly or daily and add a Slack or Telegram webhook to hear about a price move the same day.",
+          "url": "https://apify.com/fayoussef/website-change-monitor/examples/competitor-pricing-page-monitor?fpr=youssef",
+          "input": {
+            "urls": [
+              "https://github.com/pricing"
+            ],
+            "watchKeywords": [
+              "price",
+              "discount",
+              "plan",
+              "free"
+            ],
+            "monitorMode": "text",
+            "monitorName": "pricing",
+            "concurrency": 10
+          }
+        },
+        {
+          "title": "Get alerts when a terms of service page changes",
+          "description": "Watches legal and policy pages that change silently and returns a line by line diff instead of making you reread the whole page, ignoring the last updated timestamp so only real wording changes count. Legal and compliance teams schedule it weekly across every vendor they depend on.",
+          "url": "https://apify.com/fayoussef/website-change-monitor/examples/terms-of-service-change-alerts?fpr=youssef",
+          "input": {
+            "urls": [
+              "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service"
+            ],
+            "monitorMode": "text",
+            "ignorePatterns": [
+              "Last updated.*"
+            ],
+            "monitorName": "legal",
+            "concurrency": 10
+          }
+        }
+      ]
     },
     {
       "slug": "company-domain-to-job-postings",
@@ -2443,104 +2611,6 @@
             "includeDescription": true,
             "descriptionFormat": "markdown",
             "maxItems": 500
-          }
-        }
-      ]
-    },
-    {
-      "slug": "dealer-reputation-monitor",
-      "title": "Car Dealer Reviews & Reputation Monitor (DealerRater)",
-      "description": "Pull every DealerRater review for any car dealership by name or URL. Get the star rating broken down by price transparency, trade-in, finance and service time, plus the salesperson each review names. Monitor mode returns only reviews new since the last run, so a schedule becomes an alert feed.",
-      "category": "Car & Vehicle Scrapers",
-      "categorySlug": "vehicle-scrapers",
-      "apifyUrl": "https://apify.com/fayoussef/dealer-reputation-monitor?fpr=youssef",
-      "websiteUrl": "https://automationbyexperts.com/apify/dealer-reputation-monitor",
-      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/dealer-reputation-monitor.md",
-      "users": 1,
-      "users30Days": 1,
-      "rating": 0,
-      "reviews": 0,
-      "pricingModel": "PAY_PER_EVENT",
-      "agenticPayments": true,
-      "useCases": [
-        {
-          "title": "Export every DealerRater review for a dealership",
-          "description": "Type a dealership name and get its 200 most recent DealerRater reviews with full text, star rating, date, the department and the name of the employee each customer dealt with, plus one summary row with the store's overall rating, lifetime review count, address and phone.",
-          "url": "https://apify.com/fayoussef/dealer-reputation-monitor/examples/dealerrater-reviews-export?fpr=youssef",
-          "input": {
-            "dealers": [
-              "Hendrick Honda"
-            ],
-            "maxReviewsPerDealer": 200,
-            "maxDealersPerSearch": 1,
-            "includeDealerSummary": true
-          }
-        },
-        {
-          "title": "Get alerted to new 1 and 2 star dealer reviews",
-          "description": "Keeps only reviews rated 2 stars or lower and, with the new since last run switch on, returns just the ones that appeared since the previous run. Schedule it daily for each store and a general manager hears about a bad review, and the employee named in it, the day it lands.",
-          "url": "https://apify.com/fayoussef/dealer-reputation-monitor/examples/negative-dealer-review-alerts?fpr=youssef",
-          "input": {
-            "dealers": [
-              "Hendrick Honda",
-              "https://www.dealerrater.com/dealer/Carvana-dealer-reviews-106904/"
-            ],
-            "maxRating": 2,
-            "onlyNewSinceLastRun": true,
-            "watchlistName": "dealer-reviews",
-            "maxReviewsPerDealer": 100,
-            "includeDealerSummary": false
-          }
-        }
-      ]
-    },
-    {
-      "slug": "naukrigulf-scraper",
-      "title": "Naukrigulf Jobs Scraper: UAE, Saudi & Gulf Jobs, 12 Languages",
-      "description": "Scrape Naukrigulf jobs in Dubai, the UAE, Saudi Arabia, Qatar, Kuwait, Bahrain and Oman. Search in Arabic, Hindi, Malayalam, Tagalog and 8 more languages. 40+ fields per job, with filters the site hides: salary, nationality and gender requirements, agency vs direct employer.",
-      "category": "Lead Generation Actors",
-      "categorySlug": "lead-generation",
-      "apifyUrl": "https://apify.com/fayoussef/naukrigulf-scraper?fpr=youssef",
-      "websiteUrl": "https://automationbyexperts.com/apify/naukrigulf-scraper",
-      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/naukrigulf-scraper.md",
-      "users": 1,
-      "users30Days": 1,
-      "rating": 0,
-      "reviews": 0,
-      "pricingModel": "PAY_PER_EVENT",
-      "agenticPayments": true,
-      "useCases": [
-        {
-          "title": "Find nurse jobs across the Gulf posted this week",
-          "description": "Searches Naukrigulf for nursing roles across the six GCC countries posted in the last 7 days, newest first, and returns each with employer, city, salary band where published, experience asked, nationality and gender restrictions, recruiter contact details and the full description as clean text.",
-          "url": "https://apify.com/fayoussef/naukrigulf-scraper/examples/nurse-jobs-gulf-last-7-days?fpr=youssef",
-          "input": {
-            "searchKeywords": [
-              "nurse"
-            ],
-            "location": "gulf",
-            "gccOnly": true,
-            "datePosted": "7",
-            "sortBy": "date",
-            "outputLanguage": "en",
-            "maxItems": 300,
-            "includeRecruiterContacts": true
-          }
-        },
-        {
-          "title": "Get Dubai accounting jobs that publish a salary",
-          "description": "Keeps only accountant roles in Dubai where the employer states the salary and hires directly rather than through an agency, so every row has a real monthly USD band and a real company behind it. The salary view puts the band next to the title for a quick market read.",
-          "url": "https://apify.com/fayoussef/naukrigulf-scraper/examples/dubai-accounting-jobs-with-salary?fpr=youssef",
-          "input": {
-            "searchKeywords": [
-              "accountant"
-            ],
-            "location": "dubai",
-            "salaryDisclosedOnly": true,
-            "directEmployersOnly": true,
-            "sortBy": "date",
-            "outputLanguage": "en",
-            "maxItems": 200
           }
         }
       ]
@@ -2720,59 +2790,6 @@
                 "url": "https://www.spitogatos.com.cy/mesitika/limassol"
               }
             ]
-          }
-        }
-      ]
-    },
-    {
-      "slug": "website-change-monitor",
-      "title": "Website Change Monitor: Page Diff & Change Detection Alerts",
-      "description": "Monitor any web page for changes and get a line-by-line diff of what was added and removed. Website change detection for competitor pricing, product pages, terms of service and job boards, with keyword watching, severity scoring and alerts to Slack, Discord, Telegram or a webhook.",
-      "category": "Developer Tools & APIs",
-      "categorySlug": "developer-tools",
-      "apifyUrl": "https://apify.com/fayoussef/website-change-monitor?fpr=youssef",
-      "websiteUrl": "https://automationbyexperts.com/apify/website-change-monitor",
-      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/website-change-monitor.md",
-      "users": 1,
-      "users30Days": 1,
-      "rating": 0,
-      "reviews": 0,
-      "pricingModel": "PAY_PER_EVENT",
-      "agenticPayments": true,
-      "useCases": [
-        {
-          "title": "Monitor a competitor's pricing page for changes",
-          "description": "Saves a baseline of the visible text on a pricing page, then on every run reports exactly what changed, with any change mentioning price, discount or plan flagged as major. Schedule it hourly or daily and add a Slack or Telegram webhook to hear about a price move the same day.",
-          "url": "https://apify.com/fayoussef/website-change-monitor/examples/competitor-pricing-page-monitor?fpr=youssef",
-          "input": {
-            "urls": [
-              "https://github.com/pricing"
-            ],
-            "watchKeywords": [
-              "price",
-              "discount",
-              "plan",
-              "free"
-            ],
-            "monitorMode": "text",
-            "monitorName": "pricing",
-            "concurrency": 10
-          }
-        },
-        {
-          "title": "Get alerts when a terms of service page changes",
-          "description": "Watches legal and policy pages that change silently and returns a line by line diff instead of making you reread the whole page, ignoring the last updated timestamp so only real wording changes count. Legal and compliance teams schedule it weekly across every vendor they depend on.",
-          "url": "https://apify.com/fayoussef/website-change-monitor/examples/terms-of-service-change-alerts?fpr=youssef",
-          "input": {
-            "urls": [
-              "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service"
-            ],
-            "monitorMode": "text",
-            "ignorePatterns": [
-              "Last updated.*"
-            ],
-            "monitorName": "legal",
-            "concurrency": 10
           }
         }
       ]

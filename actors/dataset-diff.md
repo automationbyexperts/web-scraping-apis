@@ -13,7 +13,7 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/dataset-diff?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-10-08 |
+| Catalog updated | 2026-10-12 |
 
 ## What you can do with Dataset Diff & Change Monitor: Only New Items From Any Actor
 
@@ -160,6 +160,6 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 56 actors](../README.md)
+- Full catalog: [all 57 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/dataset-diff](https://automationbyexperts.com/apify/dataset-diff?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/dataset-diff.md](https://automationbyexperts.com/apify/dataset-diff.md)

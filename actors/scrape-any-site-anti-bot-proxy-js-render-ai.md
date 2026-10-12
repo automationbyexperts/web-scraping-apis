@@ -14,7 +14,7 @@
 | Pricing model | Free (the current rate is shown on the [Store page](https://apify.com/fayoussef/scrape-any-site-anti-bot-proxy-js-render-ai?fpr=youssef)) |
 | Rating | 5.0 out of 5 (1 reviews) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-10-08 |
+| Catalog updated | 2026-10-12 |
 
 ## How to use Scrape any site, Anti-Bot Proxy, JS Render & AI
 
@@ -114,6 +114,6 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 56 actors](../README.md)
+- Full catalog: [all 57 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/scrape-any-site-anti-bot-proxy-js-render-ai](https://automationbyexperts.com/apify/scrape-any-site-anti-bot-proxy-js-render-ai?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/scrape-any-site-anti-bot-proxy-js-render-ai.md](https://automationbyexperts.com/apify/scrape-any-site-anti-bot-proxy-js-render-ai.md)

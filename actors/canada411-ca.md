@@ -14,7 +14,7 @@
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/canada411-ca?fpr=youssef)) |
 | Rating | 5.0 out of 5 (1 reviews) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-10-08 |
+| Catalog updated | 2026-10-12 |
 
 ## What you can do with Canada411 Scraper: Business Phones, Addresses
 
@@ -143,11 +143,11 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 - [Whop Content Rewards Scraper: Clipping & UGC Campaigns](whop-clipping-campaigns-scraper.md): Scrape the Whop Content Rewards directory: reward per 1K views, budget left, burn rate, platforms, payout type and campaign URLs. Builds a...
 - [GitHub Developer Lead Finder & Email Enricher](github-developer-leads.md): Find developers on GitHub and enrich each one with verified email, company, location, skills, and social links for recruiting and B2B...
 - [Luma Events Scraper (lu.ma): Events, Hosts & Social Handles](luma-events-scraper.md): Scrape events from Luma (lu.ma / luma.com) by city, category, calendar or event URL. Get dates, venues with GPS, ticket prices, guest...
+- [Naukrigulf Jobs Scraper: UAE, Saudi & Gulf Jobs, 12 Languages](naukrigulf-scraper.md): Scrape Naukrigulf jobs in Dubai, the UAE, Saudi Arabia, Qatar, Kuwait, Bahrain and Oman. Search in Arabic, Hindi, Malayalam, Tagalog and 8...
 - [11888.gr Scraper: Greek Business Phones, Emails & Websites](11888-gr-scraper.md): Scrape Greek businesses from the 11888.gr Yellow Pages by category and place: name, phones, mobile, email, website, address, GPS and...
-- [AI Account Watch: Custom Sales Trigger Alerts](ai-account-watch.md): Watch a list of companies and get alerted when one does what you describe in plain English: raises funding, hires a CMO, opens a location...
 
 ## More
 
-- Full catalog: [all 56 actors](../README.md)
+- Full catalog: [all 57 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/canada411-ca](https://automationbyexperts.com/apify/canada411-ca?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/canada411-ca.md](https://automationbyexperts.com/apify/canada411-ca.md)

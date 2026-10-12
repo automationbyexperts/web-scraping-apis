@@ -1,8 +1,8 @@
 # Web Scraping APIs for AI Agents: Pay per Run with x402 (USDC) or Skyfire, No Account
 
-> 41 ready-to-run scrapers by AutomationByExperts that an AI agent can discover, run and pay for on its own: no Apify account, no API key sign-up, no subscription. The agent pays per run with USDC on Base through the x402 protocol, or with a Skyfire PAY token, and gets structured JSON back in the same HTTP call.
+> 51 ready-to-run scrapers by AutomationByExperts that an AI agent can discover, run and pay for on its own: no Apify account, no API key sign-up, no subscription. The agent pays per run with USDC on Base through the x402 protocol, or with a Skyfire PAY token, and gets structured JSON back in the same HTTP call.
 
-**41 agent-payable actors** | Updated 2026-10-08 | [Full catalog](README.md) | [llms.txt](llms.txt)
+**51 agent-payable actors** | Updated 2026-10-12 | [Full catalog](README.md) | [llms.txt](llms.txt)
 
 ## How it works
 
@@ -63,16 +63,18 @@ Replace `<actor-name>` above with the name in the second column. Each guide has 
 | Actor | Actor name for the API | What it does | Guide |
 |---|---|---|---|
 | [AutoTrader Canada Car Scraper: Prices, VIN, Mileage & Dealers](https://apify.com/fayoussef/autotrader-canada?fpr=youssef) | `autotrader-canada` | Scrape AutoTrader.ca car listings: price, mileage, VIN, specs, dealer phone and photos from any search or the filter form. Optional Find... | [Guide](actors/autotrader-canada.md) |
-| [AutoTrader.ca Price Drop Monitor & Car Scraper](https://apify.com/fayoussef/autotrader-ca?fpr=youssef) | `autotrader-ca` | Monitor AutoTrader Canada searches and get only new listings, price drops and sold cars since the last run, with price history. Schedule it... | [Guide](actors/autotrader-ca.md) |
 | [CarGurus Scraper (US, Canada & UK Car Listings)](https://apify.com/fayoussef/cargurus-listings-scraper?fpr=youssef) | `cargurus-listings-scraper` | Scrape CarGurus vehicle listings from .com, .ca and .co.uk. Returns price, mileage, VIN, specs, dealer info and all images per listing. | [Guide](actors/cargurus-listings-scraper.md) |
+| [AutoTrader.ca Price Drop Monitor & Car Scraper](https://apify.com/fayoussef/autotrader-ca?fpr=youssef) | `autotrader-ca` | Monitor AutoTrader Canada searches and get only new listings, price drops and sold cars since the last run, with price history. Schedule it... | [Guide](actors/autotrader-ca.md) |
 | [Kijiji.ca Scraper: Autos, Real Estate & Classifieds](https://apify.com/fayoussef/kijiji-scraper?fpr=youssef) | `kijiji-scraper` | Efficiently scrapes Kijiji.ca listings: vehicles, real estate, and more. Extracts detailed data including phone number, price, location... | [Guide](actors/kijiji-scraper.md) |
 | [autotrader.co.za Car Scraper with Seller Phone Numbers](https://apify.com/fayoussef/autotrader-co-za-scraper?fpr=youssef) | `autotrader-co-za-scraper` | Scrape autotrader.co.za car listings across every page: price, mileage, specs, dealer and location, plus the seller's phone number. | [Guide](actors/autotrader-co-za-scraper.md) |
 | [AutoTrader Australia Car Scraper: Prices, VIN & Dealers](https://apify.com/fayoussef/autotrader-au-scraper?fpr=youssef) | `autotrader-au-scraper` | Scrape Autotrader Australia. Paste any autotrader.com.au search URL to export every vehicle: price, make, model, variant, year, odometer... | [Guide](actors/autotrader-au-scraper.md) |
 | [Car Dealer Website Inventory Scraper: VIN, Price & Stock](https://apify.com/fayoussef/dealer-inventory-scraper?fpr=youssef) | `dealer-inventory-scraper` | Scrape live vehicle inventory from any car dealership's own website, not a marketplace. Paste a dealer homepage and get every car at VIN... | [Guide](actors/dealer-inventory-scraper.md) |
 | [PistonHeads Scraper: UK Used, Classic & Performance Cars](https://apify.com/fayoussef/pistonheads?fpr=youssef) | `pistonheads` | Our pistonheads.com scraper effortlessly gathers URLs from all pages and extracts detailed information from each listing card. | [Guide](actors/pistonheads.md) |
+| [Kijiji Auto & Classifieds Scraper Actor](https://apify.com/fayoussef/kijiji-ca-scraper?fpr=youssef) | `kijiji-ca-scraper` | Kijiji.ca listings scraper. Extracts detailed data including phone number, price, location, specs, and images from search results (with... | [Guide](actors/kijiji-ca-scraper.md) |
+| [Car Dealer Reviews & Reputation Monitor (DealerRater)](https://apify.com/fayoussef/dealer-reputation-monitor?fpr=youssef) | `dealer-reputation-monitor` | Pull every DealerRater review for any car dealership by name or URL. Get the star rating broken down by price transparency, trade-in... | [Guide](actors/dealer-reputation-monitor.md) |
+| [Canada Car Scraper: AutoTrader.ca, Kijiji & CarGurus in One](https://apify.com/fayoussef/canada-car-scraper?fpr=youssef) | `canada-car-scraper` | Search AutoTrader.ca, Kijiji and CarGurus.ca at once with one filter form. Duplicates are merged into one row per car, with VIN, each... | [Guide](actors/canada-car-scraper.md) |
 | [Clutch.ca Car Scraper: Used Car Prices, VIN & Carfax](https://apify.com/fayoussef/clutch-ca-scraper?fpr=youssef) | `clutch-ca-scraper` | Scrape used cars from Clutch.ca, Canada's online car retailer. Filter by make, model, price, biweekly or monthly payment, year, mileage... | [Guide](actors/clutch-ca-scraper.md) |
 | [coches.net Scraper: Spain Used Car Prices, Deals & Dealers](https://apify.com/fayoussef/coches-net-scraper?fpr=youssef) | `coches-net-scraper` | Scrape used cars from coches.net, Spain's largest car marketplace. Filter by make, model, price, year, km, province or radius, fuel, DGT... | [Guide](actors/coches-net-scraper.md) |
-| [Car Dealer Reviews & Reputation Monitor (DealerRater)](https://apify.com/fayoussef/dealer-reputation-monitor?fpr=youssef) | `dealer-reputation-monitor` | Pull every DealerRater review for any car dealership by name or URL. Get the star rating broken down by price transparency, trade-in... | [Guide](actors/dealer-reputation-monitor.md) |
 
 ### Real Estate Scrapers
 
@@ -99,7 +101,10 @@ Replace `<actor-name>` above with the name in the second column. Each guide has 
 
 | Actor | Actor name for the API | What it does | Guide |
 |---|---|---|---|
+| [Competitor Price Tracker & Price Comparison by Product URL](https://apify.com/fayoussef/competitor-price-tracker-price-comparison-by-product-url?fpr=youssef) | `competitor-price-tracker-price-comparison-by-product-url` | Paste any product URL to get every retailer selling the same item, live prices, your market rank, and a suggested pricing action. Matches... | [Guide](actors/competitor-price-tracker-price-comparison-by-product-url.md) |
 | [Brand Protection: Fake Shop, Counterfeit & Typosquat Finder](https://apify.com/fayoussef/brand-abuse-counterfeit-detector?fpr=youssef) | `brand-abuse-counterfeit-detector` | Find fake webshops, counterfeit marketplace listings, typosquatted domains and impersonation profiles abusing your brand. AI classifies... | [Guide](actors/brand-abuse-counterfeit-detector.md) |
+| [MAP Price Monitor: Amazon, eBay Violations & Rogue Sellers](https://apify.com/fayoussef/map-violation-monitor?fpr=youssef) | `map-violation-monitor` | Enter your products and MAP prices and get every public offer advertised below them on Amazon, eBay, Best Buy and Newegg. AI verifies each... | [Guide](actors/map-violation-monitor.md) |
+| [Amazon, eBay, Best Buy & Newegg Price Checker by ASIN or UPC](https://apify.com/fayoussef/multi-marketplace-price-checker?fpr=youssef) | `multi-marketplace-price-checker` | Paste ASINs, UPCs, model numbers or product names and get what that exact product sells for on Amazon, eBay, Best Buy and Newegg. AI... | [Guide](actors/multi-marketplace-price-checker.md) |
 
 ### Lead Generation Actors
 
@@ -109,20 +114,30 @@ Replace `<actor-name>` above with the name in the second column. Each guide has 
 | [Journalist Request Finder: HARO Alternative for Digital PR](https://apify.com/fayoussef/journalist-request-finder?fpr=youssef) | `journalist-request-finder` | Find live journalist source requests in one feed, pulled from SourceBottle call-outs and #journorequest posts on Bluesky and Mastodon... | [Guide](actors/journalist-request-finder.md) |
 | [GitHub Developer Lead Finder & Email Enricher](https://apify.com/fayoussef/github-developer-leads?fpr=youssef) | `github-developer-leads` | Find developers on GitHub and enrich each one with verified email, company, location, skills, and social links for recruiting and B2B... | [Guide](actors/github-developer-leads.md) |
 | [Luma Events Scraper (lu.ma): Events, Hosts & Social Handles](https://apify.com/fayoussef/luma-events-scraper?fpr=youssef) | `luma-events-scraper` | Scrape events from Luma (lu.ma / luma.com) by city, category, calendar or event URL. Get dates, venues with GPS, ticket prices, guest... | [Guide](actors/luma-events-scraper.md) |
+| [Naukrigulf Jobs Scraper: UAE, Saudi & Gulf Jobs, 12 Languages](https://apify.com/fayoussef/naukrigulf-scraper?fpr=youssef) | `naukrigulf-scraper` | Scrape Naukrigulf jobs in Dubai, the UAE, Saudi Arabia, Qatar, Kuwait, Bahrain and Oman. Search in Arabic, Hindi, Malayalam, Tagalog and 8... | [Guide](actors/naukrigulf-scraper.md) |
 | [11888.gr Scraper: Greek Business Phones, Emails & Websites](https://apify.com/fayoussef/11888-gr-scraper?fpr=youssef) | `11888-gr-scraper` | Scrape Greek businesses from the 11888.gr Yellow Pages by category and place: name, phones, mobile, email, website, address, GPS and... | [Guide](actors/11888-gr-scraper.md) |
+| [XO.gr Scraper: Greek Business Directory, Phones & Emails](https://apify.com/fayoussef/xo-gr-scraper?fpr=youssef) | `xo-gr-scraper` | Scrape Greek business leads from xo.gr (Χρυσός Οδηγός, the Greek Yellow Pages) by category and place: name, phones, mobile, email, website... | [Guide](actors/xo-gr-scraper.md) |
+| [AI Account Watch: Custom Sales Trigger Alerts](https://apify.com/fayoussef/ai-account-watch?fpr=youssef) | `ai-account-watch` | Watch a list of companies and get alerted when one does what you describe in plain English: raises funding, hires a CMO, opens a location... | [Guide](actors/ai-account-watch.md) |
 | [New Business License Feed: Fresh Openings by City](https://apify.com/fayoussef/business-license-feed?fpr=youssef) | `business-license-feed` | Every business, food, liquor and trade license newly issued in Chicago, Los Angeles, New York, Seattle and New Orleans, filtered to the... | [Guide](actors/business-license-feed.md) |
 | [Clinical Trials Scraper: ClinicalTrials.gov Data & Monitor](https://apify.com/fayoussef/clinical-trials-intelligence?fpr=youssef) | `clinical-trials-intelligence` | Scrape clinical trials from ClinicalTrials.gov via the official v2 API. Search 500,000+ studies by condition, sponsor, drug, phase, status... | [Guide](actors/clinical-trials-intelligence.md) |
-| [XO.gr Scraper: Greek Business Directory, Phones & Emails](https://apify.com/fayoussef/xo-gr-scraper?fpr=youssef) | `xo-gr-scraper` | Scrape Greek business leads from xo.gr (Χρυσός Οδηγός, the Greek Yellow Pages) by category and place: name, phones, mobile, email, website... | [Guide](actors/xo-gr-scraper.md) |
 | [Greenhouse & Lever Jobs Scraper: ATS Job Postings by Domain](https://apify.com/fayoussef/company-domain-to-job-postings?fpr=youssef) | `company-domain-to-job-postings` | Scrape Greenhouse, Lever, Ashby, Recruitee, SmartRecruiters and Personio jobs from just a company domain. Finds each company's ATS job... | [Guide](actors/company-domain-to-job-postings.md) |
-| [Naukrigulf Jobs Scraper: UAE, Saudi & Gulf Jobs, 12 Languages](https://apify.com/fayoussef/naukrigulf-scraper?fpr=youssef) | `naukrigulf-scraper` | Scrape Naukrigulf jobs in Dubai, the UAE, Saudi Arabia, Qatar, Kuwait, Bahrain and Oman. Search in Arabic, Hindi, Malayalam, Tagalog and 8... | [Guide](actors/naukrigulf-scraper.md) |
 | [Podcast Scraper for Guest Booking: Shows & Host Emails](https://apify.com/fayoussef/podcast-guest-finder?fpr=youssef) | `podcast-guest-finder` | Find podcasts that book guests, with the host's contact email. Search any niche across Apple Podcasts, keep active, guest-friendly shows... | [Guide](actors/podcast-guest-finder.md) |
 | [Reddit Scraper for Leads: Buying Intent Posts & Comments](https://apify.com/fayoussef/reddit-lead-finder?fpr=youssef) | `reddit-lead-finder` | Scrape Reddit posts and comments for buying intent: people asking for a tool, a recommendation, or an alternative to your competitor. Every... | [Guide](actors/reddit-lead-finder.md) |
+
+### Bulk AI Tools
+
+| Actor | Actor name for the API | What it does | Guide |
+|---|---|---|---|
+| [Bulk Text to Speech: MP3 + SRT Subtitles \| No API Key](https://apify.com/fayoussef/bulk-text-to-speech?fpr=youssef) | `bulk-text-to-speech` | Convert texts or an Excel/CSV file into MP3 voiceovers with perfectly timed SRT/VTT subtitles. 322 neural voices in 75 languages... | [Guide](actors/bulk-text-to-speech.md) |
+| [Translate Excel, CSV & Websites in Bulk with AI \| No API Key](https://apify.com/fayoussef/bulk-ai-translator?fpr=youssef) | `bulk-ai-translator` | Translate Excel, CSV and Google Sheets files, whole websites, PDFs and SRT/VTT subtitles into 42 languages in one run, and get the same... | [Guide](actors/bulk-ai-translator.md) |
 
 ### SEO & AI Visibility
 
 | Actor | Actor name for the API | What it does | Guide |
 |---|---|---|---|
+| [SEO, GEO & AEO Audit: AI Search Readiness Checker](https://apify.com/fayoussef/seo-geo-aeo-audit?fpr=youssef) | `seo-geo-aeo-audit` | Audit any website for Google SEO and AI search visibility in one run. Get 0-100 SEO, GEO & AEO scores per page, AI-crawler & llms.txt... | [Guide](actors/seo-geo-aeo-audit.md) |
 | [Google Maps Geo-Grid Local Rank Tracker](https://apify.com/fayoussef/geo-grid-local-rank-tracker?fpr=youssef) | `geo-grid-local-rank-tracker` | Track where a business ranks in the Google Maps local pack across a grid of points around it. Per-point rank, average rank, coverage, Share... | [Guide](actors/geo-grid-local-rank-tracker.md) |
+| [AI Brand Visibility Tracker (ChatGPT, Perplexity & Gemini)](https://apify.com/fayoussef/ai-brand-visibility-tracker?fpr=youssef) | `ai-brand-visibility-tracker` | Is AI recommending you or your competitors? Track brand mentions, ranking position, sentiment, share of voice and cited sources in ChatGPT... | [Guide](actors/ai-brand-visibility-tracker.md) |
 | [llms.txt Generator: llms-full.txt for Any Website (AI SEO)](https://apify.com/fayoussef/llms-txt-generator?fpr=youssef) | `llms-txt-generator` | Generate a spec-compliant llms.txt and llms-full.txt for any website in one run. Crawls your sitemap or internal links, extracts every... | [Guide](actors/llms-txt-generator.md) |
 
 ### Developer Tools & APIs

@@ -2,7 +2,7 @@
 
 5 ready-to-run real estate scrapers on Apify, built and maintained by Youssef Farhan. Property listings, prices, agent contacts and GPS coordinates at scale. Each one runs in the cloud with no code and exports to JSON, CSV or Excel.
 
-Updated 2026-10-08.
+Updated 2026-10-12.
 
 | Actor | What it does | Example use cases | Guide |
 |---|---|---|---|

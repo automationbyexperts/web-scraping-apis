@@ -13,7 +13,7 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/naukrigulf-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-10-08 |
+| Catalog updated | 2026-10-12 |
 
 ## What you can do with Naukrigulf Jobs Scraper: UAE, Saudi & Gulf Jobs, 12 Languages
 
@@ -167,6 +167,6 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 56 actors](../README.md)
+- Full catalog: [all 57 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/naukrigulf-scraper](https://automationbyexperts.com/apify/naukrigulf-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/naukrigulf-scraper.md](https://automationbyexperts.com/apify/naukrigulf-scraper.md)

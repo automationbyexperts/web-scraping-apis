@@ -13,7 +13,7 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/ai-brand-visibility-tracker?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-10-08 |
+| Catalog updated | 2026-10-12 |
 
 ## What you can do with AI Brand Visibility Tracker (ChatGPT, Perplexity & Gemini)
 
@@ -134,6 +134,22 @@ https://mcp.apify.com?tools=fayoussef/ai-brand-visibility-tracker
 
 Your Apify API token is under **Settings > API & Integrations** in the [Apify Console](https://console.apify.com/settings/integrations?fpr=youssef).
 
+### From AI agents with no Apify account (x402 or Skyfire)
+
+This actor accepts [agentic payments](../agentic-payments.md): an AI agent can run it and pay per run with USDC (x402) or a Skyfire token, with no Apify account.
+
+```bash
+# x402: TOKEN is the prepaid token bought from Apify AGI with USDC on Base
+curl -X POST "https://api.apify.com/v2/acts/fayoussef~ai-brand-visibility-tracker/run-sync-get-dataset-items" \
+  -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" -d '{}'
+
+# Skyfire: send the PAY token instead
+curl -X POST "https://api.apify.com/v2/acts/fayoussef~ai-brand-visibility-tracker/run-sync-get-dataset-items" \
+  -H "skyfire-pay-id: $SKYFIRE_PAY_TOKEN" -H "Content-Type: application/json" -d '{}'
+```
+
+With MCP and Skyfire: `https://mcp.apify.com?payment=skyfire&tools=fayoussef/ai-brand-visibility-tracker`
+
 ## FAQ
 
 ### Is AI Brand Visibility Tracker (ChatGPT, Perplexity & Gemini) free to try?
@@ -152,6 +168,10 @@ JSON, CSV, Excel, XML and HTML from the Console, or directly through the Apify A
 
 Yes. Connect the Apify MCP server with `https://mcp.apify.com?tools=fayoussef/ai-brand-visibility-tracker` and Claude, ChatGPT, Cursor or any MCP client can run it and read the results.
 
+### Can an AI agent run it without an Apify account?
+
+Yes. This actor accepts agentic payments: an agent can pay per run with USDC through the x402 protocol, or with a Skyfire PAY token, and no Apify account is needed. See [AI agents and x402 payments](../agentic-payments.md).
+
 ### Can I get a custom version?
 
 Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24@gmail.com or visit [AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis).
@@ -164,6 +184,6 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 56 actors](../README.md)
+- Full catalog: [all 57 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/ai-brand-visibility-tracker](https://automationbyexperts.com/apify/ai-brand-visibility-tracker?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/ai-brand-visibility-tracker.md](https://automationbyexperts.com/apify/ai-brand-visibility-tracker.md)
