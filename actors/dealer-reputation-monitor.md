@@ -1,6 +1,6 @@
 # Car Dealer Reviews & Reputation Monitor (DealerRater)
 
-**Car Dealer Reviews & Reputation Monitor (DealerRater)** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Pull every DealerRater review for any car dealership by name or URL. Get the star rating broken down by price transparency, trade-in, finance and service time, plus the salesperson each review names. Monitor mode returns only reviews new since the last run, so a schedule becomes an alert feed.
+**Car Dealer Reviews & Reputation Monitor (DealerRater)** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Pull every DealerRater review for any car dealership by name (a city is fine), URL, or state and make. Get ratings broken down by price transparency, trade-in, finance and service time, plus the salesperson each review names. Monitor mode returns only new reviews, so a schedule is an alert feed.
 
 [Run it on Apify](https://apify.com/fayoussef/dealer-reputation-monitor?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/dealer-reputation-monitor?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All Car & Vehicle Scrapers](../categories/vehicle-scrapers.md)
 
@@ -13,7 +13,7 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/dealer-reputation-monitor?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-10-12 |
+| Catalog updated | 2026-10-19 |
 
 ## What you can do with Car Dealer Reviews & Reputation Monitor (DealerRater)
 

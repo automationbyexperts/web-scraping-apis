@@ -1,6 +1,6 @@
-# Canada Car Scraper: AutoTrader.ca, Kijiji & CarGurus in One
+# Canada Car Scraper: AutoTrader.ca, Kijiji, CarGurus & Carpages
 
-**Canada Car Scraper: AutoTrader.ca, Kijiji & CarGurus in One** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Search AutoTrader.ca, Kijiji and CarGurus.ca at once with one filter form. Duplicates are merged into one row per car, with VIN, each site's price and link, the price gap, CarGurus deal rating and market value, dealer phone and private sellers.
+**Canada Car Scraper: AutoTrader.ca, Kijiji, CarGurus & Carpages** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Search AutoTrader.ca, Kijiji and CarGurus.ca at once, plus Carpages.ca if you choose, with one filter form. Duplicates are merged into one row per car, with VIN, each site's price and link, the price gap, CarGurus deal rating and market value, dealer phone and private sellers.
 
 [Run it on Apify](https://apify.com/fayoussef/canada-car-scraper?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/canada-car-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All Car & Vehicle Scrapers](../categories/vehicle-scrapers.md)
 
@@ -13,9 +13,9 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/canada-car-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-10-12 |
+| Catalog updated | 2026-10-19 |
 
-## How to use Canada Car Scraper: AutoTrader.ca, Kijiji & CarGurus in One
+## How to use Canada Car Scraper: AutoTrader.ca, Kijiji, CarGurus & Carpages
 
 ### No code
 
@@ -100,7 +100,7 @@ With MCP and Skyfire: `https://mcp.apify.com?payment=skyfire&tools=fayoussef/can
 
 ## FAQ
 
-### Is Canada Car Scraper: AutoTrader.ca, Kijiji & CarGurus in One free to try?
+### Is Canada Car Scraper: AutoTrader.ca, Kijiji, CarGurus & Carpages free to try?
 
 Yes. You can start it with a free Apify account. Free runs have usage limits, and larger jobs need an [Apify plan](https://apify.com/pricing?fpr=youssef). The current rate is shown on the [Store page](https://apify.com/fayoussef/canada-car-scraper?fpr=youssef).
 

@@ -14,7 +14,7 @@
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/autotrader-canada?fpr=youssef)) |
 | Rating | 5.0 out of 5 (3 reviews) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-10-12 |
+| Catalog updated | 2026-10-19 |
 
 ## What you can do with AutoTrader Canada Car Scraper: Prices, VIN, Mileage & Dealers
 

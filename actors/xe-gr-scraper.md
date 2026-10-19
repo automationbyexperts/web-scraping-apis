@@ -1,6 +1,6 @@
 # XE.gr Greek Property Scraper
 
-**XE.gr Greek Property Scraper** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Scrape Greek real estate listings from XE.gr: prices, size, rooms, GPS coordinates, amenities, photos and advertiser phone numbers. Works in every language XE.gr publishes: Greek, English, German, French and Spanish, both for the URLs you paste in and for the data you get back.
+**XE.gr Greek Property Scraper** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Scrape Greek real estate listings from XE.gr: prices, size, rooms, GPS coordinates, amenities, photos and phone numbers. Owners-only mode returns just listings posted directly by property owners. Works in Greek, English, German, French and Spanish.
 
 [Run it on Apify](https://apify.com/fayoussef/xe-gr-scraper?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/xe-gr-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All Real Estate Scrapers](../categories/real-estate-scrapers.md)
 
@@ -13,7 +13,7 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/xe-gr-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-10-12 |
+| Catalog updated | 2026-10-19 |
 
 ## What you can do with XE.gr Greek Property Scraper
 

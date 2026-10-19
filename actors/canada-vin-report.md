@@ -1,8 +1,8 @@
-# Kijiji Auto & Classifieds Scraper Actor
+# Canada VIN Decoder: Recalls & Market Value Report
 
-**Kijiji Auto & Classifieds Scraper Actor** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Kijiji.ca listings scraper. Extracts detailed data including phone number, price, location, specs, and images from search results (with pagination) or direct ad URLs. Ideal for market research and data collection.
+**Canada VIN Decoder: Recalls & Market Value Report** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Decode VINs in bulk and get US and Transport Canada recalls, NHTSA safety stars and complaints, plus the live Canadian market value from AutoTrader.ca, Kijiji and CarGurus comparables, with a deal rating for your asking price.
 
-[Run it on Apify](https://apify.com/fayoussef/kijiji-ca-scraper?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/kijiji-ca-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All Car & Vehicle Scrapers](../categories/vehicle-scrapers.md)
+[Run it on Apify](https://apify.com/fayoussef/canada-vin-report?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/canada-vin-report?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All Car & Vehicle Scrapers](../categories/vehicle-scrapers.md)
 
 ## Key facts
 
@@ -11,16 +11,11 @@
 | Category | [Car & Vehicle Scrapers](../categories/vehicle-scrapers.md) |
 | Runs on | Apify cloud, nothing to install and no server to manage |
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
-| Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/kijiji-ca-scraper?fpr=youssef)) |
+| Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/canada-vin-report?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-10-12 |
+| Catalog updated | 2026-10-19 |
 
-## What you can do with Kijiji Auto & Classifieds Scraper Actor
-
-- **[Scrape used cars for sale in Toronto on Kijiji](https://apify.com/fayoussef/kijiji-ca-scraper/examples/toronto-used-cars-kijiji?fpr=youssef)**: Reads the Toronto cars and trucks category on Kijiji.ca, 40 listings per page, and returns 35 plus fields per ad: price, year, make, model, kilometres, transmission, VIN where posted, dealer or private, location and...
-- **[Export apartments for rent in Toronto from Kijiji](https://apify.com/fayoussef/kijiji-ca-scraper/examples/toronto-apartments-for-rent-kijiji?fpr=youssef)**: Pulls the newest Toronto apartment and condo rental ads from Kijiji.ca with rent, bedrooms, bathrooms, size, pet and parking flags, address, poster type and photos. Relocation agents and renters get the whole market in...
-
-## How to use Kijiji Auto & Classifieds Scraper Actor
+## How to use Canada VIN Decoder: Recalls & Market Value Report
 
 ### No code
 
@@ -30,15 +25,10 @@
 
 ### Example input
 
+Open the input form on the Store page to see every field. An empty input runs the defaults.
+
 ```json
-{
-  "start_urls": [
-    {
-      "url": "https://www.kijiji.ca/b-cars-trucks/city-of-toronto/c174l1700273"
-    }
-  ],
-  "max_pages": 5
-}
+{}
 ```
 
 ### Python
@@ -51,9 +41,8 @@ pip install apify-client
 from apify_client import ApifyClient
 
 client = ApifyClient("<YOUR_APIFY_TOKEN>")
-run_input = {'start_urls': [{'url': 'https://www.kijiji.ca/b-cars-trucks/city-of-toronto/c174l1700273'}],
- 'max_pages': 5}
-run = client.actor("fayoussef/kijiji-ca-scraper").call(run_input=run_input)
+run_input = {}
+run = client.actor("fayoussef/canada-vin-report").call(run_input=run_input)
 
 for item in client.dataset(run["defaultDatasetId"]).iterate_items():
     print(item)
@@ -69,15 +58,8 @@ npm install apify-client
 import { ApifyClient } from 'apify-client';
 
 const client = new ApifyClient({ token: '<YOUR_APIFY_TOKEN>' });
-const input = {
-  "start_urls": [
-    {
-      "url": "https://www.kijiji.ca/b-cars-trucks/city-of-toronto/c174l1700273"
-    }
-  ],
-  "max_pages": 5
-};
-const run = await client.actor('fayoussef/kijiji-ca-scraper').call(input);
+const input = {};
+const run = await client.actor('fayoussef/canada-vin-report').call(input);
 const { items } = await client.dataset(run.defaultDatasetId).listItems();
 console.log(items);
 ```
@@ -85,9 +67,9 @@ console.log(items);
 ### cURL (run and get the results in one call)
 
 ```bash
-curl -X POST "https://api.apify.com/v2/acts/fayoussef~kijiji-ca-scraper/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>" \
+curl -X POST "https://api.apify.com/v2/acts/fayoussef~canada-vin-report/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>" \
   -H "Content-Type: application/json" \
-  -d '{"start_urls": [{"url": "https://www.kijiji.ca/b-cars-trucks/city-of-toronto/c174l1700273"}], "max_pages": 5}'
+  -d '{}'
 ```
 
 ### From AI agents (MCP)
@@ -95,7 +77,7 @@ curl -X POST "https://api.apify.com/v2/acts/fayoussef~kijiji-ca-scraper/run-sync
 Add the Apify MCP server to Claude, ChatGPT, Cursor or any MCP client with this URL, and the agent can run the actor for you:
 
 ```text
-https://mcp.apify.com?tools=fayoussef/kijiji-ca-scraper
+https://mcp.apify.com?tools=fayoussef/canada-vin-report
 ```
 
 Your Apify API token is under **Settings > API & Integrations** in the [Apify Console](https://console.apify.com/settings/integrations?fpr=youssef).
@@ -106,21 +88,21 @@ This actor accepts [agentic payments](../agentic-payments.md): an AI agent can r
 
 ```bash
 # x402: TOKEN is the prepaid token bought from Apify AGI with USDC on Base
-curl -X POST "https://api.apify.com/v2/acts/fayoussef~kijiji-ca-scraper/run-sync-get-dataset-items" \
+curl -X POST "https://api.apify.com/v2/acts/fayoussef~canada-vin-report/run-sync-get-dataset-items" \
   -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" -d '{}'
 
 # Skyfire: send the PAY token instead
-curl -X POST "https://api.apify.com/v2/acts/fayoussef~kijiji-ca-scraper/run-sync-get-dataset-items" \
+curl -X POST "https://api.apify.com/v2/acts/fayoussef~canada-vin-report/run-sync-get-dataset-items" \
   -H "skyfire-pay-id: $SKYFIRE_PAY_TOKEN" -H "Content-Type: application/json" -d '{}'
 ```
 
-With MCP and Skyfire: `https://mcp.apify.com?payment=skyfire&tools=fayoussef/kijiji-ca-scraper`
+With MCP and Skyfire: `https://mcp.apify.com?payment=skyfire&tools=fayoussef/canada-vin-report`
 
 ## FAQ
 
-### Is Kijiji Auto & Classifieds Scraper Actor free to try?
+### Is Canada VIN Decoder: Recalls & Market Value Report free to try?
 
-Yes. You can start it with a free Apify account. Free runs have usage limits, and larger jobs need an [Apify plan](https://apify.com/pricing?fpr=youssef). The current rate is shown on the [Store page](https://apify.com/fayoussef/kijiji-ca-scraper?fpr=youssef).
+Yes. You can start it with a free Apify account. Free runs have usage limits, and larger jobs need an [Apify plan](https://apify.com/pricing?fpr=youssef). The current rate is shown on the [Store page](https://apify.com/fayoussef/canada-vin-report?fpr=youssef).
 
 ### Do I need to know how to code?
 
@@ -132,7 +114,7 @@ JSON, CSV, Excel, XML and HTML from the Console, or directly through the Apify A
 
 ### Can AI agents use it?
 
-Yes. Connect the Apify MCP server with `https://mcp.apify.com?tools=fayoussef/kijiji-ca-scraper` and Claude, ChatGPT, Cursor or any MCP client can run it and read the results.
+Yes. Connect the Apify MCP server with `https://mcp.apify.com?tools=fayoussef/canada-vin-report` and Claude, ChatGPT, Cursor or any MCP client can run it and read the results.
 
 ### Can an AI agent run it without an Apify account?
 
@@ -154,5 +136,5 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 ## More
 
 - Full catalog: [all 57 actors](../README.md)
-- Website page: [https://automationbyexperts.com/apify/kijiji-ca-scraper](https://automationbyexperts.com/apify/kijiji-ca-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
-- Markdown version for AI tools: [https://automationbyexperts.com/apify/kijiji-ca-scraper.md](https://automationbyexperts.com/apify/kijiji-ca-scraper.md)
+- Website page: [https://automationbyexperts.com/apify/canada-vin-report](https://automationbyexperts.com/apify/canada-vin-report?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
+- Markdown version for AI tools: [https://automationbyexperts.com/apify/canada-vin-report.md](https://automationbyexperts.com/apify/canada-vin-report.md)
