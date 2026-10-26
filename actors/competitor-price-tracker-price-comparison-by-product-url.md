@@ -14,7 +14,7 @@
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/competitor-price-tracker-price-comparison-by-product-url?fpr=youssef)) |
 | Rating | 5.0 out of 5 (1 reviews) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-10-19 |
+| Catalog updated | 2026-10-26 |
 
 ## What you can do with Competitor Price Tracker & Price Comparison by Product URL
 
@@ -169,11 +169,12 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 ## Related Price & Brand Monitoring
 
 - [Brand Protection: Fake Shop, Counterfeit & Typosquat Finder](brand-abuse-counterfeit-detector.md): Find fake webshops, counterfeit marketplace listings, typosquatted domains and impersonation profiles abusing your brand. AI classifies...
+- [Amazon Best Sellers Scraper: Rank Tracker, 21 Marketplaces](amazon-bestsellers-tracker.md): Track Amazon Best Sellers and New Releases ranks 1-100 in 21 marketplaces (US, UK, DE, FR, JP, IN, BR and more). Each run shows what moved...
 - [MAP Price Monitor: Amazon, eBay Violations & Rogue Sellers](map-violation-monitor.md): Enter your products and MAP prices and get every public offer advertised below them on Amazon, eBay, Best Buy and Newegg. AI verifies each...
 - [Amazon, eBay, Best Buy & Newegg Price Checker by ASIN or UPC](multi-marketplace-price-checker.md): Paste ASINs, UPCs, model numbers or product names and get what that exact product sells for on Amazon, eBay, Best Buy and Newegg. AI...
 
 ## More
 
-- Full catalog: [all 57 actors](../README.md)
+- Full catalog: [all 59 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/competitor-price-tracker-price-comparison-by-product-url](https://automationbyexperts.com/apify/competitor-price-tracker-price-comparison-by-product-url?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/competitor-price-tracker-price-comparison-by-product-url.md](https://automationbyexperts.com/apify/competitor-price-tracker-price-comparison-by-product-url.md)

@@ -13,7 +13,7 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/llms-txt-generator?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-10-19 |
+| Catalog updated | 2026-10-26 |
 
 ## What you can do with llms.txt Generator: llms-full.txt for Any Website (AI SEO)
 
@@ -137,12 +137,12 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## Related SEO & AI Visibility
 
-- [SEO, GEO & AEO Audit: AI Search Readiness Checker](seo-geo-aeo-audit.md): Audit any website for Google SEO and AI search visibility in one run. Get 0-100 SEO, GEO & AEO scores per page, AI-crawler & llms.txt...
-- [Google Maps Geo-Grid Local Rank Tracker](geo-grid-local-rank-tracker.md): Track where a business ranks in the Google Maps local pack across a grid of points around it. Per-point rank, average rank, coverage, Share...
+- [SEO, GEO & AEO Audit: AI Search Readiness Checker](seo-geo-aeo-audit.md): Audit any website for Google SEO and AI search visibility in one run. Get 0-100 SEO, GEO and AEO scores per page, AI crawler and llms.txt...
+- [Google Maps Local Rank Tracker with Weekly Change Alerts](geo-grid-local-rank-tracker.md): Track where a business ranks on Google Maps across a grid, week after week. Get alerted when your Share of Local Voice drops, see which...
 - [AI Brand Visibility Tracker (ChatGPT, Perplexity & Gemini)](ai-brand-visibility-tracker.md): Is AI recommending you or your competitors? Track brand mentions, ranking position, sentiment, share of voice and cited sources in ChatGPT...
 
 ## More
 
-- Full catalog: [all 57 actors](../README.md)
+- Full catalog: [all 59 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/llms-txt-generator](https://automationbyexperts.com/apify/llms-txt-generator?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/llms-txt-generator.md](https://automationbyexperts.com/apify/llms-txt-generator.md)

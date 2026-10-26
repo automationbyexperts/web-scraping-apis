@@ -1,6 +1,6 @@
-# XO.gr Scraper: Greek Business Directory, Phones & Emails
+# Greek Business Leads: New Business Alerts from XO.gr
 
-**XO.gr Scraper: Greek Business Directory, Phones & Emails** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Scrape Greek business leads from xo.gr (Χρυσός Οδηγός, the Greek Yellow Pages) by category and place: name, phones, mobile, email, website, address, GPS and sponsored flag, plus fax, contact person, hours and rating. Search in English or Greek, or paste xo.gr URLs.
+**Greek Business Leads: New Business Alerts from XO.gr** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Get Greek business leads from xo.gr (Chrysos Odigos, the Greek Yellow Pages) by category and place, and get alerted when new businesses appear. Phones, mobile, email, website, address and GPS. Search in English or Greek. Webhook or Telegram alerts.
 
 [Run it on Apify](https://apify.com/fayoussef/xo-gr-scraper?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/xo-gr-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All Lead Generation Actors](../categories/lead-generation.md)
 
@@ -13,9 +13,9 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/xo-gr-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-10-19 |
+| Catalog updated | 2026-10-26 |
 
-## How to use XO.gr Scraper: Greek Business Directory, Phones & Emails
+## How to use Greek Business Leads: New Business Alerts from XO.gr
 
 ### No code
 
@@ -100,7 +100,7 @@ With MCP and Skyfire: `https://mcp.apify.com?payment=skyfire&tools=fayoussef/xo-
 
 ## FAQ
 
-### Is XO.gr Scraper: Greek Business Directory, Phones & Emails free to try?
+### Is Greek Business Leads: New Business Alerts from XO.gr free to try?
 
 Yes. You can start it with a free Apify account. Free runs have usage limits, and larger jobs need an [Apify plan](https://apify.com/pricing?fpr=youssef). The current rate is shown on the [Store page](https://apify.com/fayoussef/xo-gr-scraper?fpr=youssef).
 
@@ -127,14 +127,14 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 ## Related Lead Generation Actors
 
 - [Journalist Request Finder: HARO Alternative for Digital PR](journalist-request-finder.md): Find live journalist source requests in one feed, pulled from SourceBottle call-outs and #journorequest posts on Bluesky and Mastodon...
-- [Canada411 Scraper: Business Phones, Addresses](canada411-ca.md): Our canada411.ca scraper effortlessly gathers URLs from all pages and extracts contact information from each listing.
-- [Whop Content Rewards Scraper: Clipping & UGC Campaigns](whop-clipping-campaigns-scraper.md): Scrape the Whop Content Rewards directory: reward per 1K views, budget left, burn rate, platforms, payout type and campaign URLs. Builds a...
+- [Canada411 Scraper: Phone Numbers, Names & Addresses](canada411-ca.md): Scrape Canada411.ca, Canada's phone directory: names, phone numbers and full addresses for businesses and people. Search by name or...
+- [Whop Scraper: Content Rewards, Clipping & UGC Campaigns](whop-clipping-campaigns-scraper.md): Scrape the Whop Content Rewards directory: reward per 1K views, budget left, burn rate, platforms, payout type and campaign URLs. Builds a...
 - [GitHub Developer Lead Finder & Email Enricher](github-developer-leads.md): Find developers on GitHub and enrich each one with verified email, company, location, skills, and social links for recruiting and B2B...
-- [Luma Events Scraper (lu.ma): Events, Hosts & Social Handles](luma-events-scraper.md): Scrape events from Luma (lu.ma / luma.com) by city, category, calendar or event URL. Get dates, venues with GPS, ticket prices, guest...
+- [Luma Events Scraper: New Event Alerts & Organizer Leads](luma-events-scraper.md): Get alerted to new Luma (lu.ma) events in your city or calendar, with the organizer's Instagram, LinkedIn, TikTok, X and YouTube handles...
 - [Kijiji Dealer & Business Leads: Phones, Websites, Addresses](kijiji-business-leads.md): Turn any Kijiji.ca search into a B2B lead list: one row per dealer, property manager or local business, with phone, website, address...
 
 ## More
 
-- Full catalog: [all 57 actors](../README.md)
+- Full catalog: [all 59 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/xo-gr-scraper](https://automationbyexperts.com/apify/xo-gr-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/xo-gr-scraper.md](https://automationbyexperts.com/apify/xo-gr-scraper.md)

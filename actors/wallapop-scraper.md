@@ -1,6 +1,6 @@
-# wallapop Scraper (Spain,Italy,Portugal)
+# Wallapop Scraper: Deal Alerts, New Listings & Price Drops
 
-**wallapop Scraper (Spain,Italy,Portugal)** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Scrape Wallapop listings at scale across Spain, Italy, and Portugal without writing a single line of code. Paste any Wallapop search URL or item URL, and this actor returns structured data for every listing prices, specs, seller info, images, and engagement metrics.
+**Wallapop Scraper: Deal Alerts, New Listings & Price Drops** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Get alerted to new Wallapop listings and price drops, and spot the ones priced under the search median. Works for any search in Spain, Italy, Portugal and France. Also scrapes full listing data with seller info and phone numbers.
 
 [Run it on Apify](https://apify.com/fayoussef/wallapop-scraper?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/wallapop-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All E-commerce & Marketplace Scrapers](../categories/ecommerce-scrapers.md)
 
@@ -14,15 +14,15 @@
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/wallapop-scraper?fpr=youssef)) |
 | Rating | 5.0 out of 5 (2 reviews) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-10-19 |
+| Catalog updated | 2026-10-26 |
 
-## What you can do with wallapop Scraper (Spain,Italy,Portugal)
+## What you can do with Wallapop Scraper: Deal Alerts, New Listings & Price Drops
 
 - **[Scrape used cars under 5,000 EUR on Wallapop Spain](https://apify.com/fayoussef/wallapop-scraper/examples/used-cars-spain-under-5000?fpr=youssef)**: Pulls the newest private car listings on Wallapop Spain priced under 5,000 EUR, with price, mileage, year, location and seller details per row. Built for dealers and flippers who want the cheap end of the market in a...
 - **[Track used car listings on Wallapop Italy](https://apify.com/fayoussef/wallapop-scraper/examples/wallapop-italy-used-cars?fpr=youssef)**: Exports the latest used car listings from Wallapop Italy into structured rows: price, mileage, year, fuel, location and seller. Set it on a schedule to build a price history of the Italian private market, or run once to...
 - **[Monitor iPhone listings on Wallapop Spain](https://apify.com/fayoussef/wallapop-scraper/examples/iphone-listings-wallapop-spain?fpr=youssef)**: Watches Wallapop Spain for iPhone 15 listings, newest first, and returns price, condition, location and seller for each. Resellers use it to catch underpriced phones the minute they are posted; schedule it hourly and...
 
-## How to use wallapop Scraper (Spain,Italy,Portugal)
+## How to use Wallapop Scraper: Deal Alerts, New Listings & Price Drops
 
 ### No code
 
@@ -123,7 +123,7 @@ With MCP and Skyfire: `https://mcp.apify.com?payment=skyfire&tools=fayoussef/wal
 
 ## FAQ
 
-### Is wallapop Scraper (Spain,Italy,Portugal) free to try?
+### Is Wallapop Scraper: Deal Alerts, New Listings & Price Drops free to try?
 
 Yes. You can start it with a free Apify account. Free runs have usage limits, and larger jobs need an [Apify plan](https://apify.com/pricing?fpr=youssef). The current rate is shown on the [Store page](https://apify.com/fayoussef/wallapop-scraper?fpr=youssef).
 
@@ -150,7 +150,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 ## Related E-commerce & Marketplace Scrapers
 
 - [Fnac.com Scraper: Products, Prices, EAN, Stock & Reviews](fnac-data-scraping.md): Scrape fnac.com products from any search, category or product URL, or by keyword with brand, category, price, seller and stock filters. Get...
-- [G2G Scraper: Extract G2G.com Prices, Sellers & Stock](g2g-offer-scraper.md): Scrape live G2G.com prices, sellers, stock and delivery times from any category or Trending URL. Export JSON, CSV or Excel. No G2G login or...
+- [G2G Price Monitor: Undercut & Price Drop Alerts](g2g-offer-scraper.md): Monitor G2G.com prices and get alerted when a seller undercuts you, a price drops or a new offer appears. Also scrapes every offer, seller...
 - [Skroutz Scraper: Greek Price Comparison, Offers & History](skroutz-scraper.md): Scrape Skroutz, Greece's largest price comparison site, plus Skroutz Cyprus, Bulgaria, Romania, Germany and Malta. Paste any category...
 - [Bike24 Scraper: Cycling Product Prices, Stock & Specs](bike24-result-scraper.md): Our bike24.com scraper effortlessly gathers URLs from all pages and extracts detailed information from each product page
 - [RONA Scraper: Canada Home Improvement Prices, Stock & Specs](rona-scraper.md): Scrape RONA.ca products in English and French from any category, search or product URL. Export price, sale price, regular price, stock by...
@@ -158,6 +158,6 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 57 actors](../README.md)
+- Full catalog: [all 59 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/wallapop-scraper](https://automationbyexperts.com/apify/wallapop-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/wallapop-scraper.md](https://automationbyexperts.com/apify/wallapop-scraper.md)

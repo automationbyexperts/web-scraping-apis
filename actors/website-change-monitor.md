@@ -1,6 +1,6 @@
-# Website Change Monitor: Page Diff & Change Detection Alerts
+# Website Change Monitor and Competitor Price Tracker
 
-**Website Change Monitor: Page Diff & Change Detection Alerts** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Monitor any web page for changes and get a line-by-line diff of what was added and removed. Website change detection for competitor pricing, product pages, terms of service and job boards, with keyword watching, severity scoring and alerts to Slack, Discord, Telegram or a webhook.
+**Website Change Monitor and Competitor Price Tracker** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Monitor any web page for changes with a line-by-line diff, and track competitor prices: old price, new price and percent change for any product page. Keyword watching, severity scoring and alerts to Slack, Discord, Telegram or a webhook. Schedule it hourly or daily.
 
 [Run it on Apify](https://apify.com/fayoussef/website-change-monitor?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/website-change-monitor?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All Developer Tools & APIs](../categories/developer-tools.md)
 
@@ -13,14 +13,14 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/website-change-monitor?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-10-19 |
+| Catalog updated | 2026-10-26 |
 
-## What you can do with Website Change Monitor: Page Diff & Change Detection Alerts
+## What you can do with Website Change Monitor and Competitor Price Tracker
 
 - **[Monitor a competitor's pricing page for changes](https://apify.com/fayoussef/website-change-monitor/examples/competitor-pricing-page-monitor?fpr=youssef)**: Saves a baseline of the visible text on a pricing page, then on every run reports exactly what changed, with any change mentioning price, discount or plan flagged as major. Schedule it hourly or daily and add a Slack or...
 - **[Get alerts when a terms of service page changes](https://apify.com/fayoussef/website-change-monitor/examples/terms-of-service-change-alerts?fpr=youssef)**: Watches legal and policy pages that change silently and returns a line by line diff instead of making you reread the whole page, ignoring the last updated timestamp so only real wording changes count. Legal and...
 
-## How to use Website Change Monitor: Page Diff & Change Detection Alerts
+## How to use Website Change Monitor and Competitor Price Tracker
 
 ### No code
 
@@ -133,7 +133,7 @@ With MCP and Skyfire: `https://mcp.apify.com?payment=skyfire&tools=fayoussef/web
 
 ## FAQ
 
-### Is Website Change Monitor: Page Diff & Change Detection Alerts free to try?
+### Is Website Change Monitor and Competitor Price Tracker free to try?
 
 Yes. You can start it with a free Apify account. Free runs have usage limits, and larger jobs need an [Apify plan](https://apify.com/pricing?fpr=youssef). The current rate is shown on the [Store page](https://apify.com/fayoussef/website-change-monitor?fpr=youssef).
 
@@ -165,6 +165,6 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 57 actors](../README.md)
+- Full catalog: [all 59 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/website-change-monitor](https://automationbyexperts.com/apify/website-change-monitor?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/website-change-monitor.md](https://automationbyexperts.com/apify/website-change-monitor.md)

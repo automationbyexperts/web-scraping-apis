@@ -1,6 +1,6 @@
-# CarGurus Scraper (US, Canada & UK Car Listings)
+# CarGurus Scraper: US, Canada & UK Car Listings, VIN & Prices
 
-**CarGurus Scraper (US, Canada & UK Car Listings)** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Scrape CarGurus vehicle listings from .com, .ca and .co.uk. Returns price, mileage, VIN, specs, dealer info and all images per listing.
+**CarGurus Scraper: US, Canada & UK Car Listings, VIN & Prices** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Scrape CarGurus car listings from cargurus.com, .ca and .co.uk by search URL or ZIP code: price, deal rating, mileage, VIN, specs, dealer name and phone, and every photo. Export to JSON, CSV or Excel.
 
 [Run it on Apify](https://apify.com/fayoussef/cargurus-listings-scraper?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/cargurus-listings-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All Car & Vehicle Scrapers](../categories/vehicle-scrapers.md)
 
@@ -14,15 +14,15 @@
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/cargurus-listings-scraper?fpr=youssef)) |
 | Rating | 5.0 out of 5 (1 reviews) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-10-19 |
+| Catalog updated | 2026-10-26 |
 
-## What you can do with CarGurus Scraper (US, Canada & UK Car Listings)
+## What you can do with CarGurus Scraper: US, Canada & UK Car Listings, VIN & Prices
 
 - **[Find the best used car deals near New York on CarGurus](https://apify.com/fayoussef/cargurus-listings-scraper/examples/used-car-deals-near-new-york?fpr=youssef)**: Searches CarGurus US within 50 miles of Manhattan and returns listings ordered by CarGurus deal score, best deals first, with price, mileage, VIN, dealer and photos on every row. No URL to build: pick the country, type...
 - **[Export Toronto used car listings from CarGurus Canada](https://apify.com/fayoussef/cargurus-listings-scraper/examples/toronto-used-cars-cargurus-canada?fpr=youssef)**: Pulls used car listings from cargurus.ca within 50 km of downtown Toronto, cheapest first, with CAD price, kilometres, VIN, dealer name and photo URLs. Made for Ontario dealers pricing trade-ins and for anyone building...
 - **[Pull London used car deals from CarGurus UK](https://apify.com/fayoussef/cargurus-listings-scraper/examples/london-used-cars-cargurus-uk?fpr=youssef)**: Searches cargurus.co.uk within 30 miles of central London and returns the top deals with GBP price, mileage, registration year, dealer and images. Useful for UK dealers benchmarking stock and for buyers who want the...
 
-## How to use CarGurus Scraper (US, Canada & UK Car Listings)
+## How to use CarGurus Scraper: US, Canada & UK Car Listings, VIN & Prices
 
 ### No code
 
@@ -124,7 +124,7 @@ With MCP and Skyfire: `https://mcp.apify.com?payment=skyfire&tools=fayoussef/car
 
 ## FAQ
 
-### Is CarGurus Scraper (US, Canada & UK Car Listings) free to try?
+### Is CarGurus Scraper: US, Canada & UK Car Listings, VIN & Prices free to try?
 
 Yes. You can start it with a free Apify account. Free runs have usage limits, and larger jobs need an [Apify plan](https://apify.com/pricing?fpr=youssef). The current rate is shown on the [Store page](https://apify.com/fayoussef/cargurus-listings-scraper?fpr=youssef).
 
@@ -150,15 +150,15 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## Related Car & Vehicle Scrapers
 
-- [AutoTrader Canada Car Scraper: Prices, VIN, Mileage & Dealers](autotrader-canada.md): Scrape AutoTrader.ca car listings: price, mileage, VIN, specs, dealer phone and photos from any search or the filter form. Optional Find...
+- [AutoTrader.ca Scraper: Car Prices, VIN, Mileage & Dealers](autotrader-canada.md): Scrape AutoTrader.ca car listings: price, mileage, VIN, specs, dealer phone and photos from any search or the filter form. Optional Find...
 - [AutoScout24 Scraper: Car Listings, Prices & Dealer Contacts](autoscout24.md): AutoScout24 car listings from autoscout24.de, .at, .fr, .it, .es, .nl, .be, .lu and .com: price, make, model, mileage, first registration...
 - [AutoTrader.ca Price Drop Monitor & Car Scraper](autotrader-ca.md): Monitor AutoTrader Canada searches and get only new listings, price drops and sold cars since the last run, with price history. Schedule it...
-- [Kijiji.ca Scraper: Autos, Real Estate & Classifieds](kijiji-scraper.md): Efficiently scrapes Kijiji.ca listings: vehicles, real estate, and more. Extracts detailed data including phone number, price, location...
-- [autotrader.co.za Car Scraper with Seller Phone Numbers](autotrader-co-za-scraper.md): Scrape autotrader.co.za car listings across every page: price, mileage, specs, dealer and location, plus the seller's phone number.
-- [AutoTrader Australia Car Scraper: Prices, VIN & Dealers](autotrader-au-scraper.md): Scrape Autotrader Australia. Paste any autotrader.com.au search URL to export every vehicle: price, make, model, variant, year, odometer...
+- [Kijiji.ca Scraper: Autos, Real Estate & Classifieds](kijiji-scraper.md): Scrape Kijiji.ca listings from any search or ad URL: cars, real estate and every other category. Get price, location, phone number, specs...
+- [AutoTrader South Africa Price Drop Monitor and Scraper](autotrader-co-za-scraper.md): Track autotrader.co.za for new listings, price drops and sold cars, or scrape every listing with price, mileage, specs and dealer. Optional...
+- [AutoTrader Australia Scraper: Car Prices, Specs & Dealers](autotrader-au-scraper.md): Scrape Autotrader Australia. Paste any autotrader.com.au search URL to export every vehicle: price, make, model, variant, year, odometer...
 
 ## More
 
-- Full catalog: [all 57 actors](../README.md)
+- Full catalog: [all 59 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/cargurus-listings-scraper](https://automationbyexperts.com/apify/cargurus-listings-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/cargurus-listings-scraper.md](https://automationbyexperts.com/apify/cargurus-listings-scraper.md)

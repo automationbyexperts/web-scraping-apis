@@ -1,6 +1,6 @@
-# Bulk AI Image Generator: Nano Banana, GPT Image | No API Key
+# Bulk AI Image Generator & Editor: Nano Banana, GPT Image
 
-**Bulk AI Image Generator: Nano Banana, GPT Image | No API Key** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Generate hundreds of AI images from a list of prompts or an Excel/CSV file with Nano Banana Pro, Nano Banana 2 and GPT Image. Any aspect ratio up to 4K, up to 10 variations per prompt, and your spreadsheet back with an image link on every row. No API key needed.
+**Bulk AI Image Generator & Editor: Nano Banana, GPT Image** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Generate hundreds of AI images from prompts or an Excel/CSV file, or edit your own product photos in bulk: white or transparent background with no AI, or lifestyle scenes with the product kept pixel-exact. Nano Banana Pro, Nano Banana 2, GPT Image. No API key needed.
 
 [Run it on Apify](https://apify.com/fayoussef/bulk-ai-image-generator?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/bulk-ai-image-generator?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All Bulk AI Tools](../categories/ai-bulk-tools.md)
 
@@ -14,15 +14,15 @@
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/bulk-ai-image-generator?fpr=youssef)) |
 | Rating | 5.0 out of 5 (1 reviews) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-10-19 |
+| Catalog updated | 2026-10-26 |
 
-## What you can do with Bulk AI Image Generator: Nano Banana, GPT Image | No API Key
+## What you can do with Bulk AI Image Generator & Editor: Nano Banana, GPT Image
 
 - **[Generate product photos for an online store](https://apify.com/fayoussef/bulk-ai-image-generator/examples/product-photos-for-online-store?fpr=youssef)**: Turns a list of product descriptions into clean, ready to publish product images. Write one line per product and get a square studio style shot for each, at the resolution your storefront needs. No image editor, no...
 - **[Create social media ad creatives in bulk](https://apify.com/fayoussef/bulk-ai-image-generator/examples/social-media-ad-creatives?fpr=youssef)**: Produces vertical ad creatives sized for Instagram Stories, Reels and TikTok. Each prompt returns three variants, so you get a set to A/B test instead of a single guess. Useful when one campaign needs a dozen visual...
 - **[Generate blog header images from article titles](https://apify.com/fayoussef/bulk-ai-image-generator/examples/blog-header-images-from-titles?fpr=youssef)**: Give it your article titles and get a matching wide header image for each one, sized for a blog hero slot. Keeps a consistent illustration style across the whole batch, so a backlog of posts stops looking like it was...
 
-## How to use Bulk AI Image Generator: Nano Banana, GPT Image | No API Key
+## How to use Bulk AI Image Generator & Editor: Nano Banana, GPT Image
 
 ### No code
 
@@ -129,7 +129,7 @@ Your Apify API token is under **Settings > API & Integrations** in the [Apify Co
 
 ## FAQ
 
-### Is Bulk AI Image Generator: Nano Banana, GPT Image | No API Key free to try?
+### Is Bulk AI Image Generator & Editor: Nano Banana, GPT Image free to try?
 
 Yes. You can start it with a free Apify account. Free runs have usage limits, and larger jobs need an [Apify plan](https://apify.com/pricing?fpr=youssef). The current rate is shown on the [Store page](https://apify.com/fayoussef/bulk-ai-image-generator?fpr=youssef).
 
@@ -157,6 +157,6 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 57 actors](../README.md)
+- Full catalog: [all 59 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/bulk-ai-image-generator](https://automationbyexperts.com/apify/bulk-ai-image-generator?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/bulk-ai-image-generator.md](https://automationbyexperts.com/apify/bulk-ai-image-generator.md)

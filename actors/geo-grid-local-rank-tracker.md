@@ -1,6 +1,6 @@
-# Google Maps Geo-Grid Local Rank Tracker
+# Google Maps Local Rank Tracker with Weekly Change Alerts
 
-**Google Maps Geo-Grid Local Rank Tracker** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Track where a business ranks in the Google Maps local pack across a grid of points around it. Per-point rank, average rank, coverage, Share of Local Voice, top competitors and an HTML heatmap. No Google API key.
+**Google Maps Local Rank Tracker with Weekly Change Alerts** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Track where a business ranks on Google Maps across a grid, week after week. Get alerted when your Share of Local Voice drops, see which grid points you lost, and get an HTML heatmap. No Google API key.
 
 [Run it on Apify](https://apify.com/fayoussef/geo-grid-local-rank-tracker?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/geo-grid-local-rank-tracker?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All SEO & AI Visibility](../categories/seo-ai-visibility.md)
 
@@ -13,15 +13,15 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/geo-grid-local-rank-tracker?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-10-19 |
+| Catalog updated | 2026-10-26 |
 
-## What you can do with Google Maps Geo-Grid Local Rank Tracker
+## What you can do with Google Maps Local Rank Tracker with Weekly Change Alerts
 
 - **[Track a dentist's Google Maps ranking across a city](https://apify.com/fayoussef/geo-grid-local-rank-tracker/examples/dentist-google-maps-ranking-grid?fpr=youssef)**: Checks where a dental practice ranks in the Google Maps local pack from 49 points spread across a 7 by 7 grid, 3 miles from centre to edge, for the searches patients actually type. The result is a heat map of visibility...
 - **[Measure a restaurant's local pack visibility by neighbourhood](https://apify.com/fayoussef/geo-grid-local-rank-tracker/examples/restaurant-local-pack-visibility?fpr=youssef)**: Runs burger restaurant and burgers near me from 25 points across a 5 by 5 grid around downtown Chicago and records the rank at each one. Restaurants live or die on the 3 pack within walking distance, and this shows...
 - **[Weekly local SEO rank report for a plumbing company](https://apify.com/fayoussef/geo-grid-local-rank-tracker/examples/plumber-local-seo-rank-report?fpr=youssef)**: A 7 by 7 grid across a 5 mile radius of Denver for plumber and emergency plumber, the two searches that drive service calls. Schedule it weekly and the competitors view tells you who is taking the top spots in each...
 
-## How to use Google Maps Geo-Grid Local Rank Tracker
+## How to use Google Maps Local Rank Tracker with Weekly Change Alerts
 
 ### No code
 
@@ -129,7 +129,7 @@ With MCP and Skyfire: `https://mcp.apify.com?payment=skyfire&tools=fayoussef/geo
 
 ## FAQ
 
-### Is Google Maps Geo-Grid Local Rank Tracker free to try?
+### Is Google Maps Local Rank Tracker with Weekly Change Alerts free to try?
 
 Yes. You can start it with a free Apify account. Free runs have usage limits, and larger jobs need an [Apify plan](https://apify.com/pricing?fpr=youssef). The current rate is shown on the [Store page](https://apify.com/fayoussef/geo-grid-local-rank-tracker?fpr=youssef).
 
@@ -155,12 +155,12 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## Related SEO & AI Visibility
 
-- [SEO, GEO & AEO Audit: AI Search Readiness Checker](seo-geo-aeo-audit.md): Audit any website for Google SEO and AI search visibility in one run. Get 0-100 SEO, GEO & AEO scores per page, AI-crawler & llms.txt...
+- [SEO, GEO & AEO Audit: AI Search Readiness Checker](seo-geo-aeo-audit.md): Audit any website for Google SEO and AI search visibility in one run. Get 0-100 SEO, GEO and AEO scores per page, AI crawler and llms.txt...
 - [AI Brand Visibility Tracker (ChatGPT, Perplexity & Gemini)](ai-brand-visibility-tracker.md): Is AI recommending you or your competitors? Track brand mentions, ranking position, sentiment, share of voice and cited sources in ChatGPT...
 - [llms.txt Generator: llms-full.txt for Any Website (AI SEO)](llms-txt-generator.md): Generate a spec-compliant llms.txt and llms-full.txt for any website in one run. Crawls your sitemap or internal links, extracts every...
 
 ## More
 
-- Full catalog: [all 57 actors](../README.md)
+- Full catalog: [all 59 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/geo-grid-local-rank-tracker](https://automationbyexperts.com/apify/geo-grid-local-rank-tracker?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/geo-grid-local-rank-tracker.md](https://automationbyexperts.com/apify/geo-grid-local-rank-tracker.md)

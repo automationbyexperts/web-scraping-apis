@@ -1,6 +1,6 @@
-# Luma Events Scraper (lu.ma): Events, Hosts & Social Handles
+# Luma Events Scraper: New Event Alerts & Organizer Leads
 
-**Luma Events Scraper (lu.ma): Events, Hosts & Social Handles** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Scrape events from Luma (lu.ma / luma.com) by city, category, calendar or event URL. Get dates, venues with GPS, ticket prices, guest counts and full descriptions, plus organizer profiles with Instagram, LinkedIn, TikTok, X and YouTube handles. No account, cookies or browser needed.
+**Luma Events Scraper: New Event Alerts & Organizer Leads** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Get alerted to new Luma (lu.ma) events in your city or calendar, with the organizer's Instagram, LinkedIn, TikTok, X and YouTube handles. Webhook or Telegram alerts. Also exports dates, venues with GPS, ticket prices and guest counts.
 
 [Run it on Apify](https://apify.com/fayoussef/luma-events-scraper?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/luma-events-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All Lead Generation Actors](../categories/lead-generation.md)
 
@@ -13,14 +13,14 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/luma-events-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-10-19 |
+| Catalog updated | 2026-10-26 |
 
-## What you can do with Luma Events Scraper (lu.ma): Events, Hosts & Social Handles
+## What you can do with Luma Events Scraper: New Event Alerts & Organizer Leads
 
 - **[Find upcoming AI events in San Francisco](https://apify.com/fayoussef/luma-events-scraper/examples/ai-events-in-san-francisco?fpr=youssef)**: Discovers every AI event listed for San Francisco on Luma and opens each one for the full description, date, venue, ticket types and host profiles with Instagram, LinkedIn and X handles. Sponsors and community managers...
 - **[Build a lead list of startup event organizers in London](https://apify.com/fayoussef/luma-events-scraper/examples/london-startup-event-organizer-leads?fpr=youssef)**: Pulls London events on Luma that mention startup, then extracts each host and organizer with their social handles into the leads view. A ready made outreach list of the people running the city's founder meetups, demo...
 
-## How to use Luma Events Scraper (lu.ma): Events, Hosts & Social Handles
+## How to use Luma Events Scraper: New Event Alerts & Organizer Leads
 
 ### No code
 
@@ -117,7 +117,7 @@ With MCP and Skyfire: `https://mcp.apify.com?payment=skyfire&tools=fayoussef/lum
 
 ## FAQ
 
-### Is Luma Events Scraper (lu.ma): Events, Hosts & Social Handles free to try?
+### Is Luma Events Scraper: New Event Alerts & Organizer Leads free to try?
 
 Yes. You can start it with a free Apify account. Free runs have usage limits, and larger jobs need an [Apify plan](https://apify.com/pricing?fpr=youssef). The current rate is shown on the [Store page](https://apify.com/fayoussef/luma-events-scraper?fpr=youssef).
 
@@ -144,14 +144,14 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 ## Related Lead Generation Actors
 
 - [Journalist Request Finder: HARO Alternative for Digital PR](journalist-request-finder.md): Find live journalist source requests in one feed, pulled from SourceBottle call-outs and #journorequest posts on Bluesky and Mastodon...
-- [Canada411 Scraper: Business Phones, Addresses](canada411-ca.md): Our canada411.ca scraper effortlessly gathers URLs from all pages and extracts contact information from each listing.
-- [Whop Content Rewards Scraper: Clipping & UGC Campaigns](whop-clipping-campaigns-scraper.md): Scrape the Whop Content Rewards directory: reward per 1K views, budget left, burn rate, platforms, payout type and campaign URLs. Builds a...
+- [Canada411 Scraper: Phone Numbers, Names & Addresses](canada411-ca.md): Scrape Canada411.ca, Canada's phone directory: names, phone numbers and full addresses for businesses and people. Search by name or...
+- [Whop Scraper: Content Rewards, Clipping & UGC Campaigns](whop-clipping-campaigns-scraper.md): Scrape the Whop Content Rewards directory: reward per 1K views, budget left, burn rate, platforms, payout type and campaign URLs. Builds a...
 - [GitHub Developer Lead Finder & Email Enricher](github-developer-leads.md): Find developers on GitHub and enrich each one with verified email, company, location, skills, and social links for recruiting and B2B...
 - [Kijiji Dealer & Business Leads: Phones, Websites, Addresses](kijiji-business-leads.md): Turn any Kijiji.ca search into a B2B lead list: one row per dealer, property manager or local business, with phone, website, address...
 - [Naukrigulf Jobs Scraper: UAE, Saudi & Gulf Jobs, 12 Languages](naukrigulf-scraper.md): Scrape Naukrigulf jobs in Dubai, the UAE, Saudi Arabia, Qatar, Kuwait, Bahrain and Oman. Search in Arabic, Hindi, Malayalam, Tagalog and 8...
 
 ## More
 
-- Full catalog: [all 57 actors](../README.md)
+- Full catalog: [all 59 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/luma-events-scraper](https://automationbyexperts.com/apify/luma-events-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/luma-events-scraper.md](https://automationbyexperts.com/apify/luma-events-scraper.md)

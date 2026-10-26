@@ -1,6 +1,6 @@
-# Spitogatos Real Estate Scraper: Greece Listings & Agent Phones
+# Spitogatos Scraper: Greece Real Estate Listings & Agent Phones
 
-**Spitogatos Real Estate Scraper: Greece Listings & Agent Phones** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Scrape Greece real estate listings from Spitogatos.gr, the country's largest property portal. Homes, land and commercial property for sale or rent with prices, size, photos and map location. Owners-only mode returns direct owner listings with name, phone and email. English or Greek.
+**Spitogatos Scraper: Greece Real Estate Listings & Agent Phones** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Scrape Greece real estate listings from Spitogatos.gr, the country's largest property portal. Homes, land and commercial property for sale or rent with prices, size, photos and map location. Owners-only mode returns direct owner listings with name, phone and email. English or Greek.
 
 [Run it on Apify](https://apify.com/fayoussef/spitogatos-scraper?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/spitogatos-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All Real Estate Scrapers](../categories/real-estate-scrapers.md)
 
@@ -14,9 +14,9 @@
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/spitogatos-scraper?fpr=youssef)) |
 | Rating | 5.0 out of 5 (5 reviews) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-10-19 |
+| Catalog updated | 2026-10-26 |
 
-## What you can do with Spitogatos Real Estate Scraper: Greece Listings & Agent Phones
+## What you can do with Spitogatos Scraper: Greece Real Estate Listings & Agent Phones
 
 - **[Find apartments for sale in Kolonaki, Athens](https://apify.com/fayoussef/spitogatos-scraper/examples/kolonaki-apartments-for-sale?fpr=youssef)**: Searches Spitogatos.gr for apartments for sale in Kolonaki up to 300,000 EUR and returns 25 plus fields per property: price, price per square metre, floor, year, energy class, GPS coordinates, owner or agent phone...
 - **[Find apartments for rent in Thessaloniki under 600 EUR](https://apify.com/fayoussef/spitogatos-scraper/examples/thessaloniki-apartments-for-rent-under-600?fpr=youssef)**: Pulls every apartment for rent in Thessaloniki at 600 EUR a month or less from Spitogatos.gr, with floor area, floor, heating, furnished flag, the landlord or agency phone number and the listing's coordinates. Students...
@@ -24,7 +24,7 @@
 - **[Διαμερίσματα για ενοικίαση στο κέντρο της Αθήνας έως 800€](https://apify.com/fayoussef/spitogatos-scraper/examples/athens-center-apartments-for-rent-greek?fpr=youssef)**: Συλλέγει από το Spitogatos.gr αγγελίες διαμερισμάτων προς ενοικίαση στο κέντρο της Αθήνας με ενοίκιο έως 800€ και επιστρέφει πάνω από 25 πεδία ανά ακίνητο: τιμή, τετραγωνικά, όροφο, έτος κατασκευής, ενεργειακή κλάση...
 - **[Κατοικίες προς πώληση στη Θεσσαλονίκη από το Spitogatos](https://apify.com/fayoussef/spitogatos-scraper/examples/thessaloniki-homes-for-sale-greek?fpr=youssef)**: Συλλέγει τις αγγελίες κατοικιών προς πώληση στη Θεσσαλονίκη από το Spitogatos.gr (διαμερίσματα, μονοκατοικίες, μεζονέτες) με τιμή, τετραγωνικά, όροφο, έτος κατασκευής, ενεργειακή κλάση, συντεταγμένες GPS, τηλέφωνο...
 
-## How to use Spitogatos Real Estate Scraper: Greece Listings & Agent Phones
+## How to use Spitogatos Scraper: Greece Real Estate Listings & Agent Phones
 
 ### No code
 
@@ -130,7 +130,7 @@ With MCP and Skyfire: `https://mcp.apify.com?payment=skyfire&tools=fayoussef/spi
 
 ## FAQ
 
-### Is Spitogatos Real Estate Scraper: Greece Listings & Agent Phones free to try?
+### Is Spitogatos Scraper: Greece Real Estate Listings & Agent Phones free to try?
 
 Yes. You can start it with a free Apify account. Free runs have usage limits, and larger jobs need an [Apify plan](https://apify.com/pricing?fpr=youssef). The current rate is shown on the [Store page](https://apify.com/fayoussef/spitogatos-scraper?fpr=youssef).
 
@@ -159,10 +159,10 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 - [XE.gr Greek Property Scraper](xe-gr-scraper.md): Scrape Greek real estate listings from XE.gr: prices, size, rooms, GPS coordinates, amenities, photos and phone numbers. Owners-only mode...
 - [Centris.ca Scraper: Quebec Real Estate Listings & Photos](centris-property-scraper.md): Scrape Centris.ca real estate listings into clean structured data: MLS number, price, full address, rooms, bedrooms, bathrooms, the full...
 - [RentFaster Scraper: Canada Rentals, Rents & Landlord Phones](rentfaster-scraper.md): Scrape Canadian rental listings from RentFaster.ca in 105 cities (Calgary, Edmonton, Toronto, Montreal...). Filter by type, bedrooms, rent...
-- [Cyprus Property Scraper: Spitogatos.com.cy Listings & Agents](spitogatos-cy-scraper.md): Scrape Cyprus real estate listings and estate agents from Spitogatos.com.cy, in English or Greek. Search by town, price and property type...
+- [Cyprus Property Alerts: New Listings and Price Drops](spitogatos-cy-scraper.md): Get alerted to new Cyprus property listings and price drops on Spitogatos.com.cy, with webhook or Telegram alerts. Also scrapes listings...
 
 ## More
 
-- Full catalog: [all 57 actors](../README.md)
+- Full catalog: [all 59 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/spitogatos-scraper](https://automationbyexperts.com/apify/spitogatos-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/spitogatos-scraper.md](https://automationbyexperts.com/apify/spitogatos-scraper.md)
