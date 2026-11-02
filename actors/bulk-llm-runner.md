@@ -1,6 +1,6 @@
-# Run ChatGPT, Claude, Gemini & DeepSeek in Bulk (No API Key)
+# 350+ AI Models: Run ChatGPT, Claude, Gemini in Bulk
 
-**Run ChatGPT, Claude, Gemini & DeepSeek in Bulk (No API Key)** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Run hundreds of prompts in parallel across GPT, Claude, Gemini, Perplexity, DeepSeek, Qwen, Kimi and 350+ models, with web search, JSON columns and side-by-side model comparison. Optional: upload an Excel, CSV or Google Sheet to run AI on every row. No API key needed.
+**350+ AI Models: Run ChatGPT, Claude, Gemini in Bulk** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Run hundreds of prompts in parallel across GPT, Claude, Gemini, Perplexity, DeepSeek, Qwen, Kimi and 350+ models, with web search, JSON columns and side-by-side model comparison. Optional: upload an Excel, CSV or Google Sheet to run AI on every row. No API key needed.
 
 [Run it on Apify](https://apify.com/fayoussef/bulk-llm-runner?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/bulk-llm-runner?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All Bulk AI Tools](../categories/ai-bulk-tools.md)
 
@@ -14,15 +14,15 @@
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/bulk-llm-runner?fpr=youssef)) |
 | Rating | 5.0 out of 5 (2 reviews) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-10-26 |
+| Catalog updated | 2026-11-02 |
 
-## What you can do with Run ChatGPT, Claude, Gemini & DeepSeek in Bulk (No API Key)
+## What you can do with 350+ AI Models: Run ChatGPT, Claude, Gemini in Bulk
 
 - **[Write SEO product descriptions in bulk](https://apify.com/fayoussef/bulk-llm-runner/examples/seo-product-descriptions-in-bulk?fpr=youssef)**: Feed it one line per product and get back a structured description for each: a short benefit led paragraph, a set of feature bullets and a meta description. Output arrives as JSON columns you can paste straight into a...
 - **[Classify and tag customer reviews at scale](https://apify.com/fayoussef/bulk-llm-runner/examples/classify-customer-reviews?fpr=youssef)**: Runs every review through the same rubric and returns sentiment, a topic tag, an urgency flag and a one line summary as separate columns. Temperature is held low so the labels stay consistent across the batch, which is...
 - **[Compare GPT, Claude and Gemini side by side](https://apify.com/fayoussef/bulk-llm-runner/examples/compare-gpt-claude-gemini-answers?fpr=youssef)**: Sends the same prompts to GPT-5, Claude Sonnet 5, Gemini 3.8 Flash and Perplexity Sonar, then returns one row per model per prompt with the answer, the cost and the token count. Use it to pick a model on evidence from...
 
-## How to use Run ChatGPT, Claude, Gemini & DeepSeek in Bulk (No API Key)
+## How to use 350+ AI Models: Run ChatGPT, Claude, Gemini in Bulk
 
 ### No code
 
@@ -133,7 +133,7 @@ Your Apify API token is under **Settings > API & Integrations** in the [Apify Co
 
 ## FAQ
 
-### Is Run ChatGPT, Claude, Gemini & DeepSeek in Bulk (No API Key) free to try?
+### Is 350+ AI Models: Run ChatGPT, Claude, Gemini in Bulk free to try?
 
 Yes. You can start it with a free Apify account. Free runs have usage limits, and larger jobs need an [Apify plan](https://apify.com/pricing?fpr=youssef). The current rate is shown on the [Store page](https://apify.com/fayoussef/bulk-llm-runner?fpr=youssef).
 
@@ -161,6 +161,6 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 59 actors](../README.md)
+- Full catalog: [all 60 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/bulk-llm-runner](https://automationbyexperts.com/apify/bulk-llm-runner?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/bulk-llm-runner.md](https://automationbyexperts.com/apify/bulk-llm-runner.md)

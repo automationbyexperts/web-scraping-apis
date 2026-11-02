@@ -2,7 +2,7 @@
 
 > 54 ready-to-run scrapers by AutomationByExperts that an AI agent can discover, run and pay for on its own: no Apify account, no API key sign-up, no subscription. The agent pays per run with USDC on Base through the x402 protocol, or with a Skyfire PAY token, and gets structured JSON back in the same HTTP call.
 
-**54 agent-payable actors** | Updated 2026-10-26 | [Full catalog](README.md) | [llms.txt](llms.txt)
+**54 agent-payable actors** | Updated 2026-11-02 | [Full catalog](README.md) | [llms.txt](llms.txt)
 
 ## How it works
 
@@ -84,6 +84,7 @@ Replace `<actor-name>` above with the name in the second column. Each guide has 
 | [XE.gr Greek Property Scraper](https://apify.com/fayoussef/xe-gr-scraper?fpr=youssef) | `xe-gr-scraper` | Scrape Greek real estate listings from XE.gr: prices, size, rooms, GPS coordinates, amenities, photos and phone numbers. Owners-only mode... | [Guide](actors/xe-gr-scraper.md) |
 | [Centris.ca Scraper: Quebec Real Estate Listings & Photos](https://apify.com/fayoussef/centris-property-scraper?fpr=youssef) | `centris-property-scraper` | Scrape Centris.ca real estate listings into clean structured data: MLS number, price, full address, rooms, bedrooms, bathrooms, the full... | [Guide](actors/centris-property-scraper.md) |
 | [RentFaster Scraper: Canada Rentals, Rents & Landlord Phones](https://apify.com/fayoussef/rentfaster-scraper?fpr=youssef) | `rentfaster-scraper` | Scrape Canadian rental listings from RentFaster.ca in 105 cities (Calgary, Edmonton, Toronto, Montreal...). Filter by type, bedrooms, rent... | [Guide](actors/rentfaster-scraper.md) |
+| [Fotocasa Scraper: Spain Property Listings, Agency Phones](https://apify.com/fayoussef/fotocasa-scraper?fpr=youssef) | `fotocasa-scraper` | Scrape property listings from Fotocasa.es, one of Spain's biggest real estate portals. Filter by province, city, price, rooms and size... | [Guide](actors/fotocasa-scraper.md) |
 | [Cyprus Property Alerts: New Listings and Price Drops](https://apify.com/fayoussef/spitogatos-cy-scraper?fpr=youssef) | `spitogatos-cy-scraper` | Get alerted to new Cyprus property listings and price drops on Spitogatos.com.cy, with webhook or Telegram alerts. Also scrapes listings... | [Guide](actors/spitogatos-cy-scraper.md) |
 
 ### E-commerce & Marketplace Scrapers
@@ -102,11 +103,10 @@ Replace `<actor-name>` above with the name in the second column. Each guide has 
 
 | Actor | Actor name for the API | What it does | Guide |
 |---|---|---|---|
-| [Competitor Price Tracker & Price Comparison by Product URL](https://apify.com/fayoussef/competitor-price-tracker-price-comparison-by-product-url?fpr=youssef) | `competitor-price-tracker-price-comparison-by-product-url` | Paste any product URL to get every retailer selling the same item, live prices, your market rank, and a suggested pricing action. Matches... | [Guide](actors/competitor-price-tracker-price-comparison-by-product-url.md) |
 | [Brand Protection: Fake Shop, Counterfeit & Typosquat Finder](https://apify.com/fayoussef/brand-abuse-counterfeit-detector?fpr=youssef) | `brand-abuse-counterfeit-detector` | Find fake webshops, counterfeit marketplace listings, typosquatted domains and impersonation profiles abusing your brand. AI classifies... | [Guide](actors/brand-abuse-counterfeit-detector.md) |
-| [Amazon Best Sellers Scraper: Rank Tracker, 21 Marketplaces](https://apify.com/fayoussef/amazon-bestsellers-tracker?fpr=youssef) | `amazon-bestsellers-tracker` | Track Amazon Best Sellers and New Releases ranks 1-100 in 21 marketplaces (US, UK, DE, FR, JP, IN, BR and more). Each run shows what moved... | [Guide](actors/amazon-bestsellers-tracker.md) |
 | [MAP Price Monitor: Amazon, eBay Violations & Rogue Sellers](https://apify.com/fayoussef/map-violation-monitor?fpr=youssef) | `map-violation-monitor` | Enter your products and MAP prices and get every public offer advertised below them on Amazon, eBay, Best Buy and Newegg. AI verifies each... | [Guide](actors/map-violation-monitor.md) |
 | [Amazon, eBay, Best Buy & Newegg Price Checker by ASIN or UPC](https://apify.com/fayoussef/multi-marketplace-price-checker?fpr=youssef) | `multi-marketplace-price-checker` | Paste ASINs, UPCs, model numbers or product names and get what that exact product sells for on Amazon, eBay, Best Buy and Newegg. AI... | [Guide](actors/multi-marketplace-price-checker.md) |
+| [Amazon Best Sellers Scraper: Rank Tracker, 21 Marketplaces](https://apify.com/fayoussef/amazon-bestsellers-tracker?fpr=youssef) | `amazon-bestsellers-tracker` | Track Amazon Best Sellers and New Releases ranks 1-100 in 21 marketplaces (US, UK, DE, FR, JP, IN, BR and more). Each run shows what moved... | [Guide](actors/amazon-bestsellers-tracker.md) |
 
 ### Lead Generation Actors
 
@@ -123,8 +123,8 @@ Replace `<actor-name>` above with the name in the second column. Each guide has 
 | [11888.gr Scraper: Greek Business Phones, Emails & Websites](https://apify.com/fayoussef/11888-gr-scraper?fpr=youssef) | `11888-gr-scraper` | Scrape Greek businesses from the 11888.gr Yellow Pages by category and place: name, phones, mobile, email, website, address, GPS and... | [Guide](actors/11888-gr-scraper.md) |
 | [AI Account Watch: Custom Sales Trigger Alerts](https://apify.com/fayoussef/ai-account-watch?fpr=youssef) | `ai-account-watch` | Watch a list of companies and get alerted when one does what you describe in plain English: raises funding, hires a CMO, opens a location... | [Guide](actors/ai-account-watch.md) |
 | [New Business License Feed: Fresh Openings by City](https://apify.com/fayoussef/business-license-feed?fpr=youssef) | `business-license-feed` | Every business, food, liquor and trade license newly issued in Chicago, Los Angeles, New York, Seattle and New Orleans, filtered to the... | [Guide](actors/business-license-feed.md) |
-| [Hiring Signal Alerts: New Jobs at Companies You Watch](https://apify.com/fayoussef/company-domain-to-job-postings?fpr=youssef) | `company-domain-to-job-postings` | Watch a list of company domains and get alerted when they post a new job matching your keywords. Finds each company's Greenhouse, Lever... | [Guide](actors/company-domain-to-job-postings.md) |
 | [Reddit Scraper for Leads: Buying Intent Posts & Comments](https://apify.com/fayoussef/reddit-lead-finder?fpr=youssef) | `reddit-lead-finder` | Scrape Reddit posts and comments for buying intent: people asking for a tool, a recommendation, or an alternative to your competitor. Every... | [Guide](actors/reddit-lead-finder.md) |
+| [Hiring Signal Alerts: New Jobs at Companies You Watch](https://apify.com/fayoussef/company-domain-to-job-postings?fpr=youssef) | `company-domain-to-job-postings` | Watch a list of company domains and get alerted when they post a new job matching your keywords. Finds each company's Greenhouse, Lever... | [Guide](actors/company-domain-to-job-postings.md) |
 | [Greek Business Leads: New Business Alerts from XO.gr](https://apify.com/fayoussef/xo-gr-scraper?fpr=youssef) | `xo-gr-scraper` | Get Greek business leads from xo.gr (Chrysos Odigos, the Greek Yellow Pages) by category and place, and get alerted when new businesses... | [Guide](actors/xo-gr-scraper.md) |
 
 ### Bulk AI Tools
@@ -149,8 +149,8 @@ Replace `<actor-name>` above with the name in the second column. Each guide has 
 |---|---|---|---|
 | [Dataset Diff & Change Monitor: Only New Items From Any Actor](https://apify.com/fayoussef/dataset-diff?fpr=youssef) | `dataset-diff` | Turn any Apify Actor, Task or dataset into a change monitor: get only the new, changed and removed items since the last run, deduplicated... | [Guide](actors/dataset-diff.md) |
 | [VIES VAT Number Validator: Bulk EU VAT Check & Monitor](https://apify.com/fayoussef/eu-vat-compliance-monitor?fpr=youssef) | `eu-vat-compliance-monitor` | Bulk EU VAT number validation against VIES. Check a whole supplier or customer list, get the consultation number that proves you checked... | [Guide](actors/eu-vat-compliance-monitor.md) |
+| [Invoice & Utility Bill Data Extractor: Totals, kWh, Line Items](https://apify.com/fayoussef/invoice-utility-bill-extractor?fpr=youssef) | `invoice-utility-bill-extractor` | Bulk extract vendor, dates, totals, tax, kWh and line items from invoice and utility bill PDFs and photos. Auto-detects each document, runs... | [Guide](actors/invoice-utility-bill-extractor.md) |
 | [License Lookup & Verification: Bulk Contractor, Nurse, NPI](https://apify.com/fayoussef/license-roster-monitor?fpr=youssef) | `license-roster-monitor` | Bulk professional license lookup and verification for contractors, nurses, electricians, real estate agents and healthcare providers (NPI)... | [Guide](actors/license-roster-monitor.md) |
-| [Website Change Monitor and Competitor Price Tracker](https://apify.com/fayoussef/website-change-monitor?fpr=youssef) | `website-change-monitor` | Monitor any web page for changes with a line-by-line diff, and track competitor prices: old price, new price and percent change for any... | [Guide](actors/website-change-monitor.md) |
 
 ## FAQ
 

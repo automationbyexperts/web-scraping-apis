@@ -13,7 +13,7 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/spitogatos-cy-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-10-26 |
+| Catalog updated | 2026-11-02 |
 
 ## What you can do with Cyprus Property Alerts: New Listings and Price Drops
 
@@ -161,9 +161,10 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 - [XE.gr Greek Property Scraper](xe-gr-scraper.md): Scrape Greek real estate listings from XE.gr: prices, size, rooms, GPS coordinates, amenities, photos and phone numbers. Owners-only mode...
 - [Centris.ca Scraper: Quebec Real Estate Listings & Photos](centris-property-scraper.md): Scrape Centris.ca real estate listings into clean structured data: MLS number, price, full address, rooms, bedrooms, bathrooms, the full...
 - [RentFaster Scraper: Canada Rentals, Rents & Landlord Phones](rentfaster-scraper.md): Scrape Canadian rental listings from RentFaster.ca in 105 cities (Calgary, Edmonton, Toronto, Montreal...). Filter by type, bedrooms, rent...
+- [Fotocasa Scraper: Spain Property Listings, Agency Phones](fotocasa-scraper.md): Scrape property listings from Fotocasa.es, one of Spain's biggest real estate portals. Filter by province, city, price, rooms and size...
 
 ## More
 
-- Full catalog: [all 59 actors](../README.md)
+- Full catalog: [all 60 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/spitogatos-cy-scraper](https://automationbyexperts.com/apify/spitogatos-cy-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/spitogatos-cy-scraper.md](https://automationbyexperts.com/apify/spitogatos-cy-scraper.md)

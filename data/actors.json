@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "source": "https://github.com/automationbyexperts/web-scraping-apis",
   "author": {
     "name": "Youssef Farhan",
@@ -59,8 +59,8 @@
       "apifyUrl": "https://apify.com/fayoussef/bulk-ai-image-generator?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/bulk-ai-image-generator",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/bulk-ai-image-generator.md",
-      "users": 531,
-      "users30Days": 48,
+      "users": 598,
+      "users30Days": 87,
       "rating": 5,
       "reviews": 1,
       "pricingModel": "PAY_PER_EVENT",
@@ -126,16 +126,16 @@
     },
     {
       "slug": "bulk-llm-runner",
-      "title": "Run ChatGPT, Claude, Gemini & DeepSeek in Bulk (No API Key)",
+      "title": "350+ AI Models: Run ChatGPT, Claude, Gemini in Bulk",
       "description": "Run hundreds of prompts in parallel across GPT, Claude, Gemini, Perplexity, DeepSeek, Qwen, Kimi and 350+ models, with web search, JSON columns and side-by-side model comparison. Optional: upload an Excel, CSV or Google Sheet to run AI on every row. No API key needed.",
       "category": "Bulk AI Tools",
       "categorySlug": "ai-bulk-tools",
       "apifyUrl": "https://apify.com/fayoussef/bulk-llm-runner?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/bulk-llm-runner",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/bulk-llm-runner.md",
-      "users": 492,
-      "users30Days": 81,
-      "rating": 5,
+      "users": 550,
+      "users30Days": 99,
+      "rating": 5.000000000000001,
       "reviews": 2,
       "pricingModel": "PAY_PER_EVENT",
       "agenticPayments": false,
@@ -213,9 +213,9 @@
       "apifyUrl": "https://apify.com/fayoussef/spitogatos-scraper?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/spitogatos-scraper",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/spitogatos-scraper.md",
-      "users": 331,
-      "users30Days": 39,
-      "rating": 5,
+      "users": 337,
+      "users30Days": 37,
+      "rating": 5.000000000000001,
       "reviews": 5,
       "pricingModel": "PAY_PER_EVENT",
       "agenticPayments": true,
@@ -301,8 +301,8 @@
       "apifyUrl": "https://apify.com/fayoussef/autotrader-canada?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/autotrader-canada",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/autotrader-canada.md",
-      "users": 327,
-      "users30Days": 22,
+      "users": 330,
+      "users30Days": 25,
       "rating": 5,
       "reviews": 4,
       "pricingModel": "PAY_PER_EVENT",
@@ -376,8 +376,8 @@
       "apifyUrl": "https://apify.com/fayoussef/journalist-request-finder?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/journalist-request-finder",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/journalist-request-finder.md",
-      "users": 258,
-      "users30Days": 187,
+      "users": 299,
+      "users30Days": 185,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
@@ -433,9 +433,9 @@
       "apifyUrl": "https://apify.com/fayoussef/wallapop-scraper?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/wallapop-scraper",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/wallapop-scraper.md",
-      "users": 194,
-      "users30Days": 38,
-      "rating": 4.999999999999999,
+      "users": 202,
+      "users30Days": 39,
+      "rating": 5,
       "reviews": 2,
       "pricingModel": "PAY_PER_EVENT",
       "agenticPayments": true,
@@ -493,7 +493,7 @@
       "apifyUrl": "https://apify.com/fayoussef/canada411-ca?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/canada411-ca",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/canada411-ca.md",
-      "users": 185,
+      "users": 186,
       "users30Days": 8,
       "rating": 5,
       "reviews": 1,
@@ -541,8 +541,8 @@
       "apifyUrl": "https://apify.com/fayoussef/whop-clipping-campaigns-scraper?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/whop-clipping-campaigns-scraper",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/whop-clipping-campaigns-scraper.md",
-      "users": 119,
-      "users30Days": 34,
+      "users": 126,
+      "users30Days": 31,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
@@ -589,6 +589,63 @@
       ]
     },
     {
+      "slug": "cargurus-listings-scraper",
+      "title": "CarGurus Scraper: US, Canada & UK Car Listings, VIN & Prices",
+      "description": "Scrape CarGurus car listings from cargurus.com, .ca and .co.uk by search URL or ZIP code: price, deal rating, mileage, VIN, specs, dealer name and phone, and every photo. Export to JSON, CSV or Excel.",
+      "category": "Car & Vehicle Scrapers",
+      "categorySlug": "vehicle-scrapers",
+      "apifyUrl": "https://apify.com/fayoussef/cargurus-listings-scraper?fpr=youssef",
+      "websiteUrl": "https://automationbyexperts.com/apify/cargurus-listings-scraper",
+      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/cargurus-listings-scraper.md",
+      "users": 98,
+      "users30Days": 35,
+      "rating": 5,
+      "reviews": 1,
+      "pricingModel": "PAY_PER_EVENT",
+      "agenticPayments": true,
+      "useCases": [
+        {
+          "title": "Find the best used car deals near New York on CarGurus",
+          "description": "Searches CarGurus US within 50 miles of Manhattan and returns listings ordered by CarGurus deal score, best deals first, with price, mileage, VIN, dealer and photos on every row. No URL to build: pick the country, type a ZIP, and the filter form does the rest.",
+          "url": "https://apify.com/fayoussef/cargurus-listings-scraper/examples/used-car-deals-near-new-york?fpr=youssef",
+          "input": {
+            "searchCountry": "US",
+            "zip": "10001",
+            "distance": 50,
+            "sortType": "DEAL_SCORE",
+            "sortDirection": "DESC",
+            "maxPages": 5
+          }
+        },
+        {
+          "title": "Export Toronto used car listings from CarGurus Canada",
+          "description": "Pulls used car listings from cargurus.ca within 50 km of downtown Toronto, cheapest first, with CAD price, kilometres, VIN, dealer name and photo URLs. Made for Ontario dealers pricing trade-ins and for anyone building a GTA used car price index.",
+          "url": "https://apify.com/fayoussef/cargurus-listings-scraper/examples/toronto-used-cars-cargurus-canada?fpr=youssef",
+          "input": {
+            "searchCountry": "CA",
+            "zip": "M5V 3L9",
+            "distance": 50,
+            "sortType": "PRICE",
+            "sortDirection": "ASC",
+            "maxPages": 5
+          }
+        },
+        {
+          "title": "Pull London used car deals from CarGurus UK",
+          "description": "Searches cargurus.co.uk within 30 miles of central London and returns the top deals with GBP price, mileage, registration year, dealer and images. Useful for UK dealers benchmarking stock and for buyers who want the whole market in one sortable sheet.",
+          "url": "https://apify.com/fayoussef/cargurus-listings-scraper/examples/london-used-cars-cargurus-uk?fpr=youssef",
+          "input": {
+            "searchCountry": "UK",
+            "zip": "SW1A 1AA",
+            "distance": 30,
+            "sortType": "DEAL_SCORE",
+            "sortDirection": "DESC",
+            "maxPages": 5
+          }
+        }
+      ]
+    },
+    {
       "slug": "autoscout24",
       "title": "AutoScout24 Scraper: Car Listings, Prices & Dealer Contacts",
       "description": "AutoScout24 car listings from autoscout24.de, .at, .fr, .it, .es, .nl, .be, .lu and .com: price, make, model, mileage, first registration, fuel, power, equipment, photos, GPS location and dealer phone. Search by URL or filters.",
@@ -597,8 +654,8 @@
       "apifyUrl": "https://apify.com/fayoussef/autoscout24?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/autoscout24",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/autoscout24.md",
-      "users": 90,
-      "users30Days": 22,
+      "users": 94,
+      "users30Days": 18,
       "rating": 5,
       "reviews": 1,
       "pricingModel": "PAY_PER_EVENT",
@@ -670,63 +727,6 @@
       ]
     },
     {
-      "slug": "cargurus-listings-scraper",
-      "title": "CarGurus Scraper: US, Canada & UK Car Listings, VIN & Prices",
-      "description": "Scrape CarGurus car listings from cargurus.com, .ca and .co.uk by search URL or ZIP code: price, deal rating, mileage, VIN, specs, dealer name and phone, and every photo. Export to JSON, CSV or Excel.",
-      "category": "Car & Vehicle Scrapers",
-      "categorySlug": "vehicle-scrapers",
-      "apifyUrl": "https://apify.com/fayoussef/cargurus-listings-scraper?fpr=youssef",
-      "websiteUrl": "https://automationbyexperts.com/apify/cargurus-listings-scraper",
-      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/cargurus-listings-scraper.md",
-      "users": 89,
-      "users30Days": 36,
-      "rating": 5,
-      "reviews": 1,
-      "pricingModel": "PAY_PER_EVENT",
-      "agenticPayments": true,
-      "useCases": [
-        {
-          "title": "Find the best used car deals near New York on CarGurus",
-          "description": "Searches CarGurus US within 50 miles of Manhattan and returns listings ordered by CarGurus deal score, best deals first, with price, mileage, VIN, dealer and photos on every row. No URL to build: pick the country, type a ZIP, and the filter form does the rest.",
-          "url": "https://apify.com/fayoussef/cargurus-listings-scraper/examples/used-car-deals-near-new-york?fpr=youssef",
-          "input": {
-            "searchCountry": "US",
-            "zip": "10001",
-            "distance": 50,
-            "sortType": "DEAL_SCORE",
-            "sortDirection": "DESC",
-            "maxPages": 5
-          }
-        },
-        {
-          "title": "Export Toronto used car listings from CarGurus Canada",
-          "description": "Pulls used car listings from cargurus.ca within 50 km of downtown Toronto, cheapest first, with CAD price, kilometres, VIN, dealer name and photo URLs. Made for Ontario dealers pricing trade-ins and for anyone building a GTA used car price index.",
-          "url": "https://apify.com/fayoussef/cargurus-listings-scraper/examples/toronto-used-cars-cargurus-canada?fpr=youssef",
-          "input": {
-            "searchCountry": "CA",
-            "zip": "M5V 3L9",
-            "distance": 50,
-            "sortType": "PRICE",
-            "sortDirection": "ASC",
-            "maxPages": 5
-          }
-        },
-        {
-          "title": "Pull London used car deals from CarGurus UK",
-          "description": "Searches cargurus.co.uk within 30 miles of central London and returns the top deals with GBP price, mileage, registration year, dealer and images. Useful for UK dealers benchmarking stock and for buyers who want the whole market in one sortable sheet.",
-          "url": "https://apify.com/fayoussef/cargurus-listings-scraper/examples/london-used-cars-cargurus-uk?fpr=youssef",
-          "input": {
-            "searchCountry": "UK",
-            "zip": "SW1A 1AA",
-            "distance": 30,
-            "sortType": "DEAL_SCORE",
-            "sortDirection": "DESC",
-            "maxPages": 5
-          }
-        }
-      ]
-    },
-    {
       "slug": "fnac-data-scraping",
       "title": "Fnac.com Scraper: Products, Prices, EAN, Stock & Reviews",
       "description": "Scrape fnac.com products from any search, category or product URL, or by keyword with brand, category, price, seller and stock filters. Get price, list price, discount, EAN, SKU, brand, stock, marketplace sellers, ratings, reviews, specs and images. No API key needed.",
@@ -735,8 +735,8 @@
       "apifyUrl": "https://apify.com/fayoussef/fnac-data-scraping?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/fnac-data-scraping",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/fnac-data-scraping.md",
-      "users": 82,
-      "users30Days": 7,
+      "users": 83,
+      "users30Days": 6,
       "rating": 5,
       "reviews": 1,
       "pricingModel": "PAY_PER_EVENT",
@@ -815,9 +815,9 @@
       "apifyUrl": "https://apify.com/fayoussef/autotrader-ca?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/autotrader-ca",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/autotrader-ca.md",
-      "users": 75,
-      "users30Days": 6,
-      "rating": 4.999999999999999,
+      "users": 76,
+      "users30Days": 9,
+      "rating": 5.000000000000001,
       "reviews": 2,
       "pricingModel": "PAY_PER_EVENT",
       "agenticPayments": true,
@@ -875,8 +875,8 @@
       "apifyUrl": "https://apify.com/fayoussef/seo-geo-aeo-audit?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/seo-geo-aeo-audit",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/seo-geo-aeo-audit.md",
-      "users": 72,
-      "users30Days": 14,
+      "users": 75,
+      "users30Days": 12,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
@@ -924,7 +924,7 @@
       "apifyUrl": "https://apify.com/fayoussef/kijiji-scraper?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/kijiji-scraper",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/kijiji-scraper.md",
-      "users": 71,
+      "users": 72,
       "users30Days": 5,
       "rating": 0,
       "reviews": 0,
@@ -968,8 +968,8 @@
       "apifyUrl": "https://apify.com/fayoussef/bulk-text-to-speech?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/bulk-text-to-speech",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/bulk-text-to-speech.md",
-      "users": 49,
-      "users30Days": 12,
+      "users": 55,
+      "users30Days": 14,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
@@ -1037,7 +1037,7 @@
       "apifyUrl": "https://apify.com/fayoussef/autotrader-co-za-scraper?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/autotrader-co-za-scraper",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/autotrader-co-za-scraper.md",
-      "users": 46,
+      "users": 47,
       "users30Days": 10,
       "rating": 0,
       "reviews": 0,
@@ -1083,8 +1083,8 @@
       "apifyUrl": "https://apify.com/fayoussef/geo-grid-local-rank-tracker?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/geo-grid-local-rank-tracker",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/geo-grid-local-rank-tracker.md",
-      "users": 37,
-      "users30Days": 17,
+      "users": 42,
+      "users30Days": 19,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
@@ -1149,8 +1149,8 @@
       "apifyUrl": "https://apify.com/fayoussef/g2g-offer-scraper?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/g2g-offer-scraper",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/g2g-offer-scraper.md",
-      "users": 32,
-      "users30Days": 4,
+      "users": 34,
+      "users30Days": 3,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
@@ -1189,8 +1189,8 @@
       "apifyUrl": "https://apify.com/fayoussef/ai-brand-visibility-tracker?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/ai-brand-visibility-tracker",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/ai-brand-visibility-tracker.md",
-      "users": 26,
-      "users30Days": 15,
+      "users": 31,
+      "users30Days": 18,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
@@ -1305,8 +1305,8 @@
       "apifyUrl": "https://apify.com/fayoussef/dealer-inventory-scraper?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/dealer-inventory-scraper",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/dealer-inventory-scraper.md",
-      "users": 21,
-      "users30Days": 4,
+      "users": 24,
+      "users30Days": 5,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
@@ -1354,7 +1354,7 @@
       "apifyUrl": "https://apify.com/fayoussef/skroutz-scraper?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/skroutz-scraper",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/skroutz-scraper.md",
-      "users": 15,
+      "users": 17,
       "users30Days": 11,
       "rating": 0,
       "reviews": 0,
@@ -1410,7 +1410,7 @@
       "websiteUrl": "https://automationbyexperts.com/apify/xe-gr-scraper",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/xe-gr-scraper.md",
       "users": 15,
-      "users30Days": 9,
+      "users30Days": 8,
       "rating": 5,
       "reviews": 1,
       "pricingModel": "PAY_PER_EVENT",
@@ -1660,79 +1660,6 @@
       ]
     },
     {
-      "slug": "canada-car-scraper",
-      "title": "Canada Car Scraper: AutoTrader.ca, Kijiji, CarGurus & Carpages",
-      "description": "Search AutoTrader.ca, Kijiji and CarGurus.ca at once, plus Carpages.ca if you choose, with one filter form. Duplicates are merged into one row per car, with VIN, each site's price and link, the price gap, CarGurus deal rating and market value, dealer phone and private sellers.",
-      "category": "Car & Vehicle Scrapers",
-      "categorySlug": "vehicle-scrapers",
-      "apifyUrl": "https://apify.com/fayoussef/canada-car-scraper?fpr=youssef",
-      "websiteUrl": "https://automationbyexperts.com/apify/canada-car-scraper",
-      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/canada-car-scraper.md",
-      "users": 7,
-      "users30Days": 4,
-      "rating": 0,
-      "reviews": 0,
-      "pricingModel": "PAY_PER_EVENT",
-      "agenticPayments": true,
-      "useCases": []
-    },
-    {
-      "slug": "competitor-price-tracker-price-comparison-by-product-url",
-      "title": "Competitor Price Tracker & Price Comparison by Product URL",
-      "description": "Paste any product URL to get every retailer selling the same item, live prices, your market rank, and a suggested pricing action. Matches are strictly verified by UPC, EAN, GTIN, and MPN, with no fuzzy titles or foreign currency guesses. Works on Amazon, Walmart, Target, Best Buy, eBay, and Shopify.",
-      "category": "Price & Brand Monitoring",
-      "categorySlug": "price-monitoring",
-      "apifyUrl": "https://apify.com/fayoussef/competitor-price-tracker-price-comparison-by-product-url?fpr=youssef",
-      "websiteUrl": "https://automationbyexperts.com/apify/competitor-price-tracker-price-comparison-by-product-url",
-      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/competitor-price-tracker-price-comparison-by-product-url.md",
-      "users": 7,
-      "users30Days": 0,
-      "rating": 5,
-      "reviews": 1,
-      "pricingModel": "PAY_PER_EVENT",
-      "agenticPayments": true,
-      "useCases": [
-        {
-          "title": "Compare AirPods Pro prices across every US retailer",
-          "description": "Starts from the Amazon, Walmart and Target product pages, finds every other store selling the same AirPods Pro by matching UPC, EAN and MPN rather than titles, extracts each live price in USD and ranks your reference price against the market. Add a free scrape.do key for protected sites.",
-          "url": "https://apify.com/fayoussef/competitor-price-tracker-price-comparison-by-product-url/examples/airpods-pro-price-comparison-us?fpr=youssef",
-          "input": {
-            "productUrls": [
-              {
-                "url": "https://www.amazon.com/dp/B09B8V1LZ3"
-              },
-              {
-                "url": "https://www.walmart.com/ip/AirPods-Pro-2nd-generation-with-MagSafe-Case-USB-C/5689919121"
-              },
-              {
-                "url": "https://www.target.com/p/airpods-pro-2nd-generation-with-magsafe-case-usb-c/-/A-85978622"
-              }
-            ],
-            "country": "us",
-            "currency": "USD",
-            "maxCompetitors": 10,
-            "maxPages": 2
-          }
-        },
-        {
-          "title": "Compare a product's price across UK retailers",
-          "description": "Takes one Amazon UK product page, searches the UK web for the same item, confirms each match by identifier, drops anything not priced in GBP and returns every competitor with its live price. The same task works for any UK product URL, Argos, Currys or an independent Shopify store.",
-          "url": "https://apify.com/fayoussef/competitor-price-tracker-price-comparison-by-product-url/examples/uk-product-price-comparison-by-url?fpr=youssef",
-          "input": {
-            "productUrls": [
-              {
-                "url": "https://www.amazon.co.uk/dp/B09B8V1LZ3"
-              }
-            ],
-            "country": "gb",
-            "currency": "GBP",
-            "maxCompetitors": 10,
-            "maxPages": 2
-          }
-        }
-      ]
-    },
-    {
       "slug": "luma-events-scraper",
       "title": "Luma Events Scraper: New Event Alerts & Organizer Leads",
       "description": "Get alerted to new Luma (lu.ma) events in your city or calendar, with the organizer's Instagram, LinkedIn, TikTok, X and YouTube handles. Webhook or Telegram alerts. Also exports dates, venues with GPS, ticket prices and guest counts.",
@@ -1741,8 +1668,8 @@
       "apifyUrl": "https://apify.com/fayoussef/luma-events-scraper?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/luma-events-scraper",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/luma-events-scraper.md",
-      "users": 7,
-      "users30Days": 0,
+      "users": 8,
+      "users30Days": 1,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
@@ -1785,8 +1712,25 @@
       "apifyUrl": "https://apify.com/fayoussef/rona-scraper?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/rona-scraper",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/rona-scraper.md",
+      "users": 8,
+      "users30Days": 5,
+      "rating": 5,
+      "reviews": 1,
+      "pricingModel": "PAY_PER_EVENT",
+      "agenticPayments": true,
+      "useCases": []
+    },
+    {
+      "slug": "canada-car-scraper",
+      "title": "Canada Car Scraper: AutoTrader.ca, Kijiji, CarGurus & Carpages",
+      "description": "Search AutoTrader.ca, Kijiji and CarGurus.ca at once, plus Carpages.ca if you choose, with one filter form. Duplicates are merged into one row per car, with VIN, each site's price and link, the price gap, CarGurus deal rating and market value, dealer phone and private sellers.",
+      "category": "Car & Vehicle Scrapers",
+      "categorySlug": "vehicle-scrapers",
+      "apifyUrl": "https://apify.com/fayoussef/canada-car-scraper?fpr=youssef",
+      "websiteUrl": "https://automationbyexperts.com/apify/canada-car-scraper",
+      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/canada-car-scraper.md",
       "users": 7,
-      "users30Days": 2,
+      "users30Days": 6,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
@@ -1802,8 +1746,8 @@
       "apifyUrl": "https://apify.com/fayoussef/kijiji-business-leads?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/kijiji-business-leads",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/kijiji-business-leads.md",
-      "users": 6,
-      "users30Days": 2,
+      "users": 7,
+      "users30Days": 3,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
@@ -1864,7 +1808,7 @@
     {
       "slug": "bulk-ai-translator",
       "title": "Translate Excel, CSV & Websites in Bulk with AI | No API Key",
-      "description": "Translate Excel, CSV and Google Sheets files, whole websites, PDFs and SRT/VTT subtitles into 42 languages in one run, and get the same file back translated. Brand terms, HTML and {{variables}} stay intact, and repeat runs only pay for what changed. No API key needed.",
+      "description": "Translate Excel, CSV and Google Sheets files, whole websites, PDFs and SRT/VTT subtitles into 42 languages in one run, and get the same file back translated. Pick from 150+ AI models. Brand terms, HTML and {{variables}} stay intact, and repeat runs only pay for what changed. No API key needed.",
       "category": "Bulk AI Tools",
       "categorySlug": "ai-bulk-tools",
       "apifyUrl": "https://apify.com/fayoussef/bulk-ai-translator?fpr=youssef",
@@ -1992,7 +1936,7 @@
       "websiteUrl": "https://automationbyexperts.com/apify/dealer-reputation-monitor",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/dealer-reputation-monitor.md",
       "users": 4,
-      "users30Days": 4,
+      "users30Days": 3,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
@@ -2076,6 +2020,23 @@
           }
         }
       ]
+    },
+    {
+      "slug": "bazaraki-scraper",
+      "title": "Bazaraki Scraper: Cyprus Property, Cars & Classifieds",
+      "description": "Scrape Bazaraki.com, Cyprus's biggest classifieds site: property for sale and rent, cars, jobs and every other category. Filter by district, price and keyword or paste any search URL. Export price, bedrooms, m², year, mileage, location, seller and photos to JSON, CSV or Excel.",
+      "category": "E-commerce & Marketplace Scrapers",
+      "categorySlug": "ecommerce-scrapers",
+      "apifyUrl": "https://apify.com/fayoussef/bazaraki-scraper?fpr=youssef",
+      "websiteUrl": "https://automationbyexperts.com/apify/bazaraki-scraper",
+      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/bazaraki-scraper.md",
+      "users": 3,
+      "users30Days": 2,
+      "rating": 0,
+      "reviews": 0,
+      "pricingModel": "PAY_PER_EVENT",
+      "agenticPayments": true,
+      "useCases": []
     },
     {
       "slug": "brand-abuse-counterfeit-detector",
@@ -2208,6 +2169,23 @@
       "useCases": []
     },
     {
+      "slug": "rentfaster-scraper",
+      "title": "RentFaster Scraper: Canada Rentals, Rents & Landlord Phones",
+      "description": "Scrape Canadian rental listings from RentFaster.ca in 105 cities (Calgary, Edmonton, Toronto, Montreal...). Filter by type, bedrooms, rent, pets and utilities. Export rent, beds, baths, sq ft, address, GPS, landlord phone and website to JSON, CSV or Excel.",
+      "category": "Real Estate Scrapers",
+      "categorySlug": "real-estate-scrapers",
+      "apifyUrl": "https://apify.com/fayoussef/rentfaster-scraper?fpr=youssef",
+      "websiteUrl": "https://automationbyexperts.com/apify/rentfaster-scraper",
+      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/rentfaster-scraper.md",
+      "users": 3,
+      "users30Days": 3,
+      "rating": 0,
+      "reviews": 0,
+      "pricingModel": "PAY_PER_EVENT",
+      "agenticPayments": true,
+      "useCases": []
+    },
+    {
       "slug": "11888-gr-scraper",
       "title": "11888.gr Scraper: Greek Business Phones, Emails & Websites",
       "description": "Scrape Greek businesses from the 11888.gr Yellow Pages by category and place: name, phones, mobile, email, website, address, GPS and WhatsApp/Viber. Search in English or Greek, or paste 11888.gr URLs. Export to JSON, CSV or Excel for B2B leads.",
@@ -2233,40 +2211,6 @@
       "apifyUrl": "https://apify.com/fayoussef/ai-account-watch?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/ai-account-watch",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/ai-account-watch.md",
-      "users": 2,
-      "users30Days": 1,
-      "rating": 0,
-      "reviews": 0,
-      "pricingModel": "PAY_PER_EVENT",
-      "agenticPayments": true,
-      "useCases": []
-    },
-    {
-      "slug": "amazon-bestsellers-tracker",
-      "title": "Amazon Best Sellers Scraper: Rank Tracker, 21 Marketplaces",
-      "description": "Track Amazon Best Sellers and New Releases ranks 1-100 in 21 marketplaces (US, UK, DE, FR, JP, IN, BR and more). Each run shows what moved up, moved down, entered or dropped off the chart, with prices, price changes, ratings and reviews. Proxies included on paid plans.",
-      "category": "Price & Brand Monitoring",
-      "categorySlug": "price-monitoring",
-      "apifyUrl": "https://apify.com/fayoussef/amazon-bestsellers-tracker?fpr=youssef",
-      "websiteUrl": "https://automationbyexperts.com/apify/amazon-bestsellers-tracker",
-      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/amazon-bestsellers-tracker.md",
-      "users": 2,
-      "users30Days": 1,
-      "rating": 0,
-      "reviews": 0,
-      "pricingModel": "PAY_PER_EVENT",
-      "agenticPayments": true,
-      "useCases": []
-    },
-    {
-      "slug": "bazaraki-scraper",
-      "title": "Bazaraki Scraper: Cyprus Property, Cars & Classifieds",
-      "description": "Scrape Bazaraki.com, Cyprus's biggest classifieds site: property for sale and rent, cars, jobs and every other category. Filter by district, price and keyword or paste any search URL. Export price, bedrooms, m², year, mileage, location, seller and photos to JSON, CSV or Excel.",
-      "category": "E-commerce & Marketplace Scrapers",
-      "categorySlug": "ecommerce-scrapers",
-      "apifyUrl": "https://apify.com/fayoussef/bazaraki-scraper?fpr=youssef",
-      "websiteUrl": "https://automationbyexperts.com/apify/bazaraki-scraper",
-      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/bazaraki-scraper.md",
       "users": 2,
       "users30Days": 1,
       "rating": 0,
@@ -2392,6 +2336,23 @@
       "apifyUrl": "https://apify.com/fayoussef/eu-vat-compliance-monitor?fpr=youssef",
       "websiteUrl": "https://automationbyexperts.com/apify/eu-vat-compliance-monitor",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/eu-vat-compliance-monitor.md",
+      "users": 2,
+      "users30Days": 1,
+      "rating": 0,
+      "reviews": 0,
+      "pricingModel": "PAY_PER_EVENT",
+      "agenticPayments": true,
+      "useCases": []
+    },
+    {
+      "slug": "invoice-utility-bill-extractor",
+      "title": "Invoice & Utility Bill Data Extractor: Totals, kWh, Line Items",
+      "description": "Bulk extract vendor, dates, totals, tax, kWh and line items from invoice and utility bill PDFs and photos. Auto-detects each document, runs one or several AI models, checks the arithmetic and flags what to review.",
+      "category": "Developer Tools & APIs",
+      "categorySlug": "developer-tools",
+      "apifyUrl": "https://apify.com/fayoussef/invoice-utility-bill-extractor?fpr=youssef",
+      "websiteUrl": "https://automationbyexperts.com/apify/invoice-utility-bill-extractor",
+      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/invoice-utility-bill-extractor.md",
       "users": 2,
       "users30Days": 1,
       "rating": 0,
@@ -2530,21 +2491,63 @@
       ]
     },
     {
-      "slug": "rentfaster-scraper",
-      "title": "RentFaster Scraper: Canada Rentals, Rents & Landlord Phones",
-      "description": "Scrape Canadian rental listings from RentFaster.ca in 105 cities (Calgary, Edmonton, Toronto, Montreal...). Filter by type, bedrooms, rent, pets and utilities. Export rent, beds, baths, sq ft, address, GPS, landlord phone and website to JSON, CSV or Excel.",
-      "category": "Real Estate Scrapers",
-      "categorySlug": "real-estate-scrapers",
-      "apifyUrl": "https://apify.com/fayoussef/rentfaster-scraper?fpr=youssef",
-      "websiteUrl": "https://automationbyexperts.com/apify/rentfaster-scraper",
-      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/rentfaster-scraper.md",
+      "slug": "reddit-lead-finder",
+      "title": "Reddit Scraper for Leads: Buying Intent Posts & Comments",
+      "description": "Scrape Reddit posts and comments for buying intent: people asking for a tool, a recommendation, or an alternative to your competitor. Every lead is scored 0-100, budget mentions are extracted, and scheduled runs surface only leads you have not seen before. No login, no API key, no LLM cost.",
+      "category": "Lead Generation Actors",
+      "categorySlug": "lead-generation",
+      "apifyUrl": "https://apify.com/fayoussef/reddit-lead-finder?fpr=youssef",
+      "websiteUrl": "https://automationbyexperts.com/apify/reddit-lead-finder",
+      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/reddit-lead-finder.md",
       "users": 2,
-      "users30Days": 2,
+      "users30Days": 1,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
       "agenticPayments": true,
-      "useCases": []
+      "useCases": [
+        {
+          "title": "Find Reddit users looking for an email marketing tool",
+          "description": "Scans Reddit posts and comments from the past week for people asking for an email marketing tool or an alternative to Mailchimp or Klaviyo, scores each for buying intent, and returns the ones at 30 or above with the exact quote, subreddit, author and link so you can reply in context.",
+          "url": "https://apify.com/fayoussef/reddit-lead-finder/examples/reddit-leads-for-email-marketing-tools?fpr=youssef",
+          "input": {
+            "keywords": [
+              "email marketing tool"
+            ],
+            "competitors": [
+              "Mailchimp",
+              "Klaviyo"
+            ],
+            "timeRange": "week",
+            "includeComments": true,
+            "minIntentScore": 30,
+            "maxLeads": 100
+          }
+        },
+        {
+          "title": "Get alerted to 'alternative to' threads about your competitors",
+          "description": "Watches r/smallbusiness, r/Entrepreneur and r/sales for people asking for a CRM or an alternative to HubSpot or Salesforce, keeps only strong buying signals at 50 plus, and returns just the leads not seen in a previous run. Schedule it daily and reply while the thread is still warm.",
+          "url": "https://apify.com/fayoussef/reddit-lead-finder/examples/competitor-alternative-threads-alert?fpr=youssef",
+          "input": {
+            "keywords": [
+              "CRM for small business"
+            ],
+            "competitors": [
+              "HubSpot",
+              "Salesforce"
+            ],
+            "subreddits": [
+              "smallbusiness",
+              "Entrepreneur",
+              "sales"
+            ],
+            "timeRange": "week",
+            "minIntentScore": 50,
+            "onlyNewLeads": true,
+            "maxLeads": 100
+          }
+        }
+      ]
     },
     {
       "slug": "website-change-monitor",
@@ -2560,7 +2563,7 @@
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
-      "agenticPayments": true,
+      "agenticPayments": false,
       "useCases": [
         {
           "title": "Monitor a competitor's pricing page for changes",
@@ -2598,6 +2601,23 @@
           }
         }
       ]
+    },
+    {
+      "slug": "amazon-bestsellers-tracker",
+      "title": "Amazon Best Sellers Scraper: Rank Tracker, 21 Marketplaces",
+      "description": "Track Amazon Best Sellers and New Releases ranks 1-100 in 21 marketplaces (US, UK, DE, FR, JP, IN, BR and more). Each run shows what moved up, moved down, entered or dropped off the chart, with prices, price changes, ratings and reviews. Proxies included on paid plans.",
+      "category": "Price & Brand Monitoring",
+      "categorySlug": "price-monitoring",
+      "apifyUrl": "https://apify.com/fayoussef/amazon-bestsellers-tracker?fpr=youssef",
+      "websiteUrl": "https://automationbyexperts.com/apify/amazon-bestsellers-tracker",
+      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/amazon-bestsellers-tracker.md",
+      "users": 1,
+      "users30Days": 1,
+      "rating": 0,
+      "reviews": 0,
+      "pricingModel": "PAY_PER_EVENT",
+      "agenticPayments": true,
+      "useCases": []
     },
     {
       "slug": "company-domain-to-job-postings",
@@ -2654,63 +2674,21 @@
       ]
     },
     {
-      "slug": "reddit-lead-finder",
-      "title": "Reddit Scraper for Leads: Buying Intent Posts & Comments",
-      "description": "Scrape Reddit posts and comments for buying intent: people asking for a tool, a recommendation, or an alternative to your competitor. Every lead is scored 0-100, budget mentions are extracted, and scheduled runs surface only leads you have not seen before. No login, no API key, no LLM cost.",
-      "category": "Lead Generation Actors",
-      "categorySlug": "lead-generation",
-      "apifyUrl": "https://apify.com/fayoussef/reddit-lead-finder?fpr=youssef",
-      "websiteUrl": "https://automationbyexperts.com/apify/reddit-lead-finder",
-      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/reddit-lead-finder.md",
+      "slug": "fotocasa-scraper",
+      "title": "Fotocasa Scraper: Spain Property Listings, Agency Phones",
+      "description": "Scrape property listings from Fotocasa.es, one of Spain's biggest real estate portals. Filter by province, city, price, rooms and size. Export prices, addresses, coordinates, photos and agency phone numbers, or one lead row per agency.",
+      "category": "Real Estate Scrapers",
+      "categorySlug": "real-estate-scrapers",
+      "apifyUrl": "https://apify.com/fayoussef/fotocasa-scraper?fpr=youssef",
+      "websiteUrl": "https://automationbyexperts.com/apify/fotocasa-scraper",
+      "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/fotocasa-scraper.md",
       "users": 1,
       "users30Days": 0,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
       "agenticPayments": true,
-      "useCases": [
-        {
-          "title": "Find Reddit users looking for an email marketing tool",
-          "description": "Scans Reddit posts and comments from the past week for people asking for an email marketing tool or an alternative to Mailchimp or Klaviyo, scores each for buying intent, and returns the ones at 30 or above with the exact quote, subreddit, author and link so you can reply in context.",
-          "url": "https://apify.com/fayoussef/reddit-lead-finder/examples/reddit-leads-for-email-marketing-tools?fpr=youssef",
-          "input": {
-            "keywords": [
-              "email marketing tool"
-            ],
-            "competitors": [
-              "Mailchimp",
-              "Klaviyo"
-            ],
-            "timeRange": "week",
-            "includeComments": true,
-            "minIntentScore": 30,
-            "maxLeads": 100
-          }
-        },
-        {
-          "title": "Get alerted to 'alternative to' threads about your competitors",
-          "description": "Watches r/smallbusiness, r/Entrepreneur and r/sales for people asking for a CRM or an alternative to HubSpot or Salesforce, keeps only strong buying signals at 50 plus, and returns just the leads not seen in a previous run. Schedule it daily and reply while the thread is still warm.",
-          "url": "https://apify.com/fayoussef/reddit-lead-finder/examples/competitor-alternative-threads-alert?fpr=youssef",
-          "input": {
-            "keywords": [
-              "CRM for small business"
-            ],
-            "competitors": [
-              "HubSpot",
-              "Salesforce"
-            ],
-            "subreddits": [
-              "smallbusiness",
-              "Entrepreneur",
-              "sales"
-            ],
-            "timeRange": "week",
-            "minIntentScore": 50,
-            "onlyNewLeads": true,
-            "maxLeads": 100
-          }
-        }
-      ]
+      "useCases": []
     },
     {
       "slug": "spitogatos-cy-scraper",
@@ -2722,7 +2700,7 @@
       "websiteUrl": "https://automationbyexperts.com/apify/spitogatos-cy-scraper",
       "guideUrl": "https://github.com/automationbyexperts/web-scraping-apis/blob/main/actors/spitogatos-cy-scraper.md",
       "users": 1,
-      "users30Days": 1,
+      "users30Days": 0,
       "rating": 0,
       "reviews": 0,
       "pricingModel": "PAY_PER_EVENT",
