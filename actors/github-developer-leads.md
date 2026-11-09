@@ -13,7 +13,7 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/github-developer-leads?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-02 |
+| Catalog updated | 2026-11-09 |
 
 ## What you can do with GitHub Developer Lead Finder & Email Enricher
 
@@ -161,6 +161,6 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 60 actors](../README.md)
+- Full catalog: [all 64 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/github-developer-leads](https://automationbyexperts.com/apify/github-developer-leads?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/github-developer-leads.md](https://automationbyexperts.com/apify/github-developer-leads.md)

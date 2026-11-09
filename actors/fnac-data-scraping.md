@@ -14,7 +14,7 @@
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/fnac-data-scraping?fpr=youssef)) |
 | Rating | 5.0 out of 5 (1 reviews) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-02 |
+| Catalog updated | 2026-11-09 |
 
 ## What you can do with Fnac.com Scraper: Products, Prices, EAN, Stock & Reviews
 
@@ -130,12 +130,12 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 - [Wallapop Scraper: Deal Alerts, New Listings & Price Drops](wallapop-scraper.md): Get alerted to new Wallapop listings and price drops, and spot the ones priced under the search median. Works for any search in Spain...
 - [G2G Price Monitor: Undercut & Price Drop Alerts](g2g-offer-scraper.md): Monitor G2G.com prices and get alerted when a seller undercuts you, a price drops or a new offer appears. Also scrapes every offer, seller...
 - [Skroutz Scraper: Greek Price Comparison, Offers & History](skroutz-scraper.md): Scrape Skroutz, Greece's largest price comparison site, plus Skroutz Cyprus, Bulgaria, Romania, Germany and Malta. Paste any category...
-- [Bike24 Scraper: Cycling Product Prices, Stock & Specs](bike24-result-scraper.md): Our bike24.com scraper effortlessly gathers URLs from all pages and extracts detailed information from each product page
 - [RONA Scraper: Canada Home Improvement Prices, Stock & Specs](rona-scraper.md): Scrape RONA.ca products in English and French from any category, search or product URL. Export price, sale price, regular price, stock by...
+- [Bike24 Scraper: Cycling Product Prices, Stock & Specs](bike24-result-scraper.md): Our bike24.com scraper effortlessly gathers URLs from all pages and extracts detailed information from each product page
 - [Smyths Toys Scraper: Prices, EAN Codes, Stock & Product Data](smythstoys-scraper.md): Scrape Smyths Toys UK and Ireland by category, search or product URL. Get prices, was prices, discounts, EAN barcodes, brand, ratings...
 
 ## More
 
-- Full catalog: [all 60 actors](../README.md)
+- Full catalog: [all 64 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/fnac-data-scraping](https://automationbyexperts.com/apify/fnac-data-scraping?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/fnac-data-scraping.md](https://automationbyexperts.com/apify/fnac-data-scraping.md)

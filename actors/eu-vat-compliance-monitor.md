@@ -13,7 +13,7 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/eu-vat-compliance-monitor?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-02 |
+| Catalog updated | 2026-11-09 |
 
 ## How to use VIES VAT Number Validator: Bulk EU VAT Check & Monitor
 
@@ -129,10 +129,11 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 - [Dataset Diff & Change Monitor: Only New Items From Any Actor](dataset-diff.md): Turn any Apify Actor, Task or dataset into a change monitor: get only the new, changed and removed items since the last run, deduplicated...
 - [Invoice & Utility Bill Data Extractor: Totals, kWh, Line Items](invoice-utility-bill-extractor.md): Bulk extract vendor, dates, totals, tax, kWh and line items from invoice and utility bill PDFs and photos. Auto-detects each document, runs...
 - [License Lookup & Verification: Bulk Contractor, Nurse, NPI](license-roster-monitor.md): Bulk professional license lookup and verification for contractors, nurses, electricians, real estate agents and healthcare providers (NPI)...
+- [USDA Report Watcher: New WASDE & ERS Data File Alerts](usda-report-watcher.md): Get every new or updated USDA data file the moment it is published: WASDE, ERS, NASS, AMS. Detects files still marked 'not yet available'...
 - [Website Change Monitor and Competitor Price Tracker](website-change-monitor.md): Monitor any web page for changes with a line-by-line diff, and track competitor prices: old price, new price and percent change for any...
 
 ## More
 
-- Full catalog: [all 60 actors](../README.md)
+- Full catalog: [all 64 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/eu-vat-compliance-monitor](https://automationbyexperts.com/apify/eu-vat-compliance-monitor?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/eu-vat-compliance-monitor.md](https://automationbyexperts.com/apify/eu-vat-compliance-monitor.md)

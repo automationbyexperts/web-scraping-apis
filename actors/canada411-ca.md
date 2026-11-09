@@ -14,7 +14,7 @@
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/canada411-ca?fpr=youssef)) |
 | Rating | 5.0 out of 5 (1 reviews) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-02 |
+| Catalog updated | 2026-11-09 |
 
 ## What you can do with Canada411 Scraper: Phone Numbers, Names & Addresses
 
@@ -148,6 +148,6 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 60 actors](../README.md)
+- Full catalog: [all 64 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/canada411-ca](https://automationbyexperts.com/apify/canada411-ca?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/canada411-ca.md](https://automationbyexperts.com/apify/canada411-ca.md)

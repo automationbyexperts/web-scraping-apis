@@ -13,7 +13,7 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/bulk-ai-translator?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-02 |
+| Catalog updated | 2026-11-09 |
 
 ## What you can do with Translate Excel, CSV & Websites in Bulk with AI | No API Key
 
@@ -174,12 +174,12 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## Related Bulk AI Tools
 
-- [Bulk AI Image Generator & Editor: Nano Banana, GPT Image](bulk-ai-image-generator.md): Generate hundreds of AI images from prompts or an Excel/CSV file, or edit your own product photos in bulk: white or transparent background...
 - [350+ AI Models: Run ChatGPT, Claude, Gemini in Bulk](bulk-llm-runner.md): Run hundreds of prompts in parallel across GPT, Claude, Gemini, Perplexity, DeepSeek, Qwen, Kimi and 350+ models, with web search, JSON...
+- [Bulk AI Image Generator & Editor: Nano Banana, GPT Image](bulk-ai-image-generator.md): Generate hundreds of AI images from prompts or an Excel/CSV file, or edit your own product photos in bulk: white or transparent background...
 - [Bulk Text to Speech: MP3 + SRT Subtitles | No API Key](bulk-text-to-speech.md): Convert texts or an Excel/CSV file into MP3 voiceovers with perfectly timed SRT/VTT subtitles. 322 neural voices in 75 languages...
 
 ## More
 
-- Full catalog: [all 60 actors](../README.md)
+- Full catalog: [all 64 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/bulk-ai-translator](https://automationbyexperts.com/apify/bulk-ai-translator?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/bulk-ai-translator.md](https://automationbyexperts.com/apify/bulk-ai-translator.md)

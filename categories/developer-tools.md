@@ -1,8 +1,8 @@
 # Developer Tools & APIs: Apify Actors by AutomationByExperts
 
-5 ready-to-run developer tools & apis on Apify, built and maintained by Youssef Farhan. A universal scraping API, change monitoring, and VAT and license compliance monitors. Each one runs in the cloud with no code and exports to JSON, CSV or Excel.
+6 ready-to-run developer tools & apis on Apify, built and maintained by Youssef Farhan. A universal scraping API, change monitoring, and VAT and license compliance monitors. Each one runs in the cloud with no code and exports to JSON, CSV or Excel.
 
-Updated 2026-11-02.
+Updated 2026-11-09.
 
 | Actor | What it does | Example use cases | Guide |
 |---|---|---|---|
@@ -10,6 +10,7 @@ Updated 2026-11-02.
 | [VIES VAT Number Validator: Bulk EU VAT Check & Monitor](https://apify.com/fayoussef/eu-vat-compliance-monitor?fpr=youssef) | Bulk EU VAT number validation against VIES. Check a whole supplier or customer list, get the consultation number that proves you checked, and get alerted when a VAT... | - | [Guide](../actors/eu-vat-compliance-monitor.md) |
 | [Invoice & Utility Bill Data Extractor: Totals, kWh, Line Items](https://apify.com/fayoussef/invoice-utility-bill-extractor?fpr=youssef) | Bulk extract vendor, dates, totals, tax, kWh and line items from invoice and utility bill PDFs and photos. Auto-detects each document, runs one or several AI models... | - | [Guide](../actors/invoice-utility-bill-extractor.md) |
 | [License Lookup & Verification: Bulk Contractor, Nurse, NPI](https://apify.com/fayoussef/license-roster-monitor?fpr=youssef) | Bulk professional license lookup and verification for contractors, nurses, electricians, real estate agents and healthcare providers (NPI). Checks a whole roster against... | - | [Guide](../actors/license-roster-monitor.md) |
+| [USDA Report Watcher: New WASDE & ERS Data File Alerts](https://apify.com/fayoussef/usda-report-watcher?fpr=youssef) | Get every new or updated USDA data file the moment it is published: WASDE, ERS, NASS, AMS. Detects files still marked 'not yet available', downloads XLSX, XLS, CSV and... | - | [Guide](../actors/usda-report-watcher.md) |
 | [Website Change Monitor and Competitor Price Tracker](https://apify.com/fayoussef/website-change-monitor?fpr=youssef) | Monitor any web page for changes with a line-by-line diff, and track competitor prices: old price, new price and percent change for any product page. Keyword watching... | [Monitor a competitor's pricing page for changes](https://apify.com/fayoussef/website-change-monitor/examples/competitor-pricing-page-monitor?fpr=youssef)<br>[Get alerts when a terms of service page changes](https://apify.com/fayoussef/website-change-monitor/examples/terms-of-service-change-alerts?fpr=youssef) | [Guide](../actors/website-change-monitor.md) |
 
 ## Other categories

@@ -14,7 +14,7 @@
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/xe-gr-scraper?fpr=youssef)) |
 | Rating | 5.0 out of 5 (1 reviews) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-02 |
+| Catalog updated | 2026-11-09 |
 
 ## What you can do with XE.gr Greek Property Scraper
 
@@ -167,11 +167,12 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 - [Spitogatos Scraper: Greece Real Estate Listings & Agent Phones](spitogatos-scraper.md): Scrape Greece real estate listings from Spitogatos.gr, the country's largest property portal. Homes, land and commercial property for sale...
 - [Centris.ca Scraper: Quebec Real Estate Listings & Photos](centris-property-scraper.md): Scrape Centris.ca real estate listings into clean structured data: MLS number, price, full address, rooms, bedrooms, bathrooms, the full...
 - [RentFaster Scraper: Canada Rentals, Rents & Landlord Phones](rentfaster-scraper.md): Scrape Canadian rental listings from RentFaster.ca in 105 cities (Calgary, Edmonton, Toronto, Montreal...). Filter by type, bedrooms, rent...
+- [XE.gr Price Drop Alerts: Greek Property Price Cuts & Relists](xe-gr-price-drop-radar.md): Watch any XE.gr search and get only what changed: price cuts with percent and days on market, ads re-posted to look new, and homes priced...
 - [Fotocasa Scraper: Spain Property Listings, Agency Phones](fotocasa-scraper.md): Scrape property listings from Fotocasa.es, one of Spain's biggest real estate portals. Filter by province, city, price, rooms and size...
 - [Cyprus Property Alerts: New Listings and Price Drops](spitogatos-cy-scraper.md): Get alerted to new Cyprus property listings and price drops on Spitogatos.com.cy, with webhook or Telegram alerts. Also scrapes listings...
 
 ## More
 
-- Full catalog: [all 60 actors](../README.md)
+- Full catalog: [all 64 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/xe-gr-scraper](https://automationbyexperts.com/apify/xe-gr-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/xe-gr-scraper.md](https://automationbyexperts.com/apify/xe-gr-scraper.md)

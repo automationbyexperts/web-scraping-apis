@@ -1,8 +1,8 @@
 # Real Estate Scrapers: Apify Actors by AutomationByExperts
 
-6 ready-to-run real estate scrapers on Apify, built and maintained by Youssef Farhan. Property listings, prices, agent contacts and GPS coordinates at scale. Each one runs in the cloud with no code and exports to JSON, CSV or Excel.
+7 ready-to-run real estate scrapers on Apify, built and maintained by Youssef Farhan. Property listings, prices, agent contacts and GPS coordinates at scale. Each one runs in the cloud with no code and exports to JSON, CSV or Excel.
 
-Updated 2026-11-02.
+Updated 2026-11-09.
 
 | Actor | What it does | Example use cases | Guide |
 |---|---|---|---|
@@ -10,6 +10,7 @@ Updated 2026-11-02.
 | [XE.gr Greek Property Scraper](https://apify.com/fayoussef/xe-gr-scraper?fpr=youssef) | Scrape Greek real estate listings from XE.gr: prices, size, rooms, GPS coordinates, amenities, photos and phone numbers. Owners-only mode returns just listings posted... | [Find apartments for rent in Athens with phone numbers](https://apify.com/fayoussef/xe-gr-scraper/examples/athens-apartments-for-rent?fpr=youssef)<br>[Export homes for sale in Thessaloniki](https://apify.com/fayoussef/xe-gr-scraper/examples/thessaloniki-homes-for-sale?fpr=youssef) | [Guide](../actors/xe-gr-scraper.md) |
 | [Centris.ca Scraper: Quebec Real Estate Listings & Photos](https://apify.com/fayoussef/centris-property-scraper?fpr=youssef) | Scrape Centris.ca real estate listings into clean structured data: MLS number, price, full address, rooms, bedrooms, bathrooms, the full description and characteristics... | [Export houses and condos for sale on Montreal Island](https://apify.com/fayoussef/centris-property-scraper/examples/montreal-houses-for-sale-centris?fpr=youssef)<br>[Scrape apartments for rent on Montreal Island from Centris](https://apify.com/fayoussef/centris-property-scraper/examples/montreal-rentals-centris?fpr=youssef) | [Guide](../actors/centris-property-scraper.md) |
 | [RentFaster Scraper: Canada Rentals, Rents & Landlord Phones](https://apify.com/fayoussef/rentfaster-scraper?fpr=youssef) | Scrape Canadian rental listings from RentFaster.ca in 105 cities (Calgary, Edmonton, Toronto, Montreal...). Filter by type, bedrooms, rent, pets and utilities. Export... | - | [Guide](../actors/rentfaster-scraper.md) |
+| [XE.gr Price Drop Alerts: Greek Property Price Cuts & Relists](https://apify.com/fayoussef/xe-gr-price-drop-radar?fpr=youssef) | Watch any XE.gr search and get only what changed: price cuts with percent and days on market, ads re-posted to look new, and homes priced under the area median. Schedule... | - | [Guide](../actors/xe-gr-price-drop-radar.md) |
 | [Fotocasa Scraper: Spain Property Listings, Agency Phones](https://apify.com/fayoussef/fotocasa-scraper?fpr=youssef) | Scrape property listings from Fotocasa.es, one of Spain's biggest real estate portals. Filter by province, city, price, rooms and size. Export prices, addresses... | - | [Guide](../actors/fotocasa-scraper.md) |
 | [Cyprus Property Alerts: New Listings and Price Drops](https://apify.com/fayoussef/spitogatos-cy-scraper?fpr=youssef) | Get alerted to new Cyprus property listings and price drops on Spitogatos.com.cy, with webhook or Telegram alerts. Also scrapes listings and agents with price, area... | [Find apartments for rent in Limassol, Cyprus under 1500 EUR](https://apify.com/fayoussef/spitogatos-cy-scraper/examples/limassol-apartments-for-rent-under-1500?fpr=youssef)<br>[Export homes for sale in Paphos, Cyprus with agent phones](https://apify.com/fayoussef/spitogatos-cy-scraper/examples/paphos-homes-for-sale-cyprus?fpr=youssef) | [Guide](../actors/spitogatos-cy-scraper.md) |
 
