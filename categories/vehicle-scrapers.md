@@ -2,7 +2,7 @@
 
 14 ready-to-run car & vehicle scrapers on Apify, built and maintained by Youssef Farhan. Live car and classifieds listings, dealer website inventory and dealer reviews. Each one runs in the cloud with no code and exports to JSON, CSV or Excel.
 
-Updated 2026-11-09.
+Updated 2026-11-16.
 
 | Actor | What it does | Example use cases | Guide |
 |---|---|---|---|

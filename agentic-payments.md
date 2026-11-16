@@ -1,8 +1,8 @@
 # Web Scraping APIs for AI Agents: Pay per Run with x402 (USDC) or Skyfire, No Account
 
-> 58 ready-to-run scrapers by AutomationByExperts that an AI agent can discover, run and pay for on its own: no Apify account, no API key sign-up, no subscription. The agent pays per run with USDC on Base through the x402 protocol, or with a Skyfire PAY token, and gets structured JSON back in the same HTTP call.
+> 59 ready-to-run scrapers by AutomationByExperts that an AI agent can discover, run and pay for on its own: no Apify account, no API key sign-up, no subscription. The agent pays per run with USDC on Base through the x402 protocol, or with a Skyfire PAY token, and gets structured JSON back in the same HTTP call.
 
-**58 agent-payable actors** | Updated 2026-11-09 | [Full catalog](README.md) | [llms.txt](llms.txt)
+**59 agent-payable actors** | Updated 2026-11-16 | [Full catalog](README.md) | [llms.txt](llms.txt)
 
 ## How it works
 
@@ -82,8 +82,8 @@ Replace `<actor-name>` above with the name in the second column. Each guide has 
 |---|---|---|---|
 | [Spitogatos Scraper: Greece Real Estate Listings & Agent Phones](https://apify.com/fayoussef/spitogatos-scraper?fpr=youssef) | `spitogatos-scraper` | Scrape Greece real estate listings from Spitogatos.gr, the country's largest property portal. Homes, land and commercial property for sale... | [Guide](actors/spitogatos-scraper.md) |
 | [XE.gr Greek Property Scraper](https://apify.com/fayoussef/xe-gr-scraper?fpr=youssef) | `xe-gr-scraper` | Scrape Greek real estate listings from XE.gr: prices, size, rooms, GPS coordinates, amenities, photos and phone numbers. Owners-only mode... | [Guide](actors/xe-gr-scraper.md) |
-| [Centris.ca Scraper: Quebec Real Estate Listings & Photos](https://apify.com/fayoussef/centris-property-scraper?fpr=youssef) | `centris-property-scraper` | Scrape Centris.ca real estate listings into clean structured data: MLS number, price, full address, rooms, bedrooms, bathrooms, the full... | [Guide](actors/centris-property-scraper.md) |
 | [RentFaster Scraper: Canada Rentals, Rents & Landlord Phones](https://apify.com/fayoussef/rentfaster-scraper?fpr=youssef) | `rentfaster-scraper` | Scrape Canadian rental listings from RentFaster.ca in 105 cities (Calgary, Edmonton, Toronto, Montreal...). Filter by type, bedrooms, rent... | [Guide](actors/rentfaster-scraper.md) |
+| [Centris.ca Scraper: Quebec Real Estate Listings & Photos](https://apify.com/fayoussef/centris-property-scraper?fpr=youssef) | `centris-property-scraper` | Scrape Centris.ca real estate listings into clean structured data: MLS number, price, full address, rooms, bedrooms, bathrooms, the full... | [Guide](actors/centris-property-scraper.md) |
 | [XE.gr Price Drop Alerts: Greek Property Price Cuts & Relists](https://apify.com/fayoussef/xe-gr-price-drop-radar?fpr=youssef) | `xe-gr-price-drop-radar` | Watch any XE.gr search and get only what changed: price cuts with percent and days on market, ads re-posted to look new, and homes priced... | [Guide](actors/xe-gr-price-drop-radar.md) |
 | [Fotocasa Scraper: Spain Property Listings, Agency Phones](https://apify.com/fayoussef/fotocasa-scraper?fpr=youssef) | `fotocasa-scraper` | Scrape property listings from Fotocasa.es, one of Spain's biggest real estate portals. Filter by province, city, price, rooms and size... | [Guide](actors/fotocasa-scraper.md) |
 | [Cyprus Property Alerts: New Listings and Price Drops](https://apify.com/fayoussef/spitogatos-cy-scraper?fpr=youssef) | `spitogatos-cy-scraper` | Get alerted to new Cyprus property listings and price drops on Spitogatos.com.cy, with webhook or Telegram alerts. Also scrapes listings... | [Guide](actors/spitogatos-cy-scraper.md) |
@@ -105,10 +105,10 @@ Replace `<actor-name>` above with the name in the second column. Each guide has 
 | Actor | Actor name for the API | What it does | Guide |
 |---|---|---|---|
 | [Brand Protection: Fake Shop, Counterfeit & Typosquat Finder](https://apify.com/fayoussef/brand-abuse-counterfeit-detector?fpr=youssef) | `brand-abuse-counterfeit-detector` | Find fake webshops, counterfeit marketplace listings, typosquatted domains and impersonation profiles abusing your brand. AI classifies... | [Guide](actors/brand-abuse-counterfeit-detector.md) |
+| [Amazon Best Sellers Scraper: Rank Tracker, 21 Marketplaces](https://apify.com/fayoussef/amazon-bestsellers-tracker?fpr=youssef) | `amazon-bestsellers-tracker` | Track Amazon Best Sellers and New Releases ranks 1-100 in 21 marketplaces (US, UK, DE, FR, JP, IN, BR and more). Each run shows what moved... | [Guide](actors/amazon-bestsellers-tracker.md) |
 | [MAP Price Monitor: Amazon, eBay Violations & Rogue Sellers](https://apify.com/fayoussef/map-violation-monitor?fpr=youssef) | `map-violation-monitor` | Enter your products and MAP prices and get every public offer advertised below them on Amazon, eBay, Best Buy and Newegg. AI verifies each... | [Guide](actors/map-violation-monitor.md) |
 | [Amazon, eBay, Best Buy & Newegg Price Checker by ASIN or UPC](https://apify.com/fayoussef/multi-marketplace-price-checker?fpr=youssef) | `multi-marketplace-price-checker` | Paste ASINs, UPCs, model numbers or product names and get what that exact product sells for on Amazon, eBay, Best Buy and Newegg. AI... | [Guide](actors/multi-marketplace-price-checker.md) |
 | [SaaS Price Hike Monitor: Pricing Page Change Alerts](https://apify.com/fayoussef/saas-price-hike-monitor?fpr=youssef) | `saas-price-hike-monitor` | Watch the pricing pages of the software you pay for and get warned before renewal: price increases with old and new price, removed free... | [Guide](actors/saas-price-hike-monitor.md) |
-| [Amazon Best Sellers Scraper: Rank Tracker, 21 Marketplaces](https://apify.com/fayoussef/amazon-bestsellers-tracker?fpr=youssef) | `amazon-bestsellers-tracker` | Track Amazon Best Sellers and New Releases ranks 1-100 in 21 marketplaces (US, UK, DE, FR, JP, IN, BR and more). Each run shows what moved... | [Guide](actors/amazon-bestsellers-tracker.md) |
 
 ### Lead Generation Actors
 
@@ -155,6 +155,7 @@ Replace `<actor-name>` above with the name in the second column. Each guide has 
 | [Invoice & Utility Bill Data Extractor: Totals, kWh, Line Items](https://apify.com/fayoussef/invoice-utility-bill-extractor?fpr=youssef) | `invoice-utility-bill-extractor` | Bulk extract vendor, dates, totals, tax, kWh and line items from invoice and utility bill PDFs and photos. Auto-detects each document, runs... | [Guide](actors/invoice-utility-bill-extractor.md) |
 | [License Lookup & Verification: Bulk Contractor, Nurse, NPI](https://apify.com/fayoussef/license-roster-monitor?fpr=youssef) | `license-roster-monitor` | Bulk professional license lookup and verification for contractors, nurses, electricians, real estate agents and healthcare providers (NPI)... | [Guide](actors/license-roster-monitor.md) |
 | [USDA Report Watcher: New WASDE & ERS Data File Alerts](https://apify.com/fayoussef/usda-report-watcher?fpr=youssef) | `usda-report-watcher` | Get every new or updated USDA data file the moment it is published: WASDE, ERS, NASS, AMS. Detects files still marked 'not yet available'... | [Guide](actors/usda-report-watcher.md) |
+| [Tennis Abstract Scraper: ATP & WTA Match Stats](https://apify.com/fayoussef/tennis-abstract-scraper?fpr=youssef) | `tennis-abstract-scraper` | Scrape every ATP and WTA player's full career match log from Tennis Abstract: score, opponent, ranks, surface, level, aces, double faults... | [Guide](actors/tennis-abstract-scraper.md) |
 
 ## FAQ
 

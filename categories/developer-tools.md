@@ -1,8 +1,8 @@
 # Developer Tools & APIs: Apify Actors by AutomationByExperts
 
-6 ready-to-run developer tools & apis on Apify, built and maintained by Youssef Farhan. A universal scraping API, change monitoring, and VAT and license compliance monitors. Each one runs in the cloud with no code and exports to JSON, CSV or Excel.
+7 ready-to-run developer tools & apis on Apify, built and maintained by Youssef Farhan. A universal scraping API, change monitoring, and VAT and license compliance monitors. Each one runs in the cloud with no code and exports to JSON, CSV or Excel.
 
-Updated 2026-11-09.
+Updated 2026-11-16.
 
 | Actor | What it does | Example use cases | Guide |
 |---|---|---|---|
@@ -12,6 +12,7 @@ Updated 2026-11-09.
 | [License Lookup & Verification: Bulk Contractor, Nurse, NPI](https://apify.com/fayoussef/license-roster-monitor?fpr=youssef) | Bulk professional license lookup and verification for contractors, nurses, electricians, real estate agents and healthcare providers (NPI). Checks a whole roster against... | - | [Guide](../actors/license-roster-monitor.md) |
 | [USDA Report Watcher: New WASDE & ERS Data File Alerts](https://apify.com/fayoussef/usda-report-watcher?fpr=youssef) | Get every new or updated USDA data file the moment it is published: WASDE, ERS, NASS, AMS. Detects files still marked 'not yet available', downloads XLSX, XLS, CSV and... | - | [Guide](../actors/usda-report-watcher.md) |
 | [Website Change Monitor and Competitor Price Tracker](https://apify.com/fayoussef/website-change-monitor?fpr=youssef) | Monitor any web page for changes with a line-by-line diff, and track competitor prices: old price, new price and percent change for any product page. Keyword watching... | [Monitor a competitor's pricing page for changes](https://apify.com/fayoussef/website-change-monitor/examples/competitor-pricing-page-monitor?fpr=youssef)<br>[Get alerts when a terms of service page changes](https://apify.com/fayoussef/website-change-monitor/examples/terms-of-service-change-alerts?fpr=youssef) | [Guide](../actors/website-change-monitor.md) |
+| [Tennis Abstract Scraper: ATP & WTA Match Stats](https://apify.com/fayoussef/tennis-abstract-scraper?fpr=youssef) | Scrape every ATP and WTA player's full career match log from Tennis Abstract: score, opponent, ranks, surface, level, aces, double faults, first and second serve won %... | - | [Guide](../actors/tennis-abstract-scraper.md) |
 
 ## Other categories
 

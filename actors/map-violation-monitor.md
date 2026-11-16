@@ -13,7 +13,7 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/map-violation-monitor?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-09 |
+| Catalog updated | 2026-11-16 |
 
 ## What you can do with MAP Price Monitor: Amazon, eBay Violations & Rogue Sellers
 
@@ -159,12 +159,12 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 ## Related Price & Brand Monitoring
 
 - [Brand Protection: Fake Shop, Counterfeit & Typosquat Finder](brand-abuse-counterfeit-detector.md): Find fake webshops, counterfeit marketplace listings, typosquatted domains and impersonation profiles abusing your brand. AI classifies...
+- [Amazon Best Sellers Scraper: Rank Tracker, 21 Marketplaces](amazon-bestsellers-tracker.md): Track Amazon Best Sellers and New Releases ranks 1-100 in 21 marketplaces (US, UK, DE, FR, JP, IN, BR and more). Each run shows what moved...
 - [Amazon, eBay, Best Buy & Newegg Price Checker by ASIN or UPC](multi-marketplace-price-checker.md): Paste ASINs, UPCs, model numbers or product names and get what that exact product sells for on Amazon, eBay, Best Buy and Newegg. AI...
 - [SaaS Price Hike Monitor: Pricing Page Change Alerts](saas-price-hike-monitor.md): Watch the pricing pages of the software you pay for and get warned before renewal: price increases with old and new price, removed free...
-- [Amazon Best Sellers Scraper: Rank Tracker, 21 Marketplaces](amazon-bestsellers-tracker.md): Track Amazon Best Sellers and New Releases ranks 1-100 in 21 marketplaces (US, UK, DE, FR, JP, IN, BR and more). Each run shows what moved...
 
 ## More
 
-- Full catalog: [all 64 actors](../README.md)
+- Full catalog: [all 65 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/map-violation-monitor](https://automationbyexperts.com/apify/map-violation-monitor?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/map-violation-monitor.md](https://automationbyexperts.com/apify/map-violation-monitor.md)
