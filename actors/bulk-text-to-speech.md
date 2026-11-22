@@ -13,13 +13,11 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/bulk-text-to-speech?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-16 |
+| Catalog updated | 2026-11-22 |
 
 ## What you can do with Bulk Text to Speech: MP3 + SRT Subtitles | No API Key
 
 - **[Generate TikTok voiceovers with word by word captions](https://apify.com/fayoussef/bulk-text-to-speech/examples/tiktok-voiceovers-word-captions?fpr=youssef)**: Turns each script into an MP3 voiceover at 25 percent faster pace with a matching SRT where every word is its own cue, the format CapCut and Premiere use for animated captions. Paste 50 scripts and get 50 clips plus 50...
-- **[Create Spanish voiceovers for product videos](https://apify.com/fayoussef/bulk-text-to-speech/examples/spanish-voiceovers-for-product-videos?fpr=youssef)**: Generates natural Castilian Spanish narration for a batch of product descriptions, one MP3 per text, with sentence level SRT subtitles ready to drop into the video editor. Swap the voice for Mexican Spanish, French...
-- **[Turn long form text into one narrated MP3](https://apify.com/fayoussef/bulk-text-to-speech/examples/narrate-long-text-into-one-mp3?fpr=youssef)**: Narrates each chapter or section as its own clip, then joins them in order into a single combined MP3 with one continuous subtitle file. A slightly slower British voice suits articles, course material and internal...
 
 ## How to use Bulk Text to Speech: MP3 + SRT Subtitles | No API Key
 
@@ -162,11 +160,11 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 ## Related Bulk AI Tools
 
 - [350+ AI Models: Run ChatGPT, Claude, Gemini in Bulk](bulk-llm-runner.md): Run hundreds of prompts in parallel across GPT, Claude, Gemini, Perplexity, DeepSeek, Qwen, Kimi and 350+ models, with web search, JSON...
-- [Bulk AI Image Generator & Editor: Nano Banana, GPT Image](bulk-ai-image-generator.md): Generate hundreds of AI images from prompts or an Excel/CSV file, or edit your own product photos in bulk: white or transparent background...
+- [Bulk AI Image Generator & Photo Editor: Nano Banana Pro](bulk-ai-image-generator.md): Generate hundreds of AI images from prompts or an Excel/CSV file, or edit your own product photos in bulk: white or transparent background...
 - [Translate Excel, CSV & Websites in Bulk with AI | No API Key](bulk-ai-translator.md): Translate Excel, CSV and Google Sheets files, whole websites, PDFs and SRT/VTT subtitles into 42 languages in one run, and get the same...
 
 ## More
 
-- Full catalog: [all 65 actors](../README.md)
+- Full catalog: [all 66 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/bulk-text-to-speech](https://automationbyexperts.com/apify/bulk-text-to-speech?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/bulk-text-to-speech.md](https://automationbyexperts.com/apify/bulk-text-to-speech.md)

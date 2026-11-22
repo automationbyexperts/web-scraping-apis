@@ -13,12 +13,7 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/map-violation-monitor?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-16 |
-
-## What you can do with MAP Price Monitor: Amazon, eBay Violations & Rogue Sellers
-
-- **[Check Amazon and eBay for MAP violations](https://apify.com/fayoussef/map-violation-monitor/examples/amazon-ebay-map-violation-check?fpr=youssef)**: Takes your products with their minimum advertised price, searches Amazon, eBay, Best Buy and Newegg for every public offer, runs an AI exact match check so a cable or a refurbished unit is never counted, and returns...
-- **[Detect unauthorized sellers of your products](https://apify.com/fayoussef/map-violation-monitor/examples/unauthorized-seller-detection?fpr=youssef)**: Lists every seller offering your product on Amazon and eBay and flags any not on your authorized reseller list, with their price relative to MAP. The sellers view groups offers by seller so you can see who is diverting...
+| Catalog updated | 2026-11-22 |
 
 ## How to use MAP Price Monitor: Amazon, eBay Violations & Rogue Sellers
 
@@ -30,21 +25,10 @@
 
 ### Example input
 
+Open the input form on the Store page to see every field. An empty input runs the defaults.
+
 ```json
-{
-  "products": [
-    "B0DGHMNQ5Z, 129.99",
-    "Sony WH-1000XM5, 349.99"
-  ],
-  "marketplaces": [
-    "Amazon",
-    "eBay",
-    "BestBuy",
-    "Newegg"
-  ],
-  "onlyViolations": true,
-  "zipCode": "10001"
-}
+{}
 ```
 
 ### Python
@@ -57,10 +41,7 @@ pip install apify-client
 from apify_client import ApifyClient
 
 client = ApifyClient("<YOUR_APIFY_TOKEN>")
-run_input = {'products': ['B0DGHMNQ5Z, 129.99', 'Sony WH-1000XM5, 349.99'],
- 'marketplaces': ['Amazon', 'eBay', 'BestBuy', 'Newegg'],
- 'onlyViolations': True,
- 'zipCode': '10001'}
+run_input = {}
 run = client.actor("fayoussef/map-violation-monitor").call(run_input=run_input)
 
 for item in client.dataset(run["defaultDatasetId"]).iterate_items():
@@ -77,20 +58,7 @@ npm install apify-client
 import { ApifyClient } from 'apify-client';
 
 const client = new ApifyClient({ token: '<YOUR_APIFY_TOKEN>' });
-const input = {
-  "products": [
-    "B0DGHMNQ5Z, 129.99",
-    "Sony WH-1000XM5, 349.99"
-  ],
-  "marketplaces": [
-    "Amazon",
-    "eBay",
-    "BestBuy",
-    "Newegg"
-  ],
-  "onlyViolations": true,
-  "zipCode": "10001"
-};
+const input = {};
 const run = await client.actor('fayoussef/map-violation-monitor').call(input);
 const { items } = await client.dataset(run.defaultDatasetId).listItems();
 console.log(items);
@@ -101,7 +69,7 @@ console.log(items);
 ```bash
 curl -X POST "https://api.apify.com/v2/acts/fayoussef~map-violation-monitor/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>" \
   -H "Content-Type: application/json" \
-  -d '{"products": ["B0DGHMNQ5Z, 129.99", "Sony WH-1000XM5, 349.99"], "marketplaces": ["Amazon", "eBay", "BestBuy", "Newegg"], "onlyViolations": true, "zipCode": "10001"}'
+  -d '{}'
 ```
 
 ### From AI agents (MCP)
@@ -165,6 +133,6 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 65 actors](../README.md)
+- Full catalog: [all 66 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/map-violation-monitor](https://automationbyexperts.com/apify/map-violation-monitor?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/map-violation-monitor.md](https://automationbyexperts.com/apify/map-violation-monitor.md)

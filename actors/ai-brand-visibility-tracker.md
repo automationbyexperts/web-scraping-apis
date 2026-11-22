@@ -13,12 +13,11 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/ai-brand-visibility-tracker?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-16 |
+| Catalog updated | 2026-11-22 |
 
 ## What you can do with AI Brand Visibility Tracker (ChatGPT, Perplexity & Gemini)
 
 - **[Check if AI recommends your CRM to small businesses](https://apify.com/fayoussef/ai-brand-visibility-tracker/examples/crm-brand-visibility-in-ai-answers?fpr=youssef)**: Asks ChatGPT, Perplexity and Gemini the questions a small business owner asks when choosing a CRM, and reports whether HubSpot is named, where it ranks, which competitors are recommended instead, and whether hubspot.com...
-- **[Measure an ecommerce platform's share of voice in AI search](https://apify.com/fayoussef/ai-brand-visibility-tracker/examples/ecommerce-platform-ai-share-of-voice?fpr=youssef)**: Runs each buying intent question twice per platform for a stable score and computes Shopify's share of voice against WooCommerce, BigCommerce and Wix across ChatGPT, Perplexity and Gemini. The answers view keeps the...
 
 ## How to use AI Brand Visibility Tracker (ChatGPT, Perplexity & Gemini)
 
@@ -178,12 +177,12 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## Related SEO & AI Visibility
 
-- [SEO, GEO & AEO Audit: AI Search Readiness Checker](seo-geo-aeo-audit.md): Audit any website for Google SEO and AI search visibility in one run. Get 0-100 SEO, GEO and AEO scores per page, AI crawler and llms.txt...
+- [SEO Audit + AI Crawler Check: SEO, GEO & AEO Score](seo-geo-aeo-audit.md): SEO audit and AI crawler checker in one run. See what GPTBot, ClaudeBot and PerplexityBot really receive, check robots.txt and llms.txt...
 - [Google Maps Local Rank Tracker with Weekly Change Alerts](geo-grid-local-rank-tracker.md): Track where a business ranks on Google Maps across a grid, week after week. Get alerted when your Share of Local Voice drops, see which...
 - [llms.txt Generator: llms-full.txt for Any Website (AI SEO)](llms-txt-generator.md): Generate a spec-compliant llms.txt and llms-full.txt for any website in one run. Crawls your sitemap or internal links, extracts every...
 
 ## More
 
-- Full catalog: [all 65 actors](../README.md)
+- Full catalog: [all 66 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/ai-brand-visibility-tracker](https://automationbyexperts.com/apify/ai-brand-visibility-tracker?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/ai-brand-visibility-tracker.md](https://automationbyexperts.com/apify/ai-brand-visibility-tracker.md)

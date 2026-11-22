@@ -14,13 +14,12 @@
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/autotrader-canada?fpr=youssef)) |
 | Rating | 5.0 out of 5 (4 reviews) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-16 |
+| Catalog updated | 2026-11-22 |
 
 ## What you can do with AutoTrader.ca Scraper: Car Prices, VIN, Mileage & Dealers
 
-- **[Find used Toyota RAV4s for sale around Toronto](https://apify.com/fayoussef/autotrader-canada/examples/toyota-rav4-used-toronto?fpr=youssef)**: Uses the filter form to search AutoTrader.ca for used Toyota RAV4 from model year 2019 within 100 km of Toronto and returns 127 fields per vehicle, including VIN, numeric price, kilometres, trim, dealer name and phone...
 - **[Export used pickup trucks under 40,000 CAD in Alberta](https://apify.com/fayoussef/autotrader-canada/examples/used-pickup-trucks-alberta-under-40000?fpr=youssef)**: Searches AutoTrader.ca for used pickup trucks priced under 40,000 CAD within 200 km of Calgary and exports each with VIN, price, kilometres, engine, drivetrain, dealer and photos. Fleet buyers and dealers use it to...
-- **[Track electric cars for sale in Vancouver](https://apify.com/fayoussef/autotrader-canada/examples/electric-cars-for-sale-vancouver?fpr=youssef)**: Returns new and used fully electric vehicles listed on AutoTrader.ca within 100 km of Vancouver, with price, kilometres, battery details, dealer and photos. Schedule it to follow BC's EV market week by week or run once...
+- **[Get hidden VINs for used cars for sale around Toronto](https://apify.com/fayoussef/autotrader-canada/examples/used-cars-toronto-hidden-vins?fpr=youssef)**: Searches AutoTrader.ca for used cars from model year 2018 within 100 km of Toronto with Find hidden VINs turned on. For every listing that hides its VIN, the same car is matched on Kijiji.ca or CarGurus.ca by dealer...
 
 ## How to use AutoTrader.ca Scraper: Car Prices, VIN, Mileage & Dealers
 
@@ -35,18 +34,15 @@
 ```json
 {
   "vehicle_type": "cars",
-  "makes": [
-    "Toyota"
-  ],
-  "models": [
-    "RAV4"
+  "body_types": [
+    "pickup-truck"
   ],
   "conditions": [
     "used"
   ],
-  "model_year_from": 2019,
-  "postal_code": "Toronto, ON",
-  "radius_km": "100",
+  "price_to": 40000,
+  "postal_code": "Calgary, AB",
+  "radius_km": "200",
   "max_items": 300
 }
 ```
@@ -62,12 +58,11 @@ from apify_client import ApifyClient
 
 client = ApifyClient("<YOUR_APIFY_TOKEN>")
 run_input = {'vehicle_type': 'cars',
- 'makes': ['Toyota'],
- 'models': ['RAV4'],
+ 'body_types': ['pickup-truck'],
  'conditions': ['used'],
- 'model_year_from': 2019,
- 'postal_code': 'Toronto, ON',
- 'radius_km': '100',
+ 'price_to': 40000,
+ 'postal_code': 'Calgary, AB',
+ 'radius_km': '200',
  'max_items': 300}
 run = client.actor("fayoussef/autotrader-canada").call(run_input=run_input)
 
@@ -87,18 +82,15 @@ import { ApifyClient } from 'apify-client';
 const client = new ApifyClient({ token: '<YOUR_APIFY_TOKEN>' });
 const input = {
   "vehicle_type": "cars",
-  "makes": [
-    "Toyota"
-  ],
-  "models": [
-    "RAV4"
+  "body_types": [
+    "pickup-truck"
   ],
   "conditions": [
     "used"
   ],
-  "model_year_from": 2019,
-  "postal_code": "Toronto, ON",
-  "radius_km": "100",
+  "price_to": 40000,
+  "postal_code": "Calgary, AB",
+  "radius_km": "200",
   "max_items": 300
 };
 const run = await client.actor('fayoussef/autotrader-canada').call(input);
@@ -111,7 +103,7 @@ console.log(items);
 ```bash
 curl -X POST "https://api.apify.com/v2/acts/fayoussef~autotrader-canada/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>" \
   -H "Content-Type: application/json" \
-  -d '{"vehicle_type": "cars", "makes": ["Toyota"], "models": ["RAV4"], "conditions": ["used"], "model_year_from": 2019, "postal_code": "Toronto, ON", "radius_km": "100", "max_items": 300}'
+  -d '{"vehicle_type": "cars", "body_types": ["pickup-truck"], "conditions": ["used"], "price_to": 40000, "postal_code": "Calgary, AB", "radius_km": "200", "max_items": 300}'
 ```
 
 ### From AI agents (MCP)
@@ -169,7 +161,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 ## Related Car & Vehicle Scrapers
 
 - [CarGurus Scraper: US, Canada & UK Car Listings, VIN & Prices](cargurus-listings-scraper.md): Scrape CarGurus car listings from cargurus.com, .ca and .co.uk by search URL or ZIP code: price, deal rating, mileage, VIN, specs, dealer...
-- [AutoScout24 Scraper: Car Listings, Prices & Dealer Contacts](autoscout24.md): AutoScout24 car listings from autoscout24.de, .at, .fr, .it, .es, .nl, .be, .lu and .com: price, make, model, mileage, first registration...
+- [AutoScout24 Scraper: Car Listings, Price Drop Alerts & Dealers](autoscout24.md): Scrape AutoScout24 car listings from 9 European sites, or monitor a search: each scheduled run returns only new cars, price drops and sold...
 - [AutoTrader.ca Price Drop Monitor & Car Scraper](autotrader-ca.md): Monitor AutoTrader Canada searches and get only new listings, price drops and sold cars since the last run, with price history. Schedule it...
 - [Kijiji.ca Scraper: Autos, Real Estate & Classifieds](kijiji-scraper.md): Scrape Kijiji.ca listings from any search or ad URL: cars, real estate and every other category. Get price, location, phone number, specs...
 - [AutoTrader South Africa Price Drop Monitor and Scraper](autotrader-co-za-scraper.md): Track autotrader.co.za for new listings, price drops and sold cars, or scrape every listing with price, mileage, specs and dealer. Optional...
@@ -177,6 +169,6 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 65 actors](../README.md)
+- Full catalog: [all 66 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/autotrader-canada](https://automationbyexperts.com/apify/autotrader-canada?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/autotrader-canada.md](https://automationbyexperts.com/apify/autotrader-canada.md)

@@ -13,7 +13,11 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/tennis-abstract-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-16 |
+| Catalog updated | 2026-11-22 |
+
+## What you can do with Tennis Abstract Scraper: ATP & WTA Match Stats
+
+- **[ATP top 50: 2026 season match stats with serve stats](https://apify.com/fayoussef/tennis-abstract-scraper/examples/atp-top-50-2026-match-stats?fpr=youssef)**: Get every 2026 match of the current ATP top 50 from Tennis Abstract: score, opponent, ranks, tournament level and surface, plus aces, double faults, first and second serve won %, break points and dominance ratio for...
 
 ## How to use Tennis Abstract Scraper: ATP & WTA Match Stats
 
@@ -25,10 +29,13 @@
 
 ### Example input
 
-Open the input form on the Store page to see every field. An empty input runs the defaults.
-
 ```json
-{}
+{
+  "top_ranked": 50,
+  "date_from": "2026-01-01",
+  "only_with_stats": true,
+  "max_items": 1000
+}
 ```
 
 ### Python
@@ -41,7 +48,10 @@ pip install apify-client
 from apify_client import ApifyClient
 
 client = ApifyClient("<YOUR_APIFY_TOKEN>")
-run_input = {}
+run_input = {'top_ranked': 50,
+ 'date_from': '2026-01-01',
+ 'only_with_stats': True,
+ 'max_items': 1000}
 run = client.actor("fayoussef/tennis-abstract-scraper").call(run_input=run_input)
 
 for item in client.dataset(run["defaultDatasetId"]).iterate_items():
@@ -58,7 +68,12 @@ npm install apify-client
 import { ApifyClient } from 'apify-client';
 
 const client = new ApifyClient({ token: '<YOUR_APIFY_TOKEN>' });
-const input = {};
+const input = {
+  "top_ranked": 50,
+  "date_from": "2026-01-01",
+  "only_with_stats": true,
+  "max_items": 1000
+};
 const run = await client.actor('fayoussef/tennis-abstract-scraper').call(input);
 const { items } = await client.dataset(run.defaultDatasetId).listItems();
 console.log(items);
@@ -69,7 +84,7 @@ console.log(items);
 ```bash
 curl -X POST "https://api.apify.com/v2/acts/fayoussef~tennis-abstract-scraper/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>" \
   -H "Content-Type: application/json" \
-  -d '{}'
+  -d '{"top_ranked": 50, "date_from": "2026-01-01", "only_with_stats": true, "max_items": 1000}'
 ```
 
 ### From AI agents (MCP)
@@ -128,13 +143,13 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 - [Dataset Diff & Change Monitor: Only New Items From Any Actor](dataset-diff.md): Turn any Apify Actor, Task or dataset into a change monitor: get only the new, changed and removed items since the last run, deduplicated...
 - [VIES VAT Number Validator: Bulk EU VAT Check & Monitor](eu-vat-compliance-monitor.md): Bulk EU VAT number validation against VIES. Check a whole supplier or customer list, get the consultation number that proves you checked...
-- [Invoice & Utility Bill Data Extractor: Totals, kWh, Line Items](invoice-utility-bill-extractor.md): Bulk extract vendor, dates, totals, tax, kWh and line items from invoice and utility bill PDFs and photos. Auto-detects each document, runs...
 - [License Lookup & Verification: Bulk Contractor, Nurse, NPI](license-roster-monitor.md): Bulk professional license lookup and verification for contractors, nurses, electricians, real estate agents and healthcare providers (NPI)...
 - [USDA Report Watcher: New WASDE & ERS Data File Alerts](usda-report-watcher.md): Get every new or updated USDA data file the moment it is published: WASDE, ERS, NASS, AMS. Detects files still marked 'not yet available'...
 - [Website Change Monitor and Competitor Price Tracker](website-change-monitor.md): Monitor any web page for changes with a line-by-line diff, and track competitor prices: old price, new price and percent change for any...
+- [Invoice & Utility Bill Data Extractor: Totals, kWh, Line Items](invoice-utility-bill-extractor.md): Bulk extract vendor, dates, totals, tax, kWh and line items from invoice and utility bill PDFs and photos. Auto-detects each document, runs...
 
 ## More
 
-- Full catalog: [all 65 actors](../README.md)
+- Full catalog: [all 66 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/tennis-abstract-scraper](https://automationbyexperts.com/apify/tennis-abstract-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/tennis-abstract-scraper.md](https://automationbyexperts.com/apify/tennis-abstract-scraper.md)

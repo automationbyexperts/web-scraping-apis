@@ -13,7 +13,11 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/invoice-utility-bill-extractor?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-16 |
+| Catalog updated | 2026-11-22 |
+
+## What you can do with Invoice & Utility Bill Data Extractor: Totals, kWh, Line Items
+
+- **[Extract Invoice Data from PDFs to a Spreadsheet](https://apify.com/fayoussef/invoice-utility-bill-extractor/examples/extract-supplier-invoices-pdf-to-spreadsheet?fpr=youssef)**: Turn supplier invoice PDFs into one row each: vendor, invoice number, dates, subtotal, tax, total, currency and line items, with a confidence flag for anything to double-check.
 
 ## How to use Invoice & Utility Bill Data Extractor: Totals, kWh, Line Items
 
@@ -25,10 +29,19 @@
 
 ### Example input
 
-Open the input form on the Store page to see every field. An empty input runs the defaults.
-
 ```json
-{}
+{
+  "documentUrls": [
+    {
+      "url": "https://raw.githubusercontent.com/invoice-x/invoice2data/master/tests/compare/AzureInterior.pdf"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/invoice-x/invoice2data/master/tests/compare/QualityHosting.pdf"
+    }
+  ],
+  "documentType": "invoice",
+  "extractLineItems": true
+}
 ```
 
 ### Python
@@ -41,7 +54,10 @@ pip install apify-client
 from apify_client import ApifyClient
 
 client = ApifyClient("<YOUR_APIFY_TOKEN>")
-run_input = {}
+run_input = {'documentUrls': [{'url': 'https://raw.githubusercontent.com/invoice-x/invoice2data/master/tests/compare/AzureInterior.pdf'},
+                  {'url': 'https://raw.githubusercontent.com/invoice-x/invoice2data/master/tests/compare/QualityHosting.pdf'}],
+ 'documentType': 'invoice',
+ 'extractLineItems': True}
 run = client.actor("fayoussef/invoice-utility-bill-extractor").call(run_input=run_input)
 
 for item in client.dataset(run["defaultDatasetId"]).iterate_items():
@@ -58,7 +74,18 @@ npm install apify-client
 import { ApifyClient } from 'apify-client';
 
 const client = new ApifyClient({ token: '<YOUR_APIFY_TOKEN>' });
-const input = {};
+const input = {
+  "documentUrls": [
+    {
+      "url": "https://raw.githubusercontent.com/invoice-x/invoice2data/master/tests/compare/AzureInterior.pdf"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/invoice-x/invoice2data/master/tests/compare/QualityHosting.pdf"
+    }
+  ],
+  "documentType": "invoice",
+  "extractLineItems": true
+};
 const run = await client.actor('fayoussef/invoice-utility-bill-extractor').call(input);
 const { items } = await client.dataset(run.defaultDatasetId).listItems();
 console.log(items);
@@ -69,7 +96,7 @@ console.log(items);
 ```bash
 curl -X POST "https://api.apify.com/v2/acts/fayoussef~invoice-utility-bill-extractor/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>" \
   -H "Content-Type: application/json" \
-  -d '{}'
+  -d '{"documentUrls": [{"url": "https://raw.githubusercontent.com/invoice-x/invoice2data/master/tests/compare/AzureInterior.pdf"}, {"url": "https://raw.githubusercontent.com/invoice-x/invoice2data/master/tests/compare/QualityHosting.pdf"}], "documentType": "invoice", "extractLineItems": true}'
 ```
 
 ### From AI agents (MCP)
@@ -135,6 +162,6 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 65 actors](../README.md)
+- Full catalog: [all 66 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/invoice-utility-bill-extractor](https://automationbyexperts.com/apify/invoice-utility-bill-extractor?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/invoice-utility-bill-extractor.md](https://automationbyexperts.com/apify/invoice-utility-bill-extractor.md)

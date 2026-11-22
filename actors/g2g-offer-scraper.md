@@ -13,12 +13,11 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/g2g-offer-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-16 |
+| Catalog updated | 2026-11-22 |
 
 ## What you can do with G2G Price Monitor: Undercut & Price Drop Alerts
 
-- **[Track WoW Classic gold prices and sellers on G2G](https://apify.com/fayoussef/g2g-offer-scraper/examples/wow-classic-gold-prices-g2g?fpr=youssef)**: Reads every live WoW Classic gold offer on G2G.com and returns price per unit, minimum order, stock, delivery time, seller name, rating and completed orders across 78 fields. Schedule it hourly to build a price index of...
-- **[Monitor FC 26 coin prices across G2G sellers](https://apify.com/fayoussef/g2g-offer-scraper/examples/fc-26-coins-price-tracker?fpr=youssef)**: Collects all FC 26 coin offers on G2G with price, stock, delivery method and seller reputation so traders and sellers can see where the market sits before pricing their own stock. The full view carries every field G2G...
+- **[Get alerted when someone undercuts your WoW gold on G2G](https://apify.com/fayoussef/g2g-offer-scraper/examples/wow-classic-gold-undercut-alert-g2g?fpr=youssef)**: Watch one WoW Classic realm on G2G and get a row the moment a seller undercuts you, a price drops or a new offer appears. Enter your G2G username to track your rank and who sits below you. Schedule it hourly and add a...
 
 ## How to use G2G Price Monitor: Undercut & Price Drop Alerts
 
@@ -33,9 +32,13 @@
 ```json
 {
   "urls": [
-    "https://www.g2g.com/categories/wow-classic-gold"
+    "https://www.g2g.com/categories/wow-classic-gold/offer/group?fa=lgc_29076_platform:lgc_29076_platform_59298"
   ],
-  "maxItems": 500
+  "maxItems": 200,
+  "monitorMode": true,
+  "watchWindow": 50,
+  "minChangePercent": 2,
+  "reportNewOffers": true
 }
 ```
 
@@ -49,7 +52,12 @@ pip install apify-client
 from apify_client import ApifyClient
 
 client = ApifyClient("<YOUR_APIFY_TOKEN>")
-run_input = {'urls': ['https://www.g2g.com/categories/wow-classic-gold'], 'maxItems': 500}
+run_input = {'urls': ['https://www.g2g.com/categories/wow-classic-gold/offer/group?fa=lgc_29076_platform:lgc_29076_platform_59298'],
+ 'maxItems': 200,
+ 'monitorMode': True,
+ 'watchWindow': 50,
+ 'minChangePercent': 2,
+ 'reportNewOffers': True}
 run = client.actor("fayoussef/g2g-offer-scraper").call(run_input=run_input)
 
 for item in client.dataset(run["defaultDatasetId"]).iterate_items():
@@ -68,9 +76,13 @@ import { ApifyClient } from 'apify-client';
 const client = new ApifyClient({ token: '<YOUR_APIFY_TOKEN>' });
 const input = {
   "urls": [
-    "https://www.g2g.com/categories/wow-classic-gold"
+    "https://www.g2g.com/categories/wow-classic-gold/offer/group?fa=lgc_29076_platform:lgc_29076_platform_59298"
   ],
-  "maxItems": 500
+  "maxItems": 200,
+  "monitorMode": true,
+  "watchWindow": 50,
+  "minChangePercent": 2,
+  "reportNewOffers": true
 };
 const run = await client.actor('fayoussef/g2g-offer-scraper').call(input);
 const { items } = await client.dataset(run.defaultDatasetId).listItems();
@@ -82,7 +94,7 @@ console.log(items);
 ```bash
 curl -X POST "https://api.apify.com/v2/acts/fayoussef~g2g-offer-scraper/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>" \
   -H "Content-Type: application/json" \
-  -d '{"urls": ["https://www.g2g.com/categories/wow-classic-gold"], "maxItems": 500}'
+  -d '{"urls": ["https://www.g2g.com/categories/wow-classic-gold/offer/group?fa=lgc_29076_platform:lgc_29076_platform_59298"], "maxItems": 200, "monitorMode": true, "watchWindow": 50, "minChangePercent": 2, "reportNewOffers": true}'
 ```
 
 ### From AI agents (MCP)
@@ -148,6 +160,6 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 65 actors](../README.md)
+- Full catalog: [all 66 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/g2g-offer-scraper](https://automationbyexperts.com/apify/g2g-offer-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/g2g-offer-scraper.md](https://automationbyexperts.com/apify/g2g-offer-scraper.md)

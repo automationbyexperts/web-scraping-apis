@@ -13,12 +13,7 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/brand-abuse-counterfeit-detector?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-16 |
-
-## What you can do with Brand Protection: Fake Shop, Counterfeit & Typosquat Finder
-
-- **[Find fake webshops selling your brand](https://apify.com/fayoussef/brand-abuse-counterfeit-detector/examples/fake-shops-selling-your-brand?fpr=youssef)**: Sweeps search results and marketplaces for storefronts and listings trading on the Ray-Ban name and its best known models, screens each with AI for counterfeit and fake shop signals, and returns only hits at or above a...
-- **[Sweep for typosquat domains impersonating your brand](https://apify.com/fayoussef/brand-abuse-counterfeit-detector/examples/typosquat-domain-sweep?fpr=youssef)**: Generates 200 misspellings, character swaps, hyphenations and alternative TLDs of your official domain, checks which ones are registered and live, and has AI judge whether each one impersonates the brand. The output is...
+| Catalog updated | 2026-11-22 |
 
 ## How to use Brand Protection: Fake Shop, Counterfeit & Typosquat Finder
 
@@ -30,24 +25,10 @@
 
 ### Example input
 
+Open the input form on the Store page to see every field. An empty input runs the defaults.
+
 ```json
-{
-  "brandName": "Ray-Ban",
-  "officialDomains": [
-    "ray-ban.com"
-  ],
-  "checks": [
-    "fake_shops",
-    "marketplace_listings"
-  ],
-  "productKeywords": [
-    "Wayfarer",
-    "Aviator"
-  ],
-  "minRiskScore": 60,
-  "maxCandidates": 120,
-  "countryCode": "us"
-}
+{}
 ```
 
 ### Python
@@ -60,13 +41,7 @@ pip install apify-client
 from apify_client import ApifyClient
 
 client = ApifyClient("<YOUR_APIFY_TOKEN>")
-run_input = {'brandName': 'Ray-Ban',
- 'officialDomains': ['ray-ban.com'],
- 'checks': ['fake_shops', 'marketplace_listings'],
- 'productKeywords': ['Wayfarer', 'Aviator'],
- 'minRiskScore': 60,
- 'maxCandidates': 120,
- 'countryCode': 'us'}
+run_input = {}
 run = client.actor("fayoussef/brand-abuse-counterfeit-detector").call(run_input=run_input)
 
 for item in client.dataset(run["defaultDatasetId"]).iterate_items():
@@ -83,23 +58,7 @@ npm install apify-client
 import { ApifyClient } from 'apify-client';
 
 const client = new ApifyClient({ token: '<YOUR_APIFY_TOKEN>' });
-const input = {
-  "brandName": "Ray-Ban",
-  "officialDomains": [
-    "ray-ban.com"
-  ],
-  "checks": [
-    "fake_shops",
-    "marketplace_listings"
-  ],
-  "productKeywords": [
-    "Wayfarer",
-    "Aviator"
-  ],
-  "minRiskScore": 60,
-  "maxCandidates": 120,
-  "countryCode": "us"
-};
+const input = {};
 const run = await client.actor('fayoussef/brand-abuse-counterfeit-detector').call(input);
 const { items } = await client.dataset(run.defaultDatasetId).listItems();
 console.log(items);
@@ -110,7 +69,7 @@ console.log(items);
 ```bash
 curl -X POST "https://api.apify.com/v2/acts/fayoussef~brand-abuse-counterfeit-detector/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>" \
   -H "Content-Type: application/json" \
-  -d '{"brandName": "Ray-Ban", "officialDomains": ["ray-ban.com"], "checks": ["fake_shops", "marketplace_listings"], "productKeywords": ["Wayfarer", "Aviator"], "minRiskScore": 60, "maxCandidates": 120, "countryCode": "us"}'
+  -d '{}'
 ```
 
 ### From AI agents (MCP)
@@ -174,6 +133,6 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 65 actors](../README.md)
+- Full catalog: [all 66 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/brand-abuse-counterfeit-detector](https://automationbyexperts.com/apify/brand-abuse-counterfeit-detector?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/brand-abuse-counterfeit-detector.md](https://automationbyexperts.com/apify/brand-abuse-counterfeit-detector.md)

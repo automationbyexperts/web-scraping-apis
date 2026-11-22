@@ -14,13 +14,11 @@
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/bulk-llm-runner?fpr=youssef)) |
 | Rating | 5.0 out of 5 (2 reviews) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-16 |
+| Catalog updated | 2026-11-22 |
 
 ## What you can do with 350+ AI Models: Run ChatGPT, Claude, Gemini in Bulk
 
-- **[Write SEO product descriptions in bulk](https://apify.com/fayoussef/bulk-llm-runner/examples/seo-product-descriptions-in-bulk?fpr=youssef)**: Feed it one line per product and get back a structured description for each: a short benefit led paragraph, a set of feature bullets and a meta description. Output arrives as JSON columns you can paste straight into a...
-- **[Classify and tag customer reviews at scale](https://apify.com/fayoussef/bulk-llm-runner/examples/classify-customer-reviews?fpr=youssef)**: Runs every review through the same rubric and returns sentiment, a topic tag, an urgency flag and a one line summary as separate columns. Temperature is held low so the labels stay consistent across the batch, which is...
-- **[Compare GPT, Claude and Gemini side by side](https://apify.com/fayoussef/bulk-llm-runner/examples/compare-gpt-claude-gemini-answers?fpr=youssef)**: Sends the same prompts to GPT-5, Claude Sonnet 5, Gemini 3.8 Flash and Perplexity Sonar, then returns one row per model per prompt with the answer, the cost and the token count. Use it to pick a model on evidence from...
+- **[Run a ChatGPT prompt for every row of a Google Sheet](https://apify.com/fayoussef/bulk-llm-runner/examples/run-chatgpt-prompts-from-google-sheet?fpr=youssef)**: Have a Google Sheet or Excel file with one ChatGPT prompt per SKU, product or row? Paste the link and every prompt runs exactly as written with GPT-5 Mini, no copy-pasting into ChatGPT one by one. You get your sheet...
 
 ## How to use 350+ AI Models: Run ChatGPT, Claude, Gemini in Bulk
 
@@ -34,18 +32,16 @@
 
 ```json
 {
+  "spreadsheet_file": "https://api.apify.com/v2/key-value-stores/I40EWpLzQaVq08gCm/records/sku-chatgpt-prompts-sample.csv",
   "prompts": [
-    "Product: Patagonia Nano Puff insulated jacket. Write a 60 word benefit led description, 4 feature bullets, and a 155 character meta description.",
-    "Product: Hydro Flask 32oz wide mouth water bottle. Write a 60 word benefit led description, 4 feature bullets, and a 155 character meta description.",
-    "Product: Anker 737 140W USB-C power bank. Write a 60 word benefit led description, 4 feature bullets, and a 155 character meta description.",
-    "Product: Brooks Ghost 16 neutral running shoe. Write a 60 word benefit led description, 4 feature bullets, and a 155 character meta description."
+    "{{Prompt}}"
   ],
-  "system_prompt": "You are a senior ecommerce SEO copywriter. Write in plain, concrete language. Never invent specifications you were not given. Return the keys description, bullets and meta_description.",
-  "model": "anthropic/claude-haiku-4.5",
-  "response_format": "json_object",
+  "model": "openai/gpt-5-mini",
   "enable_web_search": false,
-  "temperature": 60,
-  "concurrency": 4
+  "response_format": "text",
+  "reasoning_effort": "low",
+  "concurrency": 4,
+  "system_prompt": "You are an ecommerce copywriter. Follow each prompt exactly as written and return only the finished copy, with no preamble, headings or notes."
 }
 ```
 
@@ -59,25 +55,16 @@ pip install apify-client
 from apify_client import ApifyClient
 
 client = ApifyClient("<YOUR_APIFY_TOKEN>")
-run_input = {'prompts': ['Product: Patagonia Nano Puff insulated jacket. Write a 60 word benefit '
-             'led description, 4 feature bullets, and a 155 character meta '
-             'description.',
-             'Product: Hydro Flask 32oz wide mouth water bottle. Write a 60 word '
-             'benefit led description, 4 feature bullets, and a 155 character meta '
-             'description.',
-             'Product: Anker 737 140W USB-C power bank. Write a 60 word benefit led '
-             'description, 4 feature bullets, and a 155 character meta description.',
-             'Product: Brooks Ghost 16 neutral running shoe. Write a 60 word benefit '
-             'led description, 4 feature bullets, and a 155 character meta '
-             'description.'],
- 'system_prompt': 'You are a senior ecommerce SEO copywriter. Write in plain, concrete '
-                  'language. Never invent specifications you were not given. Return '
-                  'the keys description, bullets and meta_description.',
- 'model': 'anthropic/claude-haiku-4.5',
- 'response_format': 'json_object',
+run_input = {'spreadsheet_file': 'https://api.apify.com/v2/key-value-stores/I40EWpLzQaVq08gCm/records/sku-chatgpt-prompts-sample.csv',
+ 'prompts': ['{{Prompt}}'],
+ 'model': 'openai/gpt-5-mini',
  'enable_web_search': False,
- 'temperature': 60,
- 'concurrency': 4}
+ 'response_format': 'text',
+ 'reasoning_effort': 'low',
+ 'concurrency': 4,
+ 'system_prompt': 'You are an ecommerce copywriter. Follow each prompt exactly as '
+                  'written and return only the finished copy, with no preamble, '
+                  'headings or notes.'}
 run = client.actor("fayoussef/bulk-llm-runner").call(run_input=run_input)
 
 for item in client.dataset(run["defaultDatasetId"]).iterate_items():
@@ -95,18 +82,16 @@ import { ApifyClient } from 'apify-client';
 
 const client = new ApifyClient({ token: '<YOUR_APIFY_TOKEN>' });
 const input = {
+  "spreadsheet_file": "https://api.apify.com/v2/key-value-stores/I40EWpLzQaVq08gCm/records/sku-chatgpt-prompts-sample.csv",
   "prompts": [
-    "Product: Patagonia Nano Puff insulated jacket. Write a 60 word benefit led description, 4 feature bullets, and a 155 character meta description.",
-    "Product: Hydro Flask 32oz wide mouth water bottle. Write a 60 word benefit led description, 4 feature bullets, and a 155 character meta description.",
-    "Product: Anker 737 140W USB-C power bank. Write a 60 word benefit led description, 4 feature bullets, and a 155 character meta description.",
-    "Product: Brooks Ghost 16 neutral running shoe. Write a 60 word benefit led description, 4 feature bullets, and a 155 character meta description."
+    "{{Prompt}}"
   ],
-  "system_prompt": "You are a senior ecommerce SEO copywriter. Write in plain, concrete language. Never invent specifications you were not given. Return the keys description, bullets and meta_description.",
-  "model": "anthropic/claude-haiku-4.5",
-  "response_format": "json_object",
+  "model": "openai/gpt-5-mini",
   "enable_web_search": false,
-  "temperature": 60,
-  "concurrency": 4
+  "response_format": "text",
+  "reasoning_effort": "low",
+  "concurrency": 4,
+  "system_prompt": "You are an ecommerce copywriter. Follow each prompt exactly as written and return only the finished copy, with no preamble, headings or notes."
 };
 const run = await client.actor('fayoussef/bulk-llm-runner').call(input);
 const { items } = await client.dataset(run.defaultDatasetId).listItems();
@@ -118,7 +103,7 @@ console.log(items);
 ```bash
 curl -X POST "https://api.apify.com/v2/acts/fayoussef~bulk-llm-runner/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>" \
   -H "Content-Type: application/json" \
-  -d '{"prompts": ["Product: Patagonia Nano Puff insulated jacket. Write a 60 word benefit led description, 4 feature bullets, and a 155 character meta description.", "Product: Hydro Flask 32oz wide mouth water bottle. Write a 60 word benefit led description, 4 feature bullets, and a 155 character meta description.", "Product: Anker 737 140W USB-C power bank. Write a 60 word benefit led description, 4 feature bullets, and a 155 character meta description.", "Product: Brooks Ghost 16 neutral running shoe. Write a 60 word benefit led description, 4 feature bullets, and a 155 character meta description."], "system_prompt": "You are a senior ecommerce SEO copywriter. Write in plain, concrete language. Never invent specifications you were not given. Return the keys description, bullets and meta_description.", "model": "anthropic/claude-haiku-4.5", "response_format": "json_object", "enable_web_search": false, "temperature": 60, "concurrency": 4}'
+  -d '{"spreadsheet_file": "https://api.apify.com/v2/key-value-stores/I40EWpLzQaVq08gCm/records/sku-chatgpt-prompts-sample.csv", "prompts": ["{{Prompt}}"], "model": "openai/gpt-5-mini", "enable_web_search": false, "response_format": "text", "reasoning_effort": "low", "concurrency": 4, "system_prompt": "You are an ecommerce copywriter. Follow each prompt exactly as written and return only the finished copy, with no preamble, headings or notes."}'
 ```
 
 ### From AI agents (MCP)
@@ -155,12 +140,12 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## Related Bulk AI Tools
 
-- [Bulk AI Image Generator & Editor: Nano Banana, GPT Image](bulk-ai-image-generator.md): Generate hundreds of AI images from prompts or an Excel/CSV file, or edit your own product photos in bulk: white or transparent background...
+- [Bulk AI Image Generator & Photo Editor: Nano Banana Pro](bulk-ai-image-generator.md): Generate hundreds of AI images from prompts or an Excel/CSV file, or edit your own product photos in bulk: white or transparent background...
 - [Bulk Text to Speech: MP3 + SRT Subtitles | No API Key](bulk-text-to-speech.md): Convert texts or an Excel/CSV file into MP3 voiceovers with perfectly timed SRT/VTT subtitles. 322 neural voices in 75 languages...
 - [Translate Excel, CSV & Websites in Bulk with AI | No API Key](bulk-ai-translator.md): Translate Excel, CSV and Google Sheets files, whole websites, PDFs and SRT/VTT subtitles into 42 languages in one run, and get the same...
 
 ## More
 
-- Full catalog: [all 65 actors](../README.md)
+- Full catalog: [all 66 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/bulk-llm-runner](https://automationbyexperts.com/apify/bulk-llm-runner?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/bulk-llm-runner.md](https://automationbyexperts.com/apify/bulk-llm-runner.md)

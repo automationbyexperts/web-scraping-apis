@@ -13,13 +13,12 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/whop-clipping-campaigns-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-16 |
+| Catalog updated | 2026-11-22 |
 
 ## What you can do with Whop Scraper: Content Rewards, Clipping & UGC Campaigns
 
 - **[Find the highest paying clipping campaigns on Whop](https://apify.com/fayoussef/whop-clipping-campaigns-scraper/examples/high-paying-clipping-campaigns?fpr=youssef)**: Lists every live Whop Content Rewards campaign paying at least 2 dollars per 1,000 views with more than 1,000 dollars of budget still unspent, sorted by reward. Use it to pick the campaigns where a clip actually gets...
 - **[Find low competition TikTok clipping campaigns](https://apify.com/fayoussef/whop-clipping-campaigns-scraper/examples/low-competition-tiktok-clipping-campaigns?fpr=youssef)**: Filters Whop Content Rewards down to TikTok campaigns with 50 or fewer creators already submitting and no application step, so you can start clipping today and compete for views against a small pool. Sorted by fewest...
-- **[Get alerted when new Whop campaigns launch](https://apify.com/fayoussef/whop-clipping-campaigns-scraper/examples/new-content-rewards-campaigns-alert?fpr=youssef)**: Monitoring mode: each run returns only the campaigns that were not in the previous run, so a daily schedule becomes an alert feed for fresh clipping and UGC campaigns. Pair it with the Apify Slack or email integration...
 
 ## How to use Whop Scraper: Content Rewards, Clipping & UGC Campaigns
 
@@ -99,6 +98,22 @@ https://mcp.apify.com?tools=fayoussef/whop-clipping-campaigns-scraper
 
 Your Apify API token is under **Settings > API & Integrations** in the [Apify Console](https://console.apify.com/settings/integrations?fpr=youssef).
 
+### From AI agents with no Apify account (x402 or Skyfire)
+
+This actor accepts [agentic payments](../agentic-payments.md): an AI agent can run it and pay per run with USDC (x402) or a Skyfire token, with no Apify account.
+
+```bash
+# x402: TOKEN is the prepaid token bought from Apify AGI with USDC on Base
+curl -X POST "https://api.apify.com/v2/acts/fayoussef~whop-clipping-campaigns-scraper/run-sync-get-dataset-items" \
+  -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" -d '{}'
+
+# Skyfire: send the PAY token instead
+curl -X POST "https://api.apify.com/v2/acts/fayoussef~whop-clipping-campaigns-scraper/run-sync-get-dataset-items" \
+  -H "skyfire-pay-id: $SKYFIRE_PAY_TOKEN" -H "Content-Type: application/json" -d '{}'
+```
+
+With MCP and Skyfire: `https://mcp.apify.com?payment=skyfire&tools=fayoussef/whop-clipping-campaigns-scraper`
+
 ## FAQ
 
 ### Is Whop Scraper: Content Rewards, Clipping & UGC Campaigns free to try?
@@ -117,6 +132,10 @@ JSON, CSV, Excel, XML and HTML from the Console, or directly through the Apify A
 
 Yes. Connect the Apify MCP server with `https://mcp.apify.com?tools=fayoussef/whop-clipping-campaigns-scraper` and Claude, ChatGPT, Cursor or any MCP client can run it and read the results.
 
+### Can an AI agent run it without an Apify account?
+
+Yes. This actor accepts agentic payments: an agent can pay per run with USDC through the x402 protocol, or with a Skyfire PAY token, and no Apify account is needed. See [AI agents and x402 payments](../agentic-payments.md).
+
 ### Can I get a custom version?
 
 Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24@gmail.com or visit [AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis).
@@ -126,12 +145,12 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 - [Journalist Request Finder: HARO Alternative for Digital PR](journalist-request-finder.md): Find live journalist source requests in one feed, pulled from SourceBottle call-outs and #journorequest posts on Bluesky and Mastodon...
 - [Canada411 Scraper: Phone Numbers, Names & Addresses](canada411-ca.md): Scrape Canada411.ca, Canada's phone directory: names, phone numbers and full addresses for businesses and people. Search by name or...
 - [GitHub Developer Lead Finder & Email Enricher](github-developer-leads.md): Find developers on GitHub and enrich each one with verified email, company, location, skills, and social links for recruiting and B2B...
-- [Luma Events Scraper: New Event Alerts & Organizer Leads](luma-events-scraper.md): Get alerted to new Luma (lu.ma) events in your city or calendar, with the organizer's Instagram, LinkedIn, TikTok, X and YouTube handles...
 - [Kijiji Dealer & Business Leads: Phones, Websites, Addresses](kijiji-business-leads.md): Turn any Kijiji.ca search into a B2B lead list: one row per dealer, property manager or local business, with phone, website, address...
+- [Luma Events Scraper: New Event Alerts & Organizer Leads](luma-events-scraper.md): Get alerted to new Luma (lu.ma) events in your city or calendar, with the organizer's Instagram, LinkedIn, TikTok, X and YouTube handles...
 - [Naukrigulf Jobs Scraper: UAE, Saudi & Gulf Jobs, 12 Languages](naukrigulf-scraper.md): Scrape Naukrigulf jobs in Dubai, the UAE, Saudi Arabia, Qatar, Kuwait, Bahrain and Oman. Search in Arabic, Hindi, Malayalam, Tagalog and 8...
 
 ## More
 
-- Full catalog: [all 65 actors](../README.md)
+- Full catalog: [all 66 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/whop-clipping-campaigns-scraper](https://automationbyexperts.com/apify/whop-clipping-campaigns-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/whop-clipping-campaigns-scraper.md](https://automationbyexperts.com/apify/whop-clipping-campaigns-scraper.md)

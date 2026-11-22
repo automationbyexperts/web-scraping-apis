@@ -14,7 +14,11 @@
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/rentfaster-scraper?fpr=youssef)) |
 | Rating | 5.0 out of 5 (1 reviews) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-16 |
+| Catalog updated | 2026-11-22 |
+
+## What you can do with RentFaster Scraper: Canada Rentals, Rents & Landlord Phones
+
+- **[Calgary 2-Bedroom Rentals with Landlord Phone Numbers](https://apify.com/fayoussef/rentfaster-scraper/examples/calgary-2-bedroom-rentals-landlord-phones?fpr=youssef)**: Export every 2-bedroom apartment, condo, house and townhouse for rent in Calgary from RentFaster.ca: monthly rent, bathrooms, square feet, address, neighbourhood, GPS, utilities included, pets, and the landlord or...
 
 ## How to use RentFaster Scraper: Canada Rentals, Rents & Landlord Phones
 
@@ -26,10 +30,16 @@
 
 ### Example input
 
-Open the input form on the Store page to see every field. An empty input runs the defaults.
-
 ```json
-{}
+{
+  "cities": [
+    "Calgary"
+  ],
+  "bedrooms": [
+    "2"
+  ],
+  "max_items": 200
+}
 ```
 
 ### Python
@@ -42,7 +52,7 @@ pip install apify-client
 from apify_client import ApifyClient
 
 client = ApifyClient("<YOUR_APIFY_TOKEN>")
-run_input = {}
+run_input = {'cities': ['Calgary'], 'bedrooms': ['2'], 'max_items': 200}
 run = client.actor("fayoussef/rentfaster-scraper").call(run_input=run_input)
 
 for item in client.dataset(run["defaultDatasetId"]).iterate_items():
@@ -59,7 +69,15 @@ npm install apify-client
 import { ApifyClient } from 'apify-client';
 
 const client = new ApifyClient({ token: '<YOUR_APIFY_TOKEN>' });
-const input = {};
+const input = {
+  "cities": [
+    "Calgary"
+  ],
+  "bedrooms": [
+    "2"
+  ],
+  "max_items": 200
+};
 const run = await client.actor('fayoussef/rentfaster-scraper').call(input);
 const { items } = await client.dataset(run.defaultDatasetId).listItems();
 console.log(items);
@@ -70,7 +88,7 @@ console.log(items);
 ```bash
 curl -X POST "https://api.apify.com/v2/acts/fayoussef~rentfaster-scraper/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>" \
   -H "Content-Type: application/json" \
-  -d '{}'
+  -d '{"cities": ["Calgary"], "bedrooms": ["2"], "max_items": 200}'
 ```
 
 ### From AI agents (MCP)
@@ -130,12 +148,12 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 - [Spitogatos Scraper: Greece Real Estate Listings & Agent Phones](spitogatos-scraper.md): Scrape Greece real estate listings from Spitogatos.gr, the country's largest property portal. Homes, land and commercial property for sale...
 - [XE.gr Greek Property Scraper](xe-gr-scraper.md): Scrape Greek real estate listings from XE.gr: prices, size, rooms, GPS coordinates, amenities, photos and phone numbers. Owners-only mode...
 - [Centris.ca Scraper: Quebec Real Estate Listings & Photos](centris-property-scraper.md): Scrape Centris.ca real estate listings into clean structured data: MLS number, price, full address, rooms, bedrooms, bathrooms, the full...
-- [XE.gr Price Drop Alerts: Greek Property Price Cuts & Relists](xe-gr-price-drop-radar.md): Watch any XE.gr search and get only what changed: price cuts with percent and days on market, ads re-posted to look new, and homes priced...
-- [Fotocasa Scraper: Spain Property Listings, Agency Phones](fotocasa-scraper.md): Scrape property listings from Fotocasa.es, one of Spain's biggest real estate portals. Filter by province, city, price, rooms and size...
+- [Plot.gr Scraper: Greek Real Estate Listings with Agent Phones](plot-gr-scraper.md): Scrape plot.gr property listings in Greece: apartments, houses, land and commercial, for sale or rent. Prices, area, bedrooms, coordinates...
+- [Spiti24.gr Scraper: Greek Property Listings with Agent Phones](spiti24-scraper.md): Scrape spiti24.gr property listings in Greece: apartments, houses, land and commercial, for sale or rent. Prices, size, rooms, energy...
 - [Cyprus Property Alerts: New Listings and Price Drops](spitogatos-cy-scraper.md): Get alerted to new Cyprus property listings and price drops on Spitogatos.com.cy, with webhook or Telegram alerts. Also scrapes listings...
 
 ## More
 
-- Full catalog: [all 65 actors](../README.md)
+- Full catalog: [all 66 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/rentfaster-scraper](https://automationbyexperts.com/apify/rentfaster-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/rentfaster-scraper.md](https://automationbyexperts.com/apify/rentfaster-scraper.md)

@@ -13,11 +13,10 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/github-developer-leads?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-16 |
+| Catalog updated | 2026-11-22 |
 
 ## What you can do with GitHub Developer Lead Finder & Email Enricher
 
-- **[Build an outreach list of React contributors](https://apify.com/fayoussef/github-developer-leads/examples/react-contributors-outreach-list?fpr=youssef)**: Lists the contributors to facebook/react, finds each one's email from public commits, and enriches the profile with inferred tech stack, total stars and hireable flag. DevRel teams and dev tool founders use it to reach...
 - **[Find TypeScript developers in London with emails](https://apify.com/fayoussef/github-developer-leads/examples/typescript-developers-london-with-emails?fpr=youssef)**: Searches GitHub for TypeScript developers located in London with more than 100 followers, mines their public commit history for a contactable email, and keeps only profiles where one was found. Each lead carries...
 
 ## How to use GitHub Developer Lead Finder & Email Enricher
@@ -32,10 +31,8 @@
 
 ```json
 {
-  "searchType": "contributors",
-  "repositories": [
-    "facebook/react"
-  ],
+  "searchType": "users",
+  "searchQuery": "language:TypeScript location:London followers:>100",
   "maxItems": 200,
   "extractEmails": true,
   "onlyWithEmail": true,
@@ -53,8 +50,8 @@ pip install apify-client
 from apify_client import ApifyClient
 
 client = ApifyClient("<YOUR_APIFY_TOKEN>")
-run_input = {'searchType': 'contributors',
- 'repositories': ['facebook/react'],
+run_input = {'searchType': 'users',
+ 'searchQuery': 'language:TypeScript location:London followers:>100',
  'maxItems': 200,
  'extractEmails': True,
  'onlyWithEmail': True,
@@ -76,10 +73,8 @@ import { ApifyClient } from 'apify-client';
 
 const client = new ApifyClient({ token: '<YOUR_APIFY_TOKEN>' });
 const input = {
-  "searchType": "contributors",
-  "repositories": [
-    "facebook/react"
-  ],
+  "searchType": "users",
+  "searchQuery": "language:TypeScript location:London followers:>100",
   "maxItems": 200,
   "extractEmails": true,
   "onlyWithEmail": true,
@@ -95,7 +90,7 @@ console.log(items);
 ```bash
 curl -X POST "https://api.apify.com/v2/acts/fayoussef~github-developer-leads/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>" \
   -H "Content-Type: application/json" \
-  -d '{"searchType": "contributors", "repositories": ["facebook/react"], "maxItems": 200, "extractEmails": true, "onlyWithEmail": true, "enrichStats": true}'
+  -d '{"searchType": "users", "searchQuery": "language:TypeScript location:London followers:>100", "maxItems": 200, "extractEmails": true, "onlyWithEmail": true, "enrichStats": true}'
 ```
 
 ### From AI agents (MCP)
@@ -155,12 +150,12 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 - [Journalist Request Finder: HARO Alternative for Digital PR](journalist-request-finder.md): Find live journalist source requests in one feed, pulled from SourceBottle call-outs and #journorequest posts on Bluesky and Mastodon...
 - [Canada411 Scraper: Phone Numbers, Names & Addresses](canada411-ca.md): Scrape Canada411.ca, Canada's phone directory: names, phone numbers and full addresses for businesses and people. Search by name or...
 - [Whop Scraper: Content Rewards, Clipping & UGC Campaigns](whop-clipping-campaigns-scraper.md): Scrape the Whop Content Rewards directory: reward per 1K views, budget left, burn rate, platforms, payout type and campaign URLs. Builds a...
-- [Luma Events Scraper: New Event Alerts & Organizer Leads](luma-events-scraper.md): Get alerted to new Luma (lu.ma) events in your city or calendar, with the organizer's Instagram, LinkedIn, TikTok, X and YouTube handles...
 - [Kijiji Dealer & Business Leads: Phones, Websites, Addresses](kijiji-business-leads.md): Turn any Kijiji.ca search into a B2B lead list: one row per dealer, property manager or local business, with phone, website, address...
+- [Luma Events Scraper: New Event Alerts & Organizer Leads](luma-events-scraper.md): Get alerted to new Luma (lu.ma) events in your city or calendar, with the organizer's Instagram, LinkedIn, TikTok, X and YouTube handles...
 - [Naukrigulf Jobs Scraper: UAE, Saudi & Gulf Jobs, 12 Languages](naukrigulf-scraper.md): Scrape Naukrigulf jobs in Dubai, the UAE, Saudi Arabia, Qatar, Kuwait, Bahrain and Oman. Search in Arabic, Hindi, Malayalam, Tagalog and 8...
 
 ## More
 
-- Full catalog: [all 65 actors](../README.md)
+- Full catalog: [all 66 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/github-developer-leads](https://automationbyexperts.com/apify/github-developer-leads?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/github-developer-leads.md](https://automationbyexperts.com/apify/github-developer-leads.md)

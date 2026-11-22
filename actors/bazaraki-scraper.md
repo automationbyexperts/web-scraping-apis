@@ -13,7 +13,11 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/bazaraki-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-16 |
+| Catalog updated | 2026-11-22 |
+
+## What you can do with Bazaraki Scraper: Cyprus Property, Cars & Classifieds
+
+- **[Limassol Apartments for Rent: Rents, Size and Location](https://apify.com/fayoussef/bazaraki-scraper/examples/limassol-apartments-for-rent?fpr=youssef)**: Scrape every apartment for rent in Limassol, Cyprus from Bazaraki: monthly rent, bedrooms, bathrooms, m², furnishing, pets, energy class, locality (Germasogeia, Agios Tychonas...), GPS, photos and whether the landlord...
 
 ## How to use Bazaraki Scraper: Cyprus Property, Cars & Classifieds
 
@@ -25,10 +29,18 @@
 
 ### Example input
 
-Open the input form on the Store page to see every field. An empty input runs the defaults.
-
 ```json
-{}
+{
+  "categories": [
+    "real-estate-to-rent/apartments-flats"
+  ],
+  "cities": [
+    "Limassol"
+  ],
+  "sort": "newest",
+  "max_items": 200,
+  "fetch_details": true
+}
 ```
 
 ### Python
@@ -41,7 +53,11 @@ pip install apify-client
 from apify_client import ApifyClient
 
 client = ApifyClient("<YOUR_APIFY_TOKEN>")
-run_input = {}
+run_input = {'categories': ['real-estate-to-rent/apartments-flats'],
+ 'cities': ['Limassol'],
+ 'sort': 'newest',
+ 'max_items': 200,
+ 'fetch_details': True}
 run = client.actor("fayoussef/bazaraki-scraper").call(run_input=run_input)
 
 for item in client.dataset(run["defaultDatasetId"]).iterate_items():
@@ -58,7 +74,17 @@ npm install apify-client
 import { ApifyClient } from 'apify-client';
 
 const client = new ApifyClient({ token: '<YOUR_APIFY_TOKEN>' });
-const input = {};
+const input = {
+  "categories": [
+    "real-estate-to-rent/apartments-flats"
+  ],
+  "cities": [
+    "Limassol"
+  ],
+  "sort": "newest",
+  "max_items": 200,
+  "fetch_details": true
+};
 const run = await client.actor('fayoussef/bazaraki-scraper').call(input);
 const { items } = await client.dataset(run.defaultDatasetId).listItems();
 console.log(items);
@@ -69,7 +95,7 @@ console.log(items);
 ```bash
 curl -X POST "https://api.apify.com/v2/acts/fayoussef~bazaraki-scraper/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>" \
   -H "Content-Type: application/json" \
-  -d '{}'
+  -d '{"categories": ["real-estate-to-rent/apartments-flats"], "cities": ["Limassol"], "sort": "newest", "max_items": 200, "fetch_details": true}'
 ```
 
 ### From AI agents (MCP)
@@ -135,6 +161,6 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 65 actors](../README.md)
+- Full catalog: [all 66 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/bazaraki-scraper](https://automationbyexperts.com/apify/bazaraki-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/bazaraki-scraper.md](https://automationbyexperts.com/apify/bazaraki-scraper.md)

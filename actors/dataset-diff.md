@@ -13,12 +13,7 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/dataset-diff?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-16 |
-
-## What you can do with Dataset Diff & Change Monitor: Only New Items From Any Actor
-
-- **[Get only new places from a Google Maps scraper run](https://apify.com/fayoussef/dataset-diff/examples/new-google-maps-places-only?fpr=youssef)**: Chains after the Google Maps Scraper on your account and returns only the places that were not in its previous run, keyed on placeId, instead of the full list every time. The first run records a baseline and reports...
-- **[Get price change alerts from any Actor's dataset](https://apify.com/fayoussef/dataset-diff/examples/price-change-alerts-from-any-dataset?fpr=youssef)**: Compares each run of a source Actor against its previous one and emits only the items whose price field changed, with old and new values, ignoring fields that move on their own like timestamps and rank. Add a Slack...
+| Catalog updated | 2026-11-22 |
 
 ## How to use Dataset Diff & Change Monitor: Only New Items From Any Actor
 
@@ -30,18 +25,10 @@
 
 ### Example input
 
+Open the input form on the Store page to see every field. An empty input runs the defaults.
+
 ```json
-{
-  "source": "apify/google-maps-scraper",
-  "emit": [
-    "new"
-  ],
-  "identityFields": [
-    "placeId"
-  ],
-  "firstRunBehaviour": "baselineOnly",
-  "outputMode": "deltaOnly"
-}
+{}
 ```
 
 ### Python
@@ -54,11 +41,7 @@ pip install apify-client
 from apify_client import ApifyClient
 
 client = ApifyClient("<YOUR_APIFY_TOKEN>")
-run_input = {'source': 'apify/google-maps-scraper',
- 'emit': ['new'],
- 'identityFields': ['placeId'],
- 'firstRunBehaviour': 'baselineOnly',
- 'outputMode': 'deltaOnly'}
+run_input = {}
 run = client.actor("fayoussef/dataset-diff").call(run_input=run_input)
 
 for item in client.dataset(run["defaultDatasetId"]).iterate_items():
@@ -75,17 +58,7 @@ npm install apify-client
 import { ApifyClient } from 'apify-client';
 
 const client = new ApifyClient({ token: '<YOUR_APIFY_TOKEN>' });
-const input = {
-  "source": "apify/google-maps-scraper",
-  "emit": [
-    "new"
-  ],
-  "identityFields": [
-    "placeId"
-  ],
-  "firstRunBehaviour": "baselineOnly",
-  "outputMode": "deltaOnly"
-};
+const input = {};
 const run = await client.actor('fayoussef/dataset-diff').call(input);
 const { items } = await client.dataset(run.defaultDatasetId).listItems();
 console.log(items);
@@ -96,7 +69,7 @@ console.log(items);
 ```bash
 curl -X POST "https://api.apify.com/v2/acts/fayoussef~dataset-diff/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>" \
   -H "Content-Type: application/json" \
-  -d '{"source": "apify/google-maps-scraper", "emit": ["new"], "identityFields": ["placeId"], "firstRunBehaviour": "baselineOnly", "outputMode": "deltaOnly"}'
+  -d '{}'
 ```
 
 ### From AI agents (MCP)
@@ -154,14 +127,14 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 ## Related Developer Tools & APIs
 
 - [VIES VAT Number Validator: Bulk EU VAT Check & Monitor](eu-vat-compliance-monitor.md): Bulk EU VAT number validation against VIES. Check a whole supplier or customer list, get the consultation number that proves you checked...
-- [Invoice & Utility Bill Data Extractor: Totals, kWh, Line Items](invoice-utility-bill-extractor.md): Bulk extract vendor, dates, totals, tax, kWh and line items from invoice and utility bill PDFs and photos. Auto-detects each document, runs...
 - [License Lookup & Verification: Bulk Contractor, Nurse, NPI](license-roster-monitor.md): Bulk professional license lookup and verification for contractors, nurses, electricians, real estate agents and healthcare providers (NPI)...
 - [USDA Report Watcher: New WASDE & ERS Data File Alerts](usda-report-watcher.md): Get every new or updated USDA data file the moment it is published: WASDE, ERS, NASS, AMS. Detects files still marked 'not yet available'...
 - [Website Change Monitor and Competitor Price Tracker](website-change-monitor.md): Monitor any web page for changes with a line-by-line diff, and track competitor prices: old price, new price and percent change for any...
+- [Invoice & Utility Bill Data Extractor: Totals, kWh, Line Items](invoice-utility-bill-extractor.md): Bulk extract vendor, dates, totals, tax, kWh and line items from invoice and utility bill PDFs and photos. Auto-detects each document, runs...
 - [Tennis Abstract Scraper: ATP & WTA Match Stats](tennis-abstract-scraper.md): Scrape every ATP and WTA player's full career match log from Tennis Abstract: score, opponent, ranks, surface, level, aces, double faults...
 
 ## More
 
-- Full catalog: [all 65 actors](../README.md)
+- Full catalog: [all 66 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/dataset-diff](https://automationbyexperts.com/apify/dataset-diff?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/dataset-diff.md](https://automationbyexperts.com/apify/dataset-diff.md)

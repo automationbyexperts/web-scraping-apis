@@ -14,12 +14,11 @@
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/wallapop-scraper?fpr=youssef)) |
 | Rating | 5.0 out of 5 (2 reviews) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-16 |
+| Catalog updated | 2026-11-22 |
 
 ## What you can do with Wallapop Scraper: Deal Alerts, New Listings & Price Drops
 
 - **[Scrape used cars under 5,000 EUR on Wallapop Spain](https://apify.com/fayoussef/wallapop-scraper/examples/used-cars-spain-under-5000?fpr=youssef)**: Pulls the newest private car listings on Wallapop Spain priced under 5,000 EUR, with price, mileage, year, location and seller details per row. Built for dealers and flippers who want the cheap end of the market in a...
-- **[Track used car listings on Wallapop Italy](https://apify.com/fayoussef/wallapop-scraper/examples/wallapop-italy-used-cars?fpr=youssef)**: Exports the latest used car listings from Wallapop Italy into structured rows: price, mileage, year, fuel, location and seller. Set it on a schedule to build a price history of the Italian private market, or run once to...
 - **[Monitor iPhone listings on Wallapop Spain](https://apify.com/fayoussef/wallapop-scraper/examples/iphone-listings-wallapop-spain?fpr=youssef)**: Watches Wallapop Spain for iPhone 15 listings, newest first, and returns price, condition, location and seller for each. Resellers use it to catch underpriced phones the minute they are posted; schedule it hourly and...
 
 ## How to use Wallapop Scraper: Deal Alerts, New Listings & Price Drops
@@ -158,6 +157,6 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 65 actors](../README.md)
+- Full catalog: [all 66 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/wallapop-scraper](https://automationbyexperts.com/apify/wallapop-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/wallapop-scraper.md](https://automationbyexperts.com/apify/wallapop-scraper.md)

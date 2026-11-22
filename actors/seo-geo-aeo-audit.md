@@ -1,6 +1,6 @@
-# SEO, GEO & AEO Audit: AI Search Readiness Checker
+# SEO Audit + AI Crawler Check: SEO, GEO & AEO Score
 
-**SEO, GEO & AEO Audit: AI Search Readiness Checker** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Audit any website for Google SEO and AI search visibility in one run. Get 0-100 SEO, GEO and AEO scores per page, AI crawler and llms.txt checks, schema validation, and a prioritized fix list with a shareable HTML report. No API keys needed: just enter a URL.
+**SEO Audit + AI Crawler Check: SEO, GEO & AEO Score** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. SEO audit and AI crawler checker in one run. See what GPTBot, ClaudeBot and PerplexityBot really receive, check robots.txt and llms.txt, validate schema, hreflang and broken links, and get 0-100 SEO, GEO and AEO scores per page with a fix list and HTML report. No API keys.
 
 [Run it on Apify](https://apify.com/fayoussef/seo-geo-aeo-audit?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/seo-geo-aeo-audit?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All SEO & AI Visibility](../categories/seo-ai-visibility.md)
 
@@ -13,15 +13,13 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/seo-geo-aeo-audit?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-16 |
+| Catalog updated | 2026-11-22 |
 
-## What you can do with SEO, GEO & AEO Audit: AI Search Readiness Checker
+## What you can do with SEO Audit + AI Crawler Check: SEO, GEO & AEO Score
 
 - **[Audit a website for AI search readiness](https://apify.com/fayoussef/seo-geo-aeo-audit/examples/ai-search-readiness-audit?fpr=youssef)**: Crawls the homepage and the 25 most important pages, runs 45 plus checks and scores the site 0 to 100 for classic SEO, GEO (visibility in ChatGPT, Perplexity and Gemini answers) and AEO (featured snippets). Returns a...
-- **[Run a quick 5 page SEO check on a small business site](https://apify.com/fayoussef/seo-geo-aeo-audit/examples/quick-5-page-seo-check?fpr=youssef)**: A fast first look: the homepage plus the four key pages the Actor discovers on its own, scored for SEO, AI search visibility and answer engine readiness. Fits inside the free plan limit, so it is the right size for a...
-- **[Full 100 page SEO and GEO audit for a content site](https://apify.com/fayoussef/seo-geo-aeo-audit/examples/full-site-seo-geo-audit-100-pages?fpr=youssef)**: Audits up to 100 pages of a blog, docs or ecommerce site and returns every issue per page, from blocked AI crawlers and JavaScript only content to missing schema, thin titles and slow pages. Use the issues view to hand...
 
-## How to use SEO, GEO & AEO Audit: AI Search Readiness Checker
+## How to use SEO Audit + AI Crawler Check: SEO, GEO & AEO Score
 
 ### No code
 
@@ -112,7 +110,7 @@ With MCP and Skyfire: `https://mcp.apify.com?payment=skyfire&tools=fayoussef/seo
 
 ## FAQ
 
-### Is SEO, GEO & AEO Audit: AI Search Readiness Checker free to try?
+### Is SEO Audit + AI Crawler Check: SEO, GEO & AEO Score free to try?
 
 Yes. You can start it with a free Apify account. Free runs have usage limits, and larger jobs need an [Apify plan](https://apify.com/pricing?fpr=youssef). The current rate is shown on the [Store page](https://apify.com/fayoussef/seo-geo-aeo-audit?fpr=youssef).
 
@@ -144,6 +142,6 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 65 actors](../README.md)
+- Full catalog: [all 66 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/seo-geo-aeo-audit](https://automationbyexperts.com/apify/seo-geo-aeo-audit?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/seo-geo-aeo-audit.md](https://automationbyexperts.com/apify/seo-geo-aeo-audit.md)

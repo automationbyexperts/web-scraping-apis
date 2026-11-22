@@ -13,7 +13,11 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/smythstoys-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-16 |
+| Catalog updated | 2026-11-22 |
+
+## What you can do with Smyths Toys Scraper: Prices, EAN Codes, Stock & Product Data
+
+- **[Scrape LEGO prices and EAN codes from Smyths Toys UK](https://apify.com/fayoussef/smythstoys-scraper/examples/smyths-toys-lego-prices-ean?fpr=youssef)**: Collect every LEGO set listed on Smyths Toys UK with its current price, was price, discount, EAN barcode, rating, review count, age range and product images. Useful for LEGO price tracking, retail price comparison and...
 
 ## How to use Smyths Toys Scraper: Prices, EAN Codes, Stock & Product Data
 
@@ -25,10 +29,18 @@
 
 ### Example input
 
-Open the input form on the Store page to see every field. An empty input runs the defaults.
-
 ```json
-{}
+{
+  "startUrls": [
+    {
+      "url": "https://www.smythstoys.com/uk/en-gb/search?text=lego"
+    }
+  ],
+  "maxItems": 100,
+  "includeDetails": true,
+  "includeStock": false,
+  "maxConcurrency": 3
+}
 ```
 
 ### Python
@@ -41,7 +53,11 @@ pip install apify-client
 from apify_client import ApifyClient
 
 client = ApifyClient("<YOUR_APIFY_TOKEN>")
-run_input = {}
+run_input = {'startUrls': [{'url': 'https://www.smythstoys.com/uk/en-gb/search?text=lego'}],
+ 'maxItems': 100,
+ 'includeDetails': True,
+ 'includeStock': False,
+ 'maxConcurrency': 3}
 run = client.actor("fayoussef/smythstoys-scraper").call(run_input=run_input)
 
 for item in client.dataset(run["defaultDatasetId"]).iterate_items():
@@ -58,7 +74,17 @@ npm install apify-client
 import { ApifyClient } from 'apify-client';
 
 const client = new ApifyClient({ token: '<YOUR_APIFY_TOKEN>' });
-const input = {};
+const input = {
+  "startUrls": [
+    {
+      "url": "https://www.smythstoys.com/uk/en-gb/search?text=lego"
+    }
+  ],
+  "maxItems": 100,
+  "includeDetails": true,
+  "includeStock": false,
+  "maxConcurrency": 3
+};
 const run = await client.actor('fayoussef/smythstoys-scraper').call(input);
 const { items } = await client.dataset(run.defaultDatasetId).listItems();
 console.log(items);
@@ -69,7 +95,7 @@ console.log(items);
 ```bash
 curl -X POST "https://api.apify.com/v2/acts/fayoussef~smythstoys-scraper/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>" \
   -H "Content-Type: application/json" \
-  -d '{}'
+  -d '{"startUrls": [{"url": "https://www.smythstoys.com/uk/en-gb/search?text=lego"}], "maxItems": 100, "includeDetails": true, "includeStock": false, "maxConcurrency": 3}'
 ```
 
 ### From AI agents (MCP)
@@ -135,6 +161,6 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 65 actors](../README.md)
+- Full catalog: [all 66 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/smythstoys-scraper](https://automationbyexperts.com/apify/smythstoys-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/smythstoys-scraper.md](https://automationbyexperts.com/apify/smythstoys-scraper.md)

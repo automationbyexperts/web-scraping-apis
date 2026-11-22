@@ -13,7 +13,11 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/usda-report-watcher?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-16 |
+| Catalog updated | 2026-11-22 |
+
+## What you can do with USDA Report Watcher: New WASDE & ERS Data File Alerts
+
+- **[Get the WASDE report the moment USDA releases it](https://apify.com/fayoussef/usda-report-watcher/examples/wasde-report-release-alerts?fpr=youssef)**: Watch the USDA WASDE report page and get the new monthly WASDE files (Excel, PDF, XML, text) as soon as they are published, with the Excel tables already read into JSON. Links USDA posts before the release are flagged...
 
 ## How to use USDA Report Watcher: New WASDE & ERS Data File Alerts
 
@@ -25,10 +29,22 @@
 
 ### Example input
 
-Open the input form on the Store page to see every field. An empty input runs the defaults.
-
 ```json
-{}
+{
+  "pages": [
+    "https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report",
+    "https://usda.library.cornell.edu/concern/publications/3t945q76s"
+  ],
+  "fileTypes": [
+    "xls",
+    "pdf",
+    "xml",
+    "txt"
+  ],
+  "extractTables": true,
+  "saveFiles": true,
+  "reportExistingAsNew": false
+}
 ```
 
 ### Python
@@ -41,7 +57,12 @@ pip install apify-client
 from apify_client import ApifyClient
 
 client = ApifyClient("<YOUR_APIFY_TOKEN>")
-run_input = {}
+run_input = {'pages': ['https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report',
+           'https://usda.library.cornell.edu/concern/publications/3t945q76s'],
+ 'fileTypes': ['xls', 'pdf', 'xml', 'txt'],
+ 'extractTables': True,
+ 'saveFiles': True,
+ 'reportExistingAsNew': False}
 run = client.actor("fayoussef/usda-report-watcher").call(run_input=run_input)
 
 for item in client.dataset(run["defaultDatasetId"]).iterate_items():
@@ -58,7 +79,21 @@ npm install apify-client
 import { ApifyClient } from 'apify-client';
 
 const client = new ApifyClient({ token: '<YOUR_APIFY_TOKEN>' });
-const input = {};
+const input = {
+  "pages": [
+    "https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report",
+    "https://usda.library.cornell.edu/concern/publications/3t945q76s"
+  ],
+  "fileTypes": [
+    "xls",
+    "pdf",
+    "xml",
+    "txt"
+  ],
+  "extractTables": true,
+  "saveFiles": true,
+  "reportExistingAsNew": false
+};
 const run = await client.actor('fayoussef/usda-report-watcher').call(input);
 const { items } = await client.dataset(run.defaultDatasetId).listItems();
 console.log(items);
@@ -69,7 +104,7 @@ console.log(items);
 ```bash
 curl -X POST "https://api.apify.com/v2/acts/fayoussef~usda-report-watcher/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>" \
   -H "Content-Type: application/json" \
-  -d '{}'
+  -d '{"pages": ["https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/commodity-markets/wasde-report", "https://usda.library.cornell.edu/concern/publications/3t945q76s"], "fileTypes": ["xls", "pdf", "xml", "txt"], "extractTables": true, "saveFiles": true, "reportExistingAsNew": false}'
 ```
 
 ### From AI agents (MCP)
@@ -128,13 +163,13 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 - [Dataset Diff & Change Monitor: Only New Items From Any Actor](dataset-diff.md): Turn any Apify Actor, Task or dataset into a change monitor: get only the new, changed and removed items since the last run, deduplicated...
 - [VIES VAT Number Validator: Bulk EU VAT Check & Monitor](eu-vat-compliance-monitor.md): Bulk EU VAT number validation against VIES. Check a whole supplier or customer list, get the consultation number that proves you checked...
-- [Invoice & Utility Bill Data Extractor: Totals, kWh, Line Items](invoice-utility-bill-extractor.md): Bulk extract vendor, dates, totals, tax, kWh and line items from invoice and utility bill PDFs and photos. Auto-detects each document, runs...
 - [License Lookup & Verification: Bulk Contractor, Nurse, NPI](license-roster-monitor.md): Bulk professional license lookup and verification for contractors, nurses, electricians, real estate agents and healthcare providers (NPI)...
 - [Website Change Monitor and Competitor Price Tracker](website-change-monitor.md): Monitor any web page for changes with a line-by-line diff, and track competitor prices: old price, new price and percent change for any...
+- [Invoice & Utility Bill Data Extractor: Totals, kWh, Line Items](invoice-utility-bill-extractor.md): Bulk extract vendor, dates, totals, tax, kWh and line items from invoice and utility bill PDFs and photos. Auto-detects each document, runs...
 - [Tennis Abstract Scraper: ATP & WTA Match Stats](tennis-abstract-scraper.md): Scrape every ATP and WTA player's full career match log from Tennis Abstract: score, opponent, ranks, surface, level, aces, double faults...
 
 ## More
 
-- Full catalog: [all 65 actors](../README.md)
+- Full catalog: [all 66 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/usda-report-watcher](https://automationbyexperts.com/apify/usda-report-watcher?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/usda-report-watcher.md](https://automationbyexperts.com/apify/usda-report-watcher.md)

@@ -13,7 +13,11 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/business-youtube-channel-finder?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-16 |
+| Catalog updated | 2026-11-22 |
+
+## What you can do with Business YouTube Channel Finder: Subscribers & Activity
+
+- **[Find YouTube channels of plumbing and HVAC companies](https://apify.com/fayoussef/business-youtube-channel-finder/examples/home-services-youtube-channels?fpr=youssef)**: Check plumbing, HVAC, roofing and restoration companies for a YouTube channel: subscribers, videos, views, latest upload and uploads in the last 90 days, matched from each company's own website. Paste your own list of...
 
 ## How to use Business YouTube Channel Finder: Subscribers & Activity
 
@@ -25,10 +29,19 @@
 
 ### Example input
 
-Open the input form on the Store page to see every field. An empty input runs the defaults.
-
 ```json
-{}
+{
+  "websites": [
+    "rotorooter.com",
+    "https://www.benjaminfranklinplumbing.com",
+    "https://efficienttexas.com/",
+    "https://www.kiddroof.com/",
+    "https://www.servpro.com",
+    "https://www.mrhandyman.com/"
+  ],
+  "searchYoutube": true,
+  "includeUploads": true
+}
 ```
 
 ### Python
@@ -41,7 +54,14 @@ pip install apify-client
 from apify_client import ApifyClient
 
 client = ApifyClient("<YOUR_APIFY_TOKEN>")
-run_input = {}
+run_input = {'websites': ['rotorooter.com',
+              'https://www.benjaminfranklinplumbing.com',
+              'https://efficienttexas.com/',
+              'https://www.kiddroof.com/',
+              'https://www.servpro.com',
+              'https://www.mrhandyman.com/'],
+ 'searchYoutube': True,
+ 'includeUploads': True}
 run = client.actor("fayoussef/business-youtube-channel-finder").call(run_input=run_input)
 
 for item in client.dataset(run["defaultDatasetId"]).iterate_items():
@@ -58,7 +78,18 @@ npm install apify-client
 import { ApifyClient } from 'apify-client';
 
 const client = new ApifyClient({ token: '<YOUR_APIFY_TOKEN>' });
-const input = {};
+const input = {
+  "websites": [
+    "rotorooter.com",
+    "https://www.benjaminfranklinplumbing.com",
+    "https://efficienttexas.com/",
+    "https://www.kiddroof.com/",
+    "https://www.servpro.com",
+    "https://www.mrhandyman.com/"
+  ],
+  "searchYoutube": true,
+  "includeUploads": true
+};
 const run = await client.actor('fayoussef/business-youtube-channel-finder').call(input);
 const { items } = await client.dataset(run.defaultDatasetId).listItems();
 console.log(items);
@@ -69,7 +100,7 @@ console.log(items);
 ```bash
 curl -X POST "https://api.apify.com/v2/acts/fayoussef~business-youtube-channel-finder/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>" \
   -H "Content-Type: application/json" \
-  -d '{}'
+  -d '{"websites": ["rotorooter.com", "https://www.benjaminfranklinplumbing.com", "https://efficienttexas.com/", "https://www.kiddroof.com/", "https://www.servpro.com", "https://www.mrhandyman.com/"], "searchYoutube": true, "includeUploads": true}'
 ```
 
 ### From AI agents (MCP)
@@ -130,11 +161,11 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 - [Canada411 Scraper: Phone Numbers, Names & Addresses](canada411-ca.md): Scrape Canada411.ca, Canada's phone directory: names, phone numbers and full addresses for businesses and people. Search by name or...
 - [Whop Scraper: Content Rewards, Clipping & UGC Campaigns](whop-clipping-campaigns-scraper.md): Scrape the Whop Content Rewards directory: reward per 1K views, budget left, burn rate, platforms, payout type and campaign URLs. Builds a...
 - [GitHub Developer Lead Finder & Email Enricher](github-developer-leads.md): Find developers on GitHub and enrich each one with verified email, company, location, skills, and social links for recruiting and B2B...
-- [Luma Events Scraper: New Event Alerts & Organizer Leads](luma-events-scraper.md): Get alerted to new Luma (lu.ma) events in your city or calendar, with the organizer's Instagram, LinkedIn, TikTok, X and YouTube handles...
 - [Kijiji Dealer & Business Leads: Phones, Websites, Addresses](kijiji-business-leads.md): Turn any Kijiji.ca search into a B2B lead list: one row per dealer, property manager or local business, with phone, website, address...
+- [Luma Events Scraper: New Event Alerts & Organizer Leads](luma-events-scraper.md): Get alerted to new Luma (lu.ma) events in your city or calendar, with the organizer's Instagram, LinkedIn, TikTok, X and YouTube handles...
 
 ## More
 
-- Full catalog: [all 65 actors](../README.md)
+- Full catalog: [all 66 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/business-youtube-channel-finder](https://automationbyexperts.com/apify/business-youtube-channel-finder?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/business-youtube-channel-finder.md](https://automationbyexperts.com/apify/business-youtube-channel-finder.md)

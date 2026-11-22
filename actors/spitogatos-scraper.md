@@ -14,15 +14,14 @@
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/spitogatos-scraper?fpr=youssef)) |
 | Rating | 5.0 out of 5 (5 reviews) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-16 |
+| Catalog updated | 2026-11-22 |
 
 ## What you can do with Spitogatos Scraper: Greece Real Estate Listings & Agent Phones
 
-- **[Find apartments for sale in Kolonaki, Athens](https://apify.com/fayoussef/spitogatos-scraper/examples/kolonaki-apartments-for-sale?fpr=youssef)**: Searches Spitogatos.gr for apartments for sale in Kolonaki up to 300,000 EUR and returns 25 plus fields per property: price, price per square metre, floor, year, energy class, GPS coordinates, owner or agent phone...
-- **[Find apartments for rent in Thessaloniki under 600 EUR](https://apify.com/fayoussef/spitogatos-scraper/examples/thessaloniki-apartments-for-rent-under-600?fpr=youssef)**: Pulls every apartment for rent in Thessaloniki at 600 EUR a month or less from Spitogatos.gr, with floor area, floor, heating, furnished flag, the landlord or agency phone number and the listing's coordinates. Students...
-- **[Export land plots for sale in Chania, Crete](https://apify.com/fayoussef/spitogatos-scraper/examples/crete-land-plots-for-sale?fpr=youssef)**: Lists plots of land for sale around Chania on Spitogatos.gr with price, area, price per square metre, coordinates and the seller's phone number. Developers and buyers hunting for buildable land in Crete use it to map...
 - **[Διαμερίσματα για ενοικίαση στο κέντρο της Αθήνας έως 800€](https://apify.com/fayoussef/spitogatos-scraper/examples/athens-center-apartments-for-rent-greek?fpr=youssef)**: Συλλέγει από το Spitogatos.gr αγγελίες διαμερισμάτων προς ενοικίαση στο κέντρο της Αθήνας με ενοίκιο έως 800€ και επιστρέφει πάνω από 25 πεδία ανά ακίνητο: τιμή, τετραγωνικά, όροφο, έτος κατασκευής, ενεργειακή κλάση...
 - **[Κατοικίες προς πώληση στη Θεσσαλονίκη από το Spitogatos](https://apify.com/fayoussef/spitogatos-scraper/examples/thessaloniki-homes-for-sale-greek?fpr=youssef)**: Συλλέγει τις αγγελίες κατοικιών προς πώληση στη Θεσσαλονίκη από το Spitogatos.gr (διαμερίσματα, μονοκατοικίες, μεζονέτες) με τιμή, τετραγωνικά, όροφο, έτος κατασκευής, ενεργειακή κλάση, συντεταγμένες GPS, τηλέφωνο...
+- **[Daily new apartments for sale in Athens](https://apify.com/fayoussef/spitogatos-scraper/examples/new-listings-athens-daily?fpr=youssef)**: Every run returns only Athens homes first posted on Spitogatos.gr in the last 24 hours: price, price per square metre, size, floor, GPS, agency phone and photos. Put it on a daily schedule for a fresh feed each morning.
+- **[Athens homes with a price drop this week](https://apify.com/fayoussef/spitogatos-scraper/examples/athens-price-drops-weekly?fpr=youssef)**: Finds Athens homes for sale on Spitogatos.gr whose asking price was lowered in the last week, with the old and new price, size, area and photos. Run it daily on a schedule to catch each new price cut.
 
 ## How to use Spitogatos Scraper: Greece Real Estate Listings & Agent Phones
 
@@ -36,13 +35,11 @@
 
 ```json
 {
-  "locations": [
-    "Kolonaki"
+  "start_urls": [
+    {
+      "url": "https://www.spitogatos.gr/enoikiaseis-diamerismata/athina-kentro/timi_eos-800"
+    }
   ],
-  "listing_type": "sale",
-  "category": "residential",
-  "property_types": "apartment",
-  "price_max": 300000,
   "max_depth": 10
 }
 ```
@@ -57,11 +54,7 @@ pip install apify-client
 from apify_client import ApifyClient
 
 client = ApifyClient("<YOUR_APIFY_TOKEN>")
-run_input = {'locations': ['Kolonaki'],
- 'listing_type': 'sale',
- 'category': 'residential',
- 'property_types': 'apartment',
- 'price_max': 300000,
+run_input = {'start_urls': [{'url': 'https://www.spitogatos.gr/enoikiaseis-diamerismata/athina-kentro/timi_eos-800'}],
  'max_depth': 10}
 run = client.actor("fayoussef/spitogatos-scraper").call(run_input=run_input)
 
@@ -80,13 +73,11 @@ import { ApifyClient } from 'apify-client';
 
 const client = new ApifyClient({ token: '<YOUR_APIFY_TOKEN>' });
 const input = {
-  "locations": [
-    "Kolonaki"
+  "start_urls": [
+    {
+      "url": "https://www.spitogatos.gr/enoikiaseis-diamerismata/athina-kentro/timi_eos-800"
+    }
   ],
-  "listing_type": "sale",
-  "category": "residential",
-  "property_types": "apartment",
-  "price_max": 300000,
   "max_depth": 10
 };
 const run = await client.actor('fayoussef/spitogatos-scraper').call(input);
@@ -99,7 +90,7 @@ console.log(items);
 ```bash
 curl -X POST "https://api.apify.com/v2/acts/fayoussef~spitogatos-scraper/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>" \
   -H "Content-Type: application/json" \
-  -d '{"locations": ["Kolonaki"], "listing_type": "sale", "category": "residential", "property_types": "apartment", "price_max": 300000, "max_depth": 10}'
+  -d '{"start_urls": [{"url": "https://www.spitogatos.gr/enoikiaseis-diamerismata/athina-kentro/timi_eos-800"}], "max_depth": 10}'
 ```
 
 ### From AI agents (MCP)
@@ -159,12 +150,12 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 - [XE.gr Greek Property Scraper](xe-gr-scraper.md): Scrape Greek real estate listings from XE.gr: prices, size, rooms, GPS coordinates, amenities, photos and phone numbers. Owners-only mode...
 - [RentFaster Scraper: Canada Rentals, Rents & Landlord Phones](rentfaster-scraper.md): Scrape Canadian rental listings from RentFaster.ca in 105 cities (Calgary, Edmonton, Toronto, Montreal...). Filter by type, bedrooms, rent...
 - [Centris.ca Scraper: Quebec Real Estate Listings & Photos](centris-property-scraper.md): Scrape Centris.ca real estate listings into clean structured data: MLS number, price, full address, rooms, bedrooms, bathrooms, the full...
-- [XE.gr Price Drop Alerts: Greek Property Price Cuts & Relists](xe-gr-price-drop-radar.md): Watch any XE.gr search and get only what changed: price cuts with percent and days on market, ads re-posted to look new, and homes priced...
-- [Fotocasa Scraper: Spain Property Listings, Agency Phones](fotocasa-scraper.md): Scrape property listings from Fotocasa.es, one of Spain's biggest real estate portals. Filter by province, city, price, rooms and size...
+- [Plot.gr Scraper: Greek Real Estate Listings with Agent Phones](plot-gr-scraper.md): Scrape plot.gr property listings in Greece: apartments, houses, land and commercial, for sale or rent. Prices, area, bedrooms, coordinates...
+- [Spiti24.gr Scraper: Greek Property Listings with Agent Phones](spiti24-scraper.md): Scrape spiti24.gr property listings in Greece: apartments, houses, land and commercial, for sale or rent. Prices, size, rooms, energy...
 - [Cyprus Property Alerts: New Listings and Price Drops](spitogatos-cy-scraper.md): Get alerted to new Cyprus property listings and price drops on Spitogatos.com.cy, with webhook or Telegram alerts. Also scrapes listings...
 
 ## More
 
-- Full catalog: [all 65 actors](../README.md)
+- Full catalog: [all 66 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/spitogatos-scraper](https://automationbyexperts.com/apify/spitogatos-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/spitogatos-scraper.md](https://automationbyexperts.com/apify/spitogatos-scraper.md)

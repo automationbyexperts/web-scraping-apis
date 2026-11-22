@@ -13,12 +13,7 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/bulk-ai-translator?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-16 |
-
-## What you can do with Translate Excel, CSV & Websites in Bulk with AI | No API Key
-
-- **[Translate a product catalog into 5 languages](https://apify.com/fayoussef/bulk-ai-translator/examples/translate-product-catalog-5-languages?fpr=youssef)**: Translates a list of product strings into German, French, Spanish, Italian and Dutch in marketing tone, keeping brand names in the glossary untouched and preserving placeholders and HTML. One run, five localised...
-- **[Translate a whole website into German](https://apify.com/fayoussef/bulk-ai-translator/examples/translate-website-into-german?fpr=youssef)**: Crawls up to 25 pages of a site, staying on the same domain, and returns the German translation of every text block with its source URL and original text side by side, tags and links intact. The quickest way to get a...
+| Catalog updated | 2026-11-22 |
 
 ## How to use Translate Excel, CSV & Websites in Bulk with AI | No API Key
 
@@ -30,27 +25,10 @@
 
 ### Example input
 
+Open the input form on the Store page to see every field. An empty input runs the defaults.
+
 ```json
-{
-  "mode": "text",
-  "targetLanguages": [
-    "de",
-    "fr",
-    "es",
-    "it",
-    "nl"
-  ],
-  "texts": [
-    "EcoBrew insulated travel mug, 450 ml, keeps drinks hot for 8 hours.",
-    "Leak proof lid with one handed open. Dishwasher safe.",
-    "Free shipping on orders over 50 EUR. 30 day returns."
-  ],
-  "glossary": [
-    "EcoBrew"
-  ],
-  "tone": "marketing",
-  "model": "google/gemini-2.5-flash"
-}
+{}
 ```
 
 ### Python
@@ -63,14 +41,7 @@ pip install apify-client
 from apify_client import ApifyClient
 
 client = ApifyClient("<YOUR_APIFY_TOKEN>")
-run_input = {'mode': 'text',
- 'targetLanguages': ['de', 'fr', 'es', 'it', 'nl'],
- 'texts': ['EcoBrew insulated travel mug, 450 ml, keeps drinks hot for 8 hours.',
-           'Leak proof lid with one handed open. Dishwasher safe.',
-           'Free shipping on orders over 50 EUR. 30 day returns.'],
- 'glossary': ['EcoBrew'],
- 'tone': 'marketing',
- 'model': 'google/gemini-2.5-flash'}
+run_input = {}
 run = client.actor("fayoussef/bulk-ai-translator").call(run_input=run_input)
 
 for item in client.dataset(run["defaultDatasetId"]).iterate_items():
@@ -87,26 +58,7 @@ npm install apify-client
 import { ApifyClient } from 'apify-client';
 
 const client = new ApifyClient({ token: '<YOUR_APIFY_TOKEN>' });
-const input = {
-  "mode": "text",
-  "targetLanguages": [
-    "de",
-    "fr",
-    "es",
-    "it",
-    "nl"
-  ],
-  "texts": [
-    "EcoBrew insulated travel mug, 450 ml, keeps drinks hot for 8 hours.",
-    "Leak proof lid with one handed open. Dishwasher safe.",
-    "Free shipping on orders over 50 EUR. 30 day returns."
-  ],
-  "glossary": [
-    "EcoBrew"
-  ],
-  "tone": "marketing",
-  "model": "google/gemini-2.5-flash"
-};
+const input = {};
 const run = await client.actor('fayoussef/bulk-ai-translator').call(input);
 const { items } = await client.dataset(run.defaultDatasetId).listItems();
 console.log(items);
@@ -117,7 +69,7 @@ console.log(items);
 ```bash
 curl -X POST "https://api.apify.com/v2/acts/fayoussef~bulk-ai-translator/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>" \
   -H "Content-Type: application/json" \
-  -d '{"mode": "text", "targetLanguages": ["de", "fr", "es", "it", "nl"], "texts": ["EcoBrew insulated travel mug, 450 ml, keeps drinks hot for 8 hours.", "Leak proof lid with one handed open. Dishwasher safe.", "Free shipping on orders over 50 EUR. 30 day returns."], "glossary": ["EcoBrew"], "tone": "marketing", "model": "google/gemini-2.5-flash"}'
+  -d '{}'
 ```
 
 ### From AI agents (MCP)
@@ -175,11 +127,11 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 ## Related Bulk AI Tools
 
 - [350+ AI Models: Run ChatGPT, Claude, Gemini in Bulk](bulk-llm-runner.md): Run hundreds of prompts in parallel across GPT, Claude, Gemini, Perplexity, DeepSeek, Qwen, Kimi and 350+ models, with web search, JSON...
-- [Bulk AI Image Generator & Editor: Nano Banana, GPT Image](bulk-ai-image-generator.md): Generate hundreds of AI images from prompts or an Excel/CSV file, or edit your own product photos in bulk: white or transparent background...
+- [Bulk AI Image Generator & Photo Editor: Nano Banana Pro](bulk-ai-image-generator.md): Generate hundreds of AI images from prompts or an Excel/CSV file, or edit your own product photos in bulk: white or transparent background...
 - [Bulk Text to Speech: MP3 + SRT Subtitles | No API Key](bulk-text-to-speech.md): Convert texts or an Excel/CSV file into MP3 voiceovers with perfectly timed SRT/VTT subtitles. 322 neural voices in 75 languages...
 
 ## More
 
-- Full catalog: [all 65 actors](../README.md)
+- Full catalog: [all 66 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/bulk-ai-translator](https://automationbyexperts.com/apify/bulk-ai-translator?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/bulk-ai-translator.md](https://automationbyexperts.com/apify/bulk-ai-translator.md)

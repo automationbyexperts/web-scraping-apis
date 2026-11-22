@@ -14,12 +14,11 @@
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/autotrader-ca?fpr=youssef)) |
 | Rating | 5.0 out of 5 (2 reviews) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-16 |
+| Catalog updated | 2026-11-22 |
 
 ## What you can do with AutoTrader.ca Price Drop Monitor & Car Scraper
 
-- **[Find used Honda Civics for sale around Montreal](https://apify.com/fayoussef/autotrader-ca/examples/honda-civic-used-montreal?fpr=youssef)**: Searches AutoTrader.ca with the built in filters for used Honda Civic from model year 2018 within 100 km of Montreal and returns 127 fields per car: VIN, numeric price, kilometres, trim, transmission, dealer name and...
-- **[Export used SUVs under 25,000 CAD around Ottawa](https://apify.com/fayoussef/autotrader-ca/examples/used-suvs-under-25000-ottawa?fpr=youssef)**: Pulls used SUV listings priced under 25,000 CAD within 100 km of Ottawa from AutoTrader.ca with VIN, price, kilometres, drivetrain, fuel, dealer and photos. Family buyers and small dealers get the whole affordable SUV...
+- **[Track used Toyota RAV4 price drops around Toronto](https://apify.com/fayoussef/autotrader-ca/examples/rav4-price-drops-toronto?fpr=youssef)**: Watches every used Toyota RAV4 on AutoTrader.ca within 100 km of downtown Toronto and, run after run, returns only what changed: new listings, price drops of 500 dollars or more, and sold or removed vehicles, each with...
 
 ## How to use AutoTrader.ca Price Drop Monitor & Car Scraper
 
@@ -33,22 +32,19 @@
 
 ```json
 {
-  "conditions": [
-    "used"
+  "start_urls": [
+    {
+      "url": "https://www.autotrader.ca/cars?atype=C&cy=CA&mmmv=70%7C2143%7C%7C&offer=U&zip=M5V3L9&zipr=100&sort=age&desc=1"
+    }
   ],
-  "include_damaged": false,
-  "makes": [
-    "Honda"
+  "monitor_mode": true,
+  "report_changes": [
+    "new",
+    "price_drop",
+    "removed"
   ],
-  "max_items": 300,
-  "model_year_from": 2018,
-  "models": [
-    "Civic"
-  ],
-  "postal_code": "Montreal, QC",
-  "radius_km": "100",
-  "sort_descending": false,
-  "vehicle_type": "cars"
+  "min_price_change_cad": 500,
+  "export_baseline": true
 }
 ```
 
@@ -62,16 +58,11 @@ pip install apify-client
 from apify_client import ApifyClient
 
 client = ApifyClient("<YOUR_APIFY_TOKEN>")
-run_input = {'conditions': ['used'],
- 'include_damaged': False,
- 'makes': ['Honda'],
- 'max_items': 300,
- 'model_year_from': 2018,
- 'models': ['Civic'],
- 'postal_code': 'Montreal, QC',
- 'radius_km': '100',
- 'sort_descending': False,
- 'vehicle_type': 'cars'}
+run_input = {'start_urls': [{'url': 'https://www.autotrader.ca/cars?atype=C&cy=CA&mmmv=70%7C2143%7C%7C&offer=U&zip=M5V3L9&zipr=100&sort=age&desc=1'}],
+ 'monitor_mode': True,
+ 'report_changes': ['new', 'price_drop', 'removed'],
+ 'min_price_change_cad': 500,
+ 'export_baseline': True}
 run = client.actor("fayoussef/autotrader-ca").call(run_input=run_input)
 
 for item in client.dataset(run["defaultDatasetId"]).iterate_items():
@@ -89,22 +80,19 @@ import { ApifyClient } from 'apify-client';
 
 const client = new ApifyClient({ token: '<YOUR_APIFY_TOKEN>' });
 const input = {
-  "conditions": [
-    "used"
+  "start_urls": [
+    {
+      "url": "https://www.autotrader.ca/cars?atype=C&cy=CA&mmmv=70%7C2143%7C%7C&offer=U&zip=M5V3L9&zipr=100&sort=age&desc=1"
+    }
   ],
-  "include_damaged": false,
-  "makes": [
-    "Honda"
+  "monitor_mode": true,
+  "report_changes": [
+    "new",
+    "price_drop",
+    "removed"
   ],
-  "max_items": 300,
-  "model_year_from": 2018,
-  "models": [
-    "Civic"
-  ],
-  "postal_code": "Montreal, QC",
-  "radius_km": "100",
-  "sort_descending": false,
-  "vehicle_type": "cars"
+  "min_price_change_cad": 500,
+  "export_baseline": true
 };
 const run = await client.actor('fayoussef/autotrader-ca').call(input);
 const { items } = await client.dataset(run.defaultDatasetId).listItems();
@@ -116,7 +104,7 @@ console.log(items);
 ```bash
 curl -X POST "https://api.apify.com/v2/acts/fayoussef~autotrader-ca/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>" \
   -H "Content-Type: application/json" \
-  -d '{"conditions": ["used"], "include_damaged": false, "makes": ["Honda"], "max_items": 300, "model_year_from": 2018, "models": ["Civic"], "postal_code": "Montreal, QC", "radius_km": "100", "sort_descending": false, "vehicle_type": "cars"}'
+  -d '{"start_urls": [{"url": "https://www.autotrader.ca/cars?atype=C&cy=CA&mmmv=70%7C2143%7C%7C&offer=U&zip=M5V3L9&zipr=100&sort=age&desc=1"}], "monitor_mode": true, "report_changes": ["new", "price_drop", "removed"], "min_price_change_cad": 500, "export_baseline": true}'
 ```
 
 ### From AI agents (MCP)
@@ -175,13 +163,13 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 - [AutoTrader.ca Scraper: Car Prices, VIN, Mileage & Dealers](autotrader-canada.md): Scrape AutoTrader.ca car listings: price, mileage, VIN, specs, dealer phone and photos from any search or the filter form. Optional Find...
 - [CarGurus Scraper: US, Canada & UK Car Listings, VIN & Prices](cargurus-listings-scraper.md): Scrape CarGurus car listings from cargurus.com, .ca and .co.uk by search URL or ZIP code: price, deal rating, mileage, VIN, specs, dealer...
-- [AutoScout24 Scraper: Car Listings, Prices & Dealer Contacts](autoscout24.md): AutoScout24 car listings from autoscout24.de, .at, .fr, .it, .es, .nl, .be, .lu and .com: price, make, model, mileage, first registration...
+- [AutoScout24 Scraper: Car Listings, Price Drop Alerts & Dealers](autoscout24.md): Scrape AutoScout24 car listings from 9 European sites, or monitor a search: each scheduled run returns only new cars, price drops and sold...
 - [Kijiji.ca Scraper: Autos, Real Estate & Classifieds](kijiji-scraper.md): Scrape Kijiji.ca listings from any search or ad URL: cars, real estate and every other category. Get price, location, phone number, specs...
 - [AutoTrader South Africa Price Drop Monitor and Scraper](autotrader-co-za-scraper.md): Track autotrader.co.za for new listings, price drops and sold cars, or scrape every listing with price, mileage, specs and dealer. Optional...
 - [Car Dealer Website Inventory Scraper: VIN, Price & Stock](dealer-inventory-scraper.md): Scrape live vehicle inventory from any car dealership's own website, not a marketplace. Paste a dealer homepage and get every car at VIN...
 
 ## More
 
-- Full catalog: [all 65 actors](../README.md)
+- Full catalog: [all 66 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/autotrader-ca](https://automationbyexperts.com/apify/autotrader-ca?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/autotrader-ca.md](https://automationbyexperts.com/apify/autotrader-ca.md)

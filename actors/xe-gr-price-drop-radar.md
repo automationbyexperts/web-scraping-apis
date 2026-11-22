@@ -13,7 +13,11 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/xe-gr-price-drop-radar?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-16 |
+| Catalog updated | 2026-11-22 |
+
+## What you can do with XE.gr Price Drop Alerts: Greek Property Price Cuts & Relists
+
+- **[Athens apartment price drop alerts (150k to 200k EUR)](https://apify.com/fayoussef/xe-gr-price-drop-radar/examples/athens-apartment-price-drop-alerts?fpr=youssef)**: Watch every apartment for sale in Athens between 150,000 and 200,000 EUR on XE.gr and get only the price cuts, re-posted ads and apartments priced 25% or more under the median. Schedule it daily for a Greek property...
 
 ## How to use XE.gr Price Drop Alerts: Greek Property Price Cuts & Relists
 
@@ -25,10 +29,23 @@
 
 ### Example input
 
-Open the input form on the Store page to see every field. An empty input runs the defaults.
-
 ```json
-{}
+{
+  "startUrls": [
+    {
+      "url": "https://www.xe.gr/en/property/results?transaction_name=buy&item_type=re_residence&geo_place_ids[]=ChIJ8UNwBh-9oRQR3Y1mdkU1Nic&property_type=apartment&minimum_price=150000&maximum_price=200000"
+    }
+  ],
+  "alertTypes": [
+    "price_cut",
+    "relisted",
+    "below_median"
+  ],
+  "minDropPercent": 2,
+  "belowMedianPercent": 25,
+  "maxPages": 170,
+  "watchlistName": "athens-apartments-150k-200k"
+}
 ```
 
 ### Python
@@ -41,7 +58,12 @@ pip install apify-client
 from apify_client import ApifyClient
 
 client = ApifyClient("<YOUR_APIFY_TOKEN>")
-run_input = {}
+run_input = {'startUrls': [{'url': 'https://www.xe.gr/en/property/results?transaction_name=buy&item_type=re_residence&geo_place_ids[]=ChIJ8UNwBh-9oRQR3Y1mdkU1Nic&property_type=apartment&minimum_price=150000&maximum_price=200000'}],
+ 'alertTypes': ['price_cut', 'relisted', 'below_median'],
+ 'minDropPercent': 2,
+ 'belowMedianPercent': 25,
+ 'maxPages': 170,
+ 'watchlistName': 'athens-apartments-150k-200k'}
 run = client.actor("fayoussef/xe-gr-price-drop-radar").call(run_input=run_input)
 
 for item in client.dataset(run["defaultDatasetId"]).iterate_items():
@@ -58,7 +80,22 @@ npm install apify-client
 import { ApifyClient } from 'apify-client';
 
 const client = new ApifyClient({ token: '<YOUR_APIFY_TOKEN>' });
-const input = {};
+const input = {
+  "startUrls": [
+    {
+      "url": "https://www.xe.gr/en/property/results?transaction_name=buy&item_type=re_residence&geo_place_ids[]=ChIJ8UNwBh-9oRQR3Y1mdkU1Nic&property_type=apartment&minimum_price=150000&maximum_price=200000"
+    }
+  ],
+  "alertTypes": [
+    "price_cut",
+    "relisted",
+    "below_median"
+  ],
+  "minDropPercent": 2,
+  "belowMedianPercent": 25,
+  "maxPages": 170,
+  "watchlistName": "athens-apartments-150k-200k"
+};
 const run = await client.actor('fayoussef/xe-gr-price-drop-radar').call(input);
 const { items } = await client.dataset(run.defaultDatasetId).listItems();
 console.log(items);
@@ -69,7 +106,7 @@ console.log(items);
 ```bash
 curl -X POST "https://api.apify.com/v2/acts/fayoussef~xe-gr-price-drop-radar/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>" \
   -H "Content-Type: application/json" \
-  -d '{}'
+  -d '{"startUrls": [{"url": "https://www.xe.gr/en/property/results?transaction_name=buy&item_type=re_residence&geo_place_ids[]=ChIJ8UNwBh-9oRQR3Y1mdkU1Nic&property_type=apartment&minimum_price=150000&maximum_price=200000"}], "alertTypes": ["price_cut", "relisted", "below_median"], "minDropPercent": 2, "belowMedianPercent": 25, "maxPages": 170, "watchlistName": "athens-apartments-150k-200k"}'
 ```
 
 ### From AI agents (MCP)
@@ -130,11 +167,11 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 - [XE.gr Greek Property Scraper](xe-gr-scraper.md): Scrape Greek real estate listings from XE.gr: prices, size, rooms, GPS coordinates, amenities, photos and phone numbers. Owners-only mode...
 - [RentFaster Scraper: Canada Rentals, Rents & Landlord Phones](rentfaster-scraper.md): Scrape Canadian rental listings from RentFaster.ca in 105 cities (Calgary, Edmonton, Toronto, Montreal...). Filter by type, bedrooms, rent...
 - [Centris.ca Scraper: Quebec Real Estate Listings & Photos](centris-property-scraper.md): Scrape Centris.ca real estate listings into clean structured data: MLS number, price, full address, rooms, bedrooms, bathrooms, the full...
-- [Fotocasa Scraper: Spain Property Listings, Agency Phones](fotocasa-scraper.md): Scrape property listings from Fotocasa.es, one of Spain's biggest real estate portals. Filter by province, city, price, rooms and size...
-- [Cyprus Property Alerts: New Listings and Price Drops](spitogatos-cy-scraper.md): Get alerted to new Cyprus property listings and price drops on Spitogatos.com.cy, with webhook or Telegram alerts. Also scrapes listings...
+- [Plot.gr Scraper: Greek Real Estate Listings with Agent Phones](plot-gr-scraper.md): Scrape plot.gr property listings in Greece: apartments, houses, land and commercial, for sale or rent. Prices, area, bedrooms, coordinates...
+- [Spiti24.gr Scraper: Greek Property Listings with Agent Phones](spiti24-scraper.md): Scrape spiti24.gr property listings in Greece: apartments, houses, land and commercial, for sale or rent. Prices, size, rooms, energy...
 
 ## More
 
-- Full catalog: [all 65 actors](../README.md)
+- Full catalog: [all 66 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/xe-gr-price-drop-radar](https://automationbyexperts.com/apify/xe-gr-price-drop-radar?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/xe-gr-price-drop-radar.md](https://automationbyexperts.com/apify/xe-gr-price-drop-radar.md)

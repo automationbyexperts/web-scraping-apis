@@ -13,12 +13,11 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/luma-events-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-16 |
+| Catalog updated | 2026-11-22 |
 
 ## What you can do with Luma Events Scraper: New Event Alerts & Organizer Leads
 
 - **[Find upcoming AI events in San Francisco](https://apify.com/fayoussef/luma-events-scraper/examples/ai-events-in-san-francisco?fpr=youssef)**: Discovers every AI event listed for San Francisco on Luma and opens each one for the full description, date, venue, ticket types and host profiles with Instagram, LinkedIn and X handles. Sponsors and community managers...
-- **[Build a lead list of startup event organizers in London](https://apify.com/fayoussef/luma-events-scraper/examples/london-startup-event-organizer-leads?fpr=youssef)**: Pulls London events on Luma that mention startup, then extracts each host and organizer with their social handles into the leads view. A ready made outreach list of the people running the city's founder meetups, demo...
 
 ## How to use Luma Events Scraper: New Event Alerts & Organizer Leads
 
@@ -152,6 +151,6 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 65 actors](../README.md)
+- Full catalog: [all 66 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/luma-events-scraper](https://automationbyexperts.com/apify/luma-events-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/luma-events-scraper.md](https://automationbyexperts.com/apify/luma-events-scraper.md)

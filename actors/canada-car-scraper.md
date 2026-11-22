@@ -13,7 +13,11 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/canada-car-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-16 |
+| Catalog updated | 2026-11-22 |
+
+## What you can do with Canada Car Scraper: AutoTrader.ca, Kijiji, CarGurus & Carpages
+
+- **[Compare used Toyota RAV4 prices across 3 sites in Toronto](https://apify.com/fayoussef/canada-car-scraper/examples/used-toyota-rav4-prices-toronto?fpr=youssef)**: Search AutoTrader.ca, Kijiji and CarGurus.ca at once for used Toyota RAV4s (2019 and newer) within 50 km of downtown Toronto. Each car is one row, with its VIN, the price on every site, the price gap, CarGurus deal...
 
 ## How to use Canada Car Scraper: AutoTrader.ca, Kijiji, CarGurus & Carpages
 
@@ -25,10 +29,24 @@
 
 ### Example input
 
-Open the input form on the Store page to see every field. An empty input runs the defaults.
-
 ```json
-{}
+{
+  "vehicles": [
+    "Toyota RAV4"
+  ],
+  "postal_code": "M5V 3L9",
+  "radius_km": 50,
+  "condition": "used",
+  "seller_type": "any",
+  "year_from": 2019,
+  "max_results": 100,
+  "sort_by": "newest",
+  "sources": [
+    "autotrader",
+    "kijiji",
+    "cargurus"
+  ]
+}
 ```
 
 ### Python
@@ -41,7 +59,15 @@ pip install apify-client
 from apify_client import ApifyClient
 
 client = ApifyClient("<YOUR_APIFY_TOKEN>")
-run_input = {}
+run_input = {'vehicles': ['Toyota RAV4'],
+ 'postal_code': 'M5V 3L9',
+ 'radius_km': 50,
+ 'condition': 'used',
+ 'seller_type': 'any',
+ 'year_from': 2019,
+ 'max_results': 100,
+ 'sort_by': 'newest',
+ 'sources': ['autotrader', 'kijiji', 'cargurus']}
 run = client.actor("fayoussef/canada-car-scraper").call(run_input=run_input)
 
 for item in client.dataset(run["defaultDatasetId"]).iterate_items():
@@ -58,7 +84,23 @@ npm install apify-client
 import { ApifyClient } from 'apify-client';
 
 const client = new ApifyClient({ token: '<YOUR_APIFY_TOKEN>' });
-const input = {};
+const input = {
+  "vehicles": [
+    "Toyota RAV4"
+  ],
+  "postal_code": "M5V 3L9",
+  "radius_km": 50,
+  "condition": "used",
+  "seller_type": "any",
+  "year_from": 2019,
+  "max_results": 100,
+  "sort_by": "newest",
+  "sources": [
+    "autotrader",
+    "kijiji",
+    "cargurus"
+  ]
+};
 const run = await client.actor('fayoussef/canada-car-scraper').call(input);
 const { items } = await client.dataset(run.defaultDatasetId).listItems();
 console.log(items);
@@ -69,7 +111,7 @@ console.log(items);
 ```bash
 curl -X POST "https://api.apify.com/v2/acts/fayoussef~canada-car-scraper/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>" \
   -H "Content-Type: application/json" \
-  -d '{}'
+  -d '{"vehicles": ["Toyota RAV4"], "postal_code": "M5V 3L9", "radius_km": 50, "condition": "used", "seller_type": "any", "year_from": 2019, "max_results": 100, "sort_by": "newest", "sources": ["autotrader", "kijiji", "cargurus"]}'
 ```
 
 ### From AI agents (MCP)
@@ -128,13 +170,13 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 - [AutoTrader.ca Scraper: Car Prices, VIN, Mileage & Dealers](autotrader-canada.md): Scrape AutoTrader.ca car listings: price, mileage, VIN, specs, dealer phone and photos from any search or the filter form. Optional Find...
 - [CarGurus Scraper: US, Canada & UK Car Listings, VIN & Prices](cargurus-listings-scraper.md): Scrape CarGurus car listings from cargurus.com, .ca and .co.uk by search URL or ZIP code: price, deal rating, mileage, VIN, specs, dealer...
-- [AutoScout24 Scraper: Car Listings, Prices & Dealer Contacts](autoscout24.md): AutoScout24 car listings from autoscout24.de, .at, .fr, .it, .es, .nl, .be, .lu and .com: price, make, model, mileage, first registration...
+- [AutoScout24 Scraper: Car Listings, Price Drop Alerts & Dealers](autoscout24.md): Scrape AutoScout24 car listings from 9 European sites, or monitor a search: each scheduled run returns only new cars, price drops and sold...
 - [AutoTrader.ca Price Drop Monitor & Car Scraper](autotrader-ca.md): Monitor AutoTrader Canada searches and get only new listings, price drops and sold cars since the last run, with price history. Schedule it...
 - [Kijiji.ca Scraper: Autos, Real Estate & Classifieds](kijiji-scraper.md): Scrape Kijiji.ca listings from any search or ad URL: cars, real estate and every other category. Get price, location, phone number, specs...
 - [AutoTrader South Africa Price Drop Monitor and Scraper](autotrader-co-za-scraper.md): Track autotrader.co.za for new listings, price drops and sold cars, or scrape every listing with price, mileage, specs and dealer. Optional...
 
 ## More
 
-- Full catalog: [all 65 actors](../README.md)
+- Full catalog: [all 66 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/canada-car-scraper](https://automationbyexperts.com/apify/canada-car-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/canada-car-scraper.md](https://automationbyexperts.com/apify/canada-car-scraper.md)

@@ -1,6 +1,6 @@
-# AutoScout24 Scraper: Car Listings, Prices & Dealer Contacts
+# AutoScout24 Scraper: Car Listings, Price Drop Alerts & Dealers
 
-**AutoScout24 Scraper: Car Listings, Prices & Dealer Contacts** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. AutoScout24 car listings from autoscout24.de, .at, .fr, .it, .es, .nl, .be, .lu and .com: price, make, model, mileage, first registration, fuel, power, equipment, photos, GPS location and dealer phone. Search by URL or filters.
+**AutoScout24 Scraper: Car Listings, Price Drop Alerts & Dealers** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Scrape AutoScout24 car listings from 9 European sites, or monitor a search: each scheduled run returns only new cars, price drops and sold cars, with Telegram, Slack or Discord alerts. Price, mileage, specs, equipment, GPS and dealer phone. Search by URL or filters.
 
 [Run it on Apify](https://apify.com/fayoussef/autoscout24?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/autoscout24?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All Car & Vehicle Scrapers](../categories/vehicle-scrapers.md)
 
@@ -14,15 +14,14 @@
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/autoscout24?fpr=youssef)) |
 | Rating | 5.0 out of 5 (1 reviews) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-16 |
+| Catalog updated | 2026-11-22 |
 
-## What you can do with AutoScout24 Scraper: Car Listings, Prices & Dealer Contacts
+## What you can do with AutoScout24 Scraper: Car Listings, Price Drop Alerts & Dealers
 
 - **[Find used VW Golfs in Germany under 15,000 EUR](https://apify.com/fayoussef/autoscout24/examples/vw-golf-germany-under-15000?fpr=youssef)**: Uses the built in filter form to search autoscout24.de for used Volkswagen Golf listings from 2016 onwards priced under 15,000 EUR, cheapest first, and returns 50 plus fields per car: price, mileage, equipment, dealer...
 - **[Export used electric cars in the Netherlands and Belgium](https://apify.com/fayoussef/autoscout24/examples/electric-cars-netherlands-belgium?fpr=youssef)**: Searches AutoScout24 for used fully electric cars located in the Netherlands and Belgium and exports each listing with price, mileage, battery and range fields, first registration, dealer details and photos. Built for...
-- **[Track new dealer SUV listings in Italy each week](https://apify.com/fayoussef/autoscout24/examples/new-dealer-suv-listings-italy?fpr=youssef)**: Returns SUV and off road listings posted by dealers on autoscout24.it in the last 7 days, newest first. Schedule it weekly and you have a running feed of fresh dealer stock in Italy, with price, mileage, equipment and...
 
-## How to use AutoScout24 Scraper: Car Listings, Prices & Dealer Contacts
+## How to use AutoScout24 Scraper: Car Listings, Price Drop Alerts & Dealers
 
 ### No code
 
@@ -131,9 +130,25 @@ https://mcp.apify.com?tools=fayoussef/autoscout24
 
 Your Apify API token is under **Settings > API & Integrations** in the [Apify Console](https://console.apify.com/settings/integrations?fpr=youssef).
 
+### From AI agents with no Apify account (x402 or Skyfire)
+
+This actor accepts [agentic payments](../agentic-payments.md): an AI agent can run it and pay per run with USDC (x402) or a Skyfire token, with no Apify account.
+
+```bash
+# x402: TOKEN is the prepaid token bought from Apify AGI with USDC on Base
+curl -X POST "https://api.apify.com/v2/acts/fayoussef~autoscout24/run-sync-get-dataset-items" \
+  -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" -d '{}'
+
+# Skyfire: send the PAY token instead
+curl -X POST "https://api.apify.com/v2/acts/fayoussef~autoscout24/run-sync-get-dataset-items" \
+  -H "skyfire-pay-id: $SKYFIRE_PAY_TOKEN" -H "Content-Type: application/json" -d '{}'
+```
+
+With MCP and Skyfire: `https://mcp.apify.com?payment=skyfire&tools=fayoussef/autoscout24`
+
 ## FAQ
 
-### Is AutoScout24 Scraper: Car Listings, Prices & Dealer Contacts free to try?
+### Is AutoScout24 Scraper: Car Listings, Price Drop Alerts & Dealers free to try?
 
 Yes. You can start it with a free Apify account. Free runs have usage limits, and larger jobs need an [Apify plan](https://apify.com/pricing?fpr=youssef). The current rate is shown on the [Store page](https://apify.com/fayoussef/autoscout24?fpr=youssef).
 
@@ -148,6 +163,10 @@ JSON, CSV, Excel, XML and HTML from the Console, or directly through the Apify A
 ### Can AI agents use it?
 
 Yes. Connect the Apify MCP server with `https://mcp.apify.com?tools=fayoussef/autoscout24` and Claude, ChatGPT, Cursor or any MCP client can run it and read the results.
+
+### Can an AI agent run it without an Apify account?
+
+Yes. This actor accepts agentic payments: an agent can pay per run with USDC through the x402 protocol, or with a Skyfire PAY token, and no Apify account is needed. See [AI agents and x402 payments](../agentic-payments.md).
 
 ### Can I get a custom version?
 
@@ -164,6 +183,6 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 65 actors](../README.md)
+- Full catalog: [all 66 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/autoscout24](https://automationbyexperts.com/apify/autoscout24?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/autoscout24.md](https://automationbyexperts.com/apify/autoscout24.md)

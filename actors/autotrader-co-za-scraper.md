@@ -13,12 +13,11 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/autotrader-co-za-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-16 |
+| Catalog updated | 2026-11-22 |
 
 ## What you can do with AutoTrader South Africa Price Drop Monitor and Scraper
 
 - **[Find used Toyota Hilux bakkies with seller phone numbers](https://apify.com/fayoussef/autotrader-co-za-scraper/examples/used-bakkies-with-seller-phone-numbers?fpr=youssef)**: Scrapes Toyota Hilux listings on AutoTrader South Africa and, on a paid plan, also returns the seller phone number AutoTrader hides behind a captcha, so the row is ready to call. Includes ZAR price, mileage, year...
-- **[Export nearly new automatic cars for sale in South Africa](https://apify.com/fayoussef/autotrader-co-za-scraper/examples/nearly-new-automatic-cars-south-africa?fpr=youssef)**: Returns 2023 and newer automatic cars listed on AutoTrader.co.za with price, mileage, engine and power figures, dealer rating, location and gallery images. Useful for dealers sizing the late model market and for buyers...
 
 ## How to use AutoTrader South Africa Price Drop Monitor and Scraper
 
@@ -149,13 +148,13 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 - [AutoTrader.ca Scraper: Car Prices, VIN, Mileage & Dealers](autotrader-canada.md): Scrape AutoTrader.ca car listings: price, mileage, VIN, specs, dealer phone and photos from any search or the filter form. Optional Find...
 - [CarGurus Scraper: US, Canada & UK Car Listings, VIN & Prices](cargurus-listings-scraper.md): Scrape CarGurus car listings from cargurus.com, .ca and .co.uk by search URL or ZIP code: price, deal rating, mileage, VIN, specs, dealer...
-- [AutoScout24 Scraper: Car Listings, Prices & Dealer Contacts](autoscout24.md): AutoScout24 car listings from autoscout24.de, .at, .fr, .it, .es, .nl, .be, .lu and .com: price, make, model, mileage, first registration...
+- [AutoScout24 Scraper: Car Listings, Price Drop Alerts & Dealers](autoscout24.md): Scrape AutoScout24 car listings from 9 European sites, or monitor a search: each scheduled run returns only new cars, price drops and sold...
 - [AutoTrader.ca Price Drop Monitor & Car Scraper](autotrader-ca.md): Monitor AutoTrader Canada searches and get only new listings, price drops and sold cars since the last run, with price history. Schedule it...
 - [Kijiji.ca Scraper: Autos, Real Estate & Classifieds](kijiji-scraper.md): Scrape Kijiji.ca listings from any search or ad URL: cars, real estate and every other category. Get price, location, phone number, specs...
 - [Car Dealer Website Inventory Scraper: VIN, Price & Stock](dealer-inventory-scraper.md): Scrape live vehicle inventory from any car dealership's own website, not a marketplace. Paste a dealer homepage and get every car at VIN...
 
 ## More
 
-- Full catalog: [all 65 actors](../README.md)
+- Full catalog: [all 66 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/autotrader-co-za-scraper](https://automationbyexperts.com/apify/autotrader-co-za-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/autotrader-co-za-scraper.md](https://automationbyexperts.com/apify/autotrader-co-za-scraper.md)

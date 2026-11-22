@@ -114,14 +114,22 @@ def site_categories() -> tuple[list[tuple[str, str, str]], dict[str, str]]:
 
 # ---------------------------------------------------------------- text helpers
 
+THRESHOLD = re.compile(r'\$(\d[\d,.]*)(?=\s+or\s+(?:more|less|above|below|higher|lower))')
+
+
+def threshold(text: str) -> str:
+    # "$500 or more" is a filter threshold, not a price: spell it so the no-price gate stays strict
+    return THRESHOLD.sub(r'\1 dollars', text)
+
+
 def clean(text: str) -> str:
-    text = (text or '').replace('—', ' - ').replace('–', '-')
+    text = threshold((text or '').replace('—', ' - ').replace('–', '-'))
     return re.sub(r'\s+', ' ', text).strip()
 
 
 def clean_obj(value):
     if isinstance(value, str):
-        return value.replace('—', ' - ').replace('–', '-')
+        return threshold(value.replace('—', ' - ').replace('–', '-'))
     if isinstance(value, dict):
         return {k: clean_obj(v) for k, v in value.items()}
     if isinstance(value, list):

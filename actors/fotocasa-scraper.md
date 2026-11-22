@@ -13,7 +13,11 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/fotocasa-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-16 |
+| Catalog updated | 2026-11-22 |
+
+## What you can do with Fotocasa Scraper: Spain Property Listings, Agency Phones
+
+- **[Find homes for sale in Malaga with agency phone numbers](https://apify.com/fayoussef/fotocasa-scraper/examples/homes-for-sale-malaga-agency-phones?fpr=youssef)**: Every home for sale in the Malaga province on Fotocasa.es, newest first. Each result has the asking price, price per square metre, rooms, size, address, coordinates, photos and the agency name and phone number. Private...
 
 ## How to use Fotocasa Scraper: Spain Property Listings, Agency Phones
 
@@ -25,10 +29,17 @@
 
 ### Example input
 
-Open the input form on the Store page to see every field. An empty input runs the defaults.
-
 ```json
-{}
+{
+  "mode": "listings",
+  "max_items": 100,
+  "operation": "sale",
+  "property_type": "viviendas",
+  "provinces": [
+    "malaga-provincia"
+  ],
+  "sort_by": "newest"
+}
 ```
 
 ### Python
@@ -41,7 +52,12 @@ pip install apify-client
 from apify_client import ApifyClient
 
 client = ApifyClient("<YOUR_APIFY_TOKEN>")
-run_input = {}
+run_input = {'mode': 'listings',
+ 'max_items': 100,
+ 'operation': 'sale',
+ 'property_type': 'viviendas',
+ 'provinces': ['malaga-provincia'],
+ 'sort_by': 'newest'}
 run = client.actor("fayoussef/fotocasa-scraper").call(run_input=run_input)
 
 for item in client.dataset(run["defaultDatasetId"]).iterate_items():
@@ -58,7 +74,16 @@ npm install apify-client
 import { ApifyClient } from 'apify-client';
 
 const client = new ApifyClient({ token: '<YOUR_APIFY_TOKEN>' });
-const input = {};
+const input = {
+  "mode": "listings",
+  "max_items": 100,
+  "operation": "sale",
+  "property_type": "viviendas",
+  "provinces": [
+    "malaga-provincia"
+  ],
+  "sort_by": "newest"
+};
 const run = await client.actor('fayoussef/fotocasa-scraper').call(input);
 const { items } = await client.dataset(run.defaultDatasetId).listItems();
 console.log(items);
@@ -69,7 +94,7 @@ console.log(items);
 ```bash
 curl -X POST "https://api.apify.com/v2/acts/fayoussef~fotocasa-scraper/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>" \
   -H "Content-Type: application/json" \
-  -d '{}'
+  -d '{"mode": "listings", "max_items": 100, "operation": "sale", "property_type": "viviendas", "provinces": ["malaga-provincia"], "sort_by": "newest"}'
 ```
 
 ### From AI agents (MCP)
@@ -130,11 +155,11 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 - [XE.gr Greek Property Scraper](xe-gr-scraper.md): Scrape Greek real estate listings from XE.gr: prices, size, rooms, GPS coordinates, amenities, photos and phone numbers. Owners-only mode...
 - [RentFaster Scraper: Canada Rentals, Rents & Landlord Phones](rentfaster-scraper.md): Scrape Canadian rental listings from RentFaster.ca in 105 cities (Calgary, Edmonton, Toronto, Montreal...). Filter by type, bedrooms, rent...
 - [Centris.ca Scraper: Quebec Real Estate Listings & Photos](centris-property-scraper.md): Scrape Centris.ca real estate listings into clean structured data: MLS number, price, full address, rooms, bedrooms, bathrooms, the full...
-- [XE.gr Price Drop Alerts: Greek Property Price Cuts & Relists](xe-gr-price-drop-radar.md): Watch any XE.gr search and get only what changed: price cuts with percent and days on market, ads re-posted to look new, and homes priced...
-- [Cyprus Property Alerts: New Listings and Price Drops](spitogatos-cy-scraper.md): Get alerted to new Cyprus property listings and price drops on Spitogatos.com.cy, with webhook or Telegram alerts. Also scrapes listings...
+- [Plot.gr Scraper: Greek Real Estate Listings with Agent Phones](plot-gr-scraper.md): Scrape plot.gr property listings in Greece: apartments, houses, land and commercial, for sale or rent. Prices, area, bedrooms, coordinates...
+- [Spiti24.gr Scraper: Greek Property Listings with Agent Phones](spiti24-scraper.md): Scrape spiti24.gr property listings in Greece: apartments, houses, land and commercial, for sale or rent. Prices, size, rooms, energy...
 
 ## More
 
-- Full catalog: [all 65 actors](../README.md)
+- Full catalog: [all 66 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/fotocasa-scraper](https://automationbyexperts.com/apify/fotocasa-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/fotocasa-scraper.md](https://automationbyexperts.com/apify/fotocasa-scraper.md)

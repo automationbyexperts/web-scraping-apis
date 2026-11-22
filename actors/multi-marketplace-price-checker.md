@@ -13,12 +13,7 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/multi-marketplace-price-checker?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-16 |
-
-## What you can do with Amazon, eBay, Best Buy & Newegg Price Checker by ASIN or UPC
-
-- **[Compare a product's price on Amazon, eBay, Best Buy and Newegg](https://apify.com/fayoussef/multi-marketplace-price-checker/examples/compare-prices-amazon-ebay-bestbuy-newegg?fpr=youssef)**: Give it ASINs, UPCs, model numbers or plain product names and get what each exact product sells for right now on all four marketplaces, priced for a New York ZIP. AI verifies each result is the same product, not a...
-- **[Price check an arbitrage sourcing list across marketplaces](https://apify.com/fayoussef/multi-marketplace-price-checker/examples/arbitrage-sourcing-list-price-check?fpr=youssef)**: Runs a list of ASINs through Amazon and eBay in parallel and returns the current price and availability on each, so a sourcing sheet of hundreds of products shows in one pass where each item resells highest. The...
+| Catalog updated | 2026-11-22 |
 
 ## How to use Amazon, eBay, Best Buy & Newegg Price Checker by ASIN or UPC
 
@@ -30,21 +25,10 @@
 
 ### Example input
 
+Open the input form on the Store page to see every field. An empty input runs the defaults.
+
 ```json
-{
-  "products": [
-    "B0DGHMNQ5Z",
-    "Sony WH-1000XM5"
-  ],
-  "marketplaces": [
-    "Amazon",
-    "eBay",
-    "BestBuy",
-    "Newegg"
-  ],
-  "zipCode": "10001",
-  "concurrency": 5
-}
+{}
 ```
 
 ### Python
@@ -57,10 +41,7 @@ pip install apify-client
 from apify_client import ApifyClient
 
 client = ApifyClient("<YOUR_APIFY_TOKEN>")
-run_input = {'products': ['B0DGHMNQ5Z', 'Sony WH-1000XM5'],
- 'marketplaces': ['Amazon', 'eBay', 'BestBuy', 'Newegg'],
- 'zipCode': '10001',
- 'concurrency': 5}
+run_input = {}
 run = client.actor("fayoussef/multi-marketplace-price-checker").call(run_input=run_input)
 
 for item in client.dataset(run["defaultDatasetId"]).iterate_items():
@@ -77,20 +58,7 @@ npm install apify-client
 import { ApifyClient } from 'apify-client';
 
 const client = new ApifyClient({ token: '<YOUR_APIFY_TOKEN>' });
-const input = {
-  "products": [
-    "B0DGHMNQ5Z",
-    "Sony WH-1000XM5"
-  ],
-  "marketplaces": [
-    "Amazon",
-    "eBay",
-    "BestBuy",
-    "Newegg"
-  ],
-  "zipCode": "10001",
-  "concurrency": 5
-};
+const input = {};
 const run = await client.actor('fayoussef/multi-marketplace-price-checker').call(input);
 const { items } = await client.dataset(run.defaultDatasetId).listItems();
 console.log(items);
@@ -101,7 +69,7 @@ console.log(items);
 ```bash
 curl -X POST "https://api.apify.com/v2/acts/fayoussef~multi-marketplace-price-checker/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>" \
   -H "Content-Type: application/json" \
-  -d '{"products": ["B0DGHMNQ5Z", "Sony WH-1000XM5"], "marketplaces": ["Amazon", "eBay", "BestBuy", "Newegg"], "zipCode": "10001", "concurrency": 5}'
+  -d '{}'
 ```
 
 ### From AI agents (MCP)
@@ -165,6 +133,6 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 65 actors](../README.md)
+- Full catalog: [all 66 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/multi-marketplace-price-checker](https://automationbyexperts.com/apify/multi-marketplace-price-checker?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/multi-marketplace-price-checker.md](https://automationbyexperts.com/apify/multi-marketplace-price-checker.md)

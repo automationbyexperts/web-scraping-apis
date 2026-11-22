@@ -14,14 +14,11 @@
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/fnac-data-scraping?fpr=youssef)) |
 | Rating | 5.0 out of 5 (1 reviews) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-16 |
+| Catalog updated | 2026-11-22 |
 
 ## What you can do with Fnac.com Scraper: Products, Prices, EAN, Stock & Reviews
 
 - **[Scrape Fnac laptop prices, EAN and stock in France](https://apify.com/fayoussef/fnac-data-scraping/examples/fnac-laptop-prices-france?fpr=youssef)**: Exports every laptop in the fnac.com Tous les ordinateurs portables category with current price, crossed-out list price, discount, EAN, SKU, brand, stock status, marketplace sellers, ratings and the full spec table...
-- **[Find Lenovo and HP laptops under 600 EUR sold by Fnac](https://apify.com/fayoussef/fnac-data-scraping/examples/fnac-lenovo-hp-laptops-under-600?fpr=youssef)**: Searches fnac.com for laptops, keeps only new Lenovo and HP models under 600 EUR that are sold by Fnac and in stock, cheapest first. Each result has the price, list price, discount, EAN, stock status, rating and full...
-- **[Casques Bluetooth Sony vendus par Fnac, les mieux notés](https://apify.com/fayoussef/fnac-data-scraping/examples/fnac-casques-sony-bluetooth-vendus-par-fnac?fpr=youssef)**: Recherche les casques et écouteurs Bluetooth Sony sur fnac.com, garde uniquement ceux vendus par Fnac et les classe par note client. Chaque produit comprend le prix, le prix barré, la remise, l'EAN, la disponibilité, la...
-- **[Meilleures ventes de romans policiers Fnac avec EAN](https://apify.com/fayoussef/fnac-data-scraping/examples/fnac-romans-policiers-meilleures-ventes?fpr=youssef)**: Recherche les romans policiers dans la catégorie Livres de fnac.com, classés par meilleures ventes. Chaque livre comprend le prix, l'EAN (ISBN), l'auteur, la disponibilité, la note, les avis et le résumé. Idéal pour les...
 
 ## How to use Fnac.com Scraper: Products, Prices, EAN, Stock & Reviews
 
@@ -136,6 +133,6 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 65 actors](../README.md)
+- Full catalog: [all 66 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/fnac-data-scraping](https://automationbyexperts.com/apify/fnac-data-scraping?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/fnac-data-scraping.md](https://automationbyexperts.com/apify/fnac-data-scraping.md)

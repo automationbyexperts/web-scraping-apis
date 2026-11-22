@@ -13,7 +13,12 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/xo-gr-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-16 |
+| Catalog updated | 2026-11-22 |
+
+## What you can do with Greek Business Leads: New Business Alerts from XO.gr
+
+- **[Lawyers in Athens with phones, emails and websites](https://apify.com/fayoussef/xo-gr-scraper/examples/lawyers-athens-phones-websites?fpr=youssef)**: Export Athens law firms and lawyers from xo.gr (Greek Golden Guide): name, landline and mobile in international format, email, website, street address, postal code and GPS. Paid listings are skipped so you get the...
+- **[Ηλεκτρολόγοι στη Θεσσαλονίκη με τηλέφωνα και email](https://apify.com/fayoussef/xo-gr-scraper/examples/ilektrologoi-thessaloniki?fpr=youssef)**: Λίστα ηλεκτρολόγων της Θεσσαλονίκης από τον Χρυσό Οδηγό (xo.gr) με επωνυμία, τηλέφωνα σε διεθνή μορφή, email, ιστοσελίδα, διεύθυνση, ταχυδρομικό κώδικα και GPS. Μόνο οργανικά αποτελέσματα, χωρίς χορηγούμενες...
 
 ## How to use Greek Business Leads: New Business Alerts from XO.gr
 
@@ -25,10 +30,18 @@
 
 ### Example input
 
-Open the input form on the Store page to see every field. An empty input runs the defaults.
-
 ```json
-{}
+{
+  "search_terms": [
+    "lawyers"
+  ],
+  "locations": [
+    "Athens"
+  ],
+  "max_items": 200,
+  "skip_sponsored": true,
+  "include_details": false
+}
 ```
 
 ### Python
@@ -41,7 +54,11 @@ pip install apify-client
 from apify_client import ApifyClient
 
 client = ApifyClient("<YOUR_APIFY_TOKEN>")
-run_input = {}
+run_input = {'search_terms': ['lawyers'],
+ 'locations': ['Athens'],
+ 'max_items': 200,
+ 'skip_sponsored': True,
+ 'include_details': False}
 run = client.actor("fayoussef/xo-gr-scraper").call(run_input=run_input)
 
 for item in client.dataset(run["defaultDatasetId"]).iterate_items():
@@ -58,7 +75,17 @@ npm install apify-client
 import { ApifyClient } from 'apify-client';
 
 const client = new ApifyClient({ token: '<YOUR_APIFY_TOKEN>' });
-const input = {};
+const input = {
+  "search_terms": [
+    "lawyers"
+  ],
+  "locations": [
+    "Athens"
+  ],
+  "max_items": 200,
+  "skip_sponsored": true,
+  "include_details": false
+};
 const run = await client.actor('fayoussef/xo-gr-scraper').call(input);
 const { items } = await client.dataset(run.defaultDatasetId).listItems();
 console.log(items);
@@ -69,7 +96,7 @@ console.log(items);
 ```bash
 curl -X POST "https://api.apify.com/v2/acts/fayoussef~xo-gr-scraper/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>" \
   -H "Content-Type: application/json" \
-  -d '{}'
+  -d '{"search_terms": ["lawyers"], "locations": ["Athens"], "max_items": 200, "skip_sponsored": true, "include_details": false}'
 ```
 
 ### From AI agents (MCP)
@@ -130,11 +157,11 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 - [Canada411 Scraper: Phone Numbers, Names & Addresses](canada411-ca.md): Scrape Canada411.ca, Canada's phone directory: names, phone numbers and full addresses for businesses and people. Search by name or...
 - [Whop Scraper: Content Rewards, Clipping & UGC Campaigns](whop-clipping-campaigns-scraper.md): Scrape the Whop Content Rewards directory: reward per 1K views, budget left, burn rate, platforms, payout type and campaign URLs. Builds a...
 - [GitHub Developer Lead Finder & Email Enricher](github-developer-leads.md): Find developers on GitHub and enrich each one with verified email, company, location, skills, and social links for recruiting and B2B...
-- [Luma Events Scraper: New Event Alerts & Organizer Leads](luma-events-scraper.md): Get alerted to new Luma (lu.ma) events in your city or calendar, with the organizer's Instagram, LinkedIn, TikTok, X and YouTube handles...
 - [Kijiji Dealer & Business Leads: Phones, Websites, Addresses](kijiji-business-leads.md): Turn any Kijiji.ca search into a B2B lead list: one row per dealer, property manager or local business, with phone, website, address...
+- [Luma Events Scraper: New Event Alerts & Organizer Leads](luma-events-scraper.md): Get alerted to new Luma (lu.ma) events in your city or calendar, with the organizer's Instagram, LinkedIn, TikTok, X and YouTube handles...
 
 ## More
 
-- Full catalog: [all 65 actors](../README.md)
+- Full catalog: [all 66 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/xo-gr-scraper](https://automationbyexperts.com/apify/xo-gr-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/xo-gr-scraper.md](https://automationbyexperts.com/apify/xo-gr-scraper.md)

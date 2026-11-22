@@ -13,11 +13,10 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/company-domain-to-job-postings?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-16 |
+| Catalog updated | 2026-11-22 |
 
 ## What you can do with Hiring Signal Alerts: New Jobs at Companies You Watch
 
-- **[Get every engineering job at YC companies](https://apify.com/fayoussef/company-domain-to-job-postings/examples/engineering-jobs-at-yc-companies?fpr=youssef)**: Adds the curated Y Combinator company list to your own domains, finds each company's Greenhouse, Lever, Ashby, Recruitee, SmartRecruiters or Personio board, verifies it belongs to them, and returns every open role whose...
 - **[Pull remote jobs from a list of company domains](https://apify.com/fayoussef/company-domain-to-job-postings/examples/remote-jobs-from-a-prospect-list?fpr=youssef)**: Paste domains straight from a CRM export and get back only the remote roles each company has open, with location, salary where published, department and full description. Recruiters and sales teams use it to know who is...
 
 ## How to use Hiring Signal Alerts: New Jobs at Companies You Watch
@@ -34,13 +33,11 @@
 {
   "companies": [
     "stripe.com",
-    "monzo.com"
+    "monzo.com",
+    "channable.com",
+    "notion.so"
   ],
-  "preset": "yc_companies",
-  "keywords": [
-    "engineer",
-    "developer"
-  ],
+  "remoteOnly": true,
   "includeDescription": true,
   "descriptionFormat": "markdown",
   "maxItems": 500
@@ -57,9 +54,8 @@ pip install apify-client
 from apify_client import ApifyClient
 
 client = ApifyClient("<YOUR_APIFY_TOKEN>")
-run_input = {'companies': ['stripe.com', 'monzo.com'],
- 'preset': 'yc_companies',
- 'keywords': ['engineer', 'developer'],
+run_input = {'companies': ['stripe.com', 'monzo.com', 'channable.com', 'notion.so'],
+ 'remoteOnly': True,
  'includeDescription': True,
  'descriptionFormat': 'markdown',
  'maxItems': 500}
@@ -82,13 +78,11 @@ const client = new ApifyClient({ token: '<YOUR_APIFY_TOKEN>' });
 const input = {
   "companies": [
     "stripe.com",
-    "monzo.com"
+    "monzo.com",
+    "channable.com",
+    "notion.so"
   ],
-  "preset": "yc_companies",
-  "keywords": [
-    "engineer",
-    "developer"
-  ],
+  "remoteOnly": true,
   "includeDescription": true,
   "descriptionFormat": "markdown",
   "maxItems": 500
@@ -103,7 +97,7 @@ console.log(items);
 ```bash
 curl -X POST "https://api.apify.com/v2/acts/fayoussef~company-domain-to-job-postings/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>" \
   -H "Content-Type: application/json" \
-  -d '{"companies": ["stripe.com", "monzo.com"], "preset": "yc_companies", "keywords": ["engineer", "developer"], "includeDescription": true, "descriptionFormat": "markdown", "maxItems": 500}'
+  -d '{"companies": ["stripe.com", "monzo.com", "channable.com", "notion.so"], "remoteOnly": true, "includeDescription": true, "descriptionFormat": "markdown", "maxItems": 500}'
 ```
 
 ### From AI agents (MCP)
@@ -164,11 +158,11 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 - [Canada411 Scraper: Phone Numbers, Names & Addresses](canada411-ca.md): Scrape Canada411.ca, Canada's phone directory: names, phone numbers and full addresses for businesses and people. Search by name or...
 - [Whop Scraper: Content Rewards, Clipping & UGC Campaigns](whop-clipping-campaigns-scraper.md): Scrape the Whop Content Rewards directory: reward per 1K views, budget left, burn rate, platforms, payout type and campaign URLs. Builds a...
 - [GitHub Developer Lead Finder & Email Enricher](github-developer-leads.md): Find developers on GitHub and enrich each one with verified email, company, location, skills, and social links for recruiting and B2B...
-- [Luma Events Scraper: New Event Alerts & Organizer Leads](luma-events-scraper.md): Get alerted to new Luma (lu.ma) events in your city or calendar, with the organizer's Instagram, LinkedIn, TikTok, X and YouTube handles...
 - [Kijiji Dealer & Business Leads: Phones, Websites, Addresses](kijiji-business-leads.md): Turn any Kijiji.ca search into a B2B lead list: one row per dealer, property manager or local business, with phone, website, address...
+- [Luma Events Scraper: New Event Alerts & Organizer Leads](luma-events-scraper.md): Get alerted to new Luma (lu.ma) events in your city or calendar, with the organizer's Instagram, LinkedIn, TikTok, X and YouTube handles...
 
 ## More
 
-- Full catalog: [all 65 actors](../README.md)
+- Full catalog: [all 66 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/company-domain-to-job-postings](https://automationbyexperts.com/apify/company-domain-to-job-postings?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/company-domain-to-job-postings.md](https://automationbyexperts.com/apify/company-domain-to-job-postings.md)

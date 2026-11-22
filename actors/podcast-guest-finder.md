@@ -13,12 +13,11 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/podcast-guest-finder?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-16 |
+| Catalog updated | 2026-11-22 |
 
 ## What you can do with Podcast Scraper for Guest Booking: Shows & Host Emails
 
 - **[Find B2B SaaS podcasts with host emails](https://apify.com/fayoussef/podcast-guest-finder/examples/b2b-saas-podcasts-with-host-emails?fpr=youssef)**: Searches Apple Podcasts for shows about B2B SaaS and startup founders, keeps only those that published in the last 90 days and expose a host or owner email in their RSS feed, and returns a pitch ready list with show...
-- **[Build a pitch list of real estate investing podcasts](https://apify.com/fayoussef/podcast-guest-finder/examples/real-estate-investing-podcast-pitch-list?fpr=youssef)**: Finds real estate investing shows whose description signals an interview format, drops any without a reachable host email or without a recent episode, and returns up to 100 leads. What a podcast booking agency charges...
 
 ## How to use Podcast Scraper for Guest Booking: Shows & Host Emails
 
@@ -155,11 +154,11 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 - [Canada411 Scraper: Phone Numbers, Names & Addresses](canada411-ca.md): Scrape Canada411.ca, Canada's phone directory: names, phone numbers and full addresses for businesses and people. Search by name or...
 - [Whop Scraper: Content Rewards, Clipping & UGC Campaigns](whop-clipping-campaigns-scraper.md): Scrape the Whop Content Rewards directory: reward per 1K views, budget left, burn rate, platforms, payout type and campaign URLs. Builds a...
 - [GitHub Developer Lead Finder & Email Enricher](github-developer-leads.md): Find developers on GitHub and enrich each one with verified email, company, location, skills, and social links for recruiting and B2B...
-- [Luma Events Scraper: New Event Alerts & Organizer Leads](luma-events-scraper.md): Get alerted to new Luma (lu.ma) events in your city or calendar, with the organizer's Instagram, LinkedIn, TikTok, X and YouTube handles...
 - [Kijiji Dealer & Business Leads: Phones, Websites, Addresses](kijiji-business-leads.md): Turn any Kijiji.ca search into a B2B lead list: one row per dealer, property manager or local business, with phone, website, address...
+- [Luma Events Scraper: New Event Alerts & Organizer Leads](luma-events-scraper.md): Get alerted to new Luma (lu.ma) events in your city or calendar, with the organizer's Instagram, LinkedIn, TikTok, X and YouTube handles...
 
 ## More
 
-- Full catalog: [all 65 actors](../README.md)
+- Full catalog: [all 66 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/podcast-guest-finder](https://automationbyexperts.com/apify/podcast-guest-finder?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/podcast-guest-finder.md](https://automationbyexperts.com/apify/podcast-guest-finder.md)

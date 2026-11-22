@@ -13,12 +13,7 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/website-change-monitor?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-16 |
-
-## What you can do with Website Change Monitor and Competitor Price Tracker
-
-- **[Monitor a competitor's pricing page for changes](https://apify.com/fayoussef/website-change-monitor/examples/competitor-pricing-page-monitor?fpr=youssef)**: Saves a baseline of the visible text on a pricing page, then on every run reports exactly what changed, with any change mentioning price, discount or plan flagged as major. Schedule it hourly or daily and add a Slack or...
-- **[Get alerts when a terms of service page changes](https://apify.com/fayoussef/website-change-monitor/examples/terms-of-service-change-alerts?fpr=youssef)**: Watches legal and policy pages that change silently and returns a line by line diff instead of making you reread the whole page, ignoring the last updated timestamp so only real wording changes count. Legal and...
+| Catalog updated | 2026-11-22 |
 
 ## How to use Website Change Monitor and Competitor Price Tracker
 
@@ -30,21 +25,10 @@
 
 ### Example input
 
+Open the input form on the Store page to see every field. An empty input runs the defaults.
+
 ```json
-{
-  "urls": [
-    "https://github.com/pricing"
-  ],
-  "watchKeywords": [
-    "price",
-    "discount",
-    "plan",
-    "free"
-  ],
-  "monitorMode": "text",
-  "monitorName": "pricing",
-  "concurrency": 10
-}
+{}
 ```
 
 ### Python
@@ -57,11 +41,7 @@ pip install apify-client
 from apify_client import ApifyClient
 
 client = ApifyClient("<YOUR_APIFY_TOKEN>")
-run_input = {'urls': ['https://github.com/pricing'],
- 'watchKeywords': ['price', 'discount', 'plan', 'free'],
- 'monitorMode': 'text',
- 'monitorName': 'pricing',
- 'concurrency': 10}
+run_input = {}
 run = client.actor("fayoussef/website-change-monitor").call(run_input=run_input)
 
 for item in client.dataset(run["defaultDatasetId"]).iterate_items():
@@ -78,20 +58,7 @@ npm install apify-client
 import { ApifyClient } from 'apify-client';
 
 const client = new ApifyClient({ token: '<YOUR_APIFY_TOKEN>' });
-const input = {
-  "urls": [
-    "https://github.com/pricing"
-  ],
-  "watchKeywords": [
-    "price",
-    "discount",
-    "plan",
-    "free"
-  ],
-  "monitorMode": "text",
-  "monitorName": "pricing",
-  "concurrency": 10
-};
+const input = {};
 const run = await client.actor('fayoussef/website-change-monitor').call(input);
 const { items } = await client.dataset(run.defaultDatasetId).listItems();
 console.log(items);
@@ -102,7 +69,7 @@ console.log(items);
 ```bash
 curl -X POST "https://api.apify.com/v2/acts/fayoussef~website-change-monitor/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>" \
   -H "Content-Type: application/json" \
-  -d '{"urls": ["https://github.com/pricing"], "watchKeywords": ["price", "discount", "plan", "free"], "monitorMode": "text", "monitorName": "pricing", "concurrency": 10}'
+  -d '{}'
 ```
 
 ### From AI agents (MCP)
@@ -141,13 +108,13 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 - [Dataset Diff & Change Monitor: Only New Items From Any Actor](dataset-diff.md): Turn any Apify Actor, Task or dataset into a change monitor: get only the new, changed and removed items since the last run, deduplicated...
 - [VIES VAT Number Validator: Bulk EU VAT Check & Monitor](eu-vat-compliance-monitor.md): Bulk EU VAT number validation against VIES. Check a whole supplier or customer list, get the consultation number that proves you checked...
-- [Invoice & Utility Bill Data Extractor: Totals, kWh, Line Items](invoice-utility-bill-extractor.md): Bulk extract vendor, dates, totals, tax, kWh and line items from invoice and utility bill PDFs and photos. Auto-detects each document, runs...
 - [License Lookup & Verification: Bulk Contractor, Nurse, NPI](license-roster-monitor.md): Bulk professional license lookup and verification for contractors, nurses, electricians, real estate agents and healthcare providers (NPI)...
 - [USDA Report Watcher: New WASDE & ERS Data File Alerts](usda-report-watcher.md): Get every new or updated USDA data file the moment it is published: WASDE, ERS, NASS, AMS. Detects files still marked 'not yet available'...
+- [Invoice & Utility Bill Data Extractor: Totals, kWh, Line Items](invoice-utility-bill-extractor.md): Bulk extract vendor, dates, totals, tax, kWh and line items from invoice and utility bill PDFs and photos. Auto-detects each document, runs...
 - [Tennis Abstract Scraper: ATP & WTA Match Stats](tennis-abstract-scraper.md): Scrape every ATP and WTA player's full career match log from Tennis Abstract: score, opponent, ranks, surface, level, aces, double faults...
 
 ## More
 
-- Full catalog: [all 65 actors](../README.md)
+- Full catalog: [all 66 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/website-change-monitor](https://automationbyexperts.com/apify/website-change-monitor?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/website-change-monitor.md](https://automationbyexperts.com/apify/website-change-monitor.md)

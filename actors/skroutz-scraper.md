@@ -13,12 +13,7 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/skroutz-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-16 |
-
-## What you can do with Skroutz Scraper: Greek Price Comparison, Offers & History
-
-- **[Compare iPhone 17 Pro prices across all Skroutz countries](https://apify.com/fayoussef/skroutz-scraper/examples/iphone-17-pro-prices-all-skroutz-countries?fpr=youssef)**: Search Skroutz in Greece, Cyprus, Bulgaria, Romania, Germany and Malta for the iPhone 17 Pro and get every model with its price, currency, rating and delivery in English, plus every shop selling it with price, stock and...
-- **[Τιμές πλυντηρίων ρούχων στο Skroutz με ιστορικό τιμών](https://apify.com/fayoussef/skroutz-scraper/examples/washing-machine-prices-greece-greek?fpr=youssef)**: Συγκεντρώστε τα πλυντήρια ρούχων του Skroutz.gr με τιμή, βαθμολογία και παράδοση, μαζί με το ιστορικό χαμηλότερης τιμής κάθε προϊόντος: τη χαμηλότερη τιμή όλων των εποχών και των τελευταίων 30 και 90 ημερών. Ιδανικό για...
+| Catalog updated | 2026-11-22 |
 
 ## How to use Skroutz Scraper: Greek Price Comparison, Offers & History
 
@@ -30,24 +25,10 @@
 
 ### Example input
 
+Open the input form on the Store page to see every field. An empty input runs the defaults.
+
 ```json
-{
-  "search_terms": [
-    "iphone 17 pro"
-  ],
-  "countries": [
-    "gr",
-    "cy",
-    "bg",
-    "ro",
-    "de",
-    "mt"
-  ],
-  "language": "en",
-  "sort_by": "price_asc",
-  "max_items": 200,
-  "include_shop_offers": true
-}
+{}
 ```
 
 ### Python
@@ -60,12 +41,7 @@ pip install apify-client
 from apify_client import ApifyClient
 
 client = ApifyClient("<YOUR_APIFY_TOKEN>")
-run_input = {'search_terms': ['iphone 17 pro'],
- 'countries': ['gr', 'cy', 'bg', 'ro', 'de', 'mt'],
- 'language': 'en',
- 'sort_by': 'price_asc',
- 'max_items': 200,
- 'include_shop_offers': True}
+run_input = {}
 run = client.actor("fayoussef/skroutz-scraper").call(run_input=run_input)
 
 for item in client.dataset(run["defaultDatasetId"]).iterate_items():
@@ -82,23 +58,7 @@ npm install apify-client
 import { ApifyClient } from 'apify-client';
 
 const client = new ApifyClient({ token: '<YOUR_APIFY_TOKEN>' });
-const input = {
-  "search_terms": [
-    "iphone 17 pro"
-  ],
-  "countries": [
-    "gr",
-    "cy",
-    "bg",
-    "ro",
-    "de",
-    "mt"
-  ],
-  "language": "en",
-  "sort_by": "price_asc",
-  "max_items": 200,
-  "include_shop_offers": true
-};
+const input = {};
 const run = await client.actor('fayoussef/skroutz-scraper').call(input);
 const { items } = await client.dataset(run.defaultDatasetId).listItems();
 console.log(items);
@@ -109,7 +69,7 @@ console.log(items);
 ```bash
 curl -X POST "https://api.apify.com/v2/acts/fayoussef~skroutz-scraper/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>" \
   -H "Content-Type: application/json" \
-  -d '{"search_terms": ["iphone 17 pro"], "countries": ["gr", "cy", "bg", "ro", "de", "mt"], "language": "en", "sort_by": "price_asc", "max_items": 200, "include_shop_offers": true}'
+  -d '{}'
 ```
 
 ### From AI agents (MCP)
@@ -175,6 +135,6 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 65 actors](../README.md)
+- Full catalog: [all 66 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/skroutz-scraper](https://automationbyexperts.com/apify/skroutz-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/skroutz-scraper.md](https://automationbyexperts.com/apify/skroutz-scraper.md)

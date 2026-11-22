@@ -13,12 +13,11 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/llms-txt-generator?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-16 |
+| Catalog updated | 2026-11-22 |
 
 ## What you can do with llms.txt Generator: llms-full.txt for Any Website (AI SEO)
 
 - **[Generate llms.txt and llms-full.txt for any website](https://apify.com/fayoussef/llms-txt-generator/examples/generate-llms-txt-for-any-website?fpr=youssef)**: Paste a homepage and the Actor finds the sitemap, picks the 50 most important pages, and writes a spec compliant llms.txt index plus an llms-full.txt with the complete Markdown content of every page, ready to upload to...
-- **[Build an llms-full.txt for a documentation site](https://apify.com/fayoussef/llms-txt-generator/examples/llms-full-txt-for-documentation-site?fpr=youssef)**: Crawls up to 200 pages of a docs site, limited to the platform and API sections, and produces a single llms-full.txt with every page as clean Markdown. Point AI coding assistants and support bots at one file instead of...
 
 ## How to use llms.txt Generator: llms-full.txt for Any Website (AI SEO)
 
@@ -137,12 +136,12 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## Related SEO & AI Visibility
 
-- [SEO, GEO & AEO Audit: AI Search Readiness Checker](seo-geo-aeo-audit.md): Audit any website for Google SEO and AI search visibility in one run. Get 0-100 SEO, GEO and AEO scores per page, AI crawler and llms.txt...
+- [SEO Audit + AI Crawler Check: SEO, GEO & AEO Score](seo-geo-aeo-audit.md): SEO audit and AI crawler checker in one run. See what GPTBot, ClaudeBot and PerplexityBot really receive, check robots.txt and llms.txt...
 - [Google Maps Local Rank Tracker with Weekly Change Alerts](geo-grid-local-rank-tracker.md): Track where a business ranks on Google Maps across a grid, week after week. Get alerted when your Share of Local Voice drops, see which...
 - [AI Brand Visibility Tracker (ChatGPT, Perplexity & Gemini)](ai-brand-visibility-tracker.md): Is AI recommending you or your competitors? Track brand mentions, ranking position, sentiment, share of voice and cited sources in ChatGPT...
 
 ## More
 
-- Full catalog: [all 65 actors](../README.md)
+- Full catalog: [all 66 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/llms-txt-generator](https://automationbyexperts.com/apify/llms-txt-generator?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/llms-txt-generator.md](https://automationbyexperts.com/apify/llms-txt-generator.md)
