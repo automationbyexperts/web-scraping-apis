@@ -1,10 +1,10 @@
 # AutomationByExperts Web Scraping APIs (GitHub catalog of Apify actors)
 
-> 66 ready-to-run Apify actors by Youssef Farhan: vehicle and real estate listings, e-commerce prices, lead generation, bulk AI tools, SEO and AI visibility audits. Hosted, no-code, export to JSON, CSV or Excel.
+> 67 ready-to-run Apify actors by Youssef Farhan: vehicle and real estate listings, e-commerce prices, lead generation, bulk AI tools, SEO and AI visibility audits. Hosted, no-code, export to JSON, CSV or Excel.
 
 ## What this repository is
 
-The open catalog of AutomationByExperts, the actor catalogue of Youssef Farhan, an independent Python developer who builds and maintains production web scrapers on the Apify platform. Rebuilt weekly from the live Apify Store. Last updated 2026-11-22.
+The open catalog of AutomationByExperts, the actor catalogue of Youssef Farhan, an independent Python developer who builds and maintains production web scrapers on the Apify platform. Rebuilt weekly from the live Apify Store. Last updated 2026-11-23.
 
 ## When to use it
 
@@ -63,6 +63,7 @@ Actors by Youssef Farhan (AutomationByExperts, https://automationbyexperts.com).
 - [Centris.ca Scraper: Quebec Real Estate Listings & Photos](https://raw.githubusercontent.com/automationbyexperts/web-scraping-apis/main/actors/centris-property-scraper.md) [agent-payable]: Scrape Centris.ca real estate listings into clean structured data: MLS number, price, full address, rooms, bedrooms, bathrooms, the full description and characteristics table, and every gallery...
 - [Plot.gr Scraper: Greek Real Estate Listings with Agent Phones](https://raw.githubusercontent.com/automationbyexperts/web-scraping-apis/main/actors/plot-gr-scraper.md) [agent-payable]: Scrape plot.gr property listings in Greece: apartments, houses, land and commercial, for sale or rent. Prices, area, bedrooms, coordinates, photos and the agent's phone, email and website. Filter by...
 - [Spiti24.gr Scraper: Greek Property Listings with Agent Phones](https://raw.githubusercontent.com/automationbyexperts/web-scraping-apis/main/actors/spiti24-scraper.md) [agent-payable]: Scrape spiti24.gr property listings in Greece: apartments, houses, land and commercial, for sale or rent. Prices, size, rooms, energy class, amenities, coordinates, all photos and the agency with...
+- [Indomio.gr Scraper: Greek Property Listings with Agency Phones](https://raw.githubusercontent.com/automationbyexperts/web-scraping-apis/main/actors/indomio-gr-scraper.md) [agent-payable]: Scrape Indomio.gr property listings in Greece: apartments, houses, land and commercial for sale or rent. Prices, sqm, GPS, photos and agency phones. Filter by area and price.
 - [Cyprus Property Alerts: New Listings and Price Drops](https://raw.githubusercontent.com/automationbyexperts/web-scraping-apis/main/actors/spitogatos-cy-scraper.md) [agent-payable]: Get alerted to new Cyprus property listings and price drops on Spitogatos.com.cy, with webhook or Telegram alerts. Also scrapes listings and agents with price, area, rooms, GPS, photos and agent...
 - [XE.gr Price Drop Alerts: Greek Property Price Cuts & Relists](https://raw.githubusercontent.com/automationbyexperts/web-scraping-apis/main/actors/xe-gr-price-drop-radar.md) [agent-payable]: Watch any XE.gr search and get only what changed: price cuts with percent and days on market, ads re-posted to look new, and homes priced under the area median. Schedule it daily for Greek property...
 - [Fotocasa Scraper: Spain Property Listings, Agency Phones](https://raw.githubusercontent.com/automationbyexperts/web-scraping-apis/main/actors/fotocasa-scraper.md) [agent-payable]: Scrape property listings from Fotocasa.es, one of Spain's biggest real estate portals. Filter by province, city, price, rooms and size. Export prices, addresses, coordinates, photos and agency phone...
@@ -149,7 +150,7 @@ Actors by Youssef Farhan (AutomationByExperts, https://automationbyexperts.com).
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/bulk-llm-runner?fpr=youssef)) |
 | Rating | 5.0 out of 5 (2 reviews) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with 350+ AI Models: Run ChatGPT, Claude, Gemini in Bulk
 
@@ -281,7 +282,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/bulk-llm-runner](https://automationbyexperts.com/apify/bulk-llm-runner?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/bulk-llm-runner.md](https://automationbyexperts.com/apify/bulk-llm-runner.md)
 
@@ -303,7 +304,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/bulk-ai-image-generator?fpr=youssef)) |
 | Rating | 5.0 out of 5 (1 reviews) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with Bulk AI Image Generator & Photo Editor: Nano Banana Pro
 
@@ -445,7 +446,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/bulk-ai-image-generator](https://automationbyexperts.com/apify/bulk-ai-image-generator?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/bulk-ai-image-generator.md](https://automationbyexperts.com/apify/bulk-ai-image-generator.md)
 
@@ -466,7 +467,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/journalist-request-finder?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with Journalist Request Finder: HARO Alternative for Digital PR
 
@@ -618,7 +619,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/journalist-request-finder](https://automationbyexperts.com/apify/journalist-request-finder?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/journalist-request-finder.md](https://automationbyexperts.com/apify/journalist-request-finder.md)
 
@@ -640,7 +641,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/spitogatos-scraper?fpr=youssef)) |
 | Rating | 5.0 out of 5 (5 reviews) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with Spitogatos Scraper: Greece Real Estate Listings & Agent Phones
 
@@ -778,11 +779,11 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 - [Centris.ca Scraper: Quebec Real Estate Listings & Photos](centris-property-scraper.md): Scrape Centris.ca real estate listings into clean structured data: MLS number, price, full address, rooms, bedrooms, bathrooms, the full...
 - [Plot.gr Scraper: Greek Real Estate Listings with Agent Phones](plot-gr-scraper.md): Scrape plot.gr property listings in Greece: apartments, houses, land and commercial, for sale or rent. Prices, area, bedrooms, coordinates...
 - [Spiti24.gr Scraper: Greek Property Listings with Agent Phones](spiti24-scraper.md): Scrape spiti24.gr property listings in Greece: apartments, houses, land and commercial, for sale or rent. Prices, size, rooms, energy...
-- [Cyprus Property Alerts: New Listings and Price Drops](spitogatos-cy-scraper.md): Get alerted to new Cyprus property listings and price drops on Spitogatos.com.cy, with webhook or Telegram alerts. Also scrapes listings...
+- [Indomio.gr Scraper: Greek Property Listings with Agency Phones](indomio-gr-scraper.md): Scrape Indomio.gr property listings in Greece: apartments, houses, land and commercial for sale or rent. Prices, sqm, GPS, photos and...
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/spitogatos-scraper](https://automationbyexperts.com/apify/spitogatos-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/spitogatos-scraper.md](https://automationbyexperts.com/apify/spitogatos-scraper.md)
 
@@ -804,7 +805,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/autotrader-canada?fpr=youssef)) |
 | Rating | 5.0 out of 5 (4 reviews) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with AutoTrader.ca Scraper: Car Prices, VIN, Mileage & Dealers
 
@@ -959,7 +960,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/autotrader-canada](https://automationbyexperts.com/apify/autotrader-canada?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/autotrader-canada.md](https://automationbyexperts.com/apify/autotrader-canada.md)
 
@@ -981,7 +982,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/wallapop-scraper?fpr=youssef)) |
 | Rating | 5.0 out of 5 (2 reviews) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with Wallapop Scraper: Deal Alerts, New Listings & Price Drops
 
@@ -1124,7 +1125,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/wallapop-scraper](https://automationbyexperts.com/apify/wallapop-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/wallapop-scraper.md](https://automationbyexperts.com/apify/wallapop-scraper.md)
 
@@ -1146,7 +1147,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/canada411-ca?fpr=youssef)) |
 | Rating | 5.0 out of 5 (1 reviews) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with Canada411 Scraper: Phone Numbers, Names & Addresses
 
@@ -1279,7 +1280,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/canada411-ca](https://automationbyexperts.com/apify/canada411-ca?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/canada411-ca.md](https://automationbyexperts.com/apify/canada411-ca.md)
 
@@ -1300,7 +1301,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/whop-clipping-campaigns-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with Whop Scraper: Content Rewards, Clipping & UGC Campaigns
 
@@ -1438,7 +1439,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/whop-clipping-campaigns-scraper](https://automationbyexperts.com/apify/whop-clipping-campaigns-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/whop-clipping-campaigns-scraper.md](https://automationbyexperts.com/apify/whop-clipping-campaigns-scraper.md)
 
@@ -1460,7 +1461,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/cargurus-listings-scraper?fpr=youssef)) |
 | Rating | 5.0 out of 5 (1 reviews) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with CarGurus Scraper: US, Canada & UK Car Listings, VIN & Prices
 
@@ -1604,7 +1605,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/cargurus-listings-scraper](https://automationbyexperts.com/apify/cargurus-listings-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/cargurus-listings-scraper.md](https://automationbyexperts.com/apify/cargurus-listings-scraper.md)
 
@@ -1626,7 +1627,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/autoscout24?fpr=youssef)) |
 | Rating | 5.0 out of 5 (1 reviews) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with AutoScout24 Scraper: Car Listings, Price Drop Alerts & Dealers
 
@@ -1795,7 +1796,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/autoscout24](https://automationbyexperts.com/apify/autoscout24?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/autoscout24.md](https://automationbyexperts.com/apify/autoscout24.md)
 
@@ -1817,7 +1818,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/fnac-data-scraping?fpr=youssef)) |
 | Rating | 5.0 out of 5 (1 reviews) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with Fnac.com Scraper: Products, Prices, EAN, Stock & Reviews
 
@@ -1936,7 +1937,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/fnac-data-scraping](https://automationbyexperts.com/apify/fnac-data-scraping?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/fnac-data-scraping.md](https://automationbyexperts.com/apify/fnac-data-scraping.md)
 
@@ -1957,7 +1958,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/seo-geo-aeo-audit?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with SEO Audit + AI Crawler Check: SEO, GEO & AEO Score
 
@@ -2086,7 +2087,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/seo-geo-aeo-audit](https://automationbyexperts.com/apify/seo-geo-aeo-audit?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/seo-geo-aeo-audit.md](https://automationbyexperts.com/apify/seo-geo-aeo-audit.md)
 
@@ -2108,7 +2109,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/autotrader-ca?fpr=youssef)) |
 | Rating | 5.0 out of 5 (2 reviews) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with AutoTrader.ca Price Drop Monitor & Car Scraper
 
@@ -2264,7 +2265,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/autotrader-ca](https://automationbyexperts.com/apify/autotrader-ca?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/autotrader-ca.md](https://automationbyexperts.com/apify/autotrader-ca.md)
 
@@ -2286,7 +2287,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/kijiji-scraper?fpr=youssef)) |
 | Rating | 5.0 out of 5 (1 reviews) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with Kijiji.ca Scraper: Autos, Real Estate & Classifieds
 
@@ -2425,7 +2426,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/kijiji-scraper](https://automationbyexperts.com/apify/kijiji-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/kijiji-scraper.md](https://automationbyexperts.com/apify/kijiji-scraper.md)
 
@@ -2446,7 +2447,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/bulk-text-to-speech?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with Bulk Text to Speech: MP3 + SRT Subtitles | No API Key
 
@@ -2598,7 +2599,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/bulk-text-to-speech](https://automationbyexperts.com/apify/bulk-text-to-speech?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/bulk-text-to-speech.md](https://automationbyexperts.com/apify/bulk-text-to-speech.md)
 
@@ -2619,7 +2620,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/autotrader-co-za-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with AutoTrader South Africa Price Drop Monitor and Scraper
 
@@ -2761,7 +2762,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/autotrader-co-za-scraper](https://automationbyexperts.com/apify/autotrader-co-za-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/autotrader-co-za-scraper.md](https://automationbyexperts.com/apify/autotrader-co-za-scraper.md)
 
@@ -2782,7 +2783,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/geo-grid-local-rank-tracker?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with Google Maps Local Rank Tracker with Weekly Change Alerts
 
@@ -2928,7 +2929,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/geo-grid-local-rank-tracker](https://automationbyexperts.com/apify/geo-grid-local-rank-tracker?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/geo-grid-local-rank-tracker.md](https://automationbyexperts.com/apify/geo-grid-local-rank-tracker.md)
 
@@ -2949,7 +2950,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/g2g-offer-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with G2G Price Monitor: Undercut & Price Drop Alerts
 
@@ -3096,7 +3097,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/g2g-offer-scraper](https://automationbyexperts.com/apify/g2g-offer-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/g2g-offer-scraper.md](https://automationbyexperts.com/apify/g2g-offer-scraper.md)
 
@@ -3117,7 +3118,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/ai-brand-visibility-tracker?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with AI Brand Visibility Tracker (ChatGPT, Perplexity & Gemini)
 
@@ -3287,7 +3288,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/ai-brand-visibility-tracker](https://automationbyexperts.com/apify/ai-brand-visibility-tracker?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/ai-brand-visibility-tracker.md](https://automationbyexperts.com/apify/ai-brand-visibility-tracker.md)
 
@@ -3308,7 +3309,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/dealer-inventory-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with Car Dealer Website Inventory Scraper: VIN, Price & Stock
 
@@ -3454,152 +3455,9 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/dealer-inventory-scraper](https://automationbyexperts.com/apify/dealer-inventory-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/dealer-inventory-scraper.md](https://automationbyexperts.com/apify/dealer-inventory-scraper.md)
-
----
-
-# Skroutz Scraper: Greek Price Comparison, Offers & History
-
-**Skroutz Scraper: Greek Price Comparison, Offers & History** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Scrape Skroutz, Greece's largest price comparison site, plus Skroutz Cyprus, Bulgaria, Romania, Germany and Malta. Paste any category, brand, shop or search URL, or search by keyword, and get prices, ratings, specs, every shop's offer and daily price history.
-
-[Run it on Apify](https://apify.com/fayoussef/skroutz-scraper?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/skroutz-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All E-commerce & Marketplace Scrapers](../categories/ecommerce-scrapers.md)
-
-## Key facts
-
-| | |
-|---|---|
-| Category | [E-commerce & Marketplace Scrapers](../categories/ecommerce-scrapers.md) |
-| Runs on | Apify cloud, nothing to install and no server to manage |
-| Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
-| Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/skroutz-scraper?fpr=youssef)) |
-| Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
-
-## How to use Skroutz Scraper: Greek Price Comparison, Offers & History
-
-### No code
-
-1. Open the actor on Apify and sign in, or create a free Apify account.
-2. Fill in the input form, or paste the example input below, and click **Start**.
-3. Download the results as JSON, CSV, Excel, XML or HTML, or send them to Make, Zapier, n8n or a webhook.
-
-### Example input
-
-Open the input form on the Store page to see every field. An empty input runs the defaults.
-
-```json
-{}
-```
-
-### Python
-
-```bash
-pip install apify-client
-```
-
-```python
-from apify_client import ApifyClient
-
-client = ApifyClient("<YOUR_APIFY_TOKEN>")
-run_input = {}
-run = client.actor("fayoussef/skroutz-scraper").call(run_input=run_input)
-
-for item in client.dataset(run["defaultDatasetId"]).iterate_items():
-    print(item)
-```
-
-### JavaScript / Node.js
-
-```bash
-npm install apify-client
-```
-
-```javascript
-import { ApifyClient } from 'apify-client';
-
-const client = new ApifyClient({ token: '<YOUR_APIFY_TOKEN>' });
-const input = {};
-const run = await client.actor('fayoussef/skroutz-scraper').call(input);
-const { items } = await client.dataset(run.defaultDatasetId).listItems();
-console.log(items);
-```
-
-### cURL (run and get the results in one call)
-
-```bash
-curl -X POST "https://api.apify.com/v2/acts/fayoussef~skroutz-scraper/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>" \
-  -H "Content-Type: application/json" \
-  -d '{}'
-```
-
-### From AI agents (MCP)
-
-Add the Apify MCP server to Claude, ChatGPT, Cursor or any MCP client with this URL, and the agent can run the actor for you:
-
-```text
-https://mcp.apify.com?tools=fayoussef/skroutz-scraper
-```
-
-Your Apify API token is under **Settings > API & Integrations** in the [Apify Console](https://console.apify.com/settings/integrations?fpr=youssef).
-
-### From AI agents with no Apify account (x402 or Skyfire)
-
-This actor accepts [agentic payments](../agentic-payments.md): an AI agent can run it and pay per run with USDC (x402) or a Skyfire token, with no Apify account.
-
-```bash
-# x402: TOKEN is the prepaid token bought from Apify AGI with USDC on Base
-curl -X POST "https://api.apify.com/v2/acts/fayoussef~skroutz-scraper/run-sync-get-dataset-items" \
-  -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" -d '{}'
-
-# Skyfire: send the PAY token instead
-curl -X POST "https://api.apify.com/v2/acts/fayoussef~skroutz-scraper/run-sync-get-dataset-items" \
-  -H "skyfire-pay-id: $SKYFIRE_PAY_TOKEN" -H "Content-Type: application/json" -d '{}'
-```
-
-With MCP and Skyfire: `https://mcp.apify.com?payment=skyfire&tools=fayoussef/skroutz-scraper`
-
-## FAQ
-
-### Is Skroutz Scraper: Greek Price Comparison, Offers & History free to try?
-
-Yes. You can start it with a free Apify account. Free runs have usage limits, and larger jobs need an [Apify plan](https://apify.com/pricing?fpr=youssef). The current rate is shown on the [Store page](https://apify.com/fayoussef/skroutz-scraper?fpr=youssef).
-
-### Do I need to know how to code?
-
-No. The actor runs from a form in the Apify Console. Code is only needed if you want to call it from your own app, and the snippets above cover Python, JavaScript and cURL.
-
-### What formats can I export the data in?
-
-JSON, CSV, Excel, XML and HTML from the Console, or directly through the Apify API. Runs can also be scheduled and pushed to Make, Zapier, n8n or any webhook.
-
-### Can AI agents use it?
-
-Yes. Connect the Apify MCP server with `https://mcp.apify.com?tools=fayoussef/skroutz-scraper` and Claude, ChatGPT, Cursor or any MCP client can run it and read the results.
-
-### Can an AI agent run it without an Apify account?
-
-Yes. This actor accepts agentic payments: an agent can pay per run with USDC through the x402 protocol, or with a Skyfire PAY token, and no Apify account is needed. See [AI agents and x402 payments](../agentic-payments.md).
-
-### Can I get a custom version?
-
-Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24@gmail.com or visit [AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis).
-
-## Related E-commerce & Marketplace Scrapers
-
-- [Wallapop Scraper: Deal Alerts, New Listings & Price Drops](wallapop-scraper.md): Get alerted to new Wallapop listings and price drops, and spot the ones priced under the search median. Works for any search in Spain...
-- [Fnac.com Scraper: Products, Prices, EAN, Stock & Reviews](fnac-data-scraping.md): Scrape fnac.com products from any search, category or product URL, or by keyword with brand, category, price, seller and stock filters. Get...
-- [G2G Price Monitor: Undercut & Price Drop Alerts](g2g-offer-scraper.md): Monitor G2G.com prices and get alerted when a seller undercuts you, a price drops or a new offer appears. Also scrapes every offer, seller...
-- [RONA Scraper: Canada Home Improvement Prices, Stock & Specs](rona-scraper.md): Scrape RONA.ca products in English and French from any category, search or product URL. Export price, sale price, regular price, stock by...
-- [Bike24 Scraper: Cycling Product Prices, Stock & Specs](bike24-result-scraper.md): Our bike24.com scraper effortlessly gathers URLs from all pages and extracts detailed information from each product page
-- [Smyths Toys Scraper: Prices, EAN Codes, Stock & Product Data](smythstoys-scraper.md): Scrape Smyths Toys UK and Ireland by category, search or product URL. Get prices, was prices, discounts, EAN barcodes, brand, ratings...
-
-## More
-
-- Full catalog: [all 66 actors](../README.md)
-- Website page: [https://automationbyexperts.com/apify/skroutz-scraper](https://automationbyexperts.com/apify/skroutz-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
-- Markdown version for AI tools: [https://automationbyexperts.com/apify/skroutz-scraper.md](https://automationbyexperts.com/apify/skroutz-scraper.md)
 
 ---
 
@@ -3619,7 +3477,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/xe-gr-scraper?fpr=youssef)) |
 | Rating | 5.0 out of 5 (1 reviews) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with XE.gr Greek Property Scraper
 
@@ -3773,13 +3631,156 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 - [Centris.ca Scraper: Quebec Real Estate Listings & Photos](centris-property-scraper.md): Scrape Centris.ca real estate listings into clean structured data: MLS number, price, full address, rooms, bedrooms, bathrooms, the full...
 - [Plot.gr Scraper: Greek Real Estate Listings with Agent Phones](plot-gr-scraper.md): Scrape plot.gr property listings in Greece: apartments, houses, land and commercial, for sale or rent. Prices, area, bedrooms, coordinates...
 - [Spiti24.gr Scraper: Greek Property Listings with Agent Phones](spiti24-scraper.md): Scrape spiti24.gr property listings in Greece: apartments, houses, land and commercial, for sale or rent. Prices, size, rooms, energy...
-- [Cyprus Property Alerts: New Listings and Price Drops](spitogatos-cy-scraper.md): Get alerted to new Cyprus property listings and price drops on Spitogatos.com.cy, with webhook or Telegram alerts. Also scrapes listings...
+- [Indomio.gr Scraper: Greek Property Listings with Agency Phones](indomio-gr-scraper.md): Scrape Indomio.gr property listings in Greece: apartments, houses, land and commercial for sale or rent. Prices, sqm, GPS, photos and...
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/xe-gr-scraper](https://automationbyexperts.com/apify/xe-gr-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/xe-gr-scraper.md](https://automationbyexperts.com/apify/xe-gr-scraper.md)
+
+---
+
+# Skroutz Scraper: Greek Price Comparison, Offers & History
+
+**Skroutz Scraper: Greek Price Comparison, Offers & History** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Scrape Skroutz, Greece's largest price comparison site, plus Skroutz Cyprus, Bulgaria, Romania, Germany and Malta. Paste any category, brand, shop or search URL, or search by keyword, and get prices, ratings, specs, every shop's offer and daily price history.
+
+[Run it on Apify](https://apify.com/fayoussef/skroutz-scraper?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/skroutz-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All E-commerce & Marketplace Scrapers](../categories/ecommerce-scrapers.md)
+
+## Key facts
+
+| | |
+|---|---|
+| Category | [E-commerce & Marketplace Scrapers](../categories/ecommerce-scrapers.md) |
+| Runs on | Apify cloud, nothing to install and no server to manage |
+| Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
+| Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/skroutz-scraper?fpr=youssef)) |
+| Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
+| Catalog updated | 2026-11-23 |
+
+## How to use Skroutz Scraper: Greek Price Comparison, Offers & History
+
+### No code
+
+1. Open the actor on Apify and sign in, or create a free Apify account.
+2. Fill in the input form, or paste the example input below, and click **Start**.
+3. Download the results as JSON, CSV, Excel, XML or HTML, or send them to Make, Zapier, n8n or a webhook.
+
+### Example input
+
+Open the input form on the Store page to see every field. An empty input runs the defaults.
+
+```json
+{}
+```
+
+### Python
+
+```bash
+pip install apify-client
+```
+
+```python
+from apify_client import ApifyClient
+
+client = ApifyClient("<YOUR_APIFY_TOKEN>")
+run_input = {}
+run = client.actor("fayoussef/skroutz-scraper").call(run_input=run_input)
+
+for item in client.dataset(run["defaultDatasetId"]).iterate_items():
+    print(item)
+```
+
+### JavaScript / Node.js
+
+```bash
+npm install apify-client
+```
+
+```javascript
+import { ApifyClient } from 'apify-client';
+
+const client = new ApifyClient({ token: '<YOUR_APIFY_TOKEN>' });
+const input = {};
+const run = await client.actor('fayoussef/skroutz-scraper').call(input);
+const { items } = await client.dataset(run.defaultDatasetId).listItems();
+console.log(items);
+```
+
+### cURL (run and get the results in one call)
+
+```bash
+curl -X POST "https://api.apify.com/v2/acts/fayoussef~skroutz-scraper/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>" \
+  -H "Content-Type: application/json" \
+  -d '{}'
+```
+
+### From AI agents (MCP)
+
+Add the Apify MCP server to Claude, ChatGPT, Cursor or any MCP client with this URL, and the agent can run the actor for you:
+
+```text
+https://mcp.apify.com?tools=fayoussef/skroutz-scraper
+```
+
+Your Apify API token is under **Settings > API & Integrations** in the [Apify Console](https://console.apify.com/settings/integrations?fpr=youssef).
+
+### From AI agents with no Apify account (x402 or Skyfire)
+
+This actor accepts [agentic payments](../agentic-payments.md): an AI agent can run it and pay per run with USDC (x402) or a Skyfire token, with no Apify account.
+
+```bash
+# x402: TOKEN is the prepaid token bought from Apify AGI with USDC on Base
+curl -X POST "https://api.apify.com/v2/acts/fayoussef~skroutz-scraper/run-sync-get-dataset-items" \
+  -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" -d '{}'
+
+# Skyfire: send the PAY token instead
+curl -X POST "https://api.apify.com/v2/acts/fayoussef~skroutz-scraper/run-sync-get-dataset-items" \
+  -H "skyfire-pay-id: $SKYFIRE_PAY_TOKEN" -H "Content-Type: application/json" -d '{}'
+```
+
+With MCP and Skyfire: `https://mcp.apify.com?payment=skyfire&tools=fayoussef/skroutz-scraper`
+
+## FAQ
+
+### Is Skroutz Scraper: Greek Price Comparison, Offers & History free to try?
+
+Yes. You can start it with a free Apify account. Free runs have usage limits, and larger jobs need an [Apify plan](https://apify.com/pricing?fpr=youssef). The current rate is shown on the [Store page](https://apify.com/fayoussef/skroutz-scraper?fpr=youssef).
+
+### Do I need to know how to code?
+
+No. The actor runs from a form in the Apify Console. Code is only needed if you want to call it from your own app, and the snippets above cover Python, JavaScript and cURL.
+
+### What formats can I export the data in?
+
+JSON, CSV, Excel, XML and HTML from the Console, or directly through the Apify API. Runs can also be scheduled and pushed to Make, Zapier, n8n or any webhook.
+
+### Can AI agents use it?
+
+Yes. Connect the Apify MCP server with `https://mcp.apify.com?tools=fayoussef/skroutz-scraper` and Claude, ChatGPT, Cursor or any MCP client can run it and read the results.
+
+### Can an AI agent run it without an Apify account?
+
+Yes. This actor accepts agentic payments: an agent can pay per run with USDC through the x402 protocol, or with a Skyfire PAY token, and no Apify account is needed. See [AI agents and x402 payments](../agentic-payments.md).
+
+### Can I get a custom version?
+
+Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24@gmail.com or visit [AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis).
+
+## Related E-commerce & Marketplace Scrapers
+
+- [Wallapop Scraper: Deal Alerts, New Listings & Price Drops](wallapop-scraper.md): Get alerted to new Wallapop listings and price drops, and spot the ones priced under the search median. Works for any search in Spain...
+- [Fnac.com Scraper: Products, Prices, EAN, Stock & Reviews](fnac-data-scraping.md): Scrape fnac.com products from any search, category or product URL, or by keyword with brand, category, price, seller and stock filters. Get...
+- [G2G Price Monitor: Undercut & Price Drop Alerts](g2g-offer-scraper.md): Monitor G2G.com prices and get alerted when a seller undercuts you, a price drops or a new offer appears. Also scrapes every offer, seller...
+- [RONA Scraper: Canada Home Improvement Prices, Stock & Specs](rona-scraper.md): Scrape RONA.ca products in English and French from any category, search or product URL. Export price, sale price, regular price, stock by...
+- [Bike24 Scraper: Cycling Product Prices, Stock & Specs](bike24-result-scraper.md): Our bike24.com scraper effortlessly gathers URLs from all pages and extracts detailed information from each product page
+- [Smyths Toys Scraper: Prices, EAN Codes, Stock & Product Data](smythstoys-scraper.md): Scrape Smyths Toys UK and Ireland by category, search or product URL. Get prices, was prices, discounts, EAN barcodes, brand, ratings...
+
+## More
+
+- Full catalog: [all 67 actors](../README.md)
+- Website page: [https://automationbyexperts.com/apify/skroutz-scraper](https://automationbyexperts.com/apify/skroutz-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
+- Markdown version for AI tools: [https://automationbyexperts.com/apify/skroutz-scraper.md](https://automationbyexperts.com/apify/skroutz-scraper.md)
 
 ---
 
@@ -3798,7 +3799,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/autotrader-au-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with AutoTrader Australia Scraper: Car Prices, Specs & Dealers
 
@@ -3937,7 +3938,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/autotrader-au-scraper](https://automationbyexperts.com/apify/autotrader-au-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/autotrader-au-scraper.md](https://automationbyexperts.com/apify/autotrader-au-scraper.md)
 
@@ -3959,7 +3960,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/rentfaster-scraper?fpr=youssef)) |
 | Rating | 5.0 out of 5 (1 reviews) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with RentFaster Scraper: Canada Rentals, Rents & Landlord Phones
 
@@ -4095,13 +4096,157 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 - [Centris.ca Scraper: Quebec Real Estate Listings & Photos](centris-property-scraper.md): Scrape Centris.ca real estate listings into clean structured data: MLS number, price, full address, rooms, bedrooms, bathrooms, the full...
 - [Plot.gr Scraper: Greek Real Estate Listings with Agent Phones](plot-gr-scraper.md): Scrape plot.gr property listings in Greece: apartments, houses, land and commercial, for sale or rent. Prices, area, bedrooms, coordinates...
 - [Spiti24.gr Scraper: Greek Property Listings with Agent Phones](spiti24-scraper.md): Scrape spiti24.gr property listings in Greece: apartments, houses, land and commercial, for sale or rent. Prices, size, rooms, energy...
-- [Cyprus Property Alerts: New Listings and Price Drops](spitogatos-cy-scraper.md): Get alerted to new Cyprus property listings and price drops on Spitogatos.com.cy, with webhook or Telegram alerts. Also scrapes listings...
+- [Indomio.gr Scraper: Greek Property Listings with Agency Phones](indomio-gr-scraper.md): Scrape Indomio.gr property listings in Greece: apartments, houses, land and commercial for sale or rent. Prices, sqm, GPS, photos and...
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/rentfaster-scraper](https://automationbyexperts.com/apify/rentfaster-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/rentfaster-scraper.md](https://automationbyexperts.com/apify/rentfaster-scraper.md)
+
+---
+
+# RONA Scraper: Canada Home Improvement Prices, Stock & Specs
+
+**RONA Scraper: Canada Home Improvement Prices, Stock & Specs** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Scrape RONA.ca products in English and French from any category, search or product URL. Export price, sale price, regular price, stock by store, UPC, model, brand, rating, specs and images to JSON, CSV or Excel. Fast, reliable and maintained.
+
+[Run it on Apify](https://apify.com/fayoussef/rona-scraper?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/rona-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All E-commerce & Marketplace Scrapers](../categories/ecommerce-scrapers.md)
+
+## Key facts
+
+| | |
+|---|---|
+| Category | [E-commerce & Marketplace Scrapers](../categories/ecommerce-scrapers.md) |
+| Runs on | Apify cloud, nothing to install and no server to manage |
+| Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
+| Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/rona-scraper?fpr=youssef)) |
+| Rating | 5.0 out of 5 (1 reviews) |
+| Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
+| Catalog updated | 2026-11-23 |
+
+## How to use RONA Scraper: Canada Home Improvement Prices, Stock & Specs
+
+### No code
+
+1. Open the actor on Apify and sign in, or create a free Apify account.
+2. Fill in the input form, or paste the example input below, and click **Start**.
+3. Download the results as JSON, CSV, Excel, XML or HTML, or send them to Make, Zapier, n8n or a webhook.
+
+### Example input
+
+Open the input form on the Store page to see every field. An empty input runs the defaults.
+
+```json
+{}
+```
+
+### Python
+
+```bash
+pip install apify-client
+```
+
+```python
+from apify_client import ApifyClient
+
+client = ApifyClient("<YOUR_APIFY_TOKEN>")
+run_input = {}
+run = client.actor("fayoussef/rona-scraper").call(run_input=run_input)
+
+for item in client.dataset(run["defaultDatasetId"]).iterate_items():
+    print(item)
+```
+
+### JavaScript / Node.js
+
+```bash
+npm install apify-client
+```
+
+```javascript
+import { ApifyClient } from 'apify-client';
+
+const client = new ApifyClient({ token: '<YOUR_APIFY_TOKEN>' });
+const input = {};
+const run = await client.actor('fayoussef/rona-scraper').call(input);
+const { items } = await client.dataset(run.defaultDatasetId).listItems();
+console.log(items);
+```
+
+### cURL (run and get the results in one call)
+
+```bash
+curl -X POST "https://api.apify.com/v2/acts/fayoussef~rona-scraper/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>" \
+  -H "Content-Type: application/json" \
+  -d '{}'
+```
+
+### From AI agents (MCP)
+
+Add the Apify MCP server to Claude, ChatGPT, Cursor or any MCP client with this URL, and the agent can run the actor for you:
+
+```text
+https://mcp.apify.com?tools=fayoussef/rona-scraper
+```
+
+Your Apify API token is under **Settings > API & Integrations** in the [Apify Console](https://console.apify.com/settings/integrations?fpr=youssef).
+
+### From AI agents with no Apify account (x402 or Skyfire)
+
+This actor accepts [agentic payments](../agentic-payments.md): an AI agent can run it and pay per run with USDC (x402) or a Skyfire token, with no Apify account.
+
+```bash
+# x402: TOKEN is the prepaid token bought from Apify AGI with USDC on Base
+curl -X POST "https://api.apify.com/v2/acts/fayoussef~rona-scraper/run-sync-get-dataset-items" \
+  -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" -d '{}'
+
+# Skyfire: send the PAY token instead
+curl -X POST "https://api.apify.com/v2/acts/fayoussef~rona-scraper/run-sync-get-dataset-items" \
+  -H "skyfire-pay-id: $SKYFIRE_PAY_TOKEN" -H "Content-Type: application/json" -d '{}'
+```
+
+With MCP and Skyfire: `https://mcp.apify.com?payment=skyfire&tools=fayoussef/rona-scraper`
+
+## FAQ
+
+### Is RONA Scraper: Canada Home Improvement Prices, Stock & Specs free to try?
+
+Yes. You can start it with a free Apify account. Free runs have usage limits, and larger jobs need an [Apify plan](https://apify.com/pricing?fpr=youssef). The current rate is shown on the [Store page](https://apify.com/fayoussef/rona-scraper?fpr=youssef).
+
+### Do I need to know how to code?
+
+No. The actor runs from a form in the Apify Console. Code is only needed if you want to call it from your own app, and the snippets above cover Python, JavaScript and cURL.
+
+### What formats can I export the data in?
+
+JSON, CSV, Excel, XML and HTML from the Console, or directly through the Apify API. Runs can also be scheduled and pushed to Make, Zapier, n8n or any webhook.
+
+### Can AI agents use it?
+
+Yes. Connect the Apify MCP server with `https://mcp.apify.com?tools=fayoussef/rona-scraper` and Claude, ChatGPT, Cursor or any MCP client can run it and read the results.
+
+### Can an AI agent run it without an Apify account?
+
+Yes. This actor accepts agentic payments: an agent can pay per run with USDC through the x402 protocol, or with a Skyfire PAY token, and no Apify account is needed. See [AI agents and x402 payments](../agentic-payments.md).
+
+### Can I get a custom version?
+
+Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24@gmail.com or visit [AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis).
+
+## Related E-commerce & Marketplace Scrapers
+
+- [Wallapop Scraper: Deal Alerts, New Listings & Price Drops](wallapop-scraper.md): Get alerted to new Wallapop listings and price drops, and spot the ones priced under the search median. Works for any search in Spain...
+- [Fnac.com Scraper: Products, Prices, EAN, Stock & Reviews](fnac-data-scraping.md): Scrape fnac.com products from any search, category or product URL, or by keyword with brand, category, price, seller and stock filters. Get...
+- [G2G Price Monitor: Undercut & Price Drop Alerts](g2g-offer-scraper.md): Monitor G2G.com prices and get alerted when a seller undercuts you, a price drops or a new offer appears. Also scrapes every offer, seller...
+- [Skroutz Scraper: Greek Price Comparison, Offers & History](skroutz-scraper.md): Scrape Skroutz, Greece's largest price comparison site, plus Skroutz Cyprus, Bulgaria, Romania, Germany and Malta. Paste any category...
+- [Bike24 Scraper: Cycling Product Prices, Stock & Specs](bike24-result-scraper.md): Our bike24.com scraper effortlessly gathers URLs from all pages and extracts detailed information from each product page
+- [Smyths Toys Scraper: Prices, EAN Codes, Stock & Product Data](smythstoys-scraper.md): Scrape Smyths Toys UK and Ireland by category, search or product URL. Get prices, was prices, discounts, EAN barcodes, brand, ratings...
+
+## More
+
+- Full catalog: [all 67 actors](../README.md)
+- Website page: [https://automationbyexperts.com/apify/rona-scraper](https://automationbyexperts.com/apify/rona-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
+- Markdown version for AI tools: [https://automationbyexperts.com/apify/rona-scraper.md](https://automationbyexperts.com/apify/rona-scraper.md)
 
 ---
 
@@ -4120,7 +4265,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/pistonheads?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with PistonHeads Scraper: UK Used, Classic & Performance Cars
 
@@ -4259,153 +4404,9 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/pistonheads](https://automationbyexperts.com/apify/pistonheads?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/pistonheads.md](https://automationbyexperts.com/apify/pistonheads.md)
-
----
-
-# RONA Scraper: Canada Home Improvement Prices, Stock & Specs
-
-**RONA Scraper: Canada Home Improvement Prices, Stock & Specs** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Scrape RONA.ca products in English and French from any category, search or product URL. Export price, sale price, regular price, stock by store, UPC, model, brand, rating, specs and images to JSON, CSV or Excel. Fast, reliable and maintained.
-
-[Run it on Apify](https://apify.com/fayoussef/rona-scraper?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/rona-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All E-commerce & Marketplace Scrapers](../categories/ecommerce-scrapers.md)
-
-## Key facts
-
-| | |
-|---|---|
-| Category | [E-commerce & Marketplace Scrapers](../categories/ecommerce-scrapers.md) |
-| Runs on | Apify cloud, nothing to install and no server to manage |
-| Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
-| Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/rona-scraper?fpr=youssef)) |
-| Rating | 5.0 out of 5 (1 reviews) |
-| Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
-
-## How to use RONA Scraper: Canada Home Improvement Prices, Stock & Specs
-
-### No code
-
-1. Open the actor on Apify and sign in, or create a free Apify account.
-2. Fill in the input form, or paste the example input below, and click **Start**.
-3. Download the results as JSON, CSV, Excel, XML or HTML, or send them to Make, Zapier, n8n or a webhook.
-
-### Example input
-
-Open the input form on the Store page to see every field. An empty input runs the defaults.
-
-```json
-{}
-```
-
-### Python
-
-```bash
-pip install apify-client
-```
-
-```python
-from apify_client import ApifyClient
-
-client = ApifyClient("<YOUR_APIFY_TOKEN>")
-run_input = {}
-run = client.actor("fayoussef/rona-scraper").call(run_input=run_input)
-
-for item in client.dataset(run["defaultDatasetId"]).iterate_items():
-    print(item)
-```
-
-### JavaScript / Node.js
-
-```bash
-npm install apify-client
-```
-
-```javascript
-import { ApifyClient } from 'apify-client';
-
-const client = new ApifyClient({ token: '<YOUR_APIFY_TOKEN>' });
-const input = {};
-const run = await client.actor('fayoussef/rona-scraper').call(input);
-const { items } = await client.dataset(run.defaultDatasetId).listItems();
-console.log(items);
-```
-
-### cURL (run and get the results in one call)
-
-```bash
-curl -X POST "https://api.apify.com/v2/acts/fayoussef~rona-scraper/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>" \
-  -H "Content-Type: application/json" \
-  -d '{}'
-```
-
-### From AI agents (MCP)
-
-Add the Apify MCP server to Claude, ChatGPT, Cursor or any MCP client with this URL, and the agent can run the actor for you:
-
-```text
-https://mcp.apify.com?tools=fayoussef/rona-scraper
-```
-
-Your Apify API token is under **Settings > API & Integrations** in the [Apify Console](https://console.apify.com/settings/integrations?fpr=youssef).
-
-### From AI agents with no Apify account (x402 or Skyfire)
-
-This actor accepts [agentic payments](../agentic-payments.md): an AI agent can run it and pay per run with USDC (x402) or a Skyfire token, with no Apify account.
-
-```bash
-# x402: TOKEN is the prepaid token bought from Apify AGI with USDC on Base
-curl -X POST "https://api.apify.com/v2/acts/fayoussef~rona-scraper/run-sync-get-dataset-items" \
-  -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" -d '{}'
-
-# Skyfire: send the PAY token instead
-curl -X POST "https://api.apify.com/v2/acts/fayoussef~rona-scraper/run-sync-get-dataset-items" \
-  -H "skyfire-pay-id: $SKYFIRE_PAY_TOKEN" -H "Content-Type: application/json" -d '{}'
-```
-
-With MCP and Skyfire: `https://mcp.apify.com?payment=skyfire&tools=fayoussef/rona-scraper`
-
-## FAQ
-
-### Is RONA Scraper: Canada Home Improvement Prices, Stock & Specs free to try?
-
-Yes. You can start it with a free Apify account. Free runs have usage limits, and larger jobs need an [Apify plan](https://apify.com/pricing?fpr=youssef). The current rate is shown on the [Store page](https://apify.com/fayoussef/rona-scraper?fpr=youssef).
-
-### Do I need to know how to code?
-
-No. The actor runs from a form in the Apify Console. Code is only needed if you want to call it from your own app, and the snippets above cover Python, JavaScript and cURL.
-
-### What formats can I export the data in?
-
-JSON, CSV, Excel, XML and HTML from the Console, or directly through the Apify API. Runs can also be scheduled and pushed to Make, Zapier, n8n or any webhook.
-
-### Can AI agents use it?
-
-Yes. Connect the Apify MCP server with `https://mcp.apify.com?tools=fayoussef/rona-scraper` and Claude, ChatGPT, Cursor or any MCP client can run it and read the results.
-
-### Can an AI agent run it without an Apify account?
-
-Yes. This actor accepts agentic payments: an agent can pay per run with USDC through the x402 protocol, or with a Skyfire PAY token, and no Apify account is needed. See [AI agents and x402 payments](../agentic-payments.md).
-
-### Can I get a custom version?
-
-Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24@gmail.com or visit [AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis).
-
-## Related E-commerce & Marketplace Scrapers
-
-- [Wallapop Scraper: Deal Alerts, New Listings & Price Drops](wallapop-scraper.md): Get alerted to new Wallapop listings and price drops, and spot the ones priced under the search median. Works for any search in Spain...
-- [Fnac.com Scraper: Products, Prices, EAN, Stock & Reviews](fnac-data-scraping.md): Scrape fnac.com products from any search, category or product URL, or by keyword with brand, category, price, seller and stock filters. Get...
-- [G2G Price Monitor: Undercut & Price Drop Alerts](g2g-offer-scraper.md): Monitor G2G.com prices and get alerted when a seller undercuts you, a price drops or a new offer appears. Also scrapes every offer, seller...
-- [Skroutz Scraper: Greek Price Comparison, Offers & History](skroutz-scraper.md): Scrape Skroutz, Greece's largest price comparison site, plus Skroutz Cyprus, Bulgaria, Romania, Germany and Malta. Paste any category...
-- [Bike24 Scraper: Cycling Product Prices, Stock & Specs](bike24-result-scraper.md): Our bike24.com scraper effortlessly gathers URLs from all pages and extracts detailed information from each product page
-- [Smyths Toys Scraper: Prices, EAN Codes, Stock & Product Data](smythstoys-scraper.md): Scrape Smyths Toys UK and Ireland by category, search or product URL. Get prices, was prices, discounts, EAN barcodes, brand, ratings...
-
-## More
-
-- Full catalog: [all 66 actors](../README.md)
-- Website page: [https://automationbyexperts.com/apify/rona-scraper](https://automationbyexperts.com/apify/rona-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
-- Markdown version for AI tools: [https://automationbyexperts.com/apify/rona-scraper.md](https://automationbyexperts.com/apify/rona-scraper.md)
 
 ---
 
@@ -4424,7 +4425,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/bike24-result-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with Bike24 Scraper: Cycling Product Prices, Stock & Specs
 
@@ -4566,7 +4567,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/bike24-result-scraper](https://automationbyexperts.com/apify/bike24-result-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/bike24-result-scraper.md](https://automationbyexperts.com/apify/bike24-result-scraper.md)
 
@@ -4587,7 +4588,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/github-developer-leads?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with GitHub Developer Lead Finder & Email Enricher
 
@@ -4730,7 +4731,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/github-developer-leads](https://automationbyexperts.com/apify/github-developer-leads?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/github-developer-leads.md](https://automationbyexperts.com/apify/github-developer-leads.md)
 
@@ -4751,7 +4752,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/smythstoys-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with Smyths Toys Scraper: Prices, EAN Codes, Stock & Product Data
 
@@ -4899,7 +4900,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/smythstoys-scraper](https://automationbyexperts.com/apify/smythstoys-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/smythstoys-scraper.md](https://automationbyexperts.com/apify/smythstoys-scraper.md)
 
@@ -4920,7 +4921,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/centris-property-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with Centris.ca Scraper: Quebec Real Estate Listings & Photos
 
@@ -5047,11 +5048,11 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 - [RentFaster Scraper: Canada Rentals, Rents & Landlord Phones](rentfaster-scraper.md): Scrape Canadian rental listings from RentFaster.ca in 105 cities (Calgary, Edmonton, Toronto, Montreal...). Filter by type, bedrooms, rent...
 - [Plot.gr Scraper: Greek Real Estate Listings with Agent Phones](plot-gr-scraper.md): Scrape plot.gr property listings in Greece: apartments, houses, land and commercial, for sale or rent. Prices, area, bedrooms, coordinates...
 - [Spiti24.gr Scraper: Greek Property Listings with Agent Phones](spiti24-scraper.md): Scrape spiti24.gr property listings in Greece: apartments, houses, land and commercial, for sale or rent. Prices, size, rooms, energy...
-- [Cyprus Property Alerts: New Listings and Price Drops](spitogatos-cy-scraper.md): Get alerted to new Cyprus property listings and price drops on Spitogatos.com.cy, with webhook or Telegram alerts. Also scrapes listings...
+- [Indomio.gr Scraper: Greek Property Listings with Agency Phones](indomio-gr-scraper.md): Scrape Indomio.gr property listings in Greece: apartments, houses, land and commercial for sale or rent. Prices, sqm, GPS, photos and...
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/centris-property-scraper](https://automationbyexperts.com/apify/centris-property-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/centris-property-scraper.md](https://automationbyexperts.com/apify/centris-property-scraper.md)
 
@@ -5072,7 +5073,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/kijiji-business-leads?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## How to use Kijiji Dealer & Business Leads: Phones, Websites, Addresses
 
@@ -5194,7 +5195,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/kijiji-business-leads](https://automationbyexperts.com/apify/kijiji-business-leads?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/kijiji-business-leads.md](https://automationbyexperts.com/apify/kijiji-business-leads.md)
 
@@ -5215,7 +5216,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/canada-car-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with Canada Car Scraper: AutoTrader.ca, Kijiji, CarGurus & Carpages
 
@@ -5379,7 +5380,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/canada-car-scraper](https://automationbyexperts.com/apify/canada-car-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/canada-car-scraper.md](https://automationbyexperts.com/apify/canada-car-scraper.md)
 
@@ -5400,7 +5401,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/luma-events-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with Luma Events Scraper: New Event Alerts & Organizer Leads
 
@@ -5538,7 +5539,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/luma-events-scraper](https://automationbyexperts.com/apify/luma-events-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/luma-events-scraper.md](https://automationbyexperts.com/apify/luma-events-scraper.md)
 
@@ -5559,7 +5560,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/naukrigulf-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with Naukrigulf Jobs Scraper: UAE, Saudi & Gulf Jobs, 12 Languages
 
@@ -5712,7 +5713,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/naukrigulf-scraper](https://automationbyexperts.com/apify/naukrigulf-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/naukrigulf-scraper.md](https://automationbyexperts.com/apify/naukrigulf-scraper.md)
 
@@ -5733,7 +5734,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/bulk-ai-translator?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## How to use Translate Excel, CSV & Websites in Bulk with AI | No API Key
 
@@ -5852,7 +5853,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/bulk-ai-translator](https://automationbyexperts.com/apify/bulk-ai-translator?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/bulk-ai-translator.md](https://automationbyexperts.com/apify/bulk-ai-translator.md)
 
@@ -5873,7 +5874,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/dealer-reputation-monitor?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## How to use Car Dealer Review Alerts: DealerRater Bad Review Monitor
 
@@ -5995,7 +5996,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/dealer-reputation-monitor](https://automationbyexperts.com/apify/dealer-reputation-monitor?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/dealer-reputation-monitor.md](https://automationbyexperts.com/apify/dealer-reputation-monitor.md)
 
@@ -6016,7 +6017,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/llms-txt-generator?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with llms.txt Generator: llms-full.txt for Any Website (AI SEO)
 
@@ -6145,7 +6146,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/llms-txt-generator](https://automationbyexperts.com/apify/llms-txt-generator?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/llms-txt-generator.md](https://automationbyexperts.com/apify/llms-txt-generator.md)
 
@@ -6166,7 +6167,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/podcast-guest-finder?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with Podcast Scraper for Guest Booking: Shows & Host Emails
 
@@ -6312,9 +6313,181 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/podcast-guest-finder](https://automationbyexperts.com/apify/podcast-guest-finder?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/podcast-guest-finder.md](https://automationbyexperts.com/apify/podcast-guest-finder.md)
+
+---
+
+# Plot.gr Scraper: Greek Real Estate Listings with Agent Phones
+
+**Plot.gr Scraper: Greek Real Estate Listings with Agent Phones** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Scrape plot.gr property listings in Greece: apartments, houses, land and commercial, for sale or rent. Prices, area, bedrooms, coordinates, photos and the agent's phone, email and website. Filter by area, price and size.
+
+[Run it on Apify](https://apify.com/fayoussef/plot-gr-scraper?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/plot-gr-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All Real Estate Scrapers](../categories/real-estate-scrapers.md)
+
+## Key facts
+
+| | |
+|---|---|
+| Category | [Real Estate Scrapers](../categories/real-estate-scrapers.md) |
+| Runs on | Apify cloud, nothing to install and no server to manage |
+| Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
+| Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/plot-gr-scraper?fpr=youssef)) |
+| Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
+| Catalog updated | 2026-11-23 |
+
+## What you can do with Plot.gr Scraper: Greek Real Estate Listings with Agent Phones
+
+- **[Glyfada apartments for sale with agent phones](https://apify.com/fayoussef/plot-gr-scraper/examples/glyfada-apartments-for-sale-agent-phones?fpr=youssef)**: Apartments for sale in Glyfada, Athens from plot.gr with price, sqm, bedrooms, GPS, photos and the agent's phone and email. English output.
+
+## How to use Plot.gr Scraper: Greek Real Estate Listings with Agent Phones
+
+### No code
+
+1. Open the actor on Apify and sign in, or create a free Apify account.
+2. Fill in the input form, or paste the example input below, and click **Start**.
+3. Download the results as JSON, CSV, Excel, XML or HTML, or send them to Make, Zapier, n8n or a webhook.
+
+### Example input
+
+```json
+{
+  "offer_type": "sale",
+  "property_types": [
+    "apartment"
+  ],
+  "locations": [
+    "Glyfada"
+  ],
+  "language": "en",
+  "max_items": 50,
+  "include_details": true
+}
+```
+
+### Python
+
+```bash
+pip install apify-client
+```
+
+```python
+from apify_client import ApifyClient
+
+client = ApifyClient("<YOUR_APIFY_TOKEN>")
+run_input = {'offer_type': 'sale',
+ 'property_types': ['apartment'],
+ 'locations': ['Glyfada'],
+ 'language': 'en',
+ 'max_items': 50,
+ 'include_details': True}
+run = client.actor("fayoussef/plot-gr-scraper").call(run_input=run_input)
+
+for item in client.dataset(run["defaultDatasetId"]).iterate_items():
+    print(item)
+```
+
+### JavaScript / Node.js
+
+```bash
+npm install apify-client
+```
+
+```javascript
+import { ApifyClient } from 'apify-client';
+
+const client = new ApifyClient({ token: '<YOUR_APIFY_TOKEN>' });
+const input = {
+  "offer_type": "sale",
+  "property_types": [
+    "apartment"
+  ],
+  "locations": [
+    "Glyfada"
+  ],
+  "language": "en",
+  "max_items": 50,
+  "include_details": true
+};
+const run = await client.actor('fayoussef/plot-gr-scraper').call(input);
+const { items } = await client.dataset(run.defaultDatasetId).listItems();
+console.log(items);
+```
+
+### cURL (run and get the results in one call)
+
+```bash
+curl -X POST "https://api.apify.com/v2/acts/fayoussef~plot-gr-scraper/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>" \
+  -H "Content-Type: application/json" \
+  -d '{"offer_type": "sale", "property_types": ["apartment"], "locations": ["Glyfada"], "language": "en", "max_items": 50, "include_details": true}'
+```
+
+### From AI agents (MCP)
+
+Add the Apify MCP server to Claude, ChatGPT, Cursor or any MCP client with this URL, and the agent can run the actor for you:
+
+```text
+https://mcp.apify.com?tools=fayoussef/plot-gr-scraper
+```
+
+Your Apify API token is under **Settings > API & Integrations** in the [Apify Console](https://console.apify.com/settings/integrations?fpr=youssef).
+
+### From AI agents with no Apify account (x402 or Skyfire)
+
+This actor accepts [agentic payments](../agentic-payments.md): an AI agent can run it and pay per run with USDC (x402) or a Skyfire token, with no Apify account.
+
+```bash
+# x402: TOKEN is the prepaid token bought from Apify AGI with USDC on Base
+curl -X POST "https://api.apify.com/v2/acts/fayoussef~plot-gr-scraper/run-sync-get-dataset-items" \
+  -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" -d '{}'
+
+# Skyfire: send the PAY token instead
+curl -X POST "https://api.apify.com/v2/acts/fayoussef~plot-gr-scraper/run-sync-get-dataset-items" \
+  -H "skyfire-pay-id: $SKYFIRE_PAY_TOKEN" -H "Content-Type: application/json" -d '{}'
+```
+
+With MCP and Skyfire: `https://mcp.apify.com?payment=skyfire&tools=fayoussef/plot-gr-scraper`
+
+## FAQ
+
+### Is Plot.gr Scraper: Greek Real Estate Listings with Agent Phones free to try?
+
+Yes. You can start it with a free Apify account. Free runs have usage limits, and larger jobs need an [Apify plan](https://apify.com/pricing?fpr=youssef). The current rate is shown on the [Store page](https://apify.com/fayoussef/plot-gr-scraper?fpr=youssef).
+
+### Do I need to know how to code?
+
+No. The actor runs from a form in the Apify Console. Code is only needed if you want to call it from your own app, and the snippets above cover Python, JavaScript and cURL.
+
+### What formats can I export the data in?
+
+JSON, CSV, Excel, XML and HTML from the Console, or directly through the Apify API. Runs can also be scheduled and pushed to Make, Zapier, n8n or any webhook.
+
+### Can AI agents use it?
+
+Yes. Connect the Apify MCP server with `https://mcp.apify.com?tools=fayoussef/plot-gr-scraper` and Claude, ChatGPT, Cursor or any MCP client can run it and read the results.
+
+### Can an AI agent run it without an Apify account?
+
+Yes. This actor accepts agentic payments: an agent can pay per run with USDC through the x402 protocol, or with a Skyfire PAY token, and no Apify account is needed. See [AI agents and x402 payments](../agentic-payments.md).
+
+### Can I get a custom version?
+
+Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24@gmail.com or visit [AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis).
+
+## Related Real Estate Scrapers
+
+- [Spitogatos Scraper: Greece Real Estate Listings & Agent Phones](spitogatos-scraper.md): Scrape Greece real estate listings from Spitogatos.gr, the country's largest property portal. Homes, land and commercial property for sale...
+- [XE.gr Greek Property Scraper](xe-gr-scraper.md): Scrape Greek real estate listings from XE.gr: prices, size, rooms, GPS coordinates, amenities, photos and phone numbers. Owners-only mode...
+- [RentFaster Scraper: Canada Rentals, Rents & Landlord Phones](rentfaster-scraper.md): Scrape Canadian rental listings from RentFaster.ca in 105 cities (Calgary, Edmonton, Toronto, Montreal...). Filter by type, bedrooms, rent...
+- [Centris.ca Scraper: Quebec Real Estate Listings & Photos](centris-property-scraper.md): Scrape Centris.ca real estate listings into clean structured data: MLS number, price, full address, rooms, bedrooms, bathrooms, the full...
+- [Spiti24.gr Scraper: Greek Property Listings with Agent Phones](spiti24-scraper.md): Scrape spiti24.gr property listings in Greece: apartments, houses, land and commercial, for sale or rent. Prices, size, rooms, energy...
+- [Indomio.gr Scraper: Greek Property Listings with Agency Phones](indomio-gr-scraper.md): Scrape Indomio.gr property listings in Greece: apartments, houses, land and commercial for sale or rent. Prices, sqm, GPS, photos and...
+
+## More
+
+- Full catalog: [all 67 actors](../README.md)
+- Website page: [https://automationbyexperts.com/apify/plot-gr-scraper](https://automationbyexperts.com/apify/plot-gr-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
+- Markdown version for AI tools: [https://automationbyexperts.com/apify/plot-gr-scraper.md](https://automationbyexperts.com/apify/plot-gr-scraper.md)
 
 ---
 
@@ -6333,7 +6506,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/brand-abuse-counterfeit-detector?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## How to use Brand Protection: Fake Shop, Counterfeit & Typosquat Finder
 
@@ -6453,7 +6626,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/brand-abuse-counterfeit-detector](https://automationbyexperts.com/apify/brand-abuse-counterfeit-detector?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/brand-abuse-counterfeit-detector.md](https://automationbyexperts.com/apify/brand-abuse-counterfeit-detector.md)
 
@@ -6474,7 +6647,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/clinical-trials-intelligence?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## How to use Clinical Trials Scraper: ClinicalTrials.gov Data & Monitor
 
@@ -6596,7 +6769,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/clinical-trials-intelligence](https://automationbyexperts.com/apify/clinical-trials-intelligence?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/clinical-trials-intelligence.md](https://automationbyexperts.com/apify/clinical-trials-intelligence.md)
 
@@ -6617,7 +6790,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/clutch-ca-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with Clutch.ca Car Scraper: Used Car Prices, VIN & Carfax
 
@@ -6768,181 +6941,9 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/clutch-ca-scraper](https://automationbyexperts.com/apify/clutch-ca-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/clutch-ca-scraper.md](https://automationbyexperts.com/apify/clutch-ca-scraper.md)
-
----
-
-# Plot.gr Scraper: Greek Real Estate Listings with Agent Phones
-
-**Plot.gr Scraper: Greek Real Estate Listings with Agent Phones** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Scrape plot.gr property listings in Greece: apartments, houses, land and commercial, for sale or rent. Prices, area, bedrooms, coordinates, photos and the agent's phone, email and website. Filter by area, price and size.
-
-[Run it on Apify](https://apify.com/fayoussef/plot-gr-scraper?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/plot-gr-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All Real Estate Scrapers](../categories/real-estate-scrapers.md)
-
-## Key facts
-
-| | |
-|---|---|
-| Category | [Real Estate Scrapers](../categories/real-estate-scrapers.md) |
-| Runs on | Apify cloud, nothing to install and no server to manage |
-| Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
-| Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/plot-gr-scraper?fpr=youssef)) |
-| Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
-
-## What you can do with Plot.gr Scraper: Greek Real Estate Listings with Agent Phones
-
-- **[Glyfada apartments for sale with agent phones](https://apify.com/fayoussef/plot-gr-scraper/examples/glyfada-apartments-for-sale-agent-phones?fpr=youssef)**: Apartments for sale in Glyfada, Athens from plot.gr with price, sqm, bedrooms, GPS, photos and the agent's phone and email. English output.
-
-## How to use Plot.gr Scraper: Greek Real Estate Listings with Agent Phones
-
-### No code
-
-1. Open the actor on Apify and sign in, or create a free Apify account.
-2. Fill in the input form, or paste the example input below, and click **Start**.
-3. Download the results as JSON, CSV, Excel, XML or HTML, or send them to Make, Zapier, n8n or a webhook.
-
-### Example input
-
-```json
-{
-  "offer_type": "sale",
-  "property_types": [
-    "apartment"
-  ],
-  "locations": [
-    "Glyfada"
-  ],
-  "language": "en",
-  "max_items": 50,
-  "include_details": true
-}
-```
-
-### Python
-
-```bash
-pip install apify-client
-```
-
-```python
-from apify_client import ApifyClient
-
-client = ApifyClient("<YOUR_APIFY_TOKEN>")
-run_input = {'offer_type': 'sale',
- 'property_types': ['apartment'],
- 'locations': ['Glyfada'],
- 'language': 'en',
- 'max_items': 50,
- 'include_details': True}
-run = client.actor("fayoussef/plot-gr-scraper").call(run_input=run_input)
-
-for item in client.dataset(run["defaultDatasetId"]).iterate_items():
-    print(item)
-```
-
-### JavaScript / Node.js
-
-```bash
-npm install apify-client
-```
-
-```javascript
-import { ApifyClient } from 'apify-client';
-
-const client = new ApifyClient({ token: '<YOUR_APIFY_TOKEN>' });
-const input = {
-  "offer_type": "sale",
-  "property_types": [
-    "apartment"
-  ],
-  "locations": [
-    "Glyfada"
-  ],
-  "language": "en",
-  "max_items": 50,
-  "include_details": true
-};
-const run = await client.actor('fayoussef/plot-gr-scraper').call(input);
-const { items } = await client.dataset(run.defaultDatasetId).listItems();
-console.log(items);
-```
-
-### cURL (run and get the results in one call)
-
-```bash
-curl -X POST "https://api.apify.com/v2/acts/fayoussef~plot-gr-scraper/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>" \
-  -H "Content-Type: application/json" \
-  -d '{"offer_type": "sale", "property_types": ["apartment"], "locations": ["Glyfada"], "language": "en", "max_items": 50, "include_details": true}'
-```
-
-### From AI agents (MCP)
-
-Add the Apify MCP server to Claude, ChatGPT, Cursor or any MCP client with this URL, and the agent can run the actor for you:
-
-```text
-https://mcp.apify.com?tools=fayoussef/plot-gr-scraper
-```
-
-Your Apify API token is under **Settings > API & Integrations** in the [Apify Console](https://console.apify.com/settings/integrations?fpr=youssef).
-
-### From AI agents with no Apify account (x402 or Skyfire)
-
-This actor accepts [agentic payments](../agentic-payments.md): an AI agent can run it and pay per run with USDC (x402) or a Skyfire token, with no Apify account.
-
-```bash
-# x402: TOKEN is the prepaid token bought from Apify AGI with USDC on Base
-curl -X POST "https://api.apify.com/v2/acts/fayoussef~plot-gr-scraper/run-sync-get-dataset-items" \
-  -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" -d '{}'
-
-# Skyfire: send the PAY token instead
-curl -X POST "https://api.apify.com/v2/acts/fayoussef~plot-gr-scraper/run-sync-get-dataset-items" \
-  -H "skyfire-pay-id: $SKYFIRE_PAY_TOKEN" -H "Content-Type: application/json" -d '{}'
-```
-
-With MCP and Skyfire: `https://mcp.apify.com?payment=skyfire&tools=fayoussef/plot-gr-scraper`
-
-## FAQ
-
-### Is Plot.gr Scraper: Greek Real Estate Listings with Agent Phones free to try?
-
-Yes. You can start it with a free Apify account. Free runs have usage limits, and larger jobs need an [Apify plan](https://apify.com/pricing?fpr=youssef). The current rate is shown on the [Store page](https://apify.com/fayoussef/plot-gr-scraper?fpr=youssef).
-
-### Do I need to know how to code?
-
-No. The actor runs from a form in the Apify Console. Code is only needed if you want to call it from your own app, and the snippets above cover Python, JavaScript and cURL.
-
-### What formats can I export the data in?
-
-JSON, CSV, Excel, XML and HTML from the Console, or directly through the Apify API. Runs can also be scheduled and pushed to Make, Zapier, n8n or any webhook.
-
-### Can AI agents use it?
-
-Yes. Connect the Apify MCP server with `https://mcp.apify.com?tools=fayoussef/plot-gr-scraper` and Claude, ChatGPT, Cursor or any MCP client can run it and read the results.
-
-### Can an AI agent run it without an Apify account?
-
-Yes. This actor accepts agentic payments: an agent can pay per run with USDC through the x402 protocol, or with a Skyfire PAY token, and no Apify account is needed. See [AI agents and x402 payments](../agentic-payments.md).
-
-### Can I get a custom version?
-
-Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24@gmail.com or visit [AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis).
-
-## Related Real Estate Scrapers
-
-- [Spitogatos Scraper: Greece Real Estate Listings & Agent Phones](spitogatos-scraper.md): Scrape Greece real estate listings from Spitogatos.gr, the country's largest property portal. Homes, land and commercial property for sale...
-- [XE.gr Greek Property Scraper](xe-gr-scraper.md): Scrape Greek real estate listings from XE.gr: prices, size, rooms, GPS coordinates, amenities, photos and phone numbers. Owners-only mode...
-- [RentFaster Scraper: Canada Rentals, Rents & Landlord Phones](rentfaster-scraper.md): Scrape Canadian rental listings from RentFaster.ca in 105 cities (Calgary, Edmonton, Toronto, Montreal...). Filter by type, bedrooms, rent...
-- [Centris.ca Scraper: Quebec Real Estate Listings & Photos](centris-property-scraper.md): Scrape Centris.ca real estate listings into clean structured data: MLS number, price, full address, rooms, bedrooms, bathrooms, the full...
-- [Spiti24.gr Scraper: Greek Property Listings with Agent Phones](spiti24-scraper.md): Scrape spiti24.gr property listings in Greece: apartments, houses, land and commercial, for sale or rent. Prices, size, rooms, energy...
-- [Cyprus Property Alerts: New Listings and Price Drops](spitogatos-cy-scraper.md): Get alerted to new Cyprus property listings and price drops on Spitogatos.com.cy, with webhook or Telegram alerts. Also scrapes listings...
-
-## More
-
-- Full catalog: [all 66 actors](../README.md)
-- Website page: [https://automationbyexperts.com/apify/plot-gr-scraper](https://automationbyexperts.com/apify/plot-gr-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
-- Markdown version for AI tools: [https://automationbyexperts.com/apify/plot-gr-scraper.md](https://automationbyexperts.com/apify/plot-gr-scraper.md)
 
 ---
 
@@ -6961,7 +6962,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/spiti24-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with Spiti24.gr Scraper: Greek Property Listings with Agent Phones
 
@@ -7108,11 +7109,11 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 - [RentFaster Scraper: Canada Rentals, Rents & Landlord Phones](rentfaster-scraper.md): Scrape Canadian rental listings from RentFaster.ca in 105 cities (Calgary, Edmonton, Toronto, Montreal...). Filter by type, bedrooms, rent...
 - [Centris.ca Scraper: Quebec Real Estate Listings & Photos](centris-property-scraper.md): Scrape Centris.ca real estate listings into clean structured data: MLS number, price, full address, rooms, bedrooms, bathrooms, the full...
 - [Plot.gr Scraper: Greek Real Estate Listings with Agent Phones](plot-gr-scraper.md): Scrape plot.gr property listings in Greece: apartments, houses, land and commercial, for sale or rent. Prices, area, bedrooms, coordinates...
-- [Cyprus Property Alerts: New Listings and Price Drops](spitogatos-cy-scraper.md): Get alerted to new Cyprus property listings and price drops on Spitogatos.com.cy, with webhook or Telegram alerts. Also scrapes listings...
+- [Indomio.gr Scraper: Greek Property Listings with Agency Phones](indomio-gr-scraper.md): Scrape Indomio.gr property listings in Greece: apartments, houses, land and commercial for sale or rent. Prices, sqm, GPS, photos and...
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/spiti24-scraper](https://automationbyexperts.com/apify/spiti24-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/spiti24-scraper.md](https://automationbyexperts.com/apify/spiti24-scraper.md)
 
@@ -7133,7 +7134,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/11888-gr-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with 11888.gr Scraper: Greek Business Phones, Emails & Websites
 
@@ -7279,7 +7280,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/11888-gr-scraper](https://automationbyexperts.com/apify/11888-gr-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/11888-gr-scraper.md](https://automationbyexperts.com/apify/11888-gr-scraper.md)
 
@@ -7300,7 +7301,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/ai-account-watch?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## How to use AI Account Watch: Custom Sales Trigger Alerts
 
@@ -7422,7 +7423,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/ai-account-watch](https://automationbyexperts.com/apify/ai-account-watch?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/ai-account-watch.md](https://automationbyexperts.com/apify/ai-account-watch.md)
 
@@ -7443,7 +7444,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/amazon-bestsellers-tracker?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## How to use Amazon Best Sellers Scraper: Rank Tracker, 21 Marketplaces
 
@@ -7563,7 +7564,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/amazon-bestsellers-tracker](https://automationbyexperts.com/apify/amazon-bestsellers-tracker?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/amazon-bestsellers-tracker.md](https://automationbyexperts.com/apify/amazon-bestsellers-tracker.md)
 
@@ -7584,7 +7585,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/business-license-feed?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## How to use New Business License Feed: Fresh Openings by City
 
@@ -7706,7 +7707,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/business-license-feed](https://automationbyexperts.com/apify/business-license-feed?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/business-license-feed.md](https://automationbyexperts.com/apify/business-license-feed.md)
 
@@ -7727,7 +7728,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/business-youtube-channel-finder?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with Business YouTube Channel Finder: Subscribers & Activity
 
@@ -7880,7 +7881,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/business-youtube-channel-finder](https://automationbyexperts.com/apify/business-youtube-channel-finder?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/business-youtube-channel-finder.md](https://automationbyexperts.com/apify/business-youtube-channel-finder.md)
 
@@ -7901,7 +7902,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/canada-vin-report?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## How to use Canada VIN Decoder: Recalls & Market Value Report
 
@@ -8023,7 +8024,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/canada-vin-report](https://automationbyexperts.com/apify/canada-vin-report?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/canada-vin-report.md](https://automationbyexperts.com/apify/canada-vin-report.md)
 
@@ -8044,7 +8045,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/dataset-diff?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## How to use Dataset Diff & Change Monitor: Only New Items From Any Actor
 
@@ -8166,7 +8167,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/dataset-diff](https://automationbyexperts.com/apify/dataset-diff?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/dataset-diff.md](https://automationbyexperts.com/apify/dataset-diff.md)
 
@@ -8187,7 +8188,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/eu-vat-compliance-monitor?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## How to use VIES VAT Number Validator: Bulk EU VAT Check & Monitor
 
@@ -8309,9 +8310,152 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/eu-vat-compliance-monitor](https://automationbyexperts.com/apify/eu-vat-compliance-monitor?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/eu-vat-compliance-monitor.md](https://automationbyexperts.com/apify/eu-vat-compliance-monitor.md)
+
+---
+
+# Indomio.gr Scraper: Greek Property Listings with Agency Phones
+
+**Indomio.gr Scraper: Greek Property Listings with Agency Phones** is a ready-to-run Apify actor from AutomationByExperts by Youssef Farhan. Scrape Indomio.gr property listings in Greece: apartments, houses, land and commercial for sale or rent. Prices, sqm, GPS, photos and agency phones. Filter by area and price.
+
+[Run it on Apify](https://apify.com/fayoussef/indomio-gr-scraper?fpr=youssef) | [Actor page on AutomationByExperts](https://automationbyexperts.com/apify/indomio-gr-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All Real Estate Scrapers](../categories/real-estate-scrapers.md)
+
+## Key facts
+
+| | |
+|---|---|
+| Category | [Real Estate Scrapers](../categories/real-estate-scrapers.md) |
+| Runs on | Apify cloud, nothing to install and no server to manage |
+| Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
+| Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/indomio-gr-scraper?fpr=youssef)) |
+| Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
+| Catalog updated | 2026-11-23 |
+
+## How to use Indomio.gr Scraper: Greek Property Listings with Agency Phones
+
+### No code
+
+1. Open the actor on Apify and sign in, or create a free Apify account.
+2. Fill in the input form, or paste the example input below, and click **Start**.
+3. Download the results as JSON, CSV, Excel, XML or HTML, or send them to Make, Zapier, n8n or a webhook.
+
+### Example input
+
+Open the input form on the Store page to see every field. An empty input runs the defaults.
+
+```json
+{}
+```
+
+### Python
+
+```bash
+pip install apify-client
+```
+
+```python
+from apify_client import ApifyClient
+
+client = ApifyClient("<YOUR_APIFY_TOKEN>")
+run_input = {}
+run = client.actor("fayoussef/indomio-gr-scraper").call(run_input=run_input)
+
+for item in client.dataset(run["defaultDatasetId"]).iterate_items():
+    print(item)
+```
+
+### JavaScript / Node.js
+
+```bash
+npm install apify-client
+```
+
+```javascript
+import { ApifyClient } from 'apify-client';
+
+const client = new ApifyClient({ token: '<YOUR_APIFY_TOKEN>' });
+const input = {};
+const run = await client.actor('fayoussef/indomio-gr-scraper').call(input);
+const { items } = await client.dataset(run.defaultDatasetId).listItems();
+console.log(items);
+```
+
+### cURL (run and get the results in one call)
+
+```bash
+curl -X POST "https://api.apify.com/v2/acts/fayoussef~indomio-gr-scraper/run-sync-get-dataset-items?token=<YOUR_APIFY_TOKEN>" \
+  -H "Content-Type: application/json" \
+  -d '{}'
+```
+
+### From AI agents (MCP)
+
+Add the Apify MCP server to Claude, ChatGPT, Cursor or any MCP client with this URL, and the agent can run the actor for you:
+
+```text
+https://mcp.apify.com?tools=fayoussef/indomio-gr-scraper
+```
+
+Your Apify API token is under **Settings > API & Integrations** in the [Apify Console](https://console.apify.com/settings/integrations?fpr=youssef).
+
+### From AI agents with no Apify account (x402 or Skyfire)
+
+This actor accepts [agentic payments](../agentic-payments.md): an AI agent can run it and pay per run with USDC (x402) or a Skyfire token, with no Apify account.
+
+```bash
+# x402: TOKEN is the prepaid token bought from Apify AGI with USDC on Base
+curl -X POST "https://api.apify.com/v2/acts/fayoussef~indomio-gr-scraper/run-sync-get-dataset-items" \
+  -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" -d '{}'
+
+# Skyfire: send the PAY token instead
+curl -X POST "https://api.apify.com/v2/acts/fayoussef~indomio-gr-scraper/run-sync-get-dataset-items" \
+  -H "skyfire-pay-id: $SKYFIRE_PAY_TOKEN" -H "Content-Type: application/json" -d '{}'
+```
+
+With MCP and Skyfire: `https://mcp.apify.com?payment=skyfire&tools=fayoussef/indomio-gr-scraper`
+
+## FAQ
+
+### Is Indomio.gr Scraper: Greek Property Listings with Agency Phones free to try?
+
+Yes. You can start it with a free Apify account. Free runs have usage limits, and larger jobs need an [Apify plan](https://apify.com/pricing?fpr=youssef). The current rate is shown on the [Store page](https://apify.com/fayoussef/indomio-gr-scraper?fpr=youssef).
+
+### Do I need to know how to code?
+
+No. The actor runs from a form in the Apify Console. Code is only needed if you want to call it from your own app, and the snippets above cover Python, JavaScript and cURL.
+
+### What formats can I export the data in?
+
+JSON, CSV, Excel, XML and HTML from the Console, or directly through the Apify API. Runs can also be scheduled and pushed to Make, Zapier, n8n or any webhook.
+
+### Can AI agents use it?
+
+Yes. Connect the Apify MCP server with `https://mcp.apify.com?tools=fayoussef/indomio-gr-scraper` and Claude, ChatGPT, Cursor or any MCP client can run it and read the results.
+
+### Can an AI agent run it without an Apify account?
+
+Yes. This actor accepts agentic payments: an agent can pay per run with USDC through the x402 protocol, or with a Skyfire PAY token, and no Apify account is needed. See [AI agents and x402 payments](../agentic-payments.md).
+
+### Can I get a custom version?
+
+Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24@gmail.com or visit [AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis).
+
+## Related Real Estate Scrapers
+
+- [Spitogatos Scraper: Greece Real Estate Listings & Agent Phones](spitogatos-scraper.md): Scrape Greece real estate listings from Spitogatos.gr, the country's largest property portal. Homes, land and commercial property for sale...
+- [XE.gr Greek Property Scraper](xe-gr-scraper.md): Scrape Greek real estate listings from XE.gr: prices, size, rooms, GPS coordinates, amenities, photos and phone numbers. Owners-only mode...
+- [RentFaster Scraper: Canada Rentals, Rents & Landlord Phones](rentfaster-scraper.md): Scrape Canadian rental listings from RentFaster.ca in 105 cities (Calgary, Edmonton, Toronto, Montreal...). Filter by type, bedrooms, rent...
+- [Centris.ca Scraper: Quebec Real Estate Listings & Photos](centris-property-scraper.md): Scrape Centris.ca real estate listings into clean structured data: MLS number, price, full address, rooms, bedrooms, bathrooms, the full...
+- [Plot.gr Scraper: Greek Real Estate Listings with Agent Phones](plot-gr-scraper.md): Scrape plot.gr property listings in Greece: apartments, houses, land and commercial, for sale or rent. Prices, area, bedrooms, coordinates...
+- [Spiti24.gr Scraper: Greek Property Listings with Agent Phones](spiti24-scraper.md): Scrape spiti24.gr property listings in Greece: apartments, houses, land and commercial, for sale or rent. Prices, size, rooms, energy...
+
+## More
+
+- Full catalog: [all 67 actors](../README.md)
+- Website page: [https://automationbyexperts.com/apify/indomio-gr-scraper](https://automationbyexperts.com/apify/indomio-gr-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
+- Markdown version for AI tools: [https://automationbyexperts.com/apify/indomio-gr-scraper.md](https://automationbyexperts.com/apify/indomio-gr-scraper.md)
 
 ---
 
@@ -8330,7 +8474,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/license-roster-monitor?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## How to use License Lookup & Verification: Bulk Contractor, Nurse, NPI
 
@@ -8452,7 +8596,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/license-roster-monitor](https://automationbyexperts.com/apify/license-roster-monitor?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/license-roster-monitor.md](https://automationbyexperts.com/apify/license-roster-monitor.md)
 
@@ -8473,7 +8617,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/map-violation-monitor?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## How to use MAP Price Monitor: Amazon, eBay Violations & Rogue Sellers
 
@@ -8593,7 +8737,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/map-violation-monitor](https://automationbyexperts.com/apify/map-violation-monitor?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/map-violation-monitor.md](https://automationbyexperts.com/apify/map-violation-monitor.md)
 
@@ -8614,7 +8758,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/multi-marketplace-price-checker?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## How to use Amazon, eBay, Best Buy & Newegg Price Checker by ASIN or UPC
 
@@ -8734,7 +8878,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/multi-marketplace-price-checker](https://automationbyexperts.com/apify/multi-marketplace-price-checker?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/multi-marketplace-price-checker.md](https://automationbyexperts.com/apify/multi-marketplace-price-checker.md)
 
@@ -8755,7 +8899,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/saas-price-hike-monitor?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with SaaS Price Hike Monitor: Pricing Page Change Alerts
 
@@ -8913,7 +9057,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/saas-price-hike-monitor](https://automationbyexperts.com/apify/saas-price-hike-monitor?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/saas-price-hike-monitor.md](https://automationbyexperts.com/apify/saas-price-hike-monitor.md)
 
@@ -8934,7 +9078,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/spitogatos-cy-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with Cyprus Property Alerts: New Listings and Price Drops
 
@@ -9084,7 +9228,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/spitogatos-cy-scraper](https://automationbyexperts.com/apify/spitogatos-cy-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/spitogatos-cy-scraper.md](https://automationbyexperts.com/apify/spitogatos-cy-scraper.md)
 
@@ -9105,7 +9249,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/usda-report-watcher?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with USDA Report Watcher: New WASDE & ERS Data File Alerts
 
@@ -9262,7 +9406,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/usda-report-watcher](https://automationbyexperts.com/apify/usda-report-watcher?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/usda-report-watcher.md](https://automationbyexperts.com/apify/usda-report-watcher.md)
 
@@ -9283,7 +9427,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/website-change-monitor?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## How to use Website Change Monitor and Competitor Price Tracker
 
@@ -9385,7 +9529,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/website-change-monitor](https://automationbyexperts.com/apify/website-change-monitor?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/website-change-monitor.md](https://automationbyexperts.com/apify/website-change-monitor.md)
 
@@ -9406,7 +9550,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/xe-gr-price-drop-radar?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with XE.gr Price Drop Alerts: Greek Property Price Cuts & Relists
 
@@ -9565,7 +9709,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/xe-gr-price-drop-radar](https://automationbyexperts.com/apify/xe-gr-price-drop-radar?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/xe-gr-price-drop-radar.md](https://automationbyexperts.com/apify/xe-gr-price-drop-radar.md)
 
@@ -9586,7 +9730,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/bazaraki-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with Bazaraki Scraper: Cyprus Property, Cars & Classifieds
 
@@ -9734,7 +9878,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/bazaraki-scraper](https://automationbyexperts.com/apify/bazaraki-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/bazaraki-scraper.md](https://automationbyexperts.com/apify/bazaraki-scraper.md)
 
@@ -9755,7 +9899,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/coches-net-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with coches.net Scraper: Spain Used Car Prices, Deals & Dealers
 
@@ -9905,7 +10049,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/coches-net-scraper](https://automationbyexperts.com/apify/coches-net-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/coches-net-scraper.md](https://automationbyexperts.com/apify/coches-net-scraper.md)
 
@@ -9926,7 +10070,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/company-domain-to-job-postings?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with Hiring Signal Alerts: New Jobs at Companies You Watch
 
@@ -10076,7 +10220,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/company-domain-to-job-postings](https://automationbyexperts.com/apify/company-domain-to-job-postings?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/company-domain-to-job-postings.md](https://automationbyexperts.com/apify/company-domain-to-job-postings.md)
 
@@ -10097,7 +10241,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/fotocasa-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with Fotocasa Scraper: Spain Property Listings, Agency Phones
 
@@ -10244,7 +10388,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/fotocasa-scraper](https://automationbyexperts.com/apify/fotocasa-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/fotocasa-scraper.md](https://automationbyexperts.com/apify/fotocasa-scraper.md)
 
@@ -10265,7 +10409,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/invoice-utility-bill-extractor?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with Invoice & Utility Bill Data Extractor: Totals, kWh, Line Items
 
@@ -10414,7 +10558,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/invoice-utility-bill-extractor](https://automationbyexperts.com/apify/invoice-utility-bill-extractor?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/invoice-utility-bill-extractor.md](https://automationbyexperts.com/apify/invoice-utility-bill-extractor.md)
 
@@ -10435,7 +10579,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/tennis-abstract-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with Tennis Abstract Scraper: ATP & WTA Match Stats
 
@@ -10572,7 +10716,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/tennis-abstract-scraper](https://automationbyexperts.com/apify/tennis-abstract-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/tennis-abstract-scraper.md](https://automationbyexperts.com/apify/tennis-abstract-scraper.md)
 
@@ -10593,7 +10737,7 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/xo-gr-scraper?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with Greek Business Leads: New Business Alerts from XO.gr
 
@@ -10742,6 +10886,6 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/xo-gr-scraper](https://automationbyexperts.com/apify/xo-gr-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/xo-gr-scraper.md](https://automationbyexperts.com/apify/xo-gr-scraper.md)

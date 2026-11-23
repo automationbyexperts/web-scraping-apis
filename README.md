@@ -1,8 +1,8 @@
-# Web Scraping APIs: 66 Ready-to-Run Scrapers and AI Tools (Apify)
+# Web Scraping APIs: 67 Ready-to-Run Scrapers and AI Tools (Apify)
 
-> 66 ready-to-run Apify actors by AutomationByExperts (Youssef Farhan): car and real estate scrapers, e-commerce and price data, lead generation, bulk AI tools and SEO audits. No code and no servers: run them in the cloud and export to JSON, CSV or Excel.
+> 67 ready-to-run Apify actors by AutomationByExperts (Youssef Farhan): car and real estate scrapers, e-commerce and price data, lead generation, bulk AI tools and SEO audits. No code and no servers: run them in the cloud and export to JSON, CSV or Excel.
 
-**66 actors** | **4,308 users** | **66 ready-made use cases** | Updated 2026-11-22
+**67 actors** | **4,331 users** | **66 ready-made use cases** | Updated 2026-11-23
 
 [Website](https://automationbyexperts.com/apify?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) | [All actors on Apify](https://apify.com/fayoussef?fpr=youssef) | [llms.txt for AI](llms.txt) | [JSON catalog](data/actors.json)
 
@@ -13,7 +13,7 @@ This repository is the open catalog of **AutomationByExperts**, the actor catalo
 ## Contents
 
 - [Car & Vehicle Scrapers](#car--vehicle-scrapers) (14)
-- [Real Estate Scrapers](#real-estate-scrapers) (9)
+- [Real Estate Scrapers](#real-estate-scrapers) (10)
 - [E-commerce & Marketplace Scrapers](#e-commerce--marketplace-scrapers) (8)
 - [Price & Brand Monitoring](#price--brand-monitoring) (5)
 - [Lead Generation Actors](#lead-generation-actors) (15)
@@ -60,6 +60,7 @@ Property listings, prices, agent contacts and GPS coordinates at scale.
 | [Centris.ca Scraper: Quebec Real Estate Listings & Photos](https://apify.com/fayoussef/centris-property-scraper?fpr=youssef) | Scrape Centris.ca real estate listings into clean structured data: MLS number, price, full address, rooms, bedrooms, bathrooms, the full description and characteristics... | [Export houses and condos for sale on Montreal Island](https://apify.com/fayoussef/centris-property-scraper/examples/montreal-houses-for-sale-centris?fpr=youssef) | [Guide](actors/centris-property-scraper.md) |
 | [Plot.gr Scraper: Greek Real Estate Listings with Agent Phones](https://apify.com/fayoussef/plot-gr-scraper?fpr=youssef) | Scrape plot.gr property listings in Greece: apartments, houses, land and commercial, for sale or rent. Prices, area, bedrooms, coordinates, photos and the agent's phone... | [Glyfada apartments for sale with agent phones](https://apify.com/fayoussef/plot-gr-scraper/examples/glyfada-apartments-for-sale-agent-phones?fpr=youssef) | [Guide](actors/plot-gr-scraper.md) |
 | [Spiti24.gr Scraper: Greek Property Listings with Agent Phones](https://apify.com/fayoussef/spiti24-scraper?fpr=youssef) | Scrape spiti24.gr property listings in Greece: apartments, houses, land and commercial, for sale or rent. Prices, size, rooms, energy class, amenities, coordinates, all... | [Kolonaki apartments for rent with agent phones](https://apify.com/fayoussef/spiti24-scraper/examples/kolonaki-apartments-for-rent-agent-phones?fpr=youssef) | [Guide](actors/spiti24-scraper.md) |
+| [Indomio.gr Scraper: Greek Property Listings with Agency Phones](https://apify.com/fayoussef/indomio-gr-scraper?fpr=youssef) | Scrape Indomio.gr property listings in Greece: apartments, houses, land and commercial for sale or rent. Prices, sqm, GPS, photos and agency phones. Filter by area and... | - | [Guide](actors/indomio-gr-scraper.md) |
 | [Cyprus Property Alerts: New Listings and Price Drops](https://apify.com/fayoussef/spitogatos-cy-scraper?fpr=youssef) | Get alerted to new Cyprus property listings and price drops on Spitogatos.com.cy, with webhook or Telegram alerts. Also scrapes listings and agents with price, area... | [Find apartments for rent in Limassol, Cyprus under 1500 EUR](https://apify.com/fayoussef/spitogatos-cy-scraper/examples/limassol-apartments-for-rent-under-1500?fpr=youssef) | [Guide](actors/spitogatos-cy-scraper.md) |
 | [XE.gr Price Drop Alerts: Greek Property Price Cuts & Relists](https://apify.com/fayoussef/xe-gr-price-drop-radar?fpr=youssef) | Watch any XE.gr search and get only what changed: price cuts with percent and days on market, ads re-posted to look new, and homes priced under the area median. Schedule... | [Athens apartment price drop alerts (150k to 200k EUR)](https://apify.com/fayoussef/xe-gr-price-drop-radar/examples/athens-apartment-price-drop-alerts?fpr=youssef) | [Guide](actors/xe-gr-price-drop-radar.md) |
 | [Fotocasa Scraper: Spain Property Listings, Agency Phones](https://apify.com/fayoussef/fotocasa-scraper?fpr=youssef) | Scrape property listings from Fotocasa.es, one of Spain's biggest real estate portals. Filter by province, city, price, rooms and size. Export prices, addresses... | [Find homes for sale in Malaga with agency phone numbers](https://apify.com/fayoussef/fotocasa-scraper/examples/homes-for-sale-malaga-agency-phones?fpr=youssef) | [Guide](actors/fotocasa-scraper.md) |
@@ -191,7 +192,7 @@ const { items } = await client.dataset(run.defaultDatasetId).listItems();
 
 Every actor guide has a ready-to-paste example input and snippets with the real actor name.
 
-**AI agents with no Apify account:** 62 of these actors accept agentic payments, so an agent can run them and pay per run with USDC (x402) or a Skyfire token. See [Web scraping APIs for AI agents](agentic-payments.md).
+**AI agents with no Apify account:** 63 of these actors accept agentic payments, so an agent can run them and pay per run with USDC (x402) or a Skyfire token. See [Web scraping APIs for AI agents](agentic-payments.md).
 
 ## FAQ
 

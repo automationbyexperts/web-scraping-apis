@@ -1,8 +1,8 @@
 # Web Scraping APIs for AI Agents: Pay per Run with x402 (USDC) or Skyfire, No Account
 
-> 62 ready-to-run scrapers by AutomationByExperts that an AI agent can discover, run and pay for on its own: no Apify account, no API key sign-up, no subscription. The agent pays per run with USDC on Base through the x402 protocol, or with a Skyfire PAY token, and gets structured JSON back in the same HTTP call.
+> 63 ready-to-run scrapers by AutomationByExperts that an AI agent can discover, run and pay for on its own: no Apify account, no API key sign-up, no subscription. The agent pays per run with USDC on Base through the x402 protocol, or with a Skyfire PAY token, and gets structured JSON back in the same HTTP call.
 
-**62 agent-payable actors** | Updated 2026-11-22 | [Full catalog](README.md) | [llms.txt](llms.txt)
+**63 agent-payable actors** | Updated 2026-11-23 | [Full catalog](README.md) | [llms.txt](llms.txt)
 
 ## How it works
 
@@ -87,6 +87,7 @@ Replace `<actor-name>` above with the name in the second column. Each guide has 
 | [Centris.ca Scraper: Quebec Real Estate Listings & Photos](https://apify.com/fayoussef/centris-property-scraper?fpr=youssef) | `centris-property-scraper` | Scrape Centris.ca real estate listings into clean structured data: MLS number, price, full address, rooms, bedrooms, bathrooms, the full... | [Guide](actors/centris-property-scraper.md) |
 | [Plot.gr Scraper: Greek Real Estate Listings with Agent Phones](https://apify.com/fayoussef/plot-gr-scraper?fpr=youssef) | `plot-gr-scraper` | Scrape plot.gr property listings in Greece: apartments, houses, land and commercial, for sale or rent. Prices, area, bedrooms, coordinates... | [Guide](actors/plot-gr-scraper.md) |
 | [Spiti24.gr Scraper: Greek Property Listings with Agent Phones](https://apify.com/fayoussef/spiti24-scraper?fpr=youssef) | `spiti24-scraper` | Scrape spiti24.gr property listings in Greece: apartments, houses, land and commercial, for sale or rent. Prices, size, rooms, energy... | [Guide](actors/spiti24-scraper.md) |
+| [Indomio.gr Scraper: Greek Property Listings with Agency Phones](https://apify.com/fayoussef/indomio-gr-scraper?fpr=youssef) | `indomio-gr-scraper` | Scrape Indomio.gr property listings in Greece: apartments, houses, land and commercial for sale or rent. Prices, sqm, GPS, photos and... | [Guide](actors/indomio-gr-scraper.md) |
 | [Cyprus Property Alerts: New Listings and Price Drops](https://apify.com/fayoussef/spitogatos-cy-scraper?fpr=youssef) | `spitogatos-cy-scraper` | Get alerted to new Cyprus property listings and price drops on Spitogatos.com.cy, with webhook or Telegram alerts. Also scrapes listings... | [Guide](actors/spitogatos-cy-scraper.md) |
 | [XE.gr Price Drop Alerts: Greek Property Price Cuts & Relists](https://apify.com/fayoussef/xe-gr-price-drop-radar?fpr=youssef) | `xe-gr-price-drop-radar` | Watch any XE.gr search and get only what changed: price cuts with percent and days on market, ads re-posted to look new, and homes priced... | [Guide](actors/xe-gr-price-drop-radar.md) |
 | [Fotocasa Scraper: Spain Property Listings, Agency Phones](https://apify.com/fayoussef/fotocasa-scraper?fpr=youssef) | `fotocasa-scraper` | Scrape property listings from Fotocasa.es, one of Spain's biggest real estate portals. Filter by province, city, price, rooms and size... | [Guide](actors/fotocasa-scraper.md) |

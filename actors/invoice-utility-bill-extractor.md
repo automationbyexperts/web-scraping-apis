@@ -13,7 +13,7 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/invoice-utility-bill-extractor?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with Invoice & Utility Bill Data Extractor: Totals, kWh, Line Items
 
@@ -162,6 +162,6 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/invoice-utility-bill-extractor](https://automationbyexperts.com/apify/invoice-utility-bill-extractor?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/invoice-utility-bill-extractor.md](https://automationbyexperts.com/apify/invoice-utility-bill-extractor.md)

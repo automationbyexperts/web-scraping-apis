@@ -1,10 +1,10 @@
 # AutomationByExperts Web Scraping APIs (GitHub catalog of Apify actors)
 
-> 66 ready-to-run Apify actors by Youssef Farhan: vehicle and real estate listings, e-commerce prices, lead generation, bulk AI tools, SEO and AI visibility audits. Hosted, no-code, export to JSON, CSV or Excel.
+> 67 ready-to-run Apify actors by Youssef Farhan: vehicle and real estate listings, e-commerce prices, lead generation, bulk AI tools, SEO and AI visibility audits. Hosted, no-code, export to JSON, CSV or Excel.
 
 ## What this repository is
 
-The open catalog of AutomationByExperts, the actor catalogue of Youssef Farhan, an independent Python developer who builds and maintains production web scrapers on the Apify platform. Rebuilt weekly from the live Apify Store. Last updated 2026-11-22.
+The open catalog of AutomationByExperts, the actor catalogue of Youssef Farhan, an independent Python developer who builds and maintains production web scrapers on the Apify platform. Rebuilt weekly from the live Apify Store. Last updated 2026-11-23.
 
 ## When to use it
 
@@ -63,6 +63,7 @@ Actors by Youssef Farhan (AutomationByExperts, https://automationbyexperts.com).
 - [Centris.ca Scraper: Quebec Real Estate Listings & Photos](https://raw.githubusercontent.com/automationbyexperts/web-scraping-apis/main/actors/centris-property-scraper.md) [agent-payable]: Scrape Centris.ca real estate listings into clean structured data: MLS number, price, full address, rooms, bedrooms, bathrooms, the full description and characteristics table, and every gallery...
 - [Plot.gr Scraper: Greek Real Estate Listings with Agent Phones](https://raw.githubusercontent.com/automationbyexperts/web-scraping-apis/main/actors/plot-gr-scraper.md) [agent-payable]: Scrape plot.gr property listings in Greece: apartments, houses, land and commercial, for sale or rent. Prices, area, bedrooms, coordinates, photos and the agent's phone, email and website. Filter by...
 - [Spiti24.gr Scraper: Greek Property Listings with Agent Phones](https://raw.githubusercontent.com/automationbyexperts/web-scraping-apis/main/actors/spiti24-scraper.md) [agent-payable]: Scrape spiti24.gr property listings in Greece: apartments, houses, land and commercial, for sale or rent. Prices, size, rooms, energy class, amenities, coordinates, all photos and the agency with...
+- [Indomio.gr Scraper: Greek Property Listings with Agency Phones](https://raw.githubusercontent.com/automationbyexperts/web-scraping-apis/main/actors/indomio-gr-scraper.md) [agent-payable]: Scrape Indomio.gr property listings in Greece: apartments, houses, land and commercial for sale or rent. Prices, sqm, GPS, photos and agency phones. Filter by area and price.
 - [Cyprus Property Alerts: New Listings and Price Drops](https://raw.githubusercontent.com/automationbyexperts/web-scraping-apis/main/actors/spitogatos-cy-scraper.md) [agent-payable]: Get alerted to new Cyprus property listings and price drops on Spitogatos.com.cy, with webhook or Telegram alerts. Also scrapes listings and agents with price, area, rooms, GPS, photos and agent...
 - [XE.gr Price Drop Alerts: Greek Property Price Cuts & Relists](https://raw.githubusercontent.com/automationbyexperts/web-scraping-apis/main/actors/xe-gr-price-drop-radar.md) [agent-payable]: Watch any XE.gr search and get only what changed: price cuts with percent and days on market, ads re-posted to look new, and homes priced under the area median. Schedule it daily for Greek property...
 - [Fotocasa Scraper: Spain Property Listings, Agency Phones](https://raw.githubusercontent.com/automationbyexperts/web-scraping-apis/main/actors/fotocasa-scraper.md) [agent-payable]: Scrape property listings from Fotocasa.es, one of Spain's biggest real estate portals. Filter by province, city, price, rooms and size. Export prices, addresses, coordinates, photos and agency phone...

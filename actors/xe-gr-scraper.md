@@ -14,7 +14,7 @@
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/xe-gr-scraper?fpr=youssef)) |
 | Rating | 5.0 out of 5 (1 reviews) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with XE.gr Greek Property Scraper
 
@@ -168,10 +168,10 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 - [Centris.ca Scraper: Quebec Real Estate Listings & Photos](centris-property-scraper.md): Scrape Centris.ca real estate listings into clean structured data: MLS number, price, full address, rooms, bedrooms, bathrooms, the full...
 - [Plot.gr Scraper: Greek Real Estate Listings with Agent Phones](plot-gr-scraper.md): Scrape plot.gr property listings in Greece: apartments, houses, land and commercial, for sale or rent. Prices, area, bedrooms, coordinates...
 - [Spiti24.gr Scraper: Greek Property Listings with Agent Phones](spiti24-scraper.md): Scrape spiti24.gr property listings in Greece: apartments, houses, land and commercial, for sale or rent. Prices, size, rooms, energy...
-- [Cyprus Property Alerts: New Listings and Price Drops](spitogatos-cy-scraper.md): Get alerted to new Cyprus property listings and price drops on Spitogatos.com.cy, with webhook or Telegram alerts. Also scrapes listings...
+- [Indomio.gr Scraper: Greek Property Listings with Agency Phones](indomio-gr-scraper.md): Scrape Indomio.gr property listings in Greece: apartments, houses, land and commercial for sale or rent. Prices, sqm, GPS, photos and...
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/xe-gr-scraper](https://automationbyexperts.com/apify/xe-gr-scraper?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/xe-gr-scraper.md](https://automationbyexperts.com/apify/xe-gr-scraper.md)

@@ -13,7 +13,7 @@
 | Output | JSON, CSV, Excel, XML, HTML, API, webhooks |
 | Pricing model | Pay per result or event (the current rate is shown on the [Store page](https://apify.com/fayoussef/bulk-text-to-speech?fpr=youssef)) |
 | Maintainer | [Youssef Farhan, AutomationByExperts](https://automationbyexperts.com/?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis) |
-| Catalog updated | 2026-11-22 |
+| Catalog updated | 2026-11-23 |
 
 ## What you can do with Bulk Text to Speech: MP3 + SRT Subtitles | No API Key
 
@@ -165,6 +165,6 @@ Yes. Youssef Farhan builds custom scrapers and automations. Email youssefarhan24
 
 ## More
 
-- Full catalog: [all 66 actors](../README.md)
+- Full catalog: [all 67 actors](../README.md)
 - Website page: [https://automationbyexperts.com/apify/bulk-text-to-speech](https://automationbyexperts.com/apify/bulk-text-to-speech?utm_source=github&utm_medium=referral&utm_campaign=web-scraping-apis)
 - Markdown version for AI tools: [https://automationbyexperts.com/apify/bulk-text-to-speech.md](https://automationbyexperts.com/apify/bulk-text-to-speech.md)
